@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Untrusted Connection</title>
+  </head>
+  <body>
+    <div id="errorPageContainer">
+      <div id="errorTitle">
+        <h1 id="errorTitleText">This Connection is Untrusted</h1>
+      </div>
+      <div id="errorLongContent">
+        <div id="introContent">
+          <p id="introContentP1">You have asked Firefox to connect
+	    securely to <b>example.com</b>, but we can't confirm that your
+	    connection is secure.</p>
+          <p>Normally, when you try to connect securely, sites will
+	    present trusted identification to prove that you are going
+	    to the right place. However, this site's identity can't be
+	    verified.</p>
+        </div>
+        <div id="whatShouldIDoContent">
+          <h2>What Should I Do?</h2>
+          <div id="whatShouldIDoContentText">
+            <p>If you usually connect to this site without problems,
+	      this error could mean that someone is trying to
+	      impersonate the site, and you shouldn't continue.</p>
+	    <button id="getMeOutOfHereButton">Get me out of here!</button>
+          </div>
+        </div>
+        <div id="technicalContent" collapsed="true">
+          <h2 id="technicalContentHeading">Technical Details</h2>
+          <p id="technicalContentText">
+	  </p>
+        </div>
+        <div id="expertContent" collapsed="true">
+          <h2 id="expertContentHeading">I Understand the Risks</h2>
+          <div>
+            <p>If you understand what's going on, you can tell
+	      Iceweasel to start trusting this site's identification.
+	      <b>Even if you trust the site, this error could mean
+		that someone is tampering with your
+		connection.</b></p>
+
+            <p>Don't add an exception unless you know there's a good
+	      reason why this site doesn't use trusted
+	      identification.</p>
+	    <button id="exceptionDialogButton">Add Exception…</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<style>
+html {
+  background: -moz-Dialog;
+}
+
+body {
+  margin: 0;
+  padding: 0 1em;
+  color: -moz-FieldText;
+  font: message-box;
+}
+
+h1 {
+  margin: 0 0 .6em 0;
+  border-bottom: 1px solid ThreeDLightShadow;
+  font-size: 160%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#errorPageContainer {
+  position: relative;
+  min-width: 13em;
+  max-width: 52em;
+  margin: 4em auto;
+  border: 1px solid #FFBD09;
+  -moz-border-radius: 10px;
+  padding: 3em;
+  -moz-padding-start: 30px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAwESURBVHic5Zp5cNXVFcc%2F9%2FeWvJCQEEQJUMJiRJ0qqKDSVDS0VLCMgzqjUisutNopUuug1i5SikpRwKpYUFqs2JYWB6ZFaYvSKggumYJYWpaolSUbhED2t%2F2We%2FvH770kL%2B%2F33vslJGGk35kzbzl3Oefcc8859%2F5%2BQinF%2FzO8HX9sWyMKAz7fYiEotQyjSIF2ugTrSQiQHp%2BvQim2RQzjR6V3qWNtvLgHvP%2BKuFbzZa%2B%2F4Kpluf0Lr9M8%2FhGcIfoDEks%2FQsuxzbL83YdapRG%2BueROtQViBti2RhQG%2FIGPJ9y4K88jGpHB9SizArBOs%2BA9BQ%2FCW4SWczOWGsiHGyc0h6Oh80vvUsc0gIDPt%2Fj8ksU5HtGI1bQEZR7izFEewEKZh7CaluAR9YwpWZIb8PkWQ8zHhaA0b8j1HhnaeHrl7API4HryCqdpQlAKsSBoGUaRJ2skRsN%2FQcnTKmBvQ%2BlH8GWNxDKMIogZwI72HpQ0Tq90fQID8BDPcAlpUEnn1X%2FksXIAhKDt0yaR9H1oYYBrSgZyQXFuLyrRc0gwgEzh%2FlJJ%2Bud6GTE8mylXD%2BKcQX6UAgUopYjXUlIq%2Fr2vhS3b6hhzbj9XAjzy2Mc8v%2Fpwt4QPVUztVr%2BOSEj0SipHQsGD3x1F0dAAq39fyfrXjtLYaODVwOcR%2BL02Bfwal1%2BST2VVOOVYiQRLF81i3v3Xd0t4JVPLnI46InELpPAAhcLnVUyaOIArLsvj%2FZ2NrHz5MBeOyeWrkwYyIN%2BX2EEopJRtWyYdzFAZi35yJZoQLHvu9a4ZQElsP%2Bw%2BOhkgxWCqne%2F3CUpLCpg4Pp8dZQ0sX13BN24spHhUv4T27s8YCjNYxuM%2FuoKH580AhL29Yv07bjFlMzr8v56eNUCKIKiUsnkdVjTLB1MmFTB8aBab36pj7uzhadtngtFaRj%2Bxu%2F2Pju7TMfomyHvqxZo7D7DDHU7s80Zls2ZdJKGvECClRNPcW%2BCJZw6xdOVh1%2B0Bmj4t7VJ7J2T0gLg7pvIOu00i3%2F6tUC7cU0p4cOGnvLzuaFfkjslrL8ypIGMQbN9%2F6SvEjnyBQkoLkSEK6obi3oc%2B5rU3T7iV12HOHjSAlMmDSWmvqBOvXZBEvlL2WBmzgNBY8ey9rPKPRDcsRl80F9N0v69lX3iAlHbkTesBnflCIZVEU%2Bkt4BHgVe%2BD%2FgE%2BPIw5bwj7D1S5E9zr6YU06LDKStk72YnX1qYDv7bOIMsn0DL0sWGh2o7dgi9NGOHaABMvL%2B6bGBD3gPlLDjtmJoQApVjw9BEEkB3QKC3JA6Rj1kgNwYKHr2Trjk85ePh4xta33zIWpSro9TrAI%2BALQ%2Fx4PHDD1IEU5HsTFFMoFv6iikfvH4ZS4NHsQ1G6rJEKAW0Xr665h3u%2F%2Fwc%2B2nPIWWCvhyd%2Beis3T%2FdghvqoEvzWzLMp293Cr9bWcs3EPK68NLe9Nom10UT8h3O94AbKCjNi0E62%2FeW7bNh0kK3b97HvQCWGYTGkcACXjy%2FmrtsmMSj3AHrrR5yq8uCyEgSYeGkO543MYuObDewtD3LD1ALOKvBiSZWxTugKrGgdoeOvMmPyGG6aVoLmG4RAIK0glnEMM7iRaHMrPaE8uK4EbQwc4OHuWwbxz38FWf3H45SMz8XjFYwY5u9C7e8GFnqwHILlDryefY7RqQ5wt4qXj8umeKSfd8paaGgy%2BUpJnuu%2Bcbyy4SRPrjyWuaEDLiwOsO6Xo%2FH77Q1YtjvIAwsrufiCbK4Yl8PsmWfhcVmGuzoOO2FAnmDGtXnd6rtlewvzl9WkLa5SIT%2BvHy88ew8%2B%2F1aUsqg7aTLn0SqOn9CpOqqzeWsT1bU6Cx4odDVe4oWIUhkpEpUsfbGW6%2B%2F%2BjGdWH6ep2XTVL04f%2FifEfY9WdUt5TRO8tOJuBufuQkkT05LMebSG4yeiCe02%2FSPcfoZxoI5wHQTjWLaqjlVr7dr9X%2FvDrP9rIyseH8q4C7Mz9j1UqTP7oUoi0e4dY3%2Fy8A2UXHQYI1wPKJ5aWUfZ7uakdrV1QVpaTHJzMm%2BDLnoAbHorkjBAZY3OTd85wup19Wn7nqg3uWNeNfWN3bt5vn7aZcy5PR89dBClJFt2tLQthBMkPlce0OlOUGakS8eOSprMNBWPL6%2Fl249U0dBoJPUJhkxmP1xNRXUkqa8bnF88hOU%2Fv5pIYxlKWhyp0nnwidq09YZ9%2F%2BesQ2oDKJmRvnPnxfi8HsdJ%2F%2FFuK9NnV%2FDh3lBbe9OSfG%2FBMfYcCCW1H5Cf%2BeY4r382v1v1TQj9HaVMIlGLOfOP0dyS3pPS6ZDaABlvVCWXnFvD3zY8yPBhZzlOXFNrMHNuNavWNiAtxfyn63j7%2FdakdtnZflY9e0daJYQQvPjMHZwT2I40IyipWPjsCfZ9kmzMJAO4vBVOMIBUMiNFw0c4b%2FAHbN10P9d9bZzj5KaleGrVSa69s5J1m5ocFXvh6VmcW3ggrRI%2FeGA6Xx57CEM%2FgVSSDW80s%2B4vyeM5QZJaB0cDKGW6vlfXQ5Wo5nW8%2FNwUFs2%2FOeWWOFihOyv2%2FelMHl%2BDEalNqcC0KWOZO2sA0ZZPUVLy8Wc6C56pd6U8ZPBmZSYbAGm4igFxkmaQppoNzJoBf9swj6IvOG%2BJzpgxfTz3zcon0rI%2FZfFUPHowyxddQ6jhXZSyaAmafG%2FhyS6lTxW7pHGMAR2egXbwgOTonZksQvVljB64g7c2zmX61EvSCjX2oiJ%2B8bMrCdXvQEnLse7IzQmwZsVMVMtmlGWipOTHyxo5VNnFDJJObtXJAFKCkkaXKrp2kujhSmTjWn697Bqe%2FNkt%2BH3eJHnOOTuPV56%2FCaNxs618%2FOFiBwghWLHsNgYH3kFaYZRSvPKnVt7cnhxEMyGtzNIgbnvbACpmgC57QDtZRpDGqvXcOi3C5g3zGFE0qE2YrCwfv115B%2F2szbFo7pyT5903lasuPowROY6Skt17oyxdnVzpuTJAWnkN4snAC%2FGbX6MHjrSKUP1Ohvev4p3X7%2BONrUd4r%2BwTvnX7VQzNfRsjnBjBO043pfSLzL09n1D9dkBR3ySZt7gZ0%2BzmPYND1dfOaveAdgPEPKAnoIeqMCIvMWXCBXz96gsJNbyBHkw%2B%2BsaD4KgRZ%2FP8E1cTPPlnUBKp4AdLWqg94ZxF3ECpZA9r40kHA0ipp3w%2FoFuwIoQa9xBq3EOqSwypJP2y%2Ffxm%2BS1Yza8jpZ2eVqwN88FH4VOa3innt%2FGknmgAS4GSpotr7K4i%2FXhCKZ578lYGB7ZiROzq7r3dBr96NXjqMztUfe08EyspBki9S5caPYGCfJg05BCR5mOAwrQEb%2B%2FM4utfG9f2yo2m2e%2FgCAECgaaJBN6Wt%2FbS0JRcGjvV%2FW28zh7QHgP69r1hS28hrO8j7ileTWPpT69D8%2FZr%2B88OZB0egKj27wrYX17tbIC0HuAYBPveAzpDKUlD9WvuOwiBEIEUY6V%2BnJfsAQqk7Ik02DUoBZ8cOTWjR6PJRZc9duo0KB3rABntsTToFrohuO2hUw14zv3jx3dnXtQpDRo9mwZdQAlf5kbdRPo02CkGWBKU1fdBsDfnSxsELQMrOQZE%2BzwI9uZ86dKglFGHGHCmeYBK7wEOMeAM8wAyeECSASy9z7OAzyOp2vsUXXqh0BUUlXseQ6Y4SUrLoQ6wC6E%2B3gKWzuFdP%2Byt0VNzpN4WAzQhhLBi9wFC4zSQ6iVKPadSdhYQQggvIKREShnRNJ834cb0TIQQHqSMICUS7C2gCagMtx4dkZUzGD1cfZpF7F34AoMItx5FQCUgvICmm7xbU%2F2fYcOGTfA2HD2zDdD%2F7InU1Ow3Tcl2QPMAvoIc9gS06tnDR1%2Fq718wCilbQIURIv1e%2BryQ5vHgzy4k%2F5zJ6GYuO997I7i3XM3cdYBmAWQDOTOnctfEcdqiiy4b7x1adK7WL7cATXN%2B4vN5g5QWodYGaio%2Bk%2Fs%2B%2BlA%2FWCHvee6PvAZEBBAAsoCBo4cz%2BYbJzBlcQLHPR57o%2BQR9WqBAGSZNdY2U%2F72MBXvK2QO0AroAfIAf2xD9gVxsr8giFiRj43zejBG%2FOpKADoSBENAc%2B4wCpjfWwIg1trAP2D7alW97BfJzhnglZGHraGLrqcc%2BLUD9DzTdeOuJQvRCAAAAAElFTkSuQmCC")
+    left 0 no-repeat -moz-Field;
+  -moz-background-origin: content;
+}
+
+#errorTitle {
+  -moz-margin-start: 80px;
+}
+
+#errorLongContent {
+  -moz-margin-start: 80px;
+}
+
+#technicalContent > h2,
+#expertContent > h2 {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAACQGlDQ1BJQ0MgUHJvZmlsZQAAeAGtk09o03AUx79tkVWUUvAP6CkHmQpVYlvYLoNu%2FePa1Rrajqon2yRtOts0JmnV4UFBvHgS%2FHMYggcVK6LgwQkOHJ68CMpAi%2BzgWY%2BDXWTE98uPtAgOL76Q%2FD755r33%2B%2F3eyw8IfK8aRssPoK3bZvHkjHDm7DlhbICd8COIAwhXZcuYlqQ8uWxjm1%2FgY5%2FWjrFcj28v3Xy33s%2FdOv%2Fsxt21yKttgjw5ZNKEgC9Cwt4G5wTjGucy40u2YZOPxljWqgrxVeKIWS4miZ8Shxqc3zCucf7AuCc3WOyAWNSVpg74g8STimrJxAliTbHkNjHL86Pd7lD%2BwB3iI7JhUmxghfgQqwuNZEs%2FgVMHKWd8pMVeAg%2BKwL6LI%2B3wFL33gZXrI21j4NbKtz9o1WNRN51v1zKw457jbFSAsaPA1lfH%2BbXsOFtPaO5vwOqm3DV7ri9N6vsI%2FOud75lnBz7THsjcHv2deV1cLxHoXwPKCSBO44tVYPw%2BsOctIJFGuj8W825eQzALpdL5fDQuTlQy0iw15b9au9WlXrkWpuduvVY4TSP1AJ%2BsXintcb2ZyXqsVFNzHi9qyYLHdTNDfeKxC9Wc5LGqz5c8NuyZoY9qpYf6olamHvFYs1uc9%2FhCZ27or6ip4Xr0VoGdG3edTTtb9hgppJGnK4o4REygggwkzIIKx%2F8%2F8kT4OfBw%2FESuWHr%2F6DUT%2FjBbvez2NdkxrpjNhmYL03T61IiQ1eXjESEqipP4DWLmrkocd1asAAAAg0lEQVQ4EWNgGAXUD4F3B2T%2Ff76c%2FP%2F3p8v%2FiTGdEV0RyACYGKuwGwOHfAEDK58uhjqYGgwJZANgivAZxARThI%2F%2B%2FXYXw%2BdzXgzf7vfBXQdTzwJj4KOZebTBXmEX9cBwMV4DUDXuwGcHQg4UBh%2FPePz%2F%2BXoHhnMRqvCwyNaIx8xBLgUA%2F5Qp9VFCM5cAAAAASUVORK5CYII%3D")
+    left 0 no-repeat;
+}
+
+#technicalContent > h2, #expertContent > h2 {
+  padding-left: 20px;
+  position: relative;
+  left: -20px;
+}
+
+div[collapsed] > p,
+div[collapsed] > div {
+  display: none;
+}
+</style>
+
+  </body>
+</html>

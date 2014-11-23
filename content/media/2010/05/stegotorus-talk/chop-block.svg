@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="r/fonts.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     viewBox="0 0 597.96 174.19">
+<path fill="#d9d9ff" d="m7.0387,46.984,583.88,0,0-31.67-583.88,0,0,31.67z"/>
+<path fill="#80cc80" d="m590.92,46.984,6.5174,4.6912-13.035,9.3848,13.035,9.3823-13.035,9.3849,13.035,9.3823-13.035,9.3849,13.035,9.3823-13.035,9.3849,13.035,9.3849-13.035,9.3823,6.5174,4.6911,0,1.1748-583.88,0l-6.5187-4.68,13.034-9.38-13.034-9.39,13.034-9.38-13.034-9.384,13.034-9.382-13.034-9.385,13.034-9.385-13.034-9.382,13.034-9.385-6.5163-4.6911v-1.1722"/>
+<path fill="#8c8c8c" d="m7.0387,173.67,583.88,0,0-31.67-583.88,0,0,31.67z"/>
+<path stroke-linejoin="miter" d="m7.0386,46.984,583.88,0,0-31.67-583.88,0,0,31.67z" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-dasharray="none" stroke-width="1.04261959" fill="none"/>
+<path stroke-linejoin="miter" d="m153.01,15.313,0,31.671m72.983-31.671,0,31.671m72.986-31.671,0,31.671m36.493-31.671,0,31.671" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-dasharray="none" stroke-width="1.04261959" fill="none"/>
+<path stroke-linejoin="miter" d="m116.52,15.313,0,31.671" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-dasharray="1.04261953, 5.21322843" stroke-width="1.04261959" fill="none"/>
+<path stroke-linejoin="miter" d="m590.92,46.984,6.5174,4.6911-13.035,9.3849,13.035,9.3823-13.035,9.3849,13.035,9.3823-13.035,9.3849,13.035,9.3823-13.035,9.3849,13.035,9.3849-13.035,9.3823,6.5174,4.6911,0,1.1748-583.88,0l-6.5187-4.68,13.034-9.38-13.034-9.39,13.034-9.38-13.034-9.384,13.034-9.382-13.034-9.385,13.034-9.385-13.034-9.382,13.034-9.385-6.5163-4.6911v-1.1721h583.88z" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-dasharray="none" stroke-width="1.04261959" fill="none"/>
+<path stroke-linejoin="miter" d="m7.0386,173.67,583.88,0,0-31.67-583.88,0,0,31.67z" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-dasharray="none" stroke-width="1.04261959" fill="none"/>
+<g font-family="cabin" font-size="10px">
+  <text x="3.7783902" y="7.1399999">0</text>
+  <text x="42.435127" y="7.2800002">1</text>
+  <text x="77.801872" y="7.2800002">2</text>
+  <text x="114.30861" y="7.1399999">3</text>
+  <text x="150.88533" y="7.2800002">4</text>
+  <text x="187.28207" y="7.1399999">5</text>
+  <text x="223.57883" y="7.1399999">6</text>
+  <text x="260.38055" y="7.2800002">7</text>
+  <text x="296.52228" y="7.1399999">8</text>
+  <text x="333.32901" y="7.2800002">9</text>
+  <text x="367.41342" y="7.1399999">10</text>
+  <text x="405.92514" y="7.2800002">11</text>
+  <text x="441.37192" y="7.2800002">12</text>
+  <text x="477.82864" y="7.1399999">13</text>
+  <text x="514.27539" y="7.2800002">14</text>
+  <text x="550.85712" y="7.1399999">15</text>
+  <text x="587.20886" y="7.1399999">16</text>
+</g>
+<g font-family="cabin" font-size="20px">
+  <text x="34.985836" y="36.228527">seq no</text>
+  <text x="184.71207" y="36.228527">d</text>
+  <text x="257.18555" y="36.228527">p</text>
+  <text x="312.02563" y="36.228527">F</text>
+  <text x="422.54022" y="36.228527">check = 0</text>
+  <text x="225.60289" y="99.48893">data and padding</text>
+  <text x="222.48001" y="162.51964">authentication tag</text>
+</g>
+</svg>

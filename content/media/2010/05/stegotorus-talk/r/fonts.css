@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "cabin";
+    src: url("cabin-regular.woff");
+}
+@font-face {
+    font-family: "cabin";
+    font-style: italic;
+    src: url("cabin-italic.woff");
+}
+@font-face {
+    font-family: "cabin";
+    font-weight: 700;
+    src: url("cabin-bold.woff");
+}
+@font-face {
+    font-family: "cabin";
+    font-weight: 700;
+    font-style: italic;
+    src: url("cabin-bolditalic.woff");
+}
+
+@font-face {
+    font-family: "inconsolata";
+    src: url("inconsolata-regular.woff");
+}
+
+@font-face {
+    font-family: "playfair display";
+    src: url("playfairdisplay-regular.woff");
+}
