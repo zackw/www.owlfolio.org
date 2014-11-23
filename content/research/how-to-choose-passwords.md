@@ -113,7 +113,7 @@ The longer and more complicated your password is, the harder it is to
 guess; but that makes it harder to remember as well. Adding
 punctuation and numbers doesn't help as much as one would like. There
 are 95 characters that you can type on a US keyboard, so there are
-\\(95^8\\), or about a quadrillion
+95^8^, or about a quadrillion
 ([short scale](http://en.wikipedia.org/wiki/Long_and_short_scales))
 possible eight-character passwords, if you use all those characters. A
 quadrillion possibilities is out of the reach of a cheap laptop, but
@@ -125,7 +125,7 @@ way but are still easy to remember. The trick is to use *phrases*
 rather than words. One random English word is 250,000
 possibilities. Two random English words are 62.5 billion
 possiblities---250,000 squared.  That's still not enough. But *ten*
-random English words is \\(250,000^{10} \approx 10^{54}\\)
+random English words is 250,000^10^&nbsp;≈&nbsp;10^54^
 possibilities, which is big enough that a modern supercomputer tasked
 with the problem would still be guessing when the Sun burns out five
 billion years from now.
@@ -167,5 +167,3 @@ fast you need to run away from a lion.)
 If there's no limit on the length of the password, but the site still
 insists on numbers and/or punctuation, put them in between the words;
 that's easier to type.
-
-[mathjax]

@@ -34,20 +34,18 @@ Read on for concrete details of the proposal.
 
 <!--more-->
 
-[mathjax]
-
 The first thing we do is institute an
 [unconditional basic income](https://en.wikipedia.org/wiki/Basic_income).
 (Just to poke [David Weber](https://en.wikipedia.org/wiki/Honorverse)
 in the eye, let's call it the Basic Living Stipend.) Every adult gets
-\\(B\\) dollars every year, in monthly installments, unconditionally
-and untaxed. The value of \\(B\\) is set by statute when the reforms
-go into effect and automatically adjusted for inflation thereafter. In
-this hypothetical I'm setting \\(B\\) to $24,000 for concreteness;
-this is a nice round number---$2000 a month---that happens to be a
-little more than 200% of the (USA) Federal poverty line for a
-one-person household in 2014, according to <http: familiesusa.org
-product federal-poverty-guidelines>.
+$B$ dollars every year, in monthly installments, unconditionally and
+untaxed. The value of $B$ is set by statute when the reforms go into
+effect and automatically adjusted for inflation thereafter. In this
+hypothetical I'm setting $B$ to $24,000 for concreteness; this is a
+nice round number---$2000 a month---that happens to be a little more
+than 200% of the (USA) Federal poverty line for a one-person household
+in 2014, according to
+<http://familiesusa.org/product/federal-poverty-guidelines>.
 
 We also institute a unified national pension. It works hand in hand
 with the tax scheme, so I'll explain that first and come back to this,
@@ -66,53 +64,43 @@ All income from other sources is taxed according to the same formula.
 This tax replaces all income and payroll taxes collected by the IRS.
 There are no deductions, exemptions, credits, special categories, or
 anything else. Congress gets one and only one adjustment knob: the
-*set point*, \\((s,r)\\). A marginal tax rate of \\(r\%\\) is charged
-on the \\(s\\)'th dollar of income above \\(B\\). The marginal tax
-rate \\(M\\) on the \\(i\\)'th dollar of income is
+*set point*, $(s,r)$. A marginal tax rate of $r\%$ is charged
+on the $s$'th dollar of income above $B$. The marginal tax
+rate $M$ on the $i$'th dollar of income is
 
-<div class="aligncenter">
+$$M = \begin{cases}
+      \frac{r(B-i)}{r(s-i)-s} & \text{if}\:\: i > B\\\\
+      0 & \text{otherwise}
+      \end{cases}$$
 
-[latex]\displaystyle
-M = \begin{cases}
-    \frac{r(B-i)}{r(s-i)-s} & \text{if}\:\: i > B\\\\
-    0 & \text{otherwise}
-    \end{cases}
-[/latex]
+and one's after-tax income, $A$, if one earns $I$ dollars in
+total (of which $B$ are from the BLS and $P$ the pension), is
 
-</div>
-
-and one's after-tax income, \\(A\\), if one earns \\(I\\) dollars in
-total (of which \\(B\\) are from the BLS and \\(P\\) the pension), is
-
-<div class="aligncenter">
-
-[latex]\begin{align*}
+$$\begin{aligned}\displaystyle
 A = B + P + &\int_{B+P}^I 1-M(i)\;di\\\\
   = B + P + &\frac{rB+(1-r)s}{r}\,
     \Bigl[ \ln\, \bigl(rI+(1-r)s\bigr) - \ln\,
     \bigl(rB+rP+(1-r)s\bigr) \Bigr]
-\end{align*}
-[/latex]
+\end{aligned}$$
 
-</div>
 
 These functions look messy, and possibly I am out of my mind to even
 suggest them to such a pack of know-nothings as we have presently in
 Congress, but they have exactly the mathematical properties we want.
-\\(M\\) is continuous, increases monotonically, and converges to 1 at
-positive infinity, but \\(A\\) *diverges* at positive infinity, so
+$M$ is continuous, increases monotonically, and converges to 1 at
+positive infinity, but $A$ *diverges* at positive infinity, so
 there is no upper limit in principle on after-tax income. (As we shall
 see, though, in practice that next after-tax dollar gets very, very
 expensive past a certain point.) Also, the equations get a lot less
 messy if we substitute in numbers for some of the parameters. For
-instance, setting \\(B = 24000\\), \\(s = 500000\\), and \\(r =
-40\%\\) (corresponding to the blue line below) gives us \\(A = 24000 +
+instance, setting $B = 24000$, $s = 500000$, and $r =
+40\%$ (corresponding to the blue line below) gives us $A = 24000 +
 P + 774000 \bigl( \ln\,(0.4I + 300000) - \ln\,(0.4P + 309600)
-\bigr)\\) for the formula that taxpayers would actually have to
+\bigr)$ for the formula that taxpayers would actually have to
 wrestle with.
 
 Below is a chart of the marginal tax rate and the after-tax income for
-several choices of \\(r\\), with \\(s\\) fixed to $500,000. For
+several choices of $r$, with $s$ fixed to $500,000. For
 comparison, the jagged gray line is the real marginal tax rate for the
 USA for 2013 (for individuals under the age of 65, all income wages,
 taking the standard deduction and one exemption, with no other
@@ -139,34 +127,29 @@ that corporations will stop throwing money away on their executives.)
 Now, remember that pension scheme? That's automatically funded for
 each individual by the taxes they pay in. This obeys a similar formula
 to the taxation itself. There are two control points: the first dollar
-paid in taxes returns a pension of \\(p\_0\\) dollars per year, and
-the \\(s\\)'th dollar paid in taxes returns a pension of \\(p\_r\\)
-dollars per year, where \\(p\_r <p_0<1\). the marginal pension payout
-\(p\) on the \(t\)'th dollar paid in taxes is< p>
+paid in taxes returns a pension of $p_0$ dollars per year, and
+the $s$'th dollar paid in taxes returns a pension of $p_r$
+dollars per year, where $p_r < p_0 <1$. The marginal pension payout
+$p$ on the $t$'th dollar paid in taxes is
 
-<div class="aligncenter">
-[latex]\displaystyle p = \frac{p_0 p_r (1-s)}{p_0 - p_rs - (p_0 -
-p_r)t}[/latex]
-</div>
+$$p = \frac{p_0 p_r (1-s)}{p_0 - p_rs - (p_0 - p_r)t}$$
 
-and the cumulative payout on \\(T\\) dollars paid in is
+and the cumulative payout on $T$ dollars paid in is
 
-<div class="aligncenter">
-[latex]\begin{align*}
+$$\begin{aligned}
 P &= \int_1^T p(t)\,dt\\\\
 &= \frac{p_0 p_r (s-1)}{p_0 - p_r} \Bigl[
 \ln\,\bigl( p_r s - p_0 + (p_0 - p_r)T\bigr)
 -\ln\, p_r (s - 1) \Bigr]
-\end{align*}[/latex]
-</div>
+\end{aligned}$$
 
 The amount paid into the pension scheme accumulates year over year,
-but every year it's multiplied by a decay factor, \\(d < 1\\). The
+but every year it's multiplied by a decay factor, $d < 1$. The
 next two charts show three hypothetical yearly pretax incomes (not
 including BLS or pension), pension accumulation, and the resulting
 after-tax income, all as a function of time, for plausible choices of
-the parameters: \\(s = 500000,\: r = 40\%,\: p\_0 = 0.50,\: p\_r =
-0.05,\: d = 0.99\\).
+the parameters:
+$s = 500000,\: r = 40\%,\: p_0 = 0.50,\: p_r = 0.05,\: d = 0.99$.
 
 [![pensions](https://www.owlfolio.org/media/2014/04/pensions.png)](https://www.owlfolio.org/media/2014/04/pensions.png)
 
@@ -178,7 +161,7 @@ take-home pay of people whose income comes in bursts, which is
 characteristic of a lot of 'creative' jobs (that people generally
 prefer over 'day' jobs, if given the choice). Unfortunately this did
 not work out as well as I was hoping it would; I think the "decay"
-mechanism needs to be more sophisticated, possibly with \\(T\\)
+mechanism needs to be more sophisticated, possibly with $T$
 initially earning interest rather than decaying. But I've spent enough
 time messing with this. More fully baked ideas solicited.
 
@@ -220,4 +203,3 @@ to go along with the impossible wish.
 In case anyone wants to play with the numbers, the
 [R](http://www.r-project.org/) script that generated the graphs
 [is available here](https://hacks.owlfolio.org/scratchpad/redesigning-income-tax.R).
-

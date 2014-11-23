@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
+
 AUTHOR             = u'Zack Weinberg'
 SITENAME           = u'Owl\u2019s Portfolio'
 SITEURL            = ''
@@ -26,6 +30,13 @@ CATEGORY_SAVE_AS   = '{slug}/index.html'
 AUTHOR_SAVE_AS     = ''
 TAG_SAVE_AS        = ''
 
+PLUGIN_PATHS       = ['plugins']
+PLUGINS            = ['neighbors', 'sitemap', 'pandoc_reader']
+
+PANDOC_ARGS = ['--smart', '--normalize', '--html-q-tags', '--mathml']
+
+# This is the default, but it complains if you don't explicitly set it.
+SITEMAP = { 'format': 'xml' }
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
