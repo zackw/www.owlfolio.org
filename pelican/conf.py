@@ -6,37 +6,50 @@ import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
 
-AUTHOR             = u'Zack Weinberg'
-SITENAME           = u'Owl\u2019s Portfolio'
-SITEURL            = ''
-TIMEZONE           = 'America/New_York'
-DEFAULT_DATE       = 'fs'
-DEFAULT_LANG       = u'en'
-DEFAULT_PAGINATION = 10
-RELATIVE_URLS      = True
+AUTHOR              = u'Zack Weinberg'
+SITENAME            = u'Owl\u2019s Portfolio'
+SITEURL             = ''
+TIMEZONE            = 'America/New_York'
+DEFAULT_DATE        = 'fs'
+DEFAULT_DATE_FORMAT = '%-d %B %Y'
+DEFAULT_LANG        = u'en'
+DEFAULT_PAGINATION  = 10
+RELATIVE_URLS       = True
 
-PATH               = 'content'
-PAGE_PATHS         = ['pages']
-STATIC_PATHS       = ['media']
-ARTICLE_EXCLUDES   = ['media']
+PATH                = 'content'
+PAGE_PATHS          = ['pages']
+STATIC_PATHS        = ['media']
+ARTICLE_EXCLUDES    = ['media']
+IGNORE_FILES        = ['.#*', '*~', '#*#']
 
-ARTICLE_URL        = '{category}/{slug}/'
-ARTICLE_SAVE_AS    = '{category}/{slug}/index.html'
-PAGE_URL           = '{slug}/'
-PAGE_SAVE_AS       = '{slug}/index.html'
-CATEGORY_URL       = '{slug}/'
-CATEGORY_SAVE_AS   = '{slug}/index.html'
+THEME               = '../style'
+THEME_STATIC_DIR    = 's'
+CSS_FILE            = 'style.css'
 
-AUTHOR_SAVE_AS     = ''
-TAG_SAVE_AS        = ''
+ARTICLE_URL         = '{category}/{slug}/'
+ARTICLE_SAVE_AS     = '{category}/{slug}/index.html'
+PAGE_URL            = '{slug}/'
+PAGE_SAVE_AS        = '{slug}/index.html'
+CATEGORY_URL        = '{slug}/'
+CATEGORY_SAVE_AS    = '{slug}/index.html'
 
-PLUGIN_PATHS       = ['plugins']
-PLUGINS            = ['neighbors', 'sitemap', 'pandoc_reader']
+AUTHOR_SAVE_AS      = ''
+TAG_SAVE_AS         = ''
+
+PLUGIN_PATHS        = ['plugins']
+PLUGINS             = ['neighbors', 'sitemap', 'pandoc_reader']
 
 PANDOC_ARGS = ['--smart', '--normalize', '--html-q-tags', '--mathml']
 
 # This is the default, but it complains if you don't explicitly set it.
 SITEMAP = { 'format': 'xml' }
+
+# Outbound top-menu links.
+MENUITEMS = [
+    ('Publications', 'https://hacks.owlfolio.org/pubs/'),
+    ('Hacks',        'https://hacks.owlfolio.org/',),
+    ('Readings',     'https://readings.owlfolio.org/')
+]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

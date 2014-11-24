@@ -1,0 +1,666 @@
+/* fonts go at the top so they get loaded as quickly as possible;
+   ordered by urgency */
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("f/quattrocentosans-regular.eot");
+  src: url("f/quattrocentosans-regular.eot?#iefix") format("embedded-opentype"),
+       url("f/quattrocentosans-regular.woff") format("woff"),
+       url("f/quattrocentosans-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("f/cardo-regular.eot");
+  src: url("f/cardo-regular.eot?#iefix") format("embedded-opentype"),
+       url("f/cardo-regular.woff") format("woff"),
+       url("f/cardo-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: normal;
+  src: url("f/cardo-italic.eot");
+  src: url("f/cardo-italic.eot?#iefix") format("embedded-opentype"),
+       url("f/cardo-italic.woff") format("woff"),
+       url("f/cardo-italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("f/quattrocentosans-italic.eot");
+  src: url("f/quattrocentosans-italic.eot?#iefix") format("embedded-opentype"),
+       url("f/quattrocentosans-italic.woff") format("woff"),
+       url("f/quattrocentosans-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Inconsolata";
+    src: url("f/inconsolata-regular.eot");
+    src: url("f/inconsolata-regular.eot?#iefix") format("embedded-opentype"),
+         url("f/inconsolata-regular.woff") format("woff"),
+         url("f/inconsolata-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("f/quattrocentosans-bold.eot");
+  src: url("f/quattrocentosans-bold.eot?#iefix") format("embedded-opentype"),
+       url("f/quattrocentosans-bold.woff") format("woff"),
+       url("f/quattrocentosans-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("f/quattrocentosans-bolditalic.eot");
+  src: url("f/quattrocentosans-bolditalic.eot?#iefix")
+          format("embedded-opentype"),
+       url("f/quattrocentosans-bolditalic.woff") format("woff"),
+       url("f/quattrocentosans-bolditalic.ttf") format("truetype");
+}
+
+/* style normalization */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section
+{ display: block; }
+
+address { display: inline; font-style: inherit; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b,strong    { font-weight: bold; }
+dfn         { font-style: italic; }
+small       { font-size: 85%; }
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+figure {
+  margin: 3em auto 1em auto;
+  border: 1px solid black;
+  padding: 3px;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: min-content;
+}
+figcaption {
+  font-size: smaller;
+  font-style: italic;
+  padding: 2px 0 2px 1em;
+}
+legend {
+  border: 0;
+  margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+img {
+  border: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/* typography */
+
+html {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: black;
+  text-rendering: optimizelegibility;
+}
+
+/* ??? does font-size:100% + font-size:1em actually do something or
+   could this be merged into the above? */
+body {
+  font-size: 1em;
+  line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cardo", serif;
+  color: #610505;
+}
+h1, h2                 { font-weight: normal; font-style: normal; }
+h3, h4, h5, h6         { font-weight: normal; font-style: italic; }
+
+h1 { font-size: 2em;    margin: 0.67em 0; }
+h2 { font-size: 1.5em;  margin: 0.83em 0; }
+h3 { font-size: 1.17em; margin: 1em 0;    }
+h4 { font-size: 1em;    margin: 1.33em 0; }
+h5 { font-size: 0.83em; margin: 1.67em 0; }
+h6 { font-size: 0.75em; margin: 2.33em 0; }
+
+a                { color: #19688f; text-decoration: none }
+a:hover          { color: #6cbde5; text-decoration: underline }
+a:visited        { color: #493276; }
+a:hover:visited  { color: #9d86cb; }
+a:focus          { outline: thin dotted; }
+a:hover,a:active { outline: 0; }
+
+ins {
+  background: #ffff99;
+  text-decoration: none;
+}
+mark {
+  background: #ffff00;
+  font-style: italic;
+  font-weight: bold;
+}
+
+pre, code, kbd, samp {
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q { quotes: "“" "”" "‘" "’"; }
+q:before { content: open-quote; }
+q:after { content: close-quote; }
+
+blockquote {
+  font-size: 95%;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #610505;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* paragraph-level layout */
+
+p {
+  margin: 0 0 0.5em;
+}
+blockquote {
+  border-left: 1px solid black;
+  padding-left: .5em;
+  margin: 1em 2em 1em 10px;
+}
+ul, ol {
+  margin: 0 0 0.75em;
+  padding: 0 0 0 2em;
+}
+blockquote ul, blockquote ol, ul ul, ul ol, ol ul, ol ol {
+  padding-left: 1.5em;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0 0 0 2em;
+}
+blockquote dd {
+  margin-left: 1.5em;
+}
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { margin: 0 20px 20px 0; float: left; }
+.alignright { margin: 0 0 20px 20px; float: right; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 2em 0.5em 2em;
+  padding: 0 5px;
+}
+td, th {
+  vertical-align: baseline;
+  text-align: right;
+  padding: 3px 5px;
+}
+thead th {
+  text-align: center;
+}
+tbody > tr:nth-child(even) {
+  background-color: #dad9cf;
+}
+thead > tr:last-child > th, thead > tr:last-child > td {
+  border-bottom: 1px solid black;
+}
+
+/* small-scale page structure */
+
+.page-header, .post-header {
+  padding: 20px 0;
+}
+.page-header h1, .post-header h1, .post-header h2 {
+  line-height: 1;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #610505;
+  margin: 0;
+}
+.entry-meta {
+  display: block;
+  width: auto;
+  float: right;
+  font-size: 12px;
+  font-style: italic;
+  color: #610505;
+}
+.page-header a, .post-header a,
+.page-header a:visited, .post-header a:visited {
+  color: #610505;
+}
+.page-header a:hover, .post-header a:hover,
+.page-header a:visited:hover, .post-header a:visited:hover {
+  color: #c20a0a;
+}
+
+
+.widget {
+  font-size: 80%;
+}
+.widget > h3 {
+  margin: 1.5em 0 0.5em 0;
+  line-height: 1;
+}
+.widget > ul, .textwidget > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.widget > ul > li, .textwidget > ul > li {
+  margin-bottom: 0.5em;
+}
+
+nav ul, nav ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.menu {
+  display: inline-block;
+  padding-right: 11px;
+  font-weight: bold;
+  text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.4),
+                1px  1px 2px rgba(255, 255, 255, 0.5);
+}
+li.menu > a,
+li.menu > a:visited,
+#brand > a,
+#brand > a:visited {
+  color: #d9d28c;
+}
+li.menu > a:hover,
+li.menu > a:visited:hover,
+#brand > a:hover,
+#brand > a:visited:hover {
+  color: #e6e1b3;
+}
+
+#nav-main {
+  padding: 0;
+  line-height: 1;
+}
+
+.pager {
+  list-style: none;
+  margin: 18px 0;
+  text-align: center;
+  zoom: 1;
+}
+.pager:before,.pager:after {
+  content: "";
+  display: table;
+}
+.pager:after {
+  clear: both;
+}
+.pager > a {
+  font-size: smaller;
+  font-style: italic;
+  display: inline-block;
+}
+.pager > a[rel="next"] {
+  float: right;
+}
+.pager > a[rel="prev"] {
+  float: left;
+}
+
+/* comments */
+
+#comments, #respond, #submit { clear: both; display: block; }
+
+.commentlist, .children { list-style-type: none; }
+.commentlist { padding-left: 0 }
+.children { padding-left: .5em }
+
+.avatar { float: left; margin-right: 10px; }
+
+li.comment {
+  border-left: 2px solid #cdc8bf;
+  margin-bottom: .75em;
+}
+li.comment.comment-author-zackw {
+  border-left-color: #c7d2cf;
+}
+
+.comment-author {
+  font-size: 90%;
+  padding: 4px 0 4px 4px;
+  min-height: 32px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #cdc8bf;
+  line-height: 1;
+}
+.comment-author-zackw > article > .comment-author {
+  background-color: #c7d2cf;
+}
+
+.comment-author > cite {
+  display: block;
+}
+.comment-author > time {
+  display: block;
+  padding-top: 2px;
+}
+.comment-edit-link {
+  display: block;
+  float: right;
+  margin-top: -2em;
+  margin-right: .5em;
+}
+
+section.comment {
+  clear: left;
+  margin-left: 1ex;
+  margin-top: 1ex;
+}
+.comment-reply-link {
+  margin-left: 1ex;
+  font-size: 95%;
+}
+
+#respond > h3 {
+  border-bottom: 1px solid #610505;
+}
+
+#commentform {
+  margin: 0 1em 3em 1em;
+}
+#commentform label {
+  padding-left: 0.5em;
+}
+#commentform input {
+  display: inline-block;
+  width: 40%;
+}
+#commentform textarea {
+  width: 95%;
+  min-height: 12em;
+  resize: vertical;
+}
+
+.cclosed {
+  font-family: "Cardo", serif;
+  color: #610505;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+.alert {
+  background-color: #c6c1c5;
+  border-radius: 4px;
+  margin: 18px 0;
+  padding: 8px 35px 8px 14px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* banners */
+
+#banner {
+  padding: 8px 2.5% 6px 2.5%;
+  background-color: #590000;
+  box-shadow: inset 0px -2.5px 2.5px -2.5px black; /* bottom edge only */
+}
+#brand {
+  display: block;
+  min-height: 88px;
+  background-image: url(face.png);
+  background-repeat: no-repeat;
+  padding: 4px 0 0 92px;
+  margin: 0 0 12px 0;
+  font-family: "Cardo", serif;
+  font-size: 36pt;
+  font-weight: normal;
+  line-height: 0.9;
+  text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.4),
+                1px  1px 2px rgba(255, 255, 255, 0.5);
+}
+#content-info {
+  clear: both;
+  margin: 2em 0 0 0;
+  border-top: 1px solid #610505;
+  padding: 1em 0;
+  font-size: 80%;
+}
+
+/* overall layout */
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+
+  zoom: 1;
+  padding: 0;
+  box-shadow: 0 0 5px black;
+  background-image: url(paper-bg-nfoot.png);
+}
+#main {
+  padding: 0 2.5%;
+  background-image: url(paper-bg-nmain.png);
+  box-shadow: 0 0 2.5px black; /* bottom edge only */
+}
+aside {
+  float: left;
+  zoom: 1;
+}
+aside > article {
+  padding-left: 10px;
+  width: 100px;
+}
+#sidebars {
+  margin: 0 auto 0.5em auto;
+  padding-bottom: 0.5em;
+  width: 230px;
+  zoom: 1;
+}
+body:after, #sidebars:after { content: ""; display: table; clear: both; }
+
+@media (max-width: 260px) {
+  #sidebars { width: 120px; }
+  #brand { font-size: 20pt; width: 150px; }
+}
+@media (min-width: 261px) and (max-width: 310px) {
+  #brand { font-size: 28pt; width: 200px; }
+}
+@media (min-width: 311px) and (max-width: 474px) {
+  #brand { font-size: 32pt; max-width: 250px; }
+}
+@media (max-width: 415px) {
+  #brand {
+    background-image: none;
+    padding-left: 0;
+    max-width: 200px;
+  }
+}
+@media (max-width: 474px) {
+  #brand { margin-bottom: 0; }
+  #nav-main {
+    float: right;
+    margin-top:  -88px;
+    margin-left: 220px;
+    width: 96px;
+  }
+}
+@media (min-width:475px) {
+  #nav-main { margin: -28px 0 0 95px; }
+}
+@media (min-width:500px) and (max-width:645px) {
+  #sidebars { width: 450px; }
+  aside > article { float: left; }
+}
+@media (min-width:646px) {
+  html { background-color: #8d9194; }
+  body { margin: 0 auto;
+    background-repeat: repeat-y;
+    background-color: transparent;
+  }
+  #banner { padding-left: 15px; padding-right: 15px }
+  #sidebars {
+    float: left; margin: 0; padding: 0;
+    background-color: transparent;
+  }
+  #main {
+    float: left;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: none;
+    background-image: none;
+  }
+  aside {
+    float: left;
+    width: 110px;
+    margin: 0 0 0 10px;
+  }
+  aside > article {
+    float: none;
+    padding-left: 0;
+  }
+}
+@media (min-width:646px) and (max-width:759px) {
+  body {
+    width: 631px;
+    background-image: url(paper-bg-631.png);
+  }
+  #main { width: 476px; }
+  #sidebars { width: 120px; }
+}
+@media (min-width:760px) and (max-width:910px) {
+  body {
+    width: 751px;
+    background-image: url(paper-bg-751.png);
+  }
+  #main { width: 476px; }
+  #sidebars { width: 240px; }
+}
+@media (min-width:911px) {
+  body {
+    width: 893px;
+    background-image: url(paper-bg-893.png);
+  }
+  #main { width: 618px; }
+  #sidebars { width: 240px; }
+}
+/* ... doesn't work ...
+@media (min-width:646px) and (max-width:759px) and (min-height: 0px) {
+  body:after {
+    background-image: url(ink-owl.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+}
+@media (min-width:760px) and (min-height: 0px) {
+  body:after {
+    background-image: url(ink-owl.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+}*/
+
+@media print {
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: black !important;
+    border-color: black !important;
+    filter: none !important;
+    -ms-filter: none !important;
+    text-shadow: none !important;
+  }
+  .pager, #nav-main, #nav-main-b, #sidebars, #respond, #banner {
+    display: none !important;
+  }
+  #main, body {
+    width: auto !important;
+  }
+  a, a:visited {
+    text-decoration: underline;
+  }
+  #main a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  #main abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+  pre, blockquote {
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr, img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+@page {
+  margin: 1cm;
+}
