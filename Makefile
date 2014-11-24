@@ -50,18 +50,21 @@ help:
 	$(file >/dev/stdout,$(help_message))
 
 html:
+	mkdir -p $(OUTPUTDIR)
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
-	-rm -rf $(OUTPUTDIR)
+	-rm -rf $(OUTPUTDIR) $(BASEDIR)/pelican/cache
 
 regenerate:
+	mkdir -p $(OUTPUTDIR)
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: html
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
 
 devserver:
+	mkdir -p $(OUTPUTDIR)
 	$(SERVER_HELPER) restart
 
 stopserver:
