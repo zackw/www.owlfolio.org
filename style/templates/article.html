@@ -30,4 +30,12 @@
     {{ article.content }}
   </div>
 </article>
+<nav id="post-nav" class="pager">
+ {% if article.prev_article %}
+ <a rel="prev" href="/{{ article.prev_article.url}}">← {{ article.prev_article.title }}</a>
+ {% endif %}
+ {% if article.next_article %}
+ <a rel="next" href="/{{ article.next_article.url}}">{{ article.next_article.title }} →</a>
+ {% endif %}
+</nav>
 {% endblock %}

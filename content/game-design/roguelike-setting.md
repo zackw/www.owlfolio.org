@@ -14,22 +14,24 @@ no plot, and outlined some possibilities for doing something about
 that. In this post I'm going to outline the sort of plot I have in
 mind and how it might mesh with Leonard's suggestions.
 
+<!--more-->
+
 The game begins in a country not unlike that of Hope Mirrlees'
 [*Lud-in-the-Mist*](http://en.wikipedia.org/wiki/Lud-in-the-Mist).
-<!--more-->It has a geographical boundary with Faerie. At one time
-(within the memory of the older inhabitants) there was regular trade,
-but lately relations have deteriorated, with the merchant caravans
-being replaced by waves of ... refugees. They are all what you might
-call “little people” — no cosmic powers, relatively friendly (but
-sometimes mischievous), and wanting to escape what they describe as
-wars and catastrophes. They have been received cautiously.As the game
-begins, these benign refugees have begun to be supplanted by
-hostiles. Think boggarts, redcaps, kelpies, and so on. This, in turn,
-attracts adventurers. At first, they're hoping for money from the town
-and farmers for eliminating the menaces, but it doesn't take long for
-them to think of crossing the boundary. After all, if Faerie's all
-torn up by war and disaster, perhaps there are ... abandoned castles!
-With treasure!
+It has a geographical boundary with Faerie. At one time (within the
+memory of the older inhabitants) there was regular trade, but lately
+relations have deteriorated, with the merchant caravans being replaced
+by waves of ... refugees. They are all what you might call “little
+people” — no cosmic powers, relatively friendly (but sometimes
+mischievous), and wanting to escape what they describe as wars and
+catastrophes. They have been received cautiously.As the game begins,
+these benign refugees have begun to be supplanted by hostiles. Think
+boggarts, redcaps, kelpies, and so on. This, in turn, attracts
+adventurers. At first, they're hoping for money from the town and
+farmers for eliminating the menaces, but it doesn't take long for them
+to think of crossing the boundary. After all, if Faerie's all torn up
+by war and disaster, perhaps there are ... abandoned castles!  With
+treasure!
 
 Naturally, your avatar is one of these adventurers. And indeed, on the
 other side of the boundary, there are abandoned castles, with

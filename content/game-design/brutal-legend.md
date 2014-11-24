@@ -32,7 +32,7 @@ was because we were doing it wrong.
 So that's all good, but now I want to complain, at length, about the
 storyline.
 
-<!--more Behind the cut I spoil the ENTIRE PLOT.-->
+<!--more-->
 
 ## I am about to spoil the ENTIRE PLOT.  You have been warned.
 

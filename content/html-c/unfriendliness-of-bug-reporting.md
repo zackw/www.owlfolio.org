@@ -8,7 +8,7 @@ about how we can do a better job categorizing and triaging incoming
 bugs. This is my contribution, which I felt deserved a somewhat
 broader audience.
 
-<!--more Attention conservation notice: thousand-word rant about the user friendliness of a bug database.-->
+<!--more-->
 
 > Attention conservation notice: thousand-word rant about the user
 > friendliness of a bug database.

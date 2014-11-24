@@ -11,19 +11,22 @@ responses, but right now I haven't the brain, so instead I am going to
 talk about [Dwarf Fortress](http://www.bay12games.com/dwarves/), which
 an anonymous commenter on the previous post recommended.
 
-Dwarf Fortress has a roguelike mode, but <!--more-->everyone says it's
-not very good; the interesting part is "dwarf mode", in which you direct
-a group of dwarves as they build the eponymous fortress within a
-mountain. I love city design games, and Dwarf Fortress does some things
-with the genre that I haven't seen before. For instance, you're building
-inside the mountain. You are also wanting to mine every last vein of ore
-and pocket of gemstones out of the mountain, because it's a city of
-dwarves, and that's what dwarves *do*. (It is fitting---albeit poorly
-implemented in the present version---that one of the ways you can
-destroy your fortress is by digging too deep into the mountain, where
-lie things better left buried.) You have to trade off greed against
-sensible internal organization. A giant cavern with pillars at the
-maximum spacing to avoid cave-ins is neither pleasant nor defensible.
+<!--more-->
+
+Dwarf Fortress has a roguelike mode, but everyone says it's not very
+good; the interesting part is "dwarf mode", in which you direct a
+group of dwarves as they build the eponymous fortress within a
+mountain. I love city design games, and Dwarf Fortress does some
+things with the genre that I haven't seen before. For instance, you're
+building inside the mountain. You are also wanting to mine every last
+vein of ore and pocket of gemstones out of the mountain, because it's
+a city of dwarves, and that's what dwarves *do*. (It is
+fitting---albeit poorly implemented in the present version---that one
+of the ways you can destroy your fortress is by digging too deep into
+the mountain, where lie things better left buried.) You have to trade
+off greed against sensible internal organization. A giant cavern with
+pillars at the maximum spacing to avoid cave-ins is neither pleasant
+nor defensible.
 
 However, the game is at present flawed on just about every level. (The
 next version of the game, due out Real Soon Now, appears to have a lot

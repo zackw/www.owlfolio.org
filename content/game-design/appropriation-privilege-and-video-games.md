@@ -34,19 +34,20 @@ make that better, why not be *really* ambitious and try to fix
 everything at once? So let's have another look at the plot of that
 game with privilege and appropriation in mind.
 
-<!--more-->I posted a
-[plot sketch](http://zwol.livejournal.com/57371.html) and some
-[flavor notes](http://zwol.livejournal.com/57842.html) the last time I
-talked about this. The condensed version is: the player character
-lives in a country with a geographic border with Faerie. Faerie is
-reportedly all torn up with war and disaster, so the PC decides to go
-exploring, because maybe there is treasure to be looted. Of course
-there is, but also it turns out that the entire otherworld is coming
-apart at the seams, and the PC is in a position to stop that,
-encourage it, or take advantage of it. I hadn't decided why this was
-happening in the first place. Being a roguelike, the PC will die a
-lot, but there are a whole group of people back in the border country
-doing this, so the player can just switch to a new one.
+<!--more-->
+
+I posted a [plot sketch](http://zwol.livejournal.com/57371.html) and
+some [flavor notes](http://zwol.livejournal.com/57842.html) the last
+time I talked about this. The condensed version is: the player
+character lives in a country with a geographic border with
+Faerie. Faerie is reportedly all torn up with war and disaster, so the
+PC decides to go exploring, because maybe there is treasure to be
+looted. Of course there is, but also it turns out that the entire
+otherworld is coming apart at the seams, and the PC is in a position
+to stop that, encourage it, or take advantage of it. I hadn't decided
+why this was happening in the first place. Being a roguelike, the PC
+will die a lot, but there are a whole group of people back in the
+border country doing this, so the player can just switch to a new one.
 
 The problem I see with this narrative is that it can easily turn into
 either straight-up colonialism (if the PCs take advantage of the mess
