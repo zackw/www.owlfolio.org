@@ -37,7 +37,8 @@ AUTHOR_SAVE_AS      = ''
 TAG_SAVE_AS         = ''
 
 PLUGIN_PATHS        = ['plugins']
-PLUGINS             = ['neighbors', 'sitemap', 'summary', 'read_more_link', 'pandoc_reader']
+PLUGINS             = ['neighbors', 'sitemap', 'summary', 'read_more_link',
+                       'pandoc_reader']
 
 PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
 
@@ -59,12 +60,8 @@ MENUITEMS = [
     ('Readings',     'https://readings.owlfolio.org/')
 ]
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# Recent-posts widget
+RECENT_POSTS_LENGTH = 5
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -75,3 +72,11 @@ AUTHOR_FEED_RSS = None
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+

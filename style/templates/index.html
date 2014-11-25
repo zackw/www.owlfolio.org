@@ -1,24 +1,17 @@
 {% extends "base.html" %}
+{% from "macros.html" import pager, article_header %}
 {% block content %}
 {% block content_title %}
 {% endblock %}
 
 {% for article in articles_page.object_list %}
 <article class="hentry">
-  <header class="post-header">
-    <h2 class="entry-title"><a href="/{{ article.url }}" rel="bookmark"
-                               title="Permalink to {{ article.title|striptags}}">{{ article.title }}</a></h2>
-    <div class="entry-meta">
-      <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date
-        }}</time>{% if article.modified %}&#8193;Edited
-      <time class="modified" datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified
-        }}</time>{% endif %}
-    </div>
-  </header>
+  {{ article_header(article, 2) }}
   <div class="entry-content">
     {{ article.summary }}
   </div>
 </article>
 {% endfor %}
-{% include 'pagination.html' %}
+{{ pager(articles_previous_page.url, 'Newer posts',
+         articles_next_page.url,     'Older posts') }}
 {% endblock content %}

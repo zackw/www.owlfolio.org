@@ -1,3 +1,4 @@
+{% from "macros.html" import category_list, recent_posts %}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
@@ -64,7 +65,14 @@
 
     <div id="sidebars">
       <aside id="sb-index" role="complementary">
-        {% block siteindex %}{% endblock %}
+        {% block siteindex %}
+        {% if all_articles %}
+        {{ recent_posts(all_articles, RECENT_POSTS_LENGTH) }}
+        {% else %}
+        {{ recent_posts(articles, RECENT_POSTS_LENGTH) }}
+        {% endif %}
+        {{ category_list(categories) }}
+        {% endblock %}
       </aside>
       <aside id="sb-blogroll" role="complementary">
         {% block blogroll %}{% endblock %}
