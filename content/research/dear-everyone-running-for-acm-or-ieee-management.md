@@ -1,6 +1,5 @@
 Title: Dear Everyone Running for ACM or IEEE Management
 Date: 2013-02-18 15:01
-Category: Research
 Slug: dear-everyone-running-for-acm-or-ieee-management
 
 It's professional-organization management election time again. This is

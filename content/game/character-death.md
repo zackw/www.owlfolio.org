@@ -1,6 +1,5 @@
 Title: Character death and save points
 Date: 2008-06-02 20:49
-Category: Game design
 Slug: character-death
 
 We're playing *God of War* again and have gotten Kratos killed, oh, at

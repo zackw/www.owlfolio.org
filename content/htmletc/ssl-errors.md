@@ -1,6 +1,5 @@
 Title: Better SSL error screens
 Date: 2010-02-16 13:11
-Category: HTML &amp;c
 Slug: ssl-errors
 
 Right now, when you visit a website that uses encryption in Firefox

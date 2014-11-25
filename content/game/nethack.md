@@ -1,6 +1,5 @@
 Title: Things I Like and Don't Like about Nethack
 Date: 2007-08-14 17:34
-Category: Game design
 Slug: nethack
 
 The voices in my head have decided that I am going to write a roguelike

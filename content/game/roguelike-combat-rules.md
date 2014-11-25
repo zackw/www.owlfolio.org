@@ -1,6 +1,5 @@
 Title: Roguelike combat rules
 Date: 2007-11-28 22:36
-Category: Game design
 Slug: roguelike-combat-rules
 
 Leonard linked to [You Only Live

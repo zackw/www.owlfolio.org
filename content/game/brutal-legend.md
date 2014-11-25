@@ -1,6 +1,5 @@
 Title: Review of Brütal Legend
 Date: 2010-05-01 00:00
-Category: Game design
 Slug: brutal-legend
 
 Here we go with another entry in the occasional series of reviews of

@@ -1,6 +1,5 @@
 Title: The Conference Formerly Known as Oakland, day 2
 Date: 2012-05-22 20:52
-Category: Research
 Slug: the-conference-formerly-known-as-oakland-day-2
 
 I skipped the 8:30AM session today, it was mostly not interesting to

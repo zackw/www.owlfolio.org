@@ -1,6 +1,5 @@
 Title: CCS 2010, day 1
 Date: 2010-10-06 09:38
-Category: Research
 Slug: ccs-2010-day-1
 
 I'm attending the

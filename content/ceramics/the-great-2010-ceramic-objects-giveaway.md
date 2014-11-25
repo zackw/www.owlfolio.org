@@ -1,6 +1,5 @@
 Title: the great 2010 ceramic objects giveaway
 Date: 2010-06-01 22:37
-Category: Ceramics
 Slug: the-great-2010-ceramic-objects-giveaway
 
 ![a bunch of pottery](http://farm5.static.flickr.com/4005/4662273362_45c3efc8cc.jpg)

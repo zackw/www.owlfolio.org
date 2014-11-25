@@ -1,6 +1,5 @@
 Title: Save the world? Sure, but let’s collect every bit of treasure first.
 Date: 2008-05-17 23:53
-Category: Game design
 Slug: take-your-time
 
 [queenpam](http://queenpam.livejournal.com/) and I have been playing

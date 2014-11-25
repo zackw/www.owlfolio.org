@@ -1,6 +1,5 @@
 Title: Vague musings on skills and levels
 Date: 2008-02-23 15:29
-Category: Game design
 Slug: skills-and-levels
 
 I really like

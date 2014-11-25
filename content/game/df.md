@@ -1,6 +1,5 @@
 Title: Review of Dwarf Fortress
 Date: 2007-10-18 16:42
-Category: Game design
 Slug: df
 
 First I'd like to thank [Leonard](http://crummy.com/) for taking the

@@ -1,6 +1,5 @@
 Title: Notes from Poland
 Date: 2012-02-25 12:25
-Category: Travelogues
 Slug: notes-from-poland
 
 My grandfather David and his brothers grew up in the small city of

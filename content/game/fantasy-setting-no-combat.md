@@ -1,6 +1,5 @@
 Title: Fantasy setting without the hack-and-slash
 Date: 2011-02-18 22:41
-Category: Game design
 Slug: fantasy-setting-no-combat
 
 Several months ago, LJ user

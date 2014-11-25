@@ -1,6 +1,5 @@
 Title: Classical Mechanics Interlude: Acceleration to stop in a constant distance
 Date: 2011-04-19 17:45
-Category: Uncategorized
 Slug: acceleration-stop-const-distance
 
 Over on twitter, @[MegaManSE][] asked

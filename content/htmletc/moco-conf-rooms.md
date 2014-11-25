@@ -1,6 +1,5 @@
 Title: Mozilla Co. conference rooms
 Date: 2010-04-29 00:00
-Category: HTML &amp;c
 Slug: moco-conf-rooms
 
 The [Mozilla Corporation](http://www.mozilla.com)'s new(ish) office in

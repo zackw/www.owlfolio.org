@@ -1,6 +1,5 @@
 Title: The literary merit of right-wing SF
 Date: 2014-08-24 23:44
-Category: Fiction
 Slug: the-literary-merit-of-right-wing-sf
 
 The results are in for the

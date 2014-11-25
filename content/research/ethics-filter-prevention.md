@@ -1,6 +1,5 @@
 Title: The ethics of preventing third-party net filtering
 Date: 2011-12-12 15:52
-Category: Research
 Slug: ethics-filter-prevention
 
 I haven't posted anything research-related in a while because I've

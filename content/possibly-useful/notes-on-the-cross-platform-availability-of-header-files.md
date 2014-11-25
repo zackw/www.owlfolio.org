@@ -1,6 +1,5 @@
 Title: Notes on the Cross-Platform Availability of Header Files
 Date: 2013-03-14 19:24
-Category: Possibly Useful
 Slug: notes-on-the-cross-platform-availability-of-header-files
 
 These header files are guaranteed to be available in a C89 hosted

@@ -1,6 +1,5 @@
 Title: test your file locking
 Date: 2011-10-14 12:23
-Category: Possibly Useful
 Slug: test-your-file-locking
 
 This PUBLIC SERVICE ANNOUNCEMENT is brought to you by the I JUST

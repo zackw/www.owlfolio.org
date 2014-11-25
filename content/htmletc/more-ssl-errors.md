@@ -1,6 +1,5 @@
 Title: More on SSL errors
 Date: 2010-05-25 16:11
-Category: HTML &amp;c
 Slug: more-ssl-errors
 
 I got some great responses to my [ideas for SSL errors][] and I

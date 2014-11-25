@@ -1,6 +1,5 @@
 Title: Caffeinated owls
 Date: 2013-04-23 13:10
-Category: Uncategorized
 Slug: caffeinated-owls
 
 ![Semi-anthropomorphic sketches of six owls, each with a different

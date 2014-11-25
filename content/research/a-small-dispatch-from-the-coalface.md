@@ -1,6 +1,5 @@
 Title: a small dispatch from the coalface
 Date: 2014-05-28 09:34
-Category: Research
 Slug: a-small-dispatch-from-the-coalface
 
 <style>td:first-child { text-align: left }</style>

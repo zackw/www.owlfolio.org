@@ -1,6 +1,5 @@
 Title: Secure channels are like immunization
 Date: 2014-03-28 17:44
-Category: Research
 Slug: security-is-like-immunization
 
 For a while now, when people ask me how they can improve their

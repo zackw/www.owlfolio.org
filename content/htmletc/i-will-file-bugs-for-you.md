@@ -1,6 +1,5 @@
 Title: I Will File Bugs For You
 Date: 2014-08-14 17:05
-Category: HTML &amp;c
 Slug: i-will-file-bugs-for-you
 
 > This post prompted by Aaron Klotz's

@@ -1,6 +1,5 @@
 Title: Redesigning Income Tax
 Date: 2014-04-30 17:46
-Category: Uncategorized
 Slug: redesigning-income-tax
 
 Here is an opinionated proposal, having *no chance whatsoever* of

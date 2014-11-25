@@ -1,6 +1,5 @@
 Title: Plot and setting for a hypothetical roguelike
 Date: 2008-02-19 18:33
-Category: Game design
 Slug: roguelike-setting
 
 As mentioned in

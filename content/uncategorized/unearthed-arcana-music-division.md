@@ -1,6 +1,5 @@
 Title: unearthed arcana (music division)
 Date: 2011-11-16 21:20
-Category: Uncategorized
 Slug: unearthed-arcana-music-division
 
 Some time ago---I don't remember how long precisely---I started

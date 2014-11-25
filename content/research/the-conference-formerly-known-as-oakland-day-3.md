@@ -1,6 +1,5 @@
 Title: The Conference Formerly Known as Oakland, day 3
 Date: 2012-05-25 16:07
-Category: Research
 Slug: the-conference-formerly-known-as-oakland-day-3
 
 This day had a lot of interesting papers, but some of the

@@ -1,6 +1,5 @@
 Title: What goes on Planet Mozilla: a survey
 Date: 2012-03-07 17:00
-Category: Administrivia
 Slug: what-goes-on-planet-mozilla-a-survey
 
 > Attention conservation notice: probably not of interest to anyone who

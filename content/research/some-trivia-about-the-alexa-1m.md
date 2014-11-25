@@ -1,6 +1,5 @@
 Title: some trivia about the Alexa 1M
 Date: 2013-09-30 13:15
-Category: Research
 Slug: some-trivia-about-the-alexa-1m
 
 [Alexa](http://www.alexa.com/) publishes a list of "the top 1,000,000

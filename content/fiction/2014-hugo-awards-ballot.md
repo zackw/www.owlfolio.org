@@ -1,6 +1,5 @@
 Title: 2014 Hugo Awards ballot
 Date: 2014-07-29 21:51
-Category: Fiction
 Slug: 2014-hugo-awards-ballot
 
 I'm not attending [the Worldcon](http://www.loncon3.org/), but I most

@@ -1,6 +1,5 @@
 Title: git backend, hg cli
 Date: 2012-09-21 12:19
-Category: Uncategorized
 Slug: git-backend-hg-cli
 
 LWN has an article with a nice chunky comment thread talking about

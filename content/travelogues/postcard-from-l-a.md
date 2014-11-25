@@ -1,6 +1,5 @@
 Title: Postcard from L.A.
 Date: 2013-08-10 17:03
-Category: Travelogues
 Slug: postcard-from-l-a
 
 I've never liked Los Angeles. It's too hot, to begin with, and it's

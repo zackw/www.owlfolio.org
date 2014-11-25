@@ -1,9 +1,8 @@
 Title: Legibility of embedded Web fonts
 Date: 2011-04-05 16:20
-Category: HTML &amp;c
 Slug: legibility-of-embedded-web-fonts
 
-It's recently become possible to [em‌bed fonts][ef] in your website, so
+It's recently become possible to [embed fonts][ef] in your website, so
 that you aren't limited to using the same old fonts that everyone
 already has on their computer. Yay! Unfortunately, there are a lot of
 gotchas. Lots of people discuss the [technical gotchas][tech], but

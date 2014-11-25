@@ -1,6 +1,5 @@
 Title: Pulling a site together from lots of little page generators
 Date: 2013-05-30 23:54
-Category: Foliomatic
 Slug: pulling-a-site-together-from-lots-of-little-page-generators
 
 Since the last time I was seriously considering writing my own static

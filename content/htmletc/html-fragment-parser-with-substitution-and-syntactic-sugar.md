@@ -1,6 +1,5 @@
 Title: HTML Fragment Parser with Substitution and Syntactic Sugar
 Date: 2012-06-22 19:05
-Category: HTML &amp;c
 Slug: html-fragment-parser-with-substitution-and-syntactic-sugar
 
 This is a little off my usual beaten path, but what the heck.

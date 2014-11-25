@@ -1,6 +1,5 @@
 Title: PSA: "like" buttons
 Date: 2011-05-08 12:43
-Category: Administrivia
 Slug: psa-like-buttons
 
 Because I hit "empty spam" just a little too fast, erasing the question

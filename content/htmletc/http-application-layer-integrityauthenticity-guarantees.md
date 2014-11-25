@@ -1,6 +1,5 @@
 Title: HTTP application layer integrity/authenticity guarantees
 Date: 2014-03-17 12:08
-Category: HTML &amp;c
 Slug: http-application-layer-integrityauthenticity-guarantees
 
 **Note:** These are half-baked ideas I've been turning over in my

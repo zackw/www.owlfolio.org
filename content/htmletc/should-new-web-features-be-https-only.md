@@ -1,6 +1,5 @@
 Title: Should new web features be HTTPS only?
 Date: 2014-03-24 14:44
-Category: HTML &amp;c
 Slug: should-new-web-features-be-https-only
 
 I doubt anyone who reads this will disagree with the proposition that

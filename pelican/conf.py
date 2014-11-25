@@ -7,7 +7,7 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
 
 # Uncomment to disable caching temporarily (for heavy theme/plugin development)
-CACHE_CONTENT = False
+#CACHE_CONTENT = False
 
 AUTHOR              = u'Zack Weinberg'
 SITENAME            = u'Owl\u2019s Portfolio'
@@ -38,9 +38,17 @@ CATEGORY_SAVE_AS    = '{slug}/index.html'
 
 AUTHOR_SAVE_AS      = ''
 TAG_SAVE_AS         = ''
+ARCHIVES_SAVE_AS    = ''
+AUTHORS_SAVE_AS     = ''
+CATEGORIES_SAVE_AS  = ''
+TAGS_SAVE_AS        = ''
 
 PLUGIN_PATHS        = ['plugins']
-PLUGINS             = ['neighbors', 'sitemap', 'summary', 'read_more_link',
+PLUGINS             = ['neighbors',
+                       'sitemap',
+                       'summary',
+                       'read_more_link',
+                       'category_meta',
                        'pandoc_reader']
 
 PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
@@ -209,78 +217,6 @@ BLOGROLL = [
          "https://www.linkedin.com/in/zackweinberg/"),
     ])
 ]
-
-# Shoehorn in some category descriptions.  Until there's a fix for
-# https://github.com/getpelican/pelican/issues/884
-# this is manually picked up by the theme.
-CATEGORY_DESCRIPTIONS = {
-    "Administrivia":
-    """Announcements relating to the site itself.
-    """,
-
-    "Ceramics":
-    """Occasional musings on ceramic art and technology.
-    """,
-
-    "Fiction":
-    """A lot of my friends are fiction writers. On rare occasions I have
-       been known to write some myself. More frequently, I write critical
-       essays about fiction I read.
-    """,
-
-    "Foliomatic":
-    """Foliomatic is a hypothetical program for generating web sites like
-       this one. I’m currently using <a
-       href="http://blog.getpelican.com/">Pelican</a>, which is a vast
-       improvement over <a
-       href="https://wordpress.org/">WordPress</a>, which was in turn
-       a vast improvement over <a
-       href="https://ikiwiki.info/">Ikiwiki</a>, but it still gets in
-       my way enough to irritate me.</p>
-
-       <p>Unlike the game designs I have devoted many words to, I do
-       intend to write Foliomatic someday, but it might be a good long
-       time. Meanwhile, here are notes.
-    """,
-
-    "Game design":
-    """I play lots of games. Board games, video games, “tabletop”
-       roleplaying games. I occasionally have ideas for designing my
-       own games. It’s unlikely that I’ll ever sit down and write a
-       complete game, so instead I write the ideas down and put them
-       here.  Sometimes I also write up critical thoughts about other
-       people’s games.
-    """,
-
-    "HTML &c":
-    """Long, chewy articles about things related to the World Wide Web.
-    """,
-
-    "Possibly Useful":
-    """an occasional series<br>
-       programs too small to be projects<br>
-       but hard enough to write<br>
-       that I wish to spare others the trouble<br>
-       whimsically described<br>
-       freely licensed<br>
-       unlikely to be revised.
-    """,
-
-    "Research":
-    """These long chewy posts are more about Internet security (which is
-       my field of research) than they are about HTML, but often they are
-       about both.
-    """,
-
-    "Travelogues":
-    """Places I have been and felt the event deserved mention.
-    """,
-
-    "Uncategorized":
-    """As ever, some things do not fit neatly in one bin or another.
-    """
-}
-
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

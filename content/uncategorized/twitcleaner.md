@@ -1,6 +1,5 @@
 Title: The Twit Cleaner
 Date: 2010-05-11 03:41
-Category: Uncategorized
 Slug: twitcleaner
 
 ## (notes on behavioral categorization of Twitter accounts)

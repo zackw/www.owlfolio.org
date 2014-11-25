@@ -1,6 +1,5 @@
 Title: URL Canonicalizer
 Date: 2010-09-14 16:51
-Category: Possibly Useful
 Slug: url-canonicalizer
 
 supposing  

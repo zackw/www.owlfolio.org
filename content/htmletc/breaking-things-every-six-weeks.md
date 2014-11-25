@@ -1,6 +1,5 @@
 Title: Breaking things every six weeks
 Date: 2011-09-19 13:54
-Category: HTML &amp;c
 Slug: breaking-things-every-six-weeks
 
 > Attention conservation notice: 900 words of inside baseball about

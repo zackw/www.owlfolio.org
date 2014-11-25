@@ -1,6 +1,5 @@
 Title: Programming languages and transportation
 Date: 2014-10-02 11:27
-Category: Possibly Useful
 Slug: programming-languages-and-transportation
 
 Last week there was a gag listicle making the rounds entitled

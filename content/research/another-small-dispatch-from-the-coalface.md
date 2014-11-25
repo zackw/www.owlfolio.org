@@ -1,6 +1,5 @@
 Title: another small dispatch from the coalface
 Date: 2014-06-03 14:40
-Category: Research
 Slug: another-small-dispatch-from-the-coalface
 
 For all countries for which [Herdict](https://www.herdict.org/)

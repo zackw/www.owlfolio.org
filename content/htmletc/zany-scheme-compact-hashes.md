@@ -1,6 +1,5 @@
 Title: A Zany Scheme for Compact Secure Hashes
 Date: 2011-06-17 12:29
-Category: HTML &amp;c
 Slug: zany-scheme-compact-hashes
 
 Lots of current and near-future tech relies heavily on

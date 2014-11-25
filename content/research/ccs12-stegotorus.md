@@ -1,6 +1,5 @@
 Title: CCS'12: StegoTorus
 Date: 2012-10-16 19:12
-Category: Research
 Slug: ccs12-stegotorus
 
 I just presented the major focus of my time and effort for the past

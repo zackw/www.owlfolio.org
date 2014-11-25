@@ -1,6 +1,5 @@
 Title: Effects of Sleep Deprivation: a generic RPG supplement
 Date: 2009-08-21 15:49
-Category: Game design
 Slug: sleepdep
 
 Many RPGs have some basic notion of fatigue penalties, but they lack

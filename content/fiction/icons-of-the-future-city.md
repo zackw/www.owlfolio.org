@@ -1,6 +1,5 @@
 Title: Icons of the Future City
 Date: 2011-07-10 18:07
-Category: Fiction
 Slug: icons-of-the-future-city
 
 Way back at the

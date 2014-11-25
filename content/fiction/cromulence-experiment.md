@@ -1,6 +1,5 @@
 Title: Cromulence Experiment
 Date: 2007-04-23 09:27
-Category: Fiction
 Slug: cromulence-experiment
 
 ## Author's Note (August, 2009)

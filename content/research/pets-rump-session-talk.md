@@ -1,6 +1,5 @@
 Title: PETS rump session talk
 Date: 2014-07-17 10:55
-Category: Research
 Slug: pets-rump-session-talk
 
 I spoke briefly at [PETS

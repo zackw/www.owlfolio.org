@@ -1,6 +1,5 @@
 Title: Securing the future net
 Date: 2011-04-06 17:26
-Category: Research
 Slug: securing-the-future-net
 
 Today I had the fortune to attend a group discussion ambitiously

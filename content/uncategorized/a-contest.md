@@ -1,6 +1,5 @@
 Title: A Contest
 Date: 2013-04-01 09:18
-Category: Uncategorized
 Slug: a-contest
 
 In honor of the Feast of All Fools, and because if anyone has noticed

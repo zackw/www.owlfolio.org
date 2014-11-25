@@ -1,6 +1,5 @@
 Title: Dead uncle Allotheria
 Date: 2010-12-13 11:00
-Category: Uncategorized
 Slug: dead-uncle-allotheria
 
 Summaries of the rest of [CCS'10](http://www.sigsac.org/ccs/CCS2010/)

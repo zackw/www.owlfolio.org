@@ -1,6 +1,5 @@
 Title: On Replacements for Passwords
 Date: 2013-03-04 15:54
-Category: Research
 Slug: on-replacements-for-passwords
 
 Your post advocates a

@@ -1,6 +1,5 @@
 Title: CCS 2012 Conference Report
 Date: 2012-10-29 20:33
-Category: Research
 Slug: ccs-2012-conference-report
 
 The [ACM](https://www.acm.org/) held its annual

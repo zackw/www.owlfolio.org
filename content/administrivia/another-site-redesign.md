@@ -1,6 +1,5 @@
 Title: Another site redesign
 Date: 2010-05-24 16:46
-Category: Administrivia
 Slug: another-site-redesign
 
 This site is now running on [Wordpress](http://wordpress.org/) rather

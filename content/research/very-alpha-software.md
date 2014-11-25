@@ -1,6 +1,5 @@
 Title: teaser: some very alpha software
 Date: 2012-06-09 22:23
-Category: Research
 Slug: very-alpha-software
 
 Readers of this blog may find

@@ -1,6 +1,5 @@
 Title: Miscellaneous roguelike ideas
 Date: 2008-02-19 23:30
-Category: Game design
 Slug: grab-bag
 
 Basic flavor elements:

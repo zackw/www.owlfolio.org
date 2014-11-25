@@ -1,6 +1,5 @@
 Title: Ideas that don't make money
 Date: 2012-11-17 15:27
-Category: Uncategorized
 Slug: ideas-that-dont-make-money
 
 The sad Internet news of this week is that the multiplayer online

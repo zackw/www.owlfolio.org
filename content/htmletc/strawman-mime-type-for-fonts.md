@@ -1,6 +1,5 @@
 Title: Strawman: MIME type for fonts
 Date: 2011-01-05 16:05
-Category: HTML &amp;c
 Slug: strawman-mime-type-for-fonts
 
 For a little while now, it's been possible for websites to

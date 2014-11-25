@@ -1,6 +1,5 @@
 Title: "Four Ideas for a Better Internet" 2011
 Date: 2011-01-20 21:34
-Category: Research
 Slug: four-ideas-2011
 
 On Tuesday night I attended a talk at Stanford entitled

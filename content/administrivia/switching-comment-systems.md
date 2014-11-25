@@ -1,6 +1,5 @@
 Title: Switching comment systems
 Date: 2010-04-23 10:53
-Category: Administrivia
 Slug: switching-comment-systems
 
 I'm switching Owl's Portfolio over to a new comment system of my own
