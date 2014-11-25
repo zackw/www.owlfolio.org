@@ -1,4 +1,7 @@
 {% extends "index.html" %}
 {% block content_title %}
-<h2>Articles in the {{ category }} category</h2>
+<header class="post-header">
+  <h1>{{ category }}</h1>
+</header>
+<p>{{ CATEGORY_DESCRIPTIONS[category.name] }}</p>
 {% endblock %}
