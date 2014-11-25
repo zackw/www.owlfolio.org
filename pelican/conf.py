@@ -6,6 +6,9 @@ import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
 
+# Uncomment to disable caching temporarily (for heavy theme/plugin development)
+CACHE_CONTENT = False
+
 AUTHOR              = u'Zack Weinberg'
 SITENAME            = u'Owl\u2019s Portfolio'
 SITEURL             = ''
