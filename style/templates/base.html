@@ -1,4 +1,4 @@
-{% from "macros.html" import category_list, recent_posts %}
+{% from "macros.html" import category_list, recent_posts, outbound_links %}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
@@ -75,7 +75,11 @@
         {% endblock %}
       </aside>
       <aside id="sb-blogroll" role="complementary">
-        {% block blogroll %}{% endblock %}
+        {% block blogroll %}
+        {% for section_title, attrs, links in BLOGROLL %}
+        {{ outbound_links(section_title, links, attrs) }}
+        {% endfor %}
+        {% endblock %}
       </aside>
     </div>
   </body>

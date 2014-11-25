@@ -48,3 +48,29 @@
   </ul>
 </article>
 {% endmacro %}
+
+{% macro outbound_links(section_title, links, attrs='') %}
+<article class="widget">
+  <h3>{{ section_title }}</h3>
+  <ul>
+    {% for link, title, url in links %}
+    {% if url %}
+    <li><a href="{{ url|e }}" {{ attrs }}
+           {% if title -%}
+           title="{{ title|e }}"
+           {%- endif -%}
+           >{{ link }}</a></li>
+    {% else %}
+    <li><abbr
+           {% if title -%}
+           title="{{ title|e }} (no website)"
+           {%- else -%}
+           title="(no website)"
+           {%- endif -%}
+           >{{ link
+        }}</abbr></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</article>
+{% endmacro %}
