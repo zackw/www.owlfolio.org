@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-import os
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
-
 # Uncomment to disable caching temporarily (for heavy theme/plugin development)
 #CACHE_CONTENT = False
 
@@ -52,6 +48,7 @@ PLUGINS             = ['neighbors',
                        'pandoc_reader']
 
 PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
+PANDOC_EXTENSIONS   = ['-citations']
 
 # Setting SUMMARY_MAX_LENGTH to None breaks read_more_link.
 # The <span> around the space and link is necessary because
