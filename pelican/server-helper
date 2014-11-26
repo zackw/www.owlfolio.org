@@ -2,14 +2,15 @@
 
 ## Defaults match defaults in Makefile
 
-PY="${PY:-python}"
 PELICAN="${PELICAN:-pelican}"
 PELICANOPTS="${PELICANOPTS:-}"
 PORT="${PORT:-8000}"
 BASEDIR="${BASEDIR:-$(pwd)}"
 INPUTDIR="${INPUTDIR:-${BASEDIR}/content}"
 OUTPUTDIR="${OUTPUTDIR:-${BASEDIR}/output}"
-CONFFILE="${CONFFILE:-${BASEDIR}/pelicanconf.py}"
+CONFFILE="${CONFFILE:-${BASEDIR}/pelican/conf.py}"
+DEVSERVER="${DEVSERVER:-${BASEDIR}/pelican/devserver}"
+REDIRS="${REDIRS:-${BASEDIR}/pelican/redir.cfg}"
 
 ## Not known to the Makefile
 
@@ -34,13 +35,7 @@ stop_1()
     fi
 }
 
-stop()
-{
-    stop_1 "$SRV_PIDFILE" "HTTP server"
-    stop_1 "$PELICAN_PIDFILE" "Pelican"
-}
-
-start()
+start_pelican()
 {
     echo "Starting Pelican..."
 
@@ -56,28 +51,46 @@ start()
         exit 1
     fi
     echo "$pelican_pid" > "$PELICAN_PIDFILE"
+}
 
-    cd "$OUTPUTDIR" || {
-        echo "$OUTPUTDIR inaccessible.  Check configuration." >&2
-        stop_1 "$PELICAN_PIDFILE" "Pelican"
-        exit 1
-    }
-
+start_http()
+{
     echo "Starting HTTP server on port $PORT..."
-    "$PY" -m pelican.server "$PORT" &
+    (cd "$OUTPUTDIR" && exec "$DEVSERVER" -p "$PORT" -r "$REDIRS") &
     srv_pid="$!"
-    cd - > /dev/null
 
     sleep 1
     if ! alive "$srv_pid"; then
         echo "The HTTP server didn't start. " >&2
         echo "Is there another service using port $PORT?" >&2
-        stop_1 "$PELICAN_PIDFILE" "Pelican"
         exit 1
     fi
     echo "$srv_pid" > "$SRV_PIDFILE"
+}
 
-    echo 'Pelican and HTTP server processes now running in background.'
+stop()
+{
+    if [ -z "$2" ] || [ "$2" = http ]; then
+        stop_1 "$SRV_PIDFILE" "HTTP server"
+    fi
+    if [ -z "$2" ] || [ "$2" = pelican ]; then
+        stop_1 "$PELICAN_PIDFILE" "Pelican"
+    fi
+}
+
+start()
+{
+    cd "$OUTPUTDIR" || {
+        echo "$OUTPUTDIR inaccessible.  Check configuration." >&2
+        exit 1
+    }
+    cd - > /dev/null
+    if [ -z "$2" ] || [ "$2" = pelican ]; then
+        start_pelican
+    fi
+    if [ -z "$2" ] || [ "$2" = http ]; then
+        start_http
+    fi
 }
 
 ###
@@ -87,14 +100,14 @@ start()
 usage()
 {
     exec >&2
-    echo "usage: $0 stop|start|restart"
+    echo "usage: $0 stop|start|restart [pelican|http]"
     echo "This starts Pelican in debug and reload mode and then launches"
     echo "an HTTP server to help site development."
     echo "Should normally be invoked via 'make devserver' or 'make stopserver'."
     exit 2
 }
 
-if [ "$#" -ne 1 ]; then
+if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
     usage
 fi
 

@@ -1,4 +1,3 @@
-PY            ?= python
 PELICAN       ?= pelican
 PELICANOPTS    =
 PORT           = 8000
@@ -8,9 +7,13 @@ INPUTDIR       = $(BASEDIR)/content
 OUTPUTDIR      = $(BASEDIR)/output
 CONFFILE       = $(BASEDIR)/pelican/conf.py
 PUBLISHCONF    = $(BASEDIR)/pelican/conf_pub.py
+DEVSERVER      = $(BASEDIR)/pelican/devserver
+REDIRS         = $(BASEDIR)/pelican/redir.cfg
 
-# for server_helper
-export PY PELICAN PELICANOPTS PORT BASEDIR INPUTDIR OUTPUTDIR CONFFILE
+# for server-helper
+export PELICAN PELICANOPTS BASEDIR INPUTDIR OUTPUTDIR CONFFILE
+export DEVSERVER REDIRS PORT
+
 SERVER_HELPER  = $(BASEDIR)/pelican/server-helper
 
 SSH_HOST       = owl-folio
@@ -34,12 +37,12 @@ Makefile for a pelican Web site
 
 Usage:
    make html                        (re)generate the web site
+   make publish                     generate using production settings
    make clean                       remove the generated files
    make regenerate                  regenerate files upon modification
-   make publish                     generate using production settings
    make serve [PORT=8000]           serve site at http://localhost:8000
-   make devserver [PORT=8000]       start/restart develop_server.sh
-   make stopserver                  stop local server
+   make devserver [PORT=8000]       serve site and regenerate files
+   make stopserver                  stop local servers
    make ssh_upload                  upload the web site via SSH
    make rsync_upload                upload the web site via rsync+ssh
 
@@ -58,10 +61,10 @@ clean:
 
 regenerate:
 	mkdir -p $(OUTPUTDIR)
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(SERVER_HELPER) restart pelican
 
 serve: html
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	$(SERVER_HELPER) restart http
 
 devserver:
 	mkdir -p $(OUTPUTDIR)

@@ -1,0 +1,117 @@
+#! /usr/bin/python
+"""
+SimpleHTTPServer augmented with ability to send redirections.
+Vaguely based on Pelican's server module.
+"""
+
+from __future__ import print_function
+import argparse
+import logging
+
+# URL paths use POSIXy syntax regardless of host OS.
+import posixpath
+
+try:
+    import urlparse
+except ImportError:
+    import urllib.parse as urlparse  # NOQA
+
+try:
+    import SimpleHTTPServer as srvmod
+except ImportError:
+    import http.server as srvmod  # NOQA
+
+try:
+    import SocketServer as socketserver
+except ImportError:
+    import socketserver  # NOQA
+
+# It is unclear to me how one is meant to inject additional data into
+# a RequestHandlerClass -- SocketServer wants to call __init__ itself.
+# So we are just gonna use a global variable :-(
+
+REDIRECTIONS = {}
+def redirection_for_path(path_etc):
+    sr = urlparse.urlsplit(path_etc)
+    after_redir = []
+    path = sr.path
+    while True:
+        location = REDIRECTIONS.get(path, None)
+        if location is not None: break
+        if path == '/': return None
+        path, tail = posixpath.split(path)
+        after_redir.append(tail)
+
+    location = posixpath.join(location, *reversed(after_redir))
+    if sr.query:
+        location += '?' + sr.query
+    if sr.fragment:
+        location += '#' + sr.fragment
+    return location
+
+class HTTPRequestHandler(srvmod.SimpleHTTPRequestHandler):
+    def send_head(self):
+        location = redirection_for_path(self.path)
+        if location is not None:
+            self.send_response(301)
+            self.send_header("Location", location)
+            self.end_headers()
+            return None
+
+        return srvmod.SimpleHTTPRequestHandler.send_head(self)
+
+def read_redirections(inf, redirs):
+    ok = True
+    for line in inf:
+        line = line.strip()
+        if line == "" or line[0] == "#": continue
+        src, _, dst = line.partition(" = ")
+        if not dst:
+            logging.error("Invalid redirection line {!r}".format(line))
+            ok = False
+            continue
+        redirs[src] = dst
+    if not ok:
+        raise SystemExit(1)
+
+def main():
+    ap = argparse.ArgumentParser(
+            description="Simple HTTP server for Pelican development."
+                        "Files are served from the current working directory.")
+    ap.add_argument("--port", "-p", metavar="N", type=int, default=8000,
+                    help="TCP port to listen on")
+    ap.add_argument("--listen-network", "-l", action="store_true",
+                    help="Listen to the network, rather than just localhost")
+    ap.add_argument("--redirs", "-r", type=argparse.FileType("rt"),
+                    help="File containing a list of HTTP redirections to issue."
+                    "One redirection per line, PATH = DESTINATION.")
+
+    args = ap.parse_args()
+    if args.redirs:
+        read_redirections(args.redirs, REDIRECTIONS)
+
+    socketserver.TCPServer.allow_reuse_address = True
+
+    if args.listen_network:
+        addr = "0.0.0.0"
+    else:
+        addr = "127.0.0.1"
+    port = args.port
+
+    try:
+        httpd = socketserver.TCPServer((addr, port),
+                                       HTTPRequestHandler)
+
+    except OSError as e:
+        logging.error("Could not listen on %s:%s: %s",
+                      addr, port, e.strerror)
+        raise SystemExit(1)
+
+    logging.info("Serving HTTP on %s:%s", addr, port)
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        logging.info("Shutting down HTTP server on %s:%s", addr, port)
+        httpd.socket.close()
+
+main()
