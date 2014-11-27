@@ -113,4 +113,4 @@ was Leo Fender?  (Okay, Leo Fender was probably one of the Titans.
 BUT STILL.)
 
 [idiot ball]: https://allthetropes.orain.org/wiki/Idiot_Ball
-[We Will Rock You]: http://www.wwry-london.co.uk/index.php?page=general-info
+[We Will Rock You]: https://en.wikipedia.org/wiki/We_Will_Rock_You_%28musical%29

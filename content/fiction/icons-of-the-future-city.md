@@ -5,11 +5,10 @@ Slug: icons-of-the-future-city
 Way back at the
 [2010 Mozilla Summit](https://wiki.mozilla.org/Summit2010), one of the
 keynote speakers showed us an amazing
-[demo flythrough](http://www.youtube.com/watch?v=VUOIS3jtD8Y) of a
+[demo flythrough](https://www.youtube.com/watch?v=VUOIS3jtD8Y) of a
 3D-rendered futuristic city, with embedded video, tweets, and the
-like, all running live inside a
-[Firefox 4](http://www.mozilla.com/firefox/beta/) beta thanks to
-awesome new tech like
+like, all running live inside a Firefox 4 beta thanks to awesome new
+tech like
 [WebGL](http://learningwebgl.com/cookbook/index.php/WebGL:_Frequently_Asked_Questions)
 and [JägerMonkey](https://wiki.mozilla.org/JaegerMonkey). (Note: in
 the linked video, the city only appears about a minute in.) That’s not
@@ -33,8 +32,8 @@ the city of
 Now the thing is, no city in the real world has ever looked like that.
 Even in the densest and most skyscraper-ful urban areas—have a look at
 these aerial videos of
-[Manhattan](http://www.youtube.com/watch?v=9_MqERF6tIY) and
-[Hong Kong](http://www.youtube.com/watch?v=kwiEuK_4xNE), for
+[Manhattan](https://www.youtube.com/watch?v=9_MqERF6tIY) and
+[Hong Kong](https://www.youtube.com/watch?v=kwiEuK_4xNE), for
 instance—there are buildings that are less than ten stories tall
 (these are in fact the majority in Manhattan, although possibly not in
 Hong Kong); there are parks and other open spaces; and by no means are
@@ -55,10 +54,8 @@ crowds out other visions with its readiness to hand. Let’s invent some
 new icons for the future city. Let’s make the *next* demo flythrough
 be of something like
 [this](http://visions2200.com/Images/JeanPattou1984.jpg) or
-[this](http://www.acceleratingfuture.com/michael/blog/images/port%20city.jpg)
+[this](http://thenewscifi.com/2012/04/22/sci-fi-image-of-the-day-futuristic-city/)
 or
 [this](http://www.milkytea.com/blog/wp-content/uploads/2009/03/future-city3.jpg).
 (But watch out for the just-as-discredited
-“[Radiant City](http://bookofjabe.blogspot.com/2008/06/03-title-world-inside-author-robert.html)”
-vision, please.)
-
+“[Radiant City](https://en.wikipedia.org/wiki/Ville_Radieuse)” vision, please.)

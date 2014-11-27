@@ -317,7 +317,7 @@ below No Award, so that I have a space to explain my reasons.
    from betrayal to take everything personally, believes the only
    thing he's good at is killing people, and in his secret heart, just
    wants to be loved. Overflowing with
-   [manpain](http://www.fanlore.org/wiki/Manpain). Told out of
+   [manpain](http://fanlore.org/wiki/Manpain). Told out of
    chronological order for no apparent reason, causing the ending to
    make no sense. Vaguely folktale-Russia setting (with steampunk and
    magic) that a better writer could have done something interesting
@@ -394,7 +394,7 @@ below No Award, so that I have a space to explain my reasons.
 
    I've seen several other people say that this is bad but not
    terrible, comparing it positively to
-   [_The Eye of Argon_](http://www.ansible.co.uk/misc/eyeargon.html),
+   [_The Eye of Argon_](http://ansible.uk/misc/eyeargon.html),
    and I want to explicitly disagree with
    that. [If I may quote Sarah Avery](http://www.blackgate.com/2011/08/03/teaching-fantasy-ii-in-which-i-knowingly-assign-the-worst-short-story-in-the-history-of-sword-and-sorcery/),
    _The Eye of Argon_ has characters; in the course of the story,

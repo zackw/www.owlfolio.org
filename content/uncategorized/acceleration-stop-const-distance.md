@@ -2,7 +2,7 @@ Title: Classical Mechanics Interlude: Acceleration to stop in a constant distanc
 Date: 2011-04-19 17:45
 Slug: acceleration-stop-const-distance
 
-Over on twitter, @[MegaManSE][] asked
+Over on twitter, @MegaManSE asked
 
 > does anyone know the equation to find the acceleration to stop a
 > moving object in a constant distance given some random starting
@@ -74,7 +74,6 @@ it would mean the object was moving backward. This is, in fact, the
 difference between velocity and speed: speed is the *magnitude* of
 velocity, without the direction, so it can never be negative.)
 
-[MegaManSE]: http://twitter.com/MegaManSE
 [mjx]: http://www.mathjax.org/
 [Velocity]: http://en.wikipedia.org/wiki/Velocity
 [acceleration]: http://en.wikipedia.org/wiki/Acceleration

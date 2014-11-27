@@ -7,7 +7,7 @@ the [NSA](http://en.wikipedia.org/wiki/National_Security_Agency) in
 conjunction with various other US government agencies, defense
 contractors, telcos, etc. has, for at least seven years and probably
 longer, been
-[collecting mass quantities of data about the activities of private citizens, both of the USA and of other nations](http://www.guardian.co.uk/world/the-nsa-files). The
+[collecting mass quantities of data about the activities of private citizens, both of the USA and of other nations](http://www.theguardian.com/us-news/the-nsa-files). The
 data collected was largely what we call
 *[traffic analysis](https://en.wikipedia.org/wiki/Traffic_analysis)*
 data: who talked to whom, where, when, using what mechanism. It was
@@ -39,7 +39,7 @@ Thing: Most critically, large traffic-analytic databases are
 which
 [can and have occurred in the US in the past](https://en.wikipedia.org/wiki/J._Edgar_Hoover#Investigation_of_subversion_and_radicals),
 and arguably
-[are now occurring as a reaction to the leaks](http://www.guardian.co.uk/commentisfree/2013/jun/26/nsa-revelations-response-to-smears).
+[are now occurring as a reaction to the leaks](http://www.theguardian.com/commentisfree/2013/jun/26/nsa-revelations-response-to-smears).
 One might also be concerned that this
 [makes it harder to pursue other security goals](https://www.schneier.com/blog/archives/2013/06/preventing_cell.html);
 that it gives other countries an incentive to partition the Internet
@@ -66,7 +66,7 @@ at least as harmful to good governance as the programs themselves.
 
 If you've had any exposure at all to the US military-industrial
 complex, you will have noticed two things: its
-[institutional idiom of horrible PowerPoint slide decks](http://www.guardian.co.uk/artanddesign/architecture-design-blog/2013/jun/12/prism-nsa-powerpoint-graphic-design),
+[institutional idiom of horrible PowerPoint slide decks](http://www.theguardian.com/artanddesign/architecture-design-blog/2013/jun/12/prism-nsa-powerpoint-graphic-design),
 and its obsession with secrecy. No doubt this started with the
 entirely appropriate goal of *operational* secrecy: you don't make it
 easy for the enemy to find and sink your troopships. But secrecy is
@@ -79,7 +79,7 @@ contagious.
 > the existential.
 
 And so
-[all round objects become classified](http://nuclearsecrecy.com/blog/2012/08/29/forbidden-spheres/).
+[all round objects become classified](http://blog.nuclearsecrecy.com/2012/08/29/forbidden-spheres/).
 (quote is from linked article) This culture of secrecy is especially
 obvious where nuclear bombs are concerned, but it pervades every part
 of the complex, even to the groups and organizations that aren't doing

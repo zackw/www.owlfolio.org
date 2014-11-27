@@ -53,7 +53,7 @@ Notice that each "black box" is a program written in an arbitrary
 language, with an arbitrary name (`tblgen.py`, `process.R`). In
 practice I suspect most of them will be written in (Numeric) Python,
 especially as the real "rngstats" just hit a brick wall named
-"[R](http://r-project.org/) doesn't appear to support reading 64-bit
+"[R](http://www.r-project.org/) doesn't appear to support reading 64-bit
 integers out of an HDF file," but I want the option of using something
 else if it's convenient for that particular project. I'm prepared to
 write a certain amount of glue---but only once, not every time I add a
@@ -73,8 +73,8 @@ result. In fact, I want the site generator to start with `index.md`
 and other designated root documents (such as `robots.txt`) and
 traverse the tree of *links*, generating only what is reachable. (With
 the option to generate a directory index for things like the existing
-[`/scratchpad`](/scratchpad).) I am not aware of *anything* that can
-do that.
+[`/scratchpad`](https://hacks.owlfolio.org/scratchpad/).)
+I am not aware of *anything* that can do that.
 
 Second tier requirements are: I want something that's smart enough to
 not regenerate things that haven't changed---some of these black boxes

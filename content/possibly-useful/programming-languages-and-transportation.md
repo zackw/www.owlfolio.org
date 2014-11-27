@@ -11,7 +11,7 @@ language selection, just as opinionated, 100% more Truth™.
 
 <!--more-->
 
-All images from <a href="https://commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
+All images from <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>.
 
 <figure><a href="https://commons.wikimedia.org/wiki/File:Mercedes_V6_DTM_Rennmotor_1996.jpg"><img alt="Mercedes V6 automobile engine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mercedes_V6_DTM_Rennmotor_1996.jpg/305px-Mercedes_V6_DTM_Rennmotor_1996.jpg"></a>
 <figcaption><a href="https://commons.wikimedia.org/wiki/File:Mercedes_V6_DTM_Rennmotor_1996.jpg">Mercedes V6 DTM Rennmotor 1996</a></figcaption></figure>

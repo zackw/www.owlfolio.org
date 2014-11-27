@@ -9,7 +9,7 @@ family have set foot in Poland since. Until now; this academic year,
 [my sister Dara](http://darastrata.com/) is living in Warsaw on a
 [Fulbright scholarship](http://fulbright.state.gov/) to study Polish
 theater and its relationship to the
-[Greek chorus](http://darastrata.com/chorus).
+[Greek chorus](http://darastrata.com/category/the-chorus/).
 [Pam](http://www.pamgriffith.net/) and I went to visit her over the
 winter holidays, continuing a
 [family tradition of her studying abroad and me visiting](http://www.panix.com/~zackw/exbib/2003/November/).
@@ -209,7 +209,7 @@ photographed out the window of the taxi taking us back to the airport
 to return to the USA. There are lots of these neon signs in Warsaw;
 they were erected in the 1960s, and are now considered part of the
 city's cultural heritage. Quoting
-[this article by David Crowley for the Neon Muzeum](http://www.polishneon.com/pages/history.html):
+[this article by David Crowley](https://web.archive.org/web/20110920012007/http://www.polishneon.com/pages/history.html) for the [Neon Muzeum](http://neonmuzeum.org/):
 
 > When the Eastern Bloc tried to cast off the dark shadow of Stalin,
 > much attention was given to the appearance of Warsaw. How could it
@@ -220,4 +220,3 @@ city's cultural heritage. Quoting
 > atmosphere with ‘advertising, lighting and neon’. These are ‘the
 > elements which in the evening hours lend great liveliness and
 > diversity to a city.’
-

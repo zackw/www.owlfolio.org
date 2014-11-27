@@ -225,11 +225,11 @@ Now, from out here on my perch safely beyond the Overton window,
 means "something which jars the speaker out of his daydream of the
 [lily-white suburban 1950s of America](https://encrypted.google.com/books?id=yH1upjtj4OYC&pg=PA69)
 [(possibly translated to outer space)](https://en.wikipedia.org/wiki/Podkayne_of_Mars),
-[where everything was pleasant](http://www.imdb.com/title/tt0120789)."
+[where everything was pleasant](http://www.imdb.com/title/tt0120789/)."
 (And I do mean *his*.) Thing is, that suburban daydream is, still, 60
 years later, in many ways the default setting for fiction written
 originally in English. Thanks to a
-[reasonably well-understood bug in human cognition](http://shwetanarayan.tumblr.com/post/95298073266/lets-talk-about-category-structure-and-oppression),
+[reasonably well-understood bug in human cognition](http://shwetanarayan.tumblr.com/post/95298073266/lets-talk-about-category-structure-and),
 it takes *more effort* to write fiction which avoids that default. It
 requires constant attention to ensure that presuppositions and details
 from that default are not slipping back in. And most of that extra

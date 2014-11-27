@@ -131,7 +131,7 @@ to be checked by hand, anything one can do to reduce human effort is
 vital at this scale. To compensate for the increased potential for
 false *negatives*, they do syntactic normalization on both the code
 and the bugfixes before matching. Using a
-[Bloom filter](http://llimllib.github.com/bloomfilter-tutorial/)
+[Bloom filter](http://billmill.org/bloomfilter-tutorial/)
 backed up by more precise checks, they are able to scan all of
 SourceForge in three hours or so, and in near-constant time in the
 number of fixes to check for.
@@ -253,8 +253,8 @@ signal from your car's keyless-entry fob to your car, while you are
 nowhere near your car (and thus, steal your car). You don't want your
 office building's wireless network to be accessible to people in the
 parking lot with high-power antennas, even if they have legitimate
-(perhaps stolen) access
-credentials. [Brands and Chaum](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.6437)
+(perhaps stolen) access credentials.
+[Brands and Chaum](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.6437)
 figured out one way to do this back in 1993, using signal propagation
 time as a proxy for distance; it's hard to tamper with the speed of
 light. Unfortunately, the query and response whose delay are measured
@@ -473,7 +473,7 @@ with _fake_ data? (I want to videoconference, but I want the far end
 to see this picture of a bunny with a pancake on its head, not my
 filthy apartment.) They hadn't studied that but they like the idea.
 
-### [New Results for Timing-Based Attestation](http://www.mitre.org/work/tech_papers/2011/11_4921/)
+### [New Results for Timing-Based Attestation](https://www.mitre.org/publications/technical-papers/new-results-for-timingbased-attestation)
 
 Switching gears for the last talk of the day, the research question is
 now: can we do something about malware tampering with

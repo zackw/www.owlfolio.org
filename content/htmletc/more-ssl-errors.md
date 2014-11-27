@@ -68,7 +68,7 @@ tractable.)
 [ideas for SSL errors]: /htmletc/ssl-errors/
 [David Bolton]: http://davidbolton.info/
 [John Barton]: http://www.johnjbarton.com/
-[Certificate Patrol]: https://addons.mozilla.org/en-US/firefox/addon/6415/
+[Certificate Patrol]: https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/
 [Perspectives]: http://www.cs.cmu.edu/~perspectives/
 [Herdict]: http://www.herdict.org/
-[boriss-404]: http://jboriss.wordpress.com/2010/01/04/herdict-and-its-tasty-anonymized-aggregated-data/
+[boriss-404]: http://www.donotlick.com/2010/01/04/herdict-and-its-tasty-anonymized-aggregated-data/

@@ -149,7 +149,7 @@ BLOGROLL = [
 
         ("monotone",
          "Monotone version control system, 2007–2009",
-         "http://monotone.ca/"),
+         "http://www.monotone.ca/"),
 
         ("GCC",
          "GNU Compiler Collection, 1998–2006 (plus a couple of relapses)",
@@ -211,7 +211,7 @@ BLOGROLL = [
 
         ("LinkedIn",
          "I AM NOT LOOKING FOR A JOB. DO NOT SEND ME JOB OFFERS.",
-         "https://www.linkedin.com/in/zackweinberg/"),
+         "https://www.linkedin.com/in/zackweinberg"),
     ])
 ]
 

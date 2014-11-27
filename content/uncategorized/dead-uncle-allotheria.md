@@ -86,4 +86,4 @@ wanted. Babbage himself
 (look for "On two occasions").
 
 I'll leave you all with
-[a vision of what might have been](http://2dgoggles.com/).
+[a vision of what might have been](http://sydneypadua.com/2dgoggles/).

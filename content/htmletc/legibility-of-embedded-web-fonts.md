@@ -11,8 +11,8 @@ when you get past that, you've still got to worry about
 
 Consider the recently redesigned online fiction zine,
 [Chiaroscuro][chiaro]. ~~As of this writing, they're using an embedded
-font called [Merriweather][mw].~~
-**[EDIT 8 April:** Chiaroscuro has removed the problematic font from its site.**]**
+font called [Merriweather][mw].~~ **EDIT 8 April:** Chiaroscuro has
+removed the problematic font from its site.
 
 Here's what the first paragraph of body text for volume 47 looked like
 on my Mac, using Firefox 4:
@@ -44,7 +44,7 @@ winds up achieving neither. (For lots of technical discussion of
 exactly what the difference is, see these blog posts from 2007:
 [Respecting The Pixel Grid][atwood],
 [Font rendering philosophies of Windows & Mac OS X][damieng],
-[Texts Rasterization Exposures][maxim]). People argue, loudly, about
+[Texts Rasterization Exposures][maxim].) People argue, loudly, about
 which choice is better (as the above blog posts and their comment
 threads demonstrate) but I think it would be relatively
 uncontroversial to say that **the Windows font-drawing algorithm only
@@ -77,16 +77,18 @@ on all OSes, but it turns out Merriweather is available from both
 sites! So, while I'd still recommend **starting** with one of those
 libraries' body-text fonts, it doesn't get you out of testing.
 
-(Note: Merriweather's designer is aware that it looks terrible on
+~~(Note: Merriweather's designer is aware that it looks terrible on
 Windows, and is working on it. Still, it seems to me that inclusion in
-public catalogs of fonts "designed for the web" was premature.)
+public catalogs of fonts "designed for the web" was premature.)~~
+**EDIT 25 November 2014:** As of the 26-Dec-2013 release, Merriweather
+looks [much better on Windows and Linux](https://ebensorkin.wordpress.com/2013/06/24/old-vs-new-merriweather-on-windows/).
 
 [ef]: http://sixrevisions.com/css/font-face-guide/
 [tech]: http://www.fontsquirrel.com/blog/2010/11/troubleshooting-font-face-problems
-[mw]: http://ebensorkin.wordpress.com/
+[mw]: https://ebensorkin.wordpress.com/
 [chiaro]: http://chizine.com/volume_47.htm
-[atwood]: http://www.codinghorror.com/blog/2007/06/font-rendering-respecting-the-pixel-grid.html
+[atwood]: http://blog.codinghorror.com/font-rendering-respecting-the-pixel-grid/
 [damieng]: http://damieng.com/blog/2007/06/13/font-rendering-philosophies-of-windows-and-mac-os-x
 [maxim]: http://antigrain.com/research/font_rasterization/
-[fsqrl]: http://fontsquirrel.com/
+[fsqrl]: http://www.fontsquirrel.com/
 [gfonts]: https://www.google.com/webfonts

@@ -10,7 +10,7 @@ the talks, and my brain was still completely full afterward. Instead
 of doing one exhaustive post per day like I did with Oakland, I'm just
 going to highlight a handful of interesting papers over the course of
 the entire conference, plus the pre-conference
-[Workshop on Privacy in the Electronic Society](http://hatswitch.org/wpes2012/).
+[Workshop on Privacy in the Electronic Society](http://dblp.uni-trier.de/db/conf/wpes/wpes2012.html).
 
 <!--more-->
 
@@ -217,12 +217,12 @@ plugins).
 No solutions are offered, but considering how old and thorny this
 problem is, we can't really complain.
 
-### [The Devil is in the (Implementation) Details: An Empirical Analysis of OAuth SSO Systems](http://lersse-dl.ece.ubc.ca/record/279/files/fp005-sun.pdf)
+### [The Devil is in the (Implementation) Details: An Empirical Analysis of OAuth SSO Systems](http://lersse-dl.ece.ubc.ca/record/279/files/279.pdf)
 
 OAuth is a widely adopted federated authentication scheme. It's quite
 complicated, and the 2.0 revision is even more complicated, to the
 point where its spec editors are
-[quitting in disgust](http://hueniverse.com/2012/07/oauth-2-0-and-the-road-to-hell/).
+[quitting in disgust](http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/).
 Its security depends, of course, on implementation correctness.
 
 This study did a deep dive on a hand-picked set of very popular
@@ -268,7 +268,7 @@ Question from the audience: don't most people leave Bluetooth off all
 the time because it drains the batteries? Answer: dunno, hasn't that
 been fixed by now?
 
-### [Touching from a Distance: Website Fingerprinting Attacks and Defenses](http://www.cs.sunysb.edu/~xcai/fp.pdf)
+### [Touching from a Distance: Website Fingerprinting Attacks and Defenses](http://www3.cs.stonybrook.edu/~xcai/fp.pdf)
 
 "Fingerprinting attacks" have been around for a while. The game is,
 suppose a victim loads a website via an anonymizing service, which

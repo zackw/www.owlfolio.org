@@ -24,7 +24,7 @@ ways, and more restricted in others.
 
 [Ikiwiki]: http://ikiwiki.info/
 [Chronicle]: http://www.steve.org.uk/Software/chronicle/
-[Jekyll]: http://wiki.github.com/mojombo/jekyll
+[Jekyll]: http://jekyllrb.com/
 
 <!--more-->
 
@@ -115,25 +115,22 @@ rendered-site rebuilds.
 I am not much interested in making the site editable directly from the
 web. This would require access control machinery comparable to
 ikiwiki; it would also mean people were editing via clunky text input
-forms. I might be interested in integrating with *non*-clunky
-browser-based text editors such as [Bespin][], that understand version
-control, though.
+forms.
 
 [Markdown]: http://daringfireball.net/projects/markdown/
-[Textile]: http://textile.thresholdstate.com/
+[Textile]: http://txstyle.org/
 [reST]: http://docutils.sourceforge.net/rst.html
 [LaTeX]: http://www.latex-project.org/
 [Texinfo]: http://www.gnu.org/software/texinfo/
 [Pygments]: http://pygments.org/
-[Sphinx]: http://sphinx.pocoo.org/
+[Sphinx]: http://sphinx-doc.org/
 [Doxygen]: http://www.doxygen.org/
 [EXIF]: http://en.wikipedia.org/wiki/Exchangeable_image_file_format
 [Genshi]: http://genshi.edgewall.org/
 [SmartyPants]: http://daringfireball.net/projects/smartypants/
 [sparklines]: http://sparkline.org/
-[full-size graphs]: http://matplotlib.sourceforge.net/
+[full-size graphs]: http://matplotlib.org/
 [equations]: http://www1.chapman.edu/~jipsen/mathml/asciimath.html
 [Ruby's Postulate]: http://intertwingly.net/blog/2004/09/23/Copy-and-Paste
 [sqlite]: http://www.sqlite.org/
 [Cog]: http://itamarst.org/software/cog/
-[Bespin]: http://labs.mozilla.com/bespin/

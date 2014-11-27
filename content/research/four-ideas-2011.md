@@ -5,11 +5,10 @@ Slug: four-ideas-2011
 On Tuesday night I attended a talk at Stanford entitled
 "[Four Ideas for a Better Internet](http://cyber.law.harvard.edu/events/2011/01/fourideas)."
 Four groups of Harvard and Stanford Law students, having just
-completed a special seminar entitled
-"[Difficult Problems in Cyberspace](http://www.law.stanford.edu/program/courses/details/495/Cyberlaw:%20Difficult%20Problems/),"
-each presented a proposed improvement to the internets; they were then
-grilled on said proposal by a panel of, hm, let's call them
-practitioners (many but not all were from the
+completed a special seminar entitled "Difficult Problems in
+Cyberspace," each presented a proposed improvement to the internets;
+they were then grilled on said proposal by a panel of, hm, let's call
+them practitioners (many but not all were from the
 industry). [Jonathan Zittrain](http://cyber.law.harvard.edu/people/jzittrain)
 moderated. In general, I thought all of the proposals were
 interesting, but none of them was ready to be implemented; they
@@ -84,7 +83,7 @@ members, etc. Now, on the internets, there are some venues that can
 already do this. High-traffic discursive blogs like
 [Making Light](http://nielsenhayden.com/makinglight/),
 [Slacktivist](http://slacktivist.typepad.com/), and
-[Crooked Timber](http://www.crookedtimber.org/) cultivate good
+[Crooked Timber](http://crookedtimber.org/) cultivate good
 dialogue by encouraging people to post under the same handle
 frequently. Community advice sites like
 [StackOverflow](http://stackoverflow.com/) often have explicit
@@ -110,7 +109,7 @@ _easy_ problem, addressable with clever algorithms and human
 moderators. The more serious problem in my book is, "will produce
 quality comments" isn't the sort of thing that you can reduce to a
 single number. To give an extreme example, the sort of comment that
-gets you mad props on [/b/](http://encyclopediadramatica.com/4chan) is
+gets you mad props on [/b/](https://en.wikipedia.org/wiki/4chan#.2Fb.2F_imageboard) is
 exactly what most other sites do _not_ want. The team did propose to
 break it down as three or four numbers, but it's not clear to me that
 that helps enough. (But if you expose too _much_ detail to sites
@@ -146,9 +145,3 @@ mod queue the first time." Contrariwise, if you *don't* provide any
 recommendations, your new pseud gets to stay dissociated from your
 other identities, but doesn't get any rep. Sprinkle with crypto,
 nonrepudiation schemes, and human moderator feedback as necessary.
-
-Other people's comments on this event can be found under Twitter
-hashtag [#4ideas](https://twitter.com/search/%234ideas). Zittrain and
-his colleagues intend to do this again next year, and I look forward
-to seeing what they come up with next time.
-

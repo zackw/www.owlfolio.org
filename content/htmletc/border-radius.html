@@ -4,20 +4,18 @@
     <meta name="slug" content="border-radius">
 </head><body>
 
-<p style="font-size:x-small;font-style:italic;text-align:right">A <a href="http://higher.com.ua/article/142/zakruglennye-ugly-v-css3">Russian translation</a> of this article can be read at <a href="http://higher.com.ua/">higher.com.ua</a>.</p>
-
-<p>The <a href="http://dev.w3.org/csswg/css3-background/">CSS 3
+<p>The <a href="http://www.w3.org/TR/css3-background/">CSS 3
    Backgrounds and Borders module</a> introduces
-   the <a href="http://dev.w3.org/csswg/css3-background/#the-border-radius"><code>border-radius</code></a> property, which allows you to make
-   the border of any CSS box be a rounded rectangle.
-   Mozilla’s <a href="https://developer.mozilla.org/en/Gecko">Gecko</a>-based
+   the <a href="http://www.w3.org/TR/css3-background/#the-border-radius"><code>border-radius</code></a>
+   property, which allows you to make the border of any CSS box be a
+   rounded rectangle.
+   Mozilla’s <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Gecko">Gecko</a>-based
    browsers (such as Firefox and SeaMonkey) have implemented parts of
    this feature for some time, as
-   have <a href="http://webkit.org/">Webkit</a>-based browsers (such
-   as Safari and
-   Chrome).  <a href="http://www.mozilla.com/firefox/all-beta.html">Firefox
-   3.5</a> adds support for elliptical corners, and brings the Gecko
-   implementation into line with the standard on many details.</p>
+   have <a href="https://www.webkit.org/">Webkit</a>-based browsers
+   (such as Safari and Chrome).  Firefox 3.5 adds support for
+   elliptical corners, and brings the Gecko implementation into line
+   with the standard on many details.</p>
 
 <!--more-->
 
@@ -571,7 +569,7 @@ overflow: visible;</pre></td>
 <p>Both colored and image backgrounds are clipped to the curved
    border.  This happens even if there is no visible border
    (with <code>border-style: none</code>, for instance).
-   A <a href="http://dev.w3.org/csswg/css3-background/#border-image"><code>border-image</code></a>
+   A <a href="http://www.w3.org/TR/css3-background/#border-image"><code>border-image</code></a>
    is <i>not</i> clipped, but backgrounds are still clipped to the
    curve, even though in the presence of <code>border-image</code>
    the regular border is not drawn.</p>
@@ -598,7 +596,7 @@ overflow: visible;</pre></td>
   rectangle; thus, the background will show under the border if the
   border is not fully opaque.  (This is visible in several of the
   examples above.)  The Backgrounds module includes a
-  <a href="http://dev.w3.org/csswg/css3-background/#background-clip"><code>background-clip</code></a> property that can change this.
+  <a href="http://www.w3.org/TR/css3-background/#background-clip"><code>background-clip</code></a> property that can change this.
   Gecko and Webkit both include partial support for this property,
   but they conform to an older revision of the
   spec: the value keywords are <code>border</code>

@@ -97,7 +97,7 @@ requesting page.
 
 [recent incident]: https://www.eff.org/deeplinks/2011/03/iranian-hackers-obtain-fraudulent-https
 [PKIX]: http://www.cs.auckland.ac.nz/~pgut001/pubs/pkitutorial.pdf
-[Etherpad log]: http://etherpad.mozilla.com:9000/ep/pad/view/ro.IWd3P/rev.6007
-[video record of the discussion]: http://videos-cdn.mozilla.net/serv/air_mozilla/future-of-internet-security.ogg
+[Etherpad log]: https://etherpad.mozilla.org/ep/pad/view/ro.IWd3P/rev.6007
+[video record of the discussion]: https://videos.cdn.mozilla.net/uploads/air_mozilla/future-of-internet-security.ogg
 [DANE]: http://tools.ietf.org/html/draft-ietf-dane-protocol
 [RFC2119]: http://tools.ietf.org/html/rfc2119

@@ -43,7 +43,7 @@ interface:
                          throws DOMException;
 
 The `htmlText` is parsed as-if by the
-[HTML fragment parsing algorithm](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-end.html#parsing-html-fragments),
+[HTML fragment parsing algorithm](https://html.spec.whatwg.org/multipage/syntax.html#parsing-html-fragments),
 with no context element; the resulting sequence of DOM nodes is
 collected into a `DocumentFragment`, which is returned.
 
@@ -53,7 +53,8 @@ arbitrarily-named keys and arbitrary values, except that all keys must
 be valid JavaScript identifiers.  The values in the dictionary are
 constrained as described below.
 
-If the `substitutions` argument is supplied, then the [HTML5 tokenizer](http://www.whatwg.org/specs/web-apps/current-work/multipage/tokenization.html)
+If the `substitutions` argument is supplied, then the
+[HTML5 tokenizer](https://html.spec.whatwg.org/multipage/syntax.html#tokenization)
 uses it as follows:
 
 * A _substitution reference_ consists syntactically of an

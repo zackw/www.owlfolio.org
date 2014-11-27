@@ -8,7 +8,7 @@ and it's not done yet. I can say, though, that it's about ways to get
 around country-scale filtration of the Internet. I'm writing it up
 now, starting with the threat model, as you do:
 
-> <del>[Alice][]</del> [Arishat][carthage]
+> ~~[Alice][]~~ [Arishat][carthage]
 > wishes to publish things for [Brutus][brutus] to
 > read. [Cato][celder] does not approve of what Arishat has to say,
 > and seeks to prevent her from publishing anything.
@@ -22,7 +22,7 @@ offline world, we trade off "free speech" against all sorts of other
 values every day:
 
 [Alice]: http://downlode.org/Etext/alicebob.html
-[carthage]: http://www.livius.org/cao-caz/carthage/carthage.html
+[carthage]: http://www.livius.org/place/carthage/
 [celder]: http://www.roman-empire.net/republic/cato-e.html
 [brutus]: http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Brutus*.html
 [cypherpunk premises]: http://www.cypherpunks.to/faq/cyphernomicron/chapter4.html#7
@@ -173,11 +173,11 @@ Discuss.
 
 [flag desecration]: http://en.wikipedia.org/wiki/Flag_Desecration_Amendment
 [neofascist marches]: http://skokielibrary.info/s_info/in_biography/attempted_march/index.asp
-[mostly agreed]: http://arstechnica.com/tech-policy/news/2011/09/judge-worries-recording-police-will-lead-to-excessive-snooping-around.ars
+[mostly agreed]: http://arstechnica.com/tech-policy/2011/09/judge-worries-recording-police-will-lead-to-excessive-snooping-around/
 [protected by the First Amendment]: http://www.universalhub.com/2011/court-says-state-law-banning-recording-police-offi
-[try to stop people]: http://www.aclu.org/blog/free-speech/it-legal-photograph-or-videotape-police
+[try to stop people]: https://www.aclu.org/blog/free-speech/it-legal-photograph-or-videotape-police
 [DMCA takedown mechanism]: http://brainz.org/dmca-takedown-101/
-[fair use]: http://fairuse.stanford.edu/Copyright_and_Fair_Use_Overview/chapter9/index.html
+[fair use]: http://fairuse.stanford.edu/overview/fair-use/
 [defamation]: http://www.medialaw.org/Content/NavigationMenu/Public_Resources/Libel_FAQs/Libel_FAQs.htm
 [SLAPP]: http://www.thefirstamendment.org/antislappresourcecenter.html
 [forum immunity]: https://www.eff.org/issues/bloggers/legal/liability/230
@@ -192,4 +192,4 @@ Discuss.
 [bitcolour]: http://ansuz.sooke.bc.ca/entry/23
 [streisand-effect]: http://knowyourmeme.com/memes/streisand-effect
 [regret-ex]: http://twitpic.com/5dabf7
-[prior restraint]: http://www.rcfp.org/handbook/?pg=5-1
+[prior restraint]: https://www.rcfp.org/first-amendment-handbook/introduction-fair-trials-national-security-law-enforcement-investigations

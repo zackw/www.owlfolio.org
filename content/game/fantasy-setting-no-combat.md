@@ -29,19 +29,19 @@ version has been focused on precisely the parts I don't like. But it's
 a damn shame, because I *really* enjoy the city-building and the
 mining.
 
-At about the same time, [Minecraft](http://www.minecraft.net/) had
-just started making the big news. I tried to get it to run, discovered
-that this would require more than zero messing with a Java
-installation, and gave up. But I watched a bunch of the
-"[X's Adventures in Minecraft](http://www.youtube.com/watch?v=4bh4EexJO4I)"
+At about the same time, [Minecraft](https://minecraft.net/) had just
+started making the big news. I tried to get it to run, discovered that
+this would require more than zero messing with a Java installation,
+and gave up. But I watched a bunch of the
+"[X's Adventures in Minecraft](https://www.youtube.com/watch?v=4bh4EexJO4I)"
 Let's Play videos, enough to get a pretty good idea of what the
 gameplay is like.  It seems like I'd have much the same opinion of it
 that I do of DF: yay exploring, yay building, boo micromanagement, boo
 having to fight monsters.
 
 And this was also about the time I gave up on
-[Lord of Ultima](http://www.lordofultima.com/en/), which is a
-massively-multiplayer territorial competition game that *billed*
+[Lord of Ultima](https://en.wikipedia.org/wiki/Lord_of_Ultima), which
+was a massively-multiplayer territorial competition game that *billed*
 itself as allowing a purely economic strategy---but it turned out that
 past a certain point everyone has far more resources than they need,
 so the only remaining thing to do is fight; I have absolutely no

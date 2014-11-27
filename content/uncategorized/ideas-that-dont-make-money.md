@@ -3,8 +3,8 @@ Date: 2012-11-17 15:27
 Slug: ideas-that-dont-make-money
 
 The sad Internet news of this week is that the multiplayer online
-game/community [Glitch](http://www.glitch.com/) will have to
-[shut down next month](http://www.glitch.com/closing/). The
+game/community [Glitch](http://www.glitchthegame.com/) will have to
+[shut down next month](http://www.glitchthegame.com/closing/). The
 announcement makes it sound like mostly a financial problem (not
 enough revenue to keep going), with a side order of getting caught
 between technology curves.  They built the desktop client on Flash,
@@ -39,7 +39,7 @@ to keep the game running, which is comparatively small for a
 business---thirty-ish people at $100,000/yr, plus however much the
 servers and the connectivity cost, plus overhead. But *one* million
 dollars is
-[extraordinary for a Kickstarter project](http://www.kickstarter.com/discover/most-funded).
+[extraordinary for a Kickstarter project](https://www.kickstarter.com/discover/most-funded).
 
 The requirement for a continuous stream of money to keep the servers
 running also hurts things on the Net that *were* successful but are

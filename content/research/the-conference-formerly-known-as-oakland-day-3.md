@@ -19,7 +19,7 @@ read to the end there's a cranky rant about the panel discussion.
 I missed the train that would have gotten me to SF in time for this
 talk by one lousy minute.
 
-### [LASTor: A Low-Latency AS-Aware Tor Client](http://www.cs.ucr.edu/~harsha/papers/oakland12.pdf)
+### [LASTor: A Low-Latency AS-Aware Tor Client](http://www.ieee-security.org/TC/SP2012/papers/4681a476.pdf)
 
 These folks had a set of client-only modifications to
 [Tor](https://www.torproject.org/) that, they claim, both improve
@@ -231,7 +231,7 @@ of all ROP gadgets, with the remaining 20% due to not being able to
 prove that the entire contents of the compiled-code segment of the
 binary image are in fact code, rather than data. But this is good
 enough to break two state-of-the-art exploit generators
-([Mona](http://redmine.corelan.be/projects/mona) and
+([Mona](https://github.com/corelan/mona) and
 [Q](http://users.ece.cmu.edu/~ejschwar/bib/schwartz_2011_rop-abstract.html))
 
 After the talk, I asked them if they'd considered modifying a compiler

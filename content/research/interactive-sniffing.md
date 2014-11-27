@@ -45,7 +45,7 @@ the site which of those URLs you have visited. A little technical
 cleverness is required---the pawns have to be Unicode dingbats, not
 images; all the normal interactive behavior of hyperlinks has to be
 suppressed; etcetera---but nothing too difficult. I and three other
-researchers with [CMU Silicon Valley][]'s [Web Security Group][] have
+researchers with [CMU Silicon Valley][]'s Web Security Group have
 tested this and a few other such fake CAPTCHAs on 300 people. We found
 them to be practical, although you have to be careful not to make the
 task too hard; for details please see [our paper][] (to be presented
@@ -101,22 +101,21 @@ texture, so this couldn't be used to snoop on browsing history, but
 there's legitimate reasons to want to do that, so it might become
 possible in the future.
 
-[wtikay]: http://wtikay.com/docs/details.html
+[wtikay]: http://krebsonsecurity.com/2010/12/what-you-should-know-about-history-sniffing/
 [David Baron]: http://dbaron.org/
-[dbaron-defense]: http://blog.mozilla.com/security/2010/03/31/plugging-the-css-history-leak/
+[dbaron-defense]: https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/
 [captcha]: http://www.captcha.net/
-[captcha-breaking]: http://www.computer.org/portal/web/csdl/doi/10.1109/ACSAC.2007.47
-[deanonymization]: http://www.darkreading.com/security/article/223100436/index.html
-[Dongseok Jang]: http://cseweb.ucsd.edu/~d1jang/
-[jang-forbes]: http://blogs.forbes.com/kashmirhill/2010/11/30/history-sniffing-how-youporn-checks-what-other-porn-sites-youve-visited-and-ad-networks-test-the-quality-of-their-data/
-[jang-paper]: http://cseweb.ucsd.edu/~d1jang/papers/ccs10.pdf
+[captcha-breaking]: https://acsac.org/2007/papers/70.pdf
+[deanonymization]: http://www.darkreading.com/risk/attack-unmasks-user-behind-the-browser/d/d-id/1133010
+[Dongseok Jang]: https://cseweb.ucsd.edu/~d1jang/
+[jang-forbes]: http://www.forbes.com/sites/kashmirhill/2010/11/30/history-sniffing-how-youporn-checks-what-other-porn-sites-youve-visited-and-ad-networks-test-the-quality-of-their-data/
+[jang-paper]: https://cseweb.ucsd.edu/~d1jang/paper/ccs10.pdf
 [captcha-conversion]: http://www.90percentofeverything.com/2011/03/25/fk-captcha/
 [cache timing]: http://www.sciencedaily.com/releases/2000/12/001208074325.htm
-[aws-key]: http://docs.amazonwebservices.com/AmazonS3/2006-03-01/dev/index.html?S3_Authentication.html
-[CMU Silicon Valley]: http://sv.cmu.edu/
-[Web Security Group]: http://websec.sv.cmu.edu/
-[our paper]: http://websec.sv.cmu.edu/visited/visited.pdf
+[aws-key]: https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html
+[CMU Silicon Valley]: https://www.cmu.edu/silicon-valley/
+[our paper]: https://hacks.owlfolio.org/pubs/2011-i-still-know.pdf
 [oakland11]: http://www.ieee-security.org/TC/SP2011/
-[annoying flashing box]: http://www.whatmakesthemclick.net/2010/01/23/100-things-you-should-know-about-people-22-peripheral-vison-keeping-you-alive-or-channel-surfing/
-[WebGL]: https://developer.mozilla.org/en/WebGL
-[canvas-leak]: http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#security-with-canvas-elements
+[annoying flashing box]: http://www.blog.theteamw.com/2010/01/23/100-things-you-should-know-about-people-22-peripheral-vison-keeping-you-alive-or-channel-surfing/
+[WebGL]: https://developer.mozilla.org/en-US/docs/Web/WebGL
+[canvas-leak]: https://html.spec.whatwg.org/multipage/scripting.html#security-with-canvas-elements

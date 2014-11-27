@@ -29,7 +29,7 @@ site.  CSS data theft also involves injecting strings into a page that
 the attacker can't read, but this time, the strings are fragments of a
 style sheet.
 
-[cross-site scripting]: http://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29
+[cross-site scripting]: https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29
 
 [![Diagram of network traffic in a CSS data theft attack.](/media/2010/06/steps.png
 "Diagram of network traffic in a CSS data theft attack.  Click for
@@ -86,7 +86,7 @@ all the popular browsers.
 [cssxss02]: http://www.greymagic.com/security/advisories/gm004-ie/
 [cssxss05]: http://www.hacker.co.il/security/ie/css_import.html
 [cssxss08]: http://d.hatena.ne.jp/ofk/20081111/1226407593
-[security researchers at CMU]: http://websec.sv.cmu.edu/
+[security researchers at CMU]: https://hacks.owlfolio.org/pubs/2010-protecting.pdf
 
 Since the attack relies on the CSS parser's error recovery behavior,
 sites may be immune because of accidental properties of their page
@@ -115,7 +115,7 @@ same origin. [Firefox 4][] will implement this rule, and IE has also
 adopted it (see below).
 
 [same-origin policy]: http://taossa.com/index.php/2007/02/08/same-origin-policy/
-[Firefox 4]: http://blog.mozilla.com/blog/2010/05/10/firefox-4-vision-fast-powerful-and-empowering/
+[Firefox 4]: https://blog.mozilla.org/blog/2010/05/10/firefox-4-vision-fast-powerful-and-empowering/
 
 Unfortunately, there are a few websites out there that are rendered in
 quirks mode, and load their style sheets from a different origin, and
@@ -135,8 +135,8 @@ errors, so unless the attacker can inject text at the very beginning
 of a page, they won't be able to make the attack work. Safari, Google
 Chrome, and Opera have also adopted this rule.
 
-[ff35]: http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.5/
-[ff36]: http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.6/
+[ff35]: https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/3.5.19/
+[ff36]: https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/3.6.28/
 
 It's possible that this rule could break sites too. For instance, if a
 style sheet begins with an `@`-rule that Firefox 3.5 does not
@@ -144,9 +144,9 @@ understand, that will count as a syntax error, and the sheet will be
 discarded.
 
 ***UPDATE: August 28:*** The
-[HTML5 spec for `<link rel="stylesheet">`](http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#link-type-stylesheet)
+[HTML5 spec for `<link rel="stylesheet">`](https://html.spec.whatwg.org/multipage/semantics.html#link-type-stylesheet)
 now requires the strict rule (see
-[HTML5 defect report 9834](http://www.w3.org/Bugs/Public/show_bug.cgi?id=9834)).
+[HTML5 defect report 9834](https://www.w3.org/Bugs/Public/show_bug.cgi?id=9834)).
 
 ***UPDATE: October 26:*** As of Microsoft's
 [October 2010 cumulative security update][ie-oct-2010], *all*
@@ -167,8 +167,8 @@ the [error console][] when they see a site that will break in Firefox
 of our translation process, part of this warning will always be in
 English.)
 
-[Firefox 4 beta]: http://releases.mozilla.org/pub/mozilla.org/firefox/releases/4.0b2/
-[error console]: https://developer.mozilla.org/en/error_console
+[Firefox 4 beta]: https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/4.0b2/
+[error console]: https://developer.mozilla.org/en-US/docs/Error_Console
 
 If your site breaks, all you have to do to fix it is make sure that
 your style sheets are being served with `Content-Type: text/css` in
@@ -222,7 +222,7 @@ that go into more
 detail. [Collin Jackson](http://mayscript.com/blog/collinj/end-near-cross-origin-css-attacks)
 and his team at CMU have also been very helpful in understanding the
 full scope of the attack and ensuring all major browsers fixed it.
-[Their paper](http://websec.sv.cmu.edu/css/css.pdf) will appear at the
+[Their paper](https://hacks.owlfolio.org/pubs/2010-protecting.pdf) will appear at the
 [ACM Computer and Communications Security conference](http://www.sigsac.org/ccs/CCS2010/)
 in October.
 

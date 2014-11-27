@@ -10,9 +10,9 @@ redirects to the `https://` version of the same URL. There's lots more
 you can do, but that's the easy first step. There are a number of
 common objections to this plan; today I want to talk about the "it
 should be the user's choice" objection, expressed for instance in
-"[Google to Gmail customers: You WILL use HTTPS](http://blogs.computerworld.com/privacy/23698/google-customers-you-will-use-https)"
+"[Google to Gmail customers: You WILL use HTTPS](http://www.computerworld.com/article/2476016/data-privacy-google-to-gmail-customers-you-will-use-https.html)"
 by
-[Robert Mitchell](http://blogs.computerworld.com/user/robert-l-mitchell). It
+[Robert L. Mitchell](http://www.computerworld.com/author/Robert-L.-Mitchell/). It
 goes something like this:
 
 > Why should I (the operator of the website) assume I know better than
@@ -47,9 +47,9 @@ accounts so they can commit credit card fraud; any given person's card
 is probably only good for US$1000 or so, but multiply that by
 thousands of cards and you're talking about real money. They break
 into PCs so they can run
-[botnets](http://www.wired.com/wired/archive/14.11/botnet.html); they
-don't care about data stored on the computer, they want the CPU and
-the network connection. For more on this point, see the paper
+[botnets](http://archive.wired.com/wired/archive/14.11/botnet.html);
+they don't care about data stored on the computer, they want the CPU
+and the network connection. For more on this point, see the paper
 "[Folk Models of Home Computer Security](http://www.rickwash.org/papers/rwash-homesec-soups10-final.pdf)"
 by [Rick Wash](http://www.rickwash.org/). This is the most important
 reason why security needs to be unconditional. Accounts may be

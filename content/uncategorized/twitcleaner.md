@@ -8,10 +8,11 @@ I don't follow a lot of people on Twitter, but I still sometimes have
 trouble deciding whether the accounts I'm following are worth it.
 Folks with much longer follow lists presumably have even harder going.
 
-Enter [The Twit Cleaner][], a service that scans your follow list and
-automatically categorizes the behavior of everyone on it. They have
-some straightforward heuristics for deciding whether someone is worth
-following, mostly documented in [their FAQ][]:
+Enter [The Twit Cleaner][], a (sadly, as of late 2013, defunct)
+service that scans your follow list and automatically categorizes the
+behavior of everyone on it. They have some straightforward heuristics
+for deciding whether someone is worth following, mostly documented in
+their FAQ:
 
 > **Q.** How are the (potential) bad guys broken down?
 >
@@ -86,19 +87,18 @@ implemented some sort of account-labeling scheme that would let the
 people behind the curtain mark accounts as fictional characters, that
 would be awesome.
 
-[Twitter account]: http://twitter.com/elwoz
-[The Twit Cleaner]: http://thetwitcleaner.com/
-[their FAQ]: http://thetwitcleaner.com/faq.php
-[@NBCOlympics]: http://twitter.com/NBCOlympics
-[@CDCemergency]: http://twitter.com/CDCemergency
-[@asym]: http://twitter.com/asym
-[@Astro_Soichi]: http://twitter.com/Astro_Soichi
-[@TwitCleaner]: http://twitter.com/TheTwitCleaner
+[Twitter account]: https://twitter.com/elwoz
+[The Twit Cleaner]: http://thetwitcleaner.com/blog/
+[@NBCOlympics]: https://twitter.com/NBCOlympics
+[@CDCemergency]: https://twitter.com/CDCemergency
+[@asym]: https://twitter.com/asym
+[@Astro_Soichi]: https://twitter.com/Astro_Soichi
+[@TwitCleaner]: https://twitter.com/TwitCleaner
 [Twitter-verified users]: https://twitter.com/help/verified
 [Lurkers]: http://en.wikipedia.org/wiki/Lurker
 [fourth wall mail slot]: https://allthetropes.orain.org/wiki/Fourth_Wall_Mail_Slot
-[@Othar]: http://twitter.com/Othar
+[@Othar]: https://twitter.com/Othar
 [Girl Genius]: http://www.girlgeniusonline.com/
-[entire cast]: http://twitter.com/jephjacques/qccast/
+[entire cast]: https://twitter.com/jephjacques/lists/qccast/
 [Questionable Content]: http://www.questionablecontent.net/
-[cliques]: http://en.wikipedia.org/wiki/Clique_%28graph_theory%29
+[cliques]: https://en.wikipedia.org/wiki/Clique_%28graph_theory%29

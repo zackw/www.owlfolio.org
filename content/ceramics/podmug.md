@@ -37,6 +37,6 @@ batch kilns.
 
 [Steven Frank]: http://www.zazzle.com/stevenfrank
 [Zazzle]: http://www.zazzle.com/
-[sfs]: http://www.stanford.edu/group/sfs/
+[sfs]: http://www.stanfordfilmsociety.com/
 [raku]: http://en.wikipedia.org/wiki/Raku_ware
 

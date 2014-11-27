@@ -10,7 +10,7 @@ September 27, 2013):
 * Only 247 entries contain the string "`www.`"
 * Only 13,906 entries contain a path component.
 * There are 987,661 unique hostnames and 967,933 unique domains
-  ([public suffix](http://publicsuffix.org/) + 1).
+  ([public suffix](https://publicsuffix.org/) + 1).
 * If you tack "`http://`" on the beginning of each entry and "`/`"
   on the end (if there wasn't a path component already), then issue a GET
   request for that URL and chase HTTP redirects as far as you can (without
@@ -42,4 +42,6 @@ September 27, 2013):
 
 Today's exercise in data cleanup was brought to you by the I Can't
 Believe This Took Me An Entire Week Foundation. If you ever need to do
-something similar, [this script](/scratchpad/canonurls) may be useful.
+something similar,
+[this script](https://hacks.owlfolio.org/scratchpad/canonurls) may be
+useful.

@@ -247,7 +247,7 @@ blocklist, and it's not fair to expect them to do this in an informed
 manner. Some commercially-sponsored lists are not only ineffective but
 negate the effects of other lists!
 
-### [EvilSeed: A Guided Approach to Finding Malicious Web Pages](http://seclab.cs.ucsb.edu/media/uploads/papers/evilseed.pdf)
+### [EvilSeed: A Guided Approach to Finding Malicious Web Pages](https://seclab.cs.ucsb.edu/media/uploads/papers/evilseed.pdf)
 
 The authors wanted to develop a more efficient way to identify
 malicious URLs than blind crawling. Their idea was to derive new
@@ -344,8 +344,7 @@ tend to get hit with this stuff.
 
 - **Learning from Our Mistakes: Us LUSSRs Are In Such a MESS**
 
-Announcement of the
-[LASER mini-conference](http://www.cert.org/laser-workshop/),
+Announcement of the [LASER workshop](http://www.laser-workshop.org/),
 encouraging people to share both successes and failures for
 methodological dissection. Unfortunately by invitation only and
 limited to 50 attendees.

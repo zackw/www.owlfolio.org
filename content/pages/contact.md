@@ -8,13 +8,13 @@ medium.  My address is [zackw@panix.com](mailto:zackw@panix.com).
 I may also be found on various community-type websites, in decreasing
 order of frequency of use:
 
-* [Twitter](http://www.twitter.com/elwoz): elwoz
+* [Twitter](https://twitter.com/elwoz): elwoz
 * [Stack Overflow](http://stackoverflow.com/users/388520/zack) and
   relatives: Zack
 * [Dreamwidth](http://zwol.dreamwidth.org/)/[LiveJournal](http://zwol.livejournal.com): zwol
 * [Flickr](http://www.flickr.com/photos/zackw/): zackw
-* [LinkedIn](http://www.linkedin.com/in/zackweinberg): Zack Weinberg
-* [Facebook](http://www.facebook.com/profile.php?id=675302085): Zack Weinberg
+* [LinkedIn](https://www.linkedin.com/in/zackweinberg): Zack Weinberg
+* [Facebook](https://www.facebook.com/elwoz): Zack Weinberg
 
 I probably have accounts on several more, what with the fad for these
 things a few years ago, but I never look at them nowadays.  I won't
@@ -23,15 +23,15 @@ you, it's the medium.
 
 I am also "zwol" on IRC; I frequent
 [darkmyst.org](http://www.darkmyst.org/),
-[oftc.net](http://www.oftc.net/oftc/), and
+[oftc.net](http://www.oftc.net/), and
 [irc.mozilla.org](http://irc.mozilla.org/).
 
 The handle "zwol" is my first initial plus "wol," as in the owl from
-the [Pooh stories](http://en.wikipedia.org/wiki/Winnie-the-Pooh).  It
-has nothing to do with the moribund webcomic at
-[zwol.org](http://zwol.org), although I did read it when it was still
-updating.  Someone else is "zwol" on Twitter so I have to settle for a
-mangled version.
+the [Pooh stories](http://en.wikipedia.org/wiki/Winnie-the-Pooh).
+It has nothing to do with the moribund webcomic at
+[zwol.org](http://www.zwol.org/), although I did read that when it was
+still updating.  Someone else is "zwol" on Twitter so I have to settle
+for a mangled version.
 
 I have a
 [PGP key](http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x91FCC32B6769AA64)
@@ -54,8 +54,8 @@ mine, in no particular order.
 * Thank you for your kind words.
 * My contact information is at the top of the page you are reading right now.
 * I am not interested in carrying advertising on this site.
-* If you want to know about how this site is constructed, please see
-  the [colophon](/about#colophon).
+* If you want to know how this site is constructed, please see the
+  [colophon](/about/#colophon).
 * Why yes, I *do* get a lot of spam.  [Akismet](http://akismet.com/)
   helps, but is less effective than I'd like.  Suggestions welcome.
 * I don't worry about people "ripping off" my "content;" I

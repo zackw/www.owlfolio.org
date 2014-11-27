@@ -33,7 +33,7 @@ can listen in on the radio traffic and discover your password. (It's
 just like eavesdropping on a private conversation.) Or you might
 accidentally type your password into a website that *looks* like the
 real thing but is actually a
-[fake created to trick you](http://en.wikipedia.org/wiki/Phishing).
+[fake created to trick you](https://en.wikipedia.org/wiki/Phishing).
 
 Suppose the bad guys have discovered your password for a Web forum.
 That's not a big deal, because someone impersonating you *on one
@@ -52,25 +52,25 @@ How do you manage to remember lots of different passwords, especially
 when (as I'm about to explain) they all need to be long and
 complicated?  The best way is to let the computer---specifically, your
 browser's
-[password manager](http://support.mozilla.com/en-US/kb/Remembering%20passwords)---do
+[password manager](https://support.mozilla.org/en-US/kb/password-manager-remember-delete-change-passwords)---do
 it for you. This may seem unsafe, but it's actually much safer than
 using the same password for everything. The password manager cannot be
 fooled by phishing sites, and it has no trouble remembering lots of
 long complicated passwords. Yes, all the passwords are in a file on
 your computer. But the only way the bad guys can get at that is by
 physically stealing your computer, or installing
-[spyware](http://en.wikipedia.org/wiki/Spyware) on it remotely. If you
-keep your computer up to date with security patches, you don't have to
-worry about spyware much. If your computer is in danger of being
-physically stolen (e.g. it's a laptop) you should use the
-[master password](http://support.mozilla.com/en-US/kb/Protecting%20stored%20passwords%20using%20a%20master%20password)
+[spyware](https://en.wikipedia.org/wiki/Spyware) on it remotely. If
+you keep your computer up to date with security patches, you don't
+have to worry about spyware much. If your computer is in danger of
+being physically stolen (e.g. it's a laptop) you should use the
+[master password](https://support.mozilla.org/en-US/kb/use-master-password-protect-stored-logins)
 mode of your browser's password manager, so that the file on your
 computer is encrypted. Whether or not you have to worry about theft,
 you should enable
-[Sync](http://support.mozilla.com/en-US/kb/what-firefox-sync), or
-equivalent feature, even if you have no other computer to sync with;
-that way, if your computer *breaks*, there's still a backup of all
-your passwords out there in the cloud (safely encrypted).
+[Sync](https://support.mozilla.org/en-US/kb/how-do-i-set-up-firefox-sync),
+or equivalent feature, even if you have no other computer to sync
+with; that way, if your computer *breaks*, there's still a backup of
+all your passwords out there in the cloud (safely encrypted).
 
 ## Use long, complicated passwords
 
@@ -83,8 +83,8 @@ explanation: suppose my password on some site is "12345"
 server doesn't store "12345" in its database, it stores
 "827ccb0eea8a706c4c34a16891f84e7b", which is the result of running
 "12345" through a
-*[cryptographic hash](http://en.wikipedia.org/wiki/Cryptographic_hash_function)*,
-in this case [MD5](http://en.wikipedia.org/wiki/MD5). It's easy to
+*[cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function)*,
+in this case [MD5](https://en.wikipedia.org/wiki/MD5). It's easy to
 convert a password into its hash, but it's prohibitively hard to do
 the reverse.  MD5 is old and no longer considered a good choice for
 passwords (or anything, for that matter), but there is still no known
@@ -100,7 +100,7 @@ much slower and the site admins are likely to notice.) "12345" isn't a
 good password because it's easy to guess---but so is *any* five-digit
 number: a cheap laptop can calculate the MD5 of all 100,000 five-digit
 (or smaller) numbers in less than a second. There are
-[something like 250,000 words in English](http://oxforddictionaries.com/page/93)---that's
+[something like 250,000 words in English](http://www.oxforddictionaries.com/words/how-many-words-are-there-in-the-english-language)---that's
 maybe five seconds' worth of work for the same laptop---so any word in
 the dictionary is bad, too. You can buy
 [a 40-million-entry word list](http://www.openwall.com/wordlists/) for
@@ -113,7 +113,7 @@ guess; but that makes it harder to remember as well. Adding
 punctuation and numbers doesn't help as much as one would like. There
 are 95 characters that you can type on a US keyboard, so there are
 95^8^, or about a quadrillion
-([short scale](http://en.wikipedia.org/wiki/Long_and_short_scales))
+([short scale](https://en.wikipedia.org/wiki/Long_and_short_scales))
 possible eight-character passwords, if you use all those characters. A
 quadrillion possibilities is out of the reach of a cheap laptop, but
 it's a few weeks' effort for a small cluster of beefy computers---a
@@ -139,9 +139,9 @@ every work of literature that was written with the Latin alphabet. A
 phrase taken from somewhere in the middle of an obscure but lengthy
 book is a good choice.  Or you could follow this procedure:
 
-1. Go to [Wikipedia](http://en.wikipedia.org/) and click on "random
-   article". (You can use any site with a "random article" feature for this
-   step, if you'd rather.)
+1. Go to [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and
+   click on "random article". (You can use any site with a "random
+   article" feature for this step, if you'd rather.)
 1. Copy the URL of the page you get, and paste it into [the Eater of
    Meaning](http://www.crummy.com/software/eater/). Leave the drop-down on
    "Eat word endings."

@@ -41,5 +41,4 @@ POSIX headers but may be missing a few.
 post was insufficiently thoroughly researched and may be wrong.
 Corrected tables will appear Real Soon. If you are interested in
 helping me with that, please see
-[https://github.com/zackw/header-analysis](https://github.com/zackw/header-analysis).
-
+[https://github.com/zackw/header-survey](https://github.com/zackw/header-survey).

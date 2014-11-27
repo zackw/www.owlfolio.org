@@ -5,9 +5,9 @@ Slug: breaking-things-every-six-weeks
 > Attention conservation notice: 900 words of inside baseball about
 > Mozilla. No security content whatsoever.
 
-The [Mozilla Project](http://www.mozilla.org/about/) has been taking a
+The [Mozilla Project](https://www.mozilla.org/about/) has been taking a
 whole lot of flak recently over its new
-"[rapid release cycle](http://blog.mozilla.com/futurereleases/2011/07/19/every-six-weeks/)",
+"[rapid release cycle](https://blog.mozilla.org/futurereleases/2011/07/19/every-six-weeks/)",
 in which there is a new *major* version of Firefox (and Thunderbird)
 every six weeks, and it potentially breaks all your extensions.
 Especially the big complicated extensions like

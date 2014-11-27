@@ -47,7 +47,7 @@ wandering around the downtown looking for a restaurant that had a table
 for eight.
 
 [ccs10]: http://www.sigsac.org/ccs/CCS2010/
-[jsam]: https://www.eecs.berkeley.edu/~jsamuel/
-[keycomp]: https://www.eecs.berkeley.edu/~jsamuel/papers/survivable-key-compromise-ccs2010.pdf
-[hm]: http://portal.acm.org/citation.cfm?id=1866307.1866318
+[jsam]: http://justinsamuel.com/
+[keycomp]: http://justinsamuel.com/papers/survivable-key-compromise-ccs2010.pdf
+[hm]: https://dl.acm.org/citation.cfm?id=1866307.1866318
 [pindr0p]: http://www.gatech.edu/newsroom/release.html?nid=61428

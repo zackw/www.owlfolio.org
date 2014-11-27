@@ -7,20 +7,24 @@ epic flame war on LJ and elsewhere. I am not going to link to any of
 it or try to summarize. Suffice to say that it started out about
 racism, cultural appropriation, and privilege, and that buried in the
 turd-flinging (which I did not read all of, by any means) there were
-some really good points made on those topics. *Editor’s note, August
-2009: I am talking about “RaceFail 2009.” If you are unfamiliar with
-this, I recommend reading
-[Mary Anne Mohanraj](http://www.mamohanraj.com/)’s two
-[guest](http://whatever.scalzi.com/2009/03/12/mary-ann-mohanraj-gets-you-up-to-speed-part-i/)
-[posts](http://whatever.scalzi.com/2009/03/13/mary-anne-mohanraj-gets-you-up-to-speed-part-ii/)
-on [John Scalzi’s blog](http://whatever.scalzi.com/); these were
-written after it was mostly over, and are serious, constructive
-discussion of implicit privilege (including but not limited to racism)
-in fiction in general. If you want to know about the argument proper,
-[Anne Somerville summarized it](http://logophilos.net/blather/?p=1162)
-and [ryda wong](http://ryda%5Fwong.livejournal.com/) has a
-[comprehensive list of links](http://rydra-wong.dreamwidth.org/148996.html)
-to its many pieces.*
+some really good points made on those topics.
+
+> Editor’s note, August 2009: I am talking about “RaceFail 2009.” If
+> you are unfamiliar with this, I recommend reading
+> [Mary Anne Mohanraj](http://www.mamohanraj.com/)’s two
+> [guest](http://whatever.scalzi.com/2009/03/12/mary-ann-mohanraj-gets-you-up-to-speed-part-i/)
+> [posts](http://whatever.scalzi.com/2009/03/13/mary-anne-mohanraj-gets-you-up-to-speed-part-ii/)
+> on [John Scalzi’s blog](http://whatever.scalzi.com/); these were
+> written after it was mostly over, and are serious, constructive
+> discussion of implicit privilege (including but not limited to
+> racism) in fiction in general. If you want to know about the
+> argument proper,
+> [Anne Somerville summarized it](http://annsomerville.net/a-themed-summary-of-racefail-09-in-large-friendly-letters-for-those-who-think-race-discussions-are-hard/)
+> ~~and ryda wong has a comprehensive list of links to its many
+> pieces~~.
+>
+> Editor's note, November 2014: ryda wong's journal has been taken
+> down; if anyone knows of a mirror of the list please let me know.
 
 This has gotten me thinking about cultural appropriation and
 privileged narratives in the context of video games, and especially
