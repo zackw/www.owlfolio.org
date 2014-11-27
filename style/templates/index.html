@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 {% from "macros.html" import pager, article_header %}
+{% block title %}
+{% if articles_page and articles_page.has_previous() %}
+Archives, page {{ articles_page.number }} | {% endif %}{{ SITENAME -}}
+{% endblock %}
 {% block content %}
 {% block content_title %}
 {% endblock %}
-
 {% for article in articles_page.object_list %}
 <article class="hentry">
   {{ article_header(article, 2) }}
@@ -12,6 +15,6 @@
   </div>
 </article>
 {% endfor %}
-{{ pager(articles_previous_page.url, 'Newer posts',
-         articles_next_page.url,     'Older posts') }}
+{{ pager(articles_previous_page, 'Newer posts',
+         articles_next_page,     'Older posts') }}
 {% endblock content %}

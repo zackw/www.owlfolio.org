@@ -39,6 +39,11 @@ AUTHORS_SAVE_AS     = ''
 CATEGORIES_SAVE_AS  = ''
 TAGS_SAVE_AS        = ''
 
+PAGINATION_PATTERNS = [
+    (1, '{base_name}/', '{base_name}/index.html'),
+    (2, '{base_name}/{number}/', '{base_name}/{number}/index.html'),
+]
+
 PLUGIN_PATHS        = ['plugins']
 PLUGINS             = ['neighbors',
                        'sitemap',

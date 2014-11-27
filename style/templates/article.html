@@ -21,6 +21,6 @@
     {{ article.content }}
   </div>
 </article>
-{{ pager(article.prev_article.url, article.prev_article.title,
-         article.next_article.url, article.next_article.title) }}
+{{ pager(article.next_article, article.next_article.title,
+         article.prev_article, article.prev_article.title) }}
 {% endblock %}

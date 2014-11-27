@@ -1,10 +1,10 @@
 {% macro pager(older_page, older_label, newer_page, newer_label) %}
 <nav id="post-nav" class="pager">
 {% if older_page %}
-  <a rel="prev" href="/{{ older_page }}">← {{ older_label }}</a>
+  <a rel="prev" href="/{{ older_page.url }}">← {{ older_label }}</a>
 {% endif %}
 {% if newer_page %}
-  <a rel="next" href="/{{ newer_page }}">{{ newer_label }} →</a>
+  <a rel="next" href="/{{ newer_page.url }}">{{ newer_label }} →</a>
 {% endif %}
 </nav>
 {% endmacro %}

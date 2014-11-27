@@ -1,4 +1,9 @@
 {% extends "index.html" %}
+{% block title %}
+{{ category.name -}}
+{% if articles_page and articles_page.has_previous() -%}
+, page {{ articles_page.number }}{% endif %} | {{ SITENAME -}}
+{% endblock %}
 {% block content_title %}
 <header class="post-header">
   <h1>{{ category }}</h1>
