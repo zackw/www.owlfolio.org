@@ -17,9 +17,11 @@ RELATIVE_URLS       = True
 
 PATH                = 'content'
 PAGE_PATHS          = ['pages']
-STATIC_PATHS        = ['media']
-ARTICLE_EXCLUDES    = ['media']
+STATIC_PATHS        = ['']
 IGNORE_FILES        = ['.#*', '*~', '#*#']
+# this directory contains HTML mockups that should be processed
+# as static files, not articles
+ARTICLE_EXCLUDES    = ['htmletc/ssl-errors']
 
 THEME               = '../style'
 THEME_STATIC_DIR    = 's'

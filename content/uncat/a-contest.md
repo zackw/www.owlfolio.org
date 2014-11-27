@@ -5,7 +5,7 @@ Slug: a-contest
 In honor of the Feast of All Fools, and because if anyone has noticed
 it, they haven't told me, I hereby announce that there is a joke in
 the references of
-[my most recently published paper](/media/2010/05/stegotorus.pdf).
+[my most recently published paper](https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf).
 Whoever first correctly identifies it will win the right to suggest a
 joke to be added to my *next* paper, which is currently in
 preparation.  Post your guesses in the comments; so as not to spoil it

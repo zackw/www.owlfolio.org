@@ -111,8 +111,11 @@ mind that after the reform, *everyone* has at least $24,000 of yearly
 income.  The x-axis in both charts, and the y-axis in the right-hand
 chart, are on a log~10~ scale. Click to embiggen.
 
-[![Tax rates and take home pay under the proposal, with comparison to USA federal tax for
-2013.](https://www.owlfolio.org/media/2014/04/taxrates.png)](https://www.owlfolio.org/media/2014/04/taxrates.png)
+<figure class="aligncenter">
+<a href="taxrates.png"><img class="aligncenter" src="taxrates-thumb.png"></a>
+<figcaption>Tax rates and take home pay under the proposal,
+with comparison to USA federal tax for 2013.</figcaption>
+</figure>
 
 You can see that regardless of the choice of set point, this is likely
 to be a modest tax cut for people earning less than $100,000 a year,
@@ -144,13 +147,16 @@ P &= \int_1^T p(t)\,dt\\\\
 
 The amount paid into the pension scheme accumulates year over year,
 but every year it's multiplied by a decay factor, $d < 1$. The
-next two charts show three hypothetical yearly pretax incomes (not
+next chart shows three hypothetical yearly pretax incomes (not
 including BLS or pension), pension accumulation, and the resulting
 after-tax income, all as a function of time, for plausible choices of
 the parameters:
 $s = 500000,\: r = 40\%,\: p_0 = 0.50,\: p_r = 0.05,\: d = 0.99$.
 
-[![pensions](https://www.owlfolio.org/media/2014/04/pensions.png)](https://www.owlfolio.org/media/2014/04/pensions.png)
+<figure class="aligncenter">
+<a href="pensions.png"><img class="aligncenter" src="pensions-thumb.png"></a>
+<figcaption>Three hypothetical pension patterns.</figcaption>
+</figure>
 
 The intent here is that you can build up a pension sufficient for a
 "comfortable" retirement either by earning relatively small amounts of

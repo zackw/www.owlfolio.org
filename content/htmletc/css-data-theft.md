@@ -31,9 +31,14 @@ style sheet.
 
 [cross-site scripting]: https://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29
 
-[![Diagram of network traffic in a CSS data theft attack.](/media/2010/06/steps.png
-"Diagram of network traffic in a CSS data theft attack.  Click for
-full size.")](/media/2010/06/steps.png)
+<figure class="aligncenter">
+<a href="steps.png"><img src="steps-thumb.png"
+  alt="Diagram of network traffic in a CSS data theft attack"
+  title="Diagram of network traffic in a CSS data theft attack.
+  Click for full size."></a>
+<figcaption>Diagram of network traffic in a CSS data theft attack.  Click for
+full size.</figcaption>
+</figure>
 
 The diagram above shows the course of a CSS data theft attack, from
 the perspective of a network hub that can see all the traffic. Before
@@ -210,7 +215,7 @@ for user-submitted content. All you have to do is add `{`, `}`, and
 `@` to the set of characters that get replaced with equivalent HTML
 entities (`&#x7B;`, `&#x7D;`, and `&#x40;`, respectively). If you can't be sure that
 you are always producing `Content-Type` headers with the correct
-`charset=` option, you should also entity-encode `+` to `&#x2B`.
+`charset=` option, you should also entity-encode `+` to `&#x2B;`.
 
 ## More information
 

@@ -2,7 +2,7 @@ Title: a small dispatch from the coalface
 Date: 2014-05-28 09:34
 Slug: a-small-dispatch-from-the-coalface
 
-<style>td:first-child { text-align: left }</style>
+<style scoped>td:first-child { text-align: left }</style>
 
 <table>
 <thead>

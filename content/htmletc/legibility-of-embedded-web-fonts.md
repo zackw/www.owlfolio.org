@@ -9,6 +9,8 @@ gotchas. Lots of people discuss the [technical gotchas][tech], but
 when you get past that, you've still got to worry about
 **legibility**.
 
+<!--more-->
+
 Consider the recently redesigned online fiction zine,
 [Chiaroscuro][chiaro]. ~~As of this writing, they're using an embedded
 font called [Merriweather][mw].~~ **EDIT 8 April:** Chiaroscuro has
@@ -17,12 +19,12 @@ removed the problematic font from its site.
 Here's what the first paragraph of body text for volume 47 looked like
 on my Mac, using Firefox 4:
 
-![Specimen of the “Merriweather” font as rendered by Firefox 4 on Mac OS X](/media/2011/04/chiaro-osx-z0.png)
+![Specimen of the “Merriweather” font as rendered by Firefox 4 on Mac OS X](chiaro-osx.png)
 
 Pretty slick, yeah? Unfortunately ... here's what that same para
 looked like on Windows, with the same browser:
 
-![Specimen of the “Merriweather” font as rendered by Firefox 4 on Windows](/media/2011/04/chiaro-win-z0.jpg)
+![Specimen of the “Merriweather” font as rendered by Firefox 4 on Windows](chiaro-win.png)
 
 The letters are squished together in places, and the lowercase Ns are
 too tall. It's even worse on Linux: not all the strokes are the same
@@ -30,7 +32,7 @@ thickness, some of the letters are still too tall (look carefully at
 the lowercase D, for instance) and others extend below the baseline
 when they shouldn't (such as the lowercase R).
 
-![Specimen of the “Merriweather” font as rendered by Firefox 4 on Linux](/media/2011/04/chiaro-linux-z0.png)
+![Specimen of the “Merriweather” font as rendered by Firefox 4 on Linux](chiaro-linux.png)
 
 What causes this radically different appearance of the same font in
 the same browser? At typical body-text sizes, the computer has to draw

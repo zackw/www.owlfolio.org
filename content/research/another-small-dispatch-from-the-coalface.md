@@ -10,4 +10,5 @@ the left edge of the error bar. Further right is worse. I suspect
 *major* systemic errors in this data set, but it's the only data set
 in town.
 
-[![p-inaccessible](https://www.owlfolio.org/media/2014/06/p-inaccessible.png)](https://www.owlfolio.org/media/2014/06/p-inaccessible.png)
+<img class="aligncenter"
+  src="/research/another-small-dispatch-from-the-coalface/p-inaccessible.png">

@@ -34,7 +34,7 @@ still updating.  Someone else is "zwol" on Twitter so I have to settle
 for a mangled version.
 
 I have a
-[PGP key](http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x91FCC32B6769AA64)
+[PGP key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x91FCC32B6769AA64)
 should you wish to send me something s3kr1t.  The fingerprint is
 
     4096R/6769AA64  82F8 54F3 CE73 174B 8B63  1740 91FC C32B 6769 AA64

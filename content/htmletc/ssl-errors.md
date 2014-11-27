@@ -4,16 +4,18 @@ Slug: ssl-errors
 
 Right now, when you visit a website that uses encryption in Firefox
 and there's anything at all wrong with the encrypted connection, you
-get this screen:
-
-[![The current SSL warning screen, which is generic and uninformative unless you know how to read SSL certificates already](/media/2010/05/mockup-current-300x169.png
-"Current SSL warning")](/media/2010/05/mockup-current.html)
-
-This is a big block of jargon which doesn't do anything to tell the
+get a big block of jargon which doesn't do anything to tell the
 user how big the risk actually is, or help them distinguish a minor
-problem from a major one. If you click on "technical details" you get
-a little bit more information about what went wrong, but it still
-doesn't make any effort to give advice.
+problem from a major one.
+
+<!--more-->
+
+[![The current SSL warning screen, which is generic and uninformative unless you know how to read SSL certificates already](mockup-current-300x169.png
+"Current SSL warning")](mockup-current.html)
+
+If you click on "technical details" you get a little bit more
+information about what went wrong, but it still doesn't make any
+effort to give advice.
 
 The Firefox UI team has been talking about using [Herdict][] or a
 similar service to [improve network error screens][net-error],
@@ -23,8 +25,8 @@ should also make use of the user's history with the site, and pay
 attention to what exactly is wrong with the credential. Here are some
 examples.
 
-[![Proposed warning screen for a website with a self-signed certificate](/media/2010/05/mockup-selfsigned-300x210.png
-"Self-signed certificate")](/media/2010/05/mockup-selfsigned.html)
+[![Proposed warning screen for a website with a self-signed certificate](mockup-selfsigned-300x210.png
+"Self-signed certificate")](mockup-selfsigned.html)
 
 The only problem with self-signed certificates is they *haven't* been
 signed by a trusted third party. The connection is secure, but you
@@ -56,8 +58,8 @@ people who didn't read the rest of the page. It's meant to make people
 stop, slow down, and reread. If you click on it you get another link
 to the page.
 
-[![Proposed warning screen when connection tampering has been detected](/media/2010/05/mockup-tampering-300x204.png
-"Connection tampering detected")](/media/2010/05/mockup-tampering.html)
+[![Proposed warning screen when connection tampering has been detected](mockup-tampering-300x204.png
+"Connection tampering detected")](mockup-tampering.html)
 
 There are exploits in the wild that take over your WiFi hub, or your
 cable modem. Once they've done that, they are in a position to tamper
@@ -85,8 +87,8 @@ care to be certain in our diagnosis first.
 In this scenario, the "I understand the risks" section gives you
 access to the certificate-exception dialogs, as it does now.
 
-[![Proposed warning screen for a website whose server may have been hijacked](/media/2010/05/mockup-hijack-300x204.png
-"Hijacked server")](/media/2010/05/mockup-hijack.html)
+[![Proposed warning screen for a website whose server may have been hijacked](mockup-hijack-300x204.png
+"Hijacked server")](mockup-hijack.html)
 
 Finally, here's what it looks like in the comparatively rare scenario
 that SSL certificates were originally intended to defend against: the

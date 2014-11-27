@@ -62,7 +62,15 @@ at least as harmful to good governance as the programs themselves.
 
 ## Secrecy culture
 
-[![World War II-era propaganda poster of sinking steamship with the words “Loose LIPS Sink Ships” superimposed.](/media/2013/06/loose-lips-sink-ships-posters2-196x300.jpg)](/media/2013/06/loose-lips-sink-ships-posters2.jpg)
+<figure class="alignright"><a
+  href="https://en.wikipedia.org/wiki/Loose_lips_sink_ships"><img
+  src="loose-lips-sink-ships-posters2-196x300.jpg" alt="World War II
+    propaganda poster by Seymour R. Goff, showing a sinking steamship with
+    the words “Loose LIPS Sink Ships” superimposed."></a>
+<figcaption><a href="https://en.wikipedia.org/wiki/Loose_lips_sink_ships">World War II
+    propaganda poster by Seymour R. Goff.</a>
+</figcaption>
+</figure>
 
 If you've had any exposure at all to the US military-industrial
 complex, you will have noticed two things: its
@@ -77,19 +85,22 @@ contagious.
 > starts to creep outwards. The worry about what must be controlled
 > becomes insatiable---and pretty soon the mundane is included with
 > the existential.
+>
+> —
+> "[Forbidden Spheres](http://blog.nuclearsecrecy.com/2012/08/29/forbidden-spheres/)",
+> Nuclear Secrecy blog
 
 And so
 [all round objects become classified](http://blog.nuclearsecrecy.com/2012/08/29/forbidden-spheres/).
-(quote is from linked article) This culture of secrecy is especially
-obvious where nuclear bombs are concerned, but it pervades every part
-of the complex, even to the groups and organizations that aren't doing
-anything that's formally secret. The default action is not to talk,
-and the default policy is to lock up the files. Publishing one's
-research is an unusual action that must be justified and
-approved. Going on public record about an agency's plans and
-activities is positively aberrant. I think this is why the US
-government collectively, quite a few officials personally, an awful
-lot of reporters in
+This culture of secrecy is especially obvious where nuclear bombs are
+concerned, but it pervades every part of the complex, even to the
+groups and organizations that aren't doing anything that's formally
+secret. The default action is not to talk, and the default policy is
+to lock up the files. Publishing one's research is an unusual action
+that must be justified and approved. Going on public record about an
+agency's plans and activities is positively aberrant. I think this is
+why the US government collectively, quite a few officials personally,
+an awful lot of reporters in
 [the "establishment" news media](http://digbysblog.blogspot.com/2013/06/yearning-to-be-subjects-journalist.html),
 and
 [a truly depressing number of private citizens](http://barryeisler.blogspot.com/2013/06/one-of-things-i-find-most-fascinating.html),

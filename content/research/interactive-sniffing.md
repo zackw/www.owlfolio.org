@@ -19,12 +19,12 @@ instead of one of those
 you saw this:
 
 <div class="aligncenter" style="width:280px; padding: 1em; margin-bottom: 24px; background: #dddddd">
-<div style="text-align:center; font-size:1.17em;margin-bottom:12px">
+<div style="text-align:center; font-size:1.1em;margin-bottom:12px">
 Please click on all the chess pawns.
 </div>
-<p><img src="/media/2011/04/Screenshot.png" alt=A six-by-six
+<img class="aligncenter" src="chessboard-example.png" alt=A six-by-six
 checkerboard grid with chess pawns in random locations.  One of the
-pawns is green and has a mouse-cursor arrow pointing to it."></p>
+pawns is green and has a mouse-cursor arrow pointing to it.">
 </div>
 
 As you click on the pawns, they turn green. Nifty, innit? Much easier
