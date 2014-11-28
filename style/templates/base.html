@@ -38,7 +38,7 @@
     <header id="banner" role="banner">
       <h1 id="brand"><a href="/">{{ SITENAME }}</a></h1>
       <nav id="nav-main"><ul class="nav">{%
-          for p in PAGES
+          for p in PAGES if not p.no_menu
             %}<li class="menu{% if p == page %} active{% endif %}"><a href="/{{ p.url }}">{{
               p.title.split()[0] }}</a></li>{%
           endfor %}{%
