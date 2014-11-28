@@ -16,6 +16,9 @@
        title="Permalink to {{ article.title | striptags }}"
   >{{ article.title }}</a></h{{ level }}>
   <div class="entry-meta">
+    {%- if article.comments_count == 1 %}1 comment&#8193;
+    {%- elif article.comments_count > 1 %}{{ article.comments_count }} comments&#8193;
+    {%- endif -%}
     <time class="published" datetime="{{ article.date.isoformat() }}"
           >{{ article.locale_date }}</time>
     {%- if article.modified -%}

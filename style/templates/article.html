@@ -20,7 +20,38 @@
   <div class="entry-content">
     {{ article.content }}
   </div>
+  {{ pager(article.next_article, article.next_article.title,
+           article.prev_article, article.prev_article.title) }}
+  {% if article.comments %}
+  <section id="comments">
+    <h3>Responses to “{{ article.title }}”</h3>
+    <ol class="commentlist">
+      {% for comment in article.comments recursive %}
+      <li class="comment{% if comment.author == 'Zack Weinberg' %} comment-author-zackw{% endif %}">
+        <article id="comment-{{ comment.slug }}">
+          <header class="comment-author vcard">
+            <cite class="fn">
+              {%- if comment.link %}<a href="{{ comment.link }}">{% endif -%}
+                {{ comment.author }}
+              {%- if comment.link %}</a>{% endif -%}
+            </cite>
+            <time datetime="{{ comment.date.isoformat()
+                  }}"><a href="#comment-{{ comment.slug }}">{{
+                    comment.locale_date }}</a></time>
+          </header>
+          <section class="comment">
+            {{ comment.content }}
+          </section>
+        </article>
+        {% if comment.replies %}
+        <ol class="children">
+          {{ loop(comment.replies) }}
+        </ol>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
 </article>
-{{ pager(article.next_article, article.next_article.title,
-         article.prev_article, article.prev_article.title) }}
 {% endblock %}

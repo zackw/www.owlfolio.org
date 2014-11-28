@@ -19,9 +19,11 @@ PATH                = 'content'
 PAGE_PATHS          = ['pages']
 STATIC_PATHS        = ['']
 IGNORE_FILES        = ['.#*', '*~', '#*#']
-# this directory contains HTML mockups that should be processed
-# as static files, not articles
-ARTICLE_EXCLUDES    = ['htmletc/ssl-errors']
+ARTICLE_EXCLUDES    = ['comments',
+    # this directory contains HTML mockups that should be processed
+    # as static files, not articles
+    'htmletc/ssl-errors'
+]
 
 THEME               = '../style'
 THEME_STATIC_DIR    = 's'
@@ -52,6 +54,7 @@ PLUGINS             = ['neighbors',
                        'summary',
                        'read_more_link',
                        'category_meta',
+                       'pelican_comment_system',
                        'pandoc_reader']
 
 PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
@@ -67,6 +70,9 @@ READ_MORE_LINK_FORMAT = '<span> <a class="read-more" href="/{url}">{text}</a></s
 
 # This is the default, but it complains if you don't set it explicitly.
 SITEMAP             = { 'format': 'xml' }
+
+PELICAN_COMMENT_SYSTEM = True
+#PELICAN_COMMENT_SYSTEM_FEED = ''
 
 # Outbound top-menu links.
 MENUITEMS = [
