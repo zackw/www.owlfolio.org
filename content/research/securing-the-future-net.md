@@ -2,18 +2,17 @@ Title: Securing the future net
 Date: 2011-04-06 17:26
 Slug: securing-the-future-net
 
-Today I had the fortune to attend a group discussion ambitiously
-entitled "Future of Internet Security" at Mozilla. What this was
-*mostly* about was, given that a [recent incident][] has severely
-shaken everyone's confidence in the [PKIX][] (PDF, say sorry)
-mechanism that everyone currently uses to decide that a secure website
-is who it says it is, what can we do about it? I'm not going to
-attempt to summarize the discussion; instead I'm going to point at the
-[Etherpad log][], then plow boldly forward with my own
-(incontrovertibly correct, of course) opinion on the way forward, on
-the assumption that everyone who reads this will already be familiar
-enough with the context to know what I'm talking
-about. **[EDIT 8 April:** A [video record of the discussion][] is now available.**]**
+Today I had the fortune to attend a group discussion ambitiously entitled
+"Future of Internet Security" at Mozilla. What this was *mostly* about
+was, given that a [recent incident][] has severely shaken everyone's
+confidence in the [PKIX][] (PDF, say sorry) mechanism that everyone
+currently uses to decide that a secure website is who it says it is,
+what can we do about it? I'm not going to attempt to summarize; instead
+I'm going to point at the [Etherpad log][] and [video record of the
+discussion][], then plow boldly forward with my own (incontrovertibly
+correct, of course) opinion on the way forward, on the assumption that
+everyone who reads this will already be familiar enough with the context
+to know what I'm talking about.
 
 I will quote in full the "principles" with which the discussion was
 kicked off, though (really they're more like constraints on solutions

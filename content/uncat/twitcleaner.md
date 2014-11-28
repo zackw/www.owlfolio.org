@@ -95,7 +95,7 @@ would be awesome.
 [@Astro_Soichi]: https://twitter.com/Astro_Soichi
 [@TwitCleaner]: https://twitter.com/TwitCleaner
 [Twitter-verified users]: https://twitter.com/help/verified
-[Lurkers]: http://en.wikipedia.org/wiki/Lurker
+[Lurkers]: https://en.wikipedia.org/wiki/Lurker
 [fourth wall mail slot]: https://allthetropes.orain.org/wiki/Fourth_Wall_Mail_Slot
 [@Othar]: https://twitter.com/Othar
 [Girl Genius]: http://www.girlgeniusonline.com/

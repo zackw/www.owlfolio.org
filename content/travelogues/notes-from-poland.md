@@ -136,8 +136,8 @@ mermaid of
 Warsaw.](http://farm8.staticflickr.com/7018/6696755835_8e8b2ab0fb_m.jpg)](http://www.flickr.com/photos/zackw/6696755835/ "Organ grinder (with parrot!) and a fountain-statue of the armed mermaid of Warsaw.")
 [![University of Warsaw main library. I don't know what the pink thing
 is.](http://farm8.staticflickr.com/7167/6696791421_a92bb8cea1_m.jpg)](http://www.flickr.com/photos/zackw/6696791421/ "University of Warsaw main library.  I don't know what the pink thing is.")
-[![ Łazienki Park: enormous statue of Chopin being eaten by a
-monster.](http://farm8.staticflickr.com/7166/6696853917_ddb73e7b45_m.jpg)](http://www.flickr.com/photos/zackw/6696853917/ " Łazienki Park: enormous statue of Chopin being eaten by a monster.")
+[![Łazienki Park: enormous statue of Chopin being eaten by a
+monster.](http://farm8.staticflickr.com/7166/6696853917_ddb73e7b45_m.jpg)](http://www.flickr.com/photos/zackw/6696853917/ "Łazienki Park: enormous statue of Chopin being eaten by a monster.")
 [![Left: Chopin Museum. Right: Soviet Realist monstrosity. Middle:
 Chopin-themed
 mural.](http://farm8.staticflickr.com/7012/6696806755_2112262852_m.jpg)](http://www.flickr.com/photos/zackw/6696806755/ "Left: Chopin Museum. Right: Soviet Realist monstrosity. Middle: Chopin-themed mural.")

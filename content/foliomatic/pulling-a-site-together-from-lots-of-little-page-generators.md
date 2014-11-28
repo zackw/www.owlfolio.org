@@ -21,14 +21,14 @@ that looks something like this:
     index.md
     robots.txt
     scratchpad/
-    foo.html
-    bar.gif
+        foo.html
+        bar.gif
     header-survey/
-    tblgen.py
-    [other stuff]
+        tblgen.py
+        [other stuff]
     rngstats/
-    process.R
-    [other stuff]
+        process.R
+        [other stuff]
     ...
 
 and we want that to become a rendered document tree looking something
@@ -37,17 +37,17 @@ like this:
     index.html
     robots.txt
     scratchpad/
-    foo.html
-    bar.gif
+        foo.html
+        bar.gif
     header-survey/
-    index.html
-    sprite.png
+        index.html
+        sprite.png
     rngstats/
-    index.html
-    d3.js
-    aes.csv
-    arc4.csv
-    ...
+        index.html
+        d3.js
+        aes.csv
+        arc4.csv
+        ...
 
 Notice that each "black box" is a program written in an arbitrary
 language, with an arbitrary name (`tblgen.py`, `process.R`). In

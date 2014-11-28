@@ -2,8 +2,8 @@ Title: Another site redesign
 Date: 2010-05-24 16:46
 Slug: another-site-redesign
 
-This site is now running on [Wordpress](http://wordpress.org/) rather
-than the creaky combination of [Ikiwiki](http://ikiwiki.info) and
+This site is now running on [Wordpress](https://wordpress.org/) rather
+than the creaky combination of [Ikiwiki](https://ikiwiki.info) and
 comment software of my own invention. Things generally look nicer, in my
 opinion, and should also be more reliable.
 

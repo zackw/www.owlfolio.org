@@ -1,4 +1,4 @@
-Title: PSA: "like" buttons
+Title: PSA: “like” buttons
 Date: 2011-05-08 12:43
 Slug: psa-like-buttons
 

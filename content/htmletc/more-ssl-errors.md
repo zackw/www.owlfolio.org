@@ -69,6 +69,6 @@ tractable.)
 [David Bolton]: http://davidbolton.info/
 [John Barton]: http://www.johnjbarton.com/
 [Certificate Patrol]: https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/
-[Perspectives]: http://www.cs.cmu.edu/~perspectives/
-[Herdict]: http://www.herdict.org/
+[Perspectives]: http://perspectives-project.org/
+[Herdict]: https://www.herdict.org/
 [boriss-404]: http://www.donotlick.com/2010/01/04/herdict-and-its-tasty-anonymized-aggregated-data/

@@ -342,13 +342,11 @@ operational will and manpower.
 
 ### [Scriptless Attacks---Stealing the Pie Without Touching the Sill](https://www.hgi.rub.de/media/emma/veroeffentlichungen/2012/08/16/scriptlessAttacks-ccs2012.pdf)
 
-This paper demonstrates a variety of XSS-style attacks that don't
-require any scripting at all, bypassing existing XSS filters,
-
+This paper demonstrates a variety of XSS-style attacks that
+don't require any scripting at all, bypassing existing XSS filters,
 [CSP](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html),
 NoScript---some even work in HTML-enabled mail readers. (This is your
-periodic reminder that nobody should ever send or accept HTML in
-email.)
+periodic reminder that nobody should ever send or accept HTML in email.)
 
 The attacks, in general, work by exploiting some other feature of the
 Web platform that can conditionally trigger tailored requests to a
@@ -362,4 +360,3 @@ Custom fonts (using SVG, or OpenType's discretionary ligatures) can
 control the size of the viewport, which together with media queries,
 can trigger URL loads. (This one seems a bit too baroque to be
 practical, but you never do know with these things.)
-

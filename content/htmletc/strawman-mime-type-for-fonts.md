@@ -74,7 +74,7 @@ format. With that in mind, here's my proposal: let's standardize
 **`application/font`** as the MIME type for *all* fonts delivered over
 the Internet, regardless of their format. Browsers should use only
 fonts delivered with that MIME type, but should detect the actual
-format based on the contents of the response body.< p>
+format based on the contents of the response body.
 
 I can think of two potential problems with this scheme. First, it
 would be good if browsers could tell servers (using the normal

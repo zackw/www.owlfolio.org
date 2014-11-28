@@ -24,7 +24,7 @@ every 20 to 40 hours of coding time.
 
 So I don't trust Git and I don't like using it. I do, however,
 appreciate its speed, which as far as I can tell is down to back-end
-stuff -- storage format, network protocol, and so on. So here's what I
+stuff---storage format, network protocol, and so on. So here's what I
 want: I want someone to write an *exact clone* of the Mercurial CLI
 that uses git's back end. I have no time, but I would totally
 contribute money to the development of this. It has to be an *exact

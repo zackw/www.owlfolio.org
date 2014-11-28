@@ -16,7 +16,6 @@ Mine: <http://www.flickr.com/photos/zackw/sets/72157624186453266/>
 (Please post requests *on the Flickr pages for the objects you want*, if
 at all possible.)
 
-**[EDIT 23 Jun 2010:** This offer is no longer open. We have donated
+**EDIT 23 Jun 2010: This offer is no longer open. We have donated
 what hadn't already been claimed to the San Jose chapter of [Empty
-Bowls](http://www.emptybowls.net/).**]**
-
+Bowls](http://www.emptybowls.net/).**

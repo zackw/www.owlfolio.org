@@ -13,7 +13,7 @@ I'd like to share them with you now.
 ## Small conference rooms (memes)
 
 * [All your base](https://www.youtube.com/watch?v=qItugh-fFgg)
-* [Bike](http://bikeshed.com/)[shed](http://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality) (used as a storage area for a while)
+* [Bike](http://bikeshed.com/)[shed](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality) (used as a storage area for a while)
 * [Chuck Norris](http://www.chucknorrisfacts.com/)
 * [Dancing Baby](http://knowyourmeme.com/memes/dancing-baby)
 * [End of the World](http://www.albinoblacksheep.com/flash/end)
