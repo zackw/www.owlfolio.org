@@ -1,14 +1,21 @@
+# Rewrite rules are up top because they apply first anyway.
 RewriteEngine On
 RewriteBase /
 
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
 
+# serve precompressed files
+RewriteCond %{HTTP:Accept-Encoding} gzip 
+RewriteCond %{REQUEST_FILENAME}.gz -f 
+RewriteRule ^(.*)$ $1.gz [L]
+
 ErrorDocument 403 /s/403.html
 ErrorDocument 404 /s/404.html
 ErrorDocument 301 " "
 ErrorDocument 302 " "
 
+# Permanent redirects
 RedirectMatch permanent ^(.*)/index\.rss$ $1/index.atom
 RedirectMatch permanent ^(.*)/feed/?$     $1/index.atom
 
@@ -30,6 +37,7 @@ Redirect permanent /media/2012/05/stegotorus.pdf                   https://hacks
 Redirect permanent /media/2012/05/stegotorus-talk/                 https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/
 Redirect permanent /media/2014/07/z_rump.pdf                       /research/pets-rump-session-talk/slides.pdf
 
+# Security headers
 Header set Strict-Transport-Security "max-age=31536000"
 
 # pruned list of type adjusments from h5bp
