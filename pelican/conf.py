@@ -17,7 +17,7 @@ RELATIVE_URLS       = True
 
 PATH                = 'content'
 PAGE_PATHS          = ['pages']
-STATIC_PATHS        = ['']
+STATIC_PATHS        = ['',]
 IGNORE_FILES        = ['.#*', '*~', '#*#']
 ARTICLE_EXCLUDES    = ['comments',
     # this directory contains HTML mockups that should be processed
@@ -72,7 +72,7 @@ READ_MORE_LINK_FORMAT = '<span> <a class="read-more" href="/{url}">{text}</a></s
 SITEMAP             = { 'format': 'xml' }
 
 PELICAN_COMMENT_SYSTEM = True
-#PELICAN_COMMENT_SYSTEM_FEED = ''
+PELICAN_COMMENT_SYSTEM_FEED = None
 
 # Outbound top-menu links.
 MENUITEMS = [

@@ -1,0 +1,58 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 403 /s/403.html
+ErrorDocument 404 /s/404.html
+ErrorDocument 301 " "
+ErrorDocument 302 " "
+
+RedirectMatch permanent ^(.*)/index\.rss$ $1/index.atom
+RedirectMatch permanent ^(.*)/feed/?$     $1/index.atom
+
+Redirect permanent /afrq/                                          /contact/#afrq
+Redirect permanent /glossary/                                      /about/#glossary
+Redirect permanent /scratchpad/                                    https://hacks.owlfolio.org/scratchpad/
+Redirect permanent /pubs/                                          https://hacks.owlfolio.org/pubs/
+
+Redirect permanent /contact/pgpkey.txt                             https://pgp.mit.edu/pks/lookup?op=vindex&search=0x91FCC32B6769AA64
+
+Redirect permanent /DRAFT/border-radius/                           /htmletc/border-radius/
+Redirect permanent /htmletc/url-canonicalizer/                     /possibly-useful/url-canonicalizer/
+Redirect permanent /personal/what-is-wrong-with-you-monkeys/       /uncat/what-is-wrong-with-you-monkeys/
+
+Redirect permanent /media/2010/05/csdl2006-cooperative-meaning.pdf https://hacks.owlfolio.org/pubs/2006-cooperative.pdf
+Redirect permanent /media/2010/05/maint-view-gcc.pdf               https://hacks.owlfolio.org/pubs/2003-maintenance.pdf
+Redirect permanent /media/2010/05/verbal-semantics.pdf             https://hacks.owlfolio.org/pubs/2004-verbal.pdf
+Redirect permanent /media/2012/05/stegotorus.pdf                   https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf
+Redirect permanent /media/2012/05/stegotorus-talk/                 https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/
+Redirect permanent /media/2014/07/z_rump.pdf                       /research/pets-rump-session-talk/slides.pdf
+
+Header set Strict-Transport-Security "max-age=31536000"
+
+# pruned list of type adjusments from h5bp
+# there are no standard MIME types for fonts, so use application/octet-stream
+# for them, rather than what h5bp made up (by default NFSN uses text/plain)
+
+AddType application/atom+xml      atom
+AddType application/octet-stream  eot ttf ttc otf woff
+
+# cache control
+FileETag none
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 months"
+  ExpiresByType  text/html               "access plus 1 hours"
+  ExpiresByType  application/atom+xml    "access plus 1 hours"
+</IfModule>
+
+# security improvements from h5bp
+Options -Indexes
+<FilesMatch "(\.(bak|config|sql|fla|psd|ini|log|sh|inc|swp|dist|orig|rej)|[~#])$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^\.(git|#)">
+  Require all denied
+</FilesMatch>
