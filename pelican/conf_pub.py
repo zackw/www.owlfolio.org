@@ -17,9 +17,11 @@ from conf_base import *
 
 SITEURL            = 'https://www.owlfolio.org'
 FEED_DOMAIN        = SITEURL
+FEED_MAX_ITEMS     = DEFAULT_PAGINATION
 FEED_ALL_ATOM      = 'index.atom'
 CATEGORY_FEED_ATOM = '%s/index.atom'
 
+PLUGINS.extend(['gzip_cache'])
 STATIC_PATHS.append('../meta')
 ARTICLE_EXCLUDES.append('../meta')
 
