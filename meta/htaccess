@@ -33,8 +33,8 @@ Redirect permanent /personal/what-is-wrong-with-you-monkeys/       /uncat/what-i
 Redirect permanent /media/2010/05/csdl2006-cooperative-meaning.pdf https://hacks.owlfolio.org/pubs/2006-cooperative.pdf
 Redirect permanent /media/2010/05/maint-view-gcc.pdf               https://hacks.owlfolio.org/pubs/2003-maintenance.pdf
 Redirect permanent /media/2010/05/verbal-semantics.pdf             https://hacks.owlfolio.org/pubs/2004-verbal.pdf
-Redirect permanent /media/2012/05/stegotorus.pdf                   https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf
-Redirect permanent /media/2012/05/stegotorus-talk/                 https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/
+Redirect permanent /media/2010/05/stegotorus.pdf                   https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf
+Redirect permanent /media/2010/05/stegotorus-talk/                 https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/
 Redirect permanent /media/2014/07/z_rump.pdf                       /research/pets-rump-session-talk/slides.pdf
 
 # Security headers
