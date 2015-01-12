@@ -27,7 +27,6 @@ ARTICLE_EXCLUDES    = ['comments',
 
 THEME               = '../style'
 THEME_STATIC_DIR    = 's'
-CSS_FILE            = 'style.css'
 
 ARTICLE_URL         = '{category}/{slug}/'
 ARTICLE_SAVE_AS     = '{category}/{slug}/index.html'
@@ -76,9 +75,10 @@ PELICAN_COMMENT_SYSTEM_FEED = None
 
 # Outbound top-menu links.
 MENUITEMS = [
-    ('Publications', 'https://hacks.owlfolio.org/pubs/'),
-    ('Hacks',        'https://hacks.owlfolio.org/',),
-    ('Readings',     'https://readings.owlfolio.org/')
+    ('Publications', 'https://hacks.owlfolio.org/pubs/',     'left'),
+    ('Hacks',        'https://hacks.owlfolio.org/',          'right'),
+    ('Readings',     'https://readings.owlfolio.org/',       'right'),
+    ('Photography',  'https://www.flickr.com/zackw/photos/', 'right')
 ]
 
 # Recent-posts widget

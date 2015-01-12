@@ -11,8 +11,10 @@ order of frequency of use:
 * [Twitter](https://twitter.com/elwoz): elwoz
 * [Stack Overflow](http://stackoverflow.com/users/388520/zack) and
   relatives: Zack
-* [Dreamwidth](http://zwol.dreamwidth.org/)/[LiveJournal](http://zwol.livejournal.com): zwol
+* [Github](https://github.com/zackw): zackw
 * [Flickr](http://www.flickr.com/photos/zackw/): zackw
+* [Keybase](https://keybase.io/zackw): zackw
+* [Dreamwidth](http://zwol.dreamwidth.org/)/[LiveJournal](http://zwol.livejournal.com): zwol
 * [LinkedIn](https://www.linkedin.com/in/zackweinberg): Zack Weinberg
 * [Facebook](https://www.facebook.com/elwoz): Zack Weinberg
 

@@ -1,3 +1,21 @@
+{% macro topbar(pages, menuitems) %}
+<nav class="topbar">
+{# Currently pages can only go on the left. #}
+  <ul class="topbar-left">{%
+  for p in pages if not p.no_menu
+  %}<li class="menu{% if p == page %} active{% endif %}"><a href="/{{ p.url }}">{{
+        p.title.split()[0] }}</a></li>{%
+  endfor %}{%
+  for title, link, position in menuitems if position == 'left'
+  %}<li class="menu"><a href="{{ link }}">{{ title }}</a></li>{% endfor
+  %}</ul>
+  <ul class="topbar-right">{%
+  for title, link, position in menuitems if position == 'right'
+  %}<li class="menu"><a href="{{ link }}">{{ title }}</a></li>{% endfor
+  %}</ul>
+</nav><!-- #topbar -->
+{% endmacro %}
+
 {% macro pager(older_page, older_label, newer_page, newer_label) %}
 <nav id="post-nav" class="pager">
 {% if older_page %}
@@ -31,29 +49,29 @@
 {% endmacro %}
 
 {% macro category_list(categories) %}
-<article class="widget">
+<nav class="index widget">
   <h3>Topics</h3>
   <ul>
     {% for category, articles in categories|sort %}
     <li><a href="/{{ category.url }}">{{ category }}</a></li>
     {% endfor %}
   </ul>
-</article>
+</nav>
 {% endmacro %}
 
 {% macro recent_posts(articles, n) %}
-<article class="widget">
+<nav class="index widget">
   <h3>Recent Posts</h3>
   <ul>
     {% for i in range(n) %}
     <li><a href="/{{ articles[i].url }}">{{ articles[i].title }}</a></li>
     {% endfor %}
   </ul>
-</article>
+</nav>
 {% endmacro %}
 
 {% macro outbound_links(section_title, links, attrs='') %}
-<article class="widget">
+<nav class="blogroll widget">
   <h3>{{ section_title }}</h3>
   <ul>
     {% for link, title, url in links %}
@@ -75,5 +93,5 @@
     {% endif %}
     {% endfor %}
   </ul>
-</article>
+</nav>
 {% endmacro %}
