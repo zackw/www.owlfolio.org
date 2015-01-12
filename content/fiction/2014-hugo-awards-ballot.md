@@ -639,8 +639,7 @@ episodes (for instance) sometime in 2024.
 I _wanted_ to vote this category, but I have run out of time to read
 things, so I have to skip it as well.
 
-## Best Semiprozine, Best Fanzine, Best Fancast, Best Editor, Best
-Professional Artist, Best Fan Artist, Best Fan Writer
+## Best Semiprozine, Best Fanzine, Best Fancast, Best Editor, Best Professional Artist, Best Fan Artist, Best Fan Writer
 
 And _these_ categories, I have no idea how to evaluate.
 
