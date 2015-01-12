@@ -48,7 +48,8 @@ PAGINATION_PATTERNS = [
 ]
 
 PLUGIN_PATHS        = ['plugins']
-PLUGINS             = ['neighbors',
+PLUGINS             = ['assets',
+                       'neighbors',
                        'sitemap',
                        'summary',
                        'read_more_link',

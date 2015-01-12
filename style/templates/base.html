@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--[if lt IE 9]><script src="/{{ THEME_STATIC_DIR }}/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/normalize.css">
-    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/f/MostraNuova-Regular.css">
-    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/main.css">
+    {% assets filters="cssmin", output="style.min.css",
+              "f/MostraNuova-Regular.css", "normalize.css", "main.css" %}
+    <link rel="stylesheet" href="/{{ ASSET_URL }}">
+    {% endassets %}
     {% block head %}
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     {% if FEED_ALL_ATOM %}
