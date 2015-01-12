@@ -79,18 +79,19 @@ Site design was done by me, with a great deal of help from
 [Pam Griffith](http://www.pamgriffith.net/), whose design-fu is far
 superior.
 
-Body fonts depend on your operating system and browser.  Headings are
-set in [...].  All graphic decorations were drawn by me.  The owl in
-the top left (if your screen is wide enough) is a modified tracing
-from a photograph of the decorative owls in the elevator lobby of the
+Headings are set in
+[Mostra Nuova](http://www.marksimonson.com/fonts/view/mostra-nuova).
+Body fonts depend on your operating system and browser.  All graphic
+decorations were drawn by me.  The owl in the top left (if your screen
+is wide enough) is a modified tracing from a photograph of the
+decorative owls in the elevator lobby of the
 [Chicago Board of Trade Building](http://www.cbotbuilding.com/photo-gallery/landmark/).
 Backgrounds are currently solid colors.
 
 The CMS is [Pelican](http://getpelican.com/), with a theme customized
 from the ground up for this site.  If it doesn’t look terrible in old
 versions of Internet Explorer, that is thanks to
-[the HTML5 Shiv](https://github.com/aFarkas/html5shiv) and
-[Respond.js](https://github.com/scottjehl/Respond).
+[the HTML5 Shiv](https://github.com/aFarkas/html5shiv).
 
 Hosting is at
 [NearlyFreeSpeech.NET](https://www.nearlyfreespeech.net/), which I do

@@ -1,8 +1,12 @@
 /* Typography */
 
+body {
+  font-family: "Noto Serif", "Droid Serif", "Georgia", "Utopia", "Charter", serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: "Mostra Nuova", sans-serif;
+  font-weight: normal;
 }
 
 q { quotes: "“" "”" "‘" "’"; }
@@ -120,6 +124,10 @@ thead > tr:last-child > th, thead > tr:last-child > td {
   float: right;
   font-size: 12px;
   font-style: italic;
+}
+
+.widget > h3 {
+  font-size: 1.5em;
 }
 
 .widget > ul {
@@ -298,8 +306,9 @@ body {
   position: relative; /* abspos container */
 }
 #brand {
-  margin-top: 0.33em;
-  margin-bottom: 2em;
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  font-size: 3em;
 }
 #brand > a, .topbar a {
   text-decoration: none;
@@ -319,7 +328,7 @@ body {
   left: 15em;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 273px) {
   #brand {
     text-align: center;
   }
@@ -327,8 +336,10 @@ body {
     left: auto;
     right: 0.625em;
   }
+}
+@media screen and (max-width: 360px) {
   #main {
-    font-size: 80%;
+    font-size: 90%;
     border-left: 0;
     border-image-width: 18px 0 0 0;
   }
