@@ -25,12 +25,12 @@ PLUGINS.extend(['gzip_cache'])
 STATIC_PATHS.append('../meta')
 ARTICLE_EXCLUDES.append('../meta')
 
-EXTRA_PATH_METADATA = {
+EXTRA_PATH_METADATA.update({
     '../meta/robots.txt'  : { 'path': 'robots.txt' },
-    '../meta/favicon.ico' : { 'path': 'favicon.ico' },
+    '../meta/keybase.txt' : { 'path': '.well-known/keybase.txt' },
     '../meta/htaccess'    : { 'path': '.htaccess' },
     '../meta/googleaf54bcfc4c61887c.html'
                           : { 'path' : 'googleaf54bcfc4c61887c.html' },
-}
+})
 
 DELETE_OUTPUT_DIRECTORY = True

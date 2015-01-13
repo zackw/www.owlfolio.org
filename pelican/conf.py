@@ -205,7 +205,7 @@ BLOGROLL = [
 
         ("Stack Overflow",
          "The dusty corners of C",
-         "https://stackoverflow.com/users/388520/zack"),
+         "https://stackoverflow.com/users/388520"),
 
         ("Github",
          "Code",
@@ -215,13 +215,17 @@ BLOGROLL = [
          "Architecture, trees, and relatives",
          "http://flickr.com/photos/zackw/"),
 
-        ("Google+",
-         "Longer chitchat and Breakfast Combo",
-         "https://plus.google.com/108735008363901796353/about"),
+        ("Keybase",
+         "The Web of Trust (this time for sure!)",
+         "https://keybase.io/zackw"),
 
         ("Dreamwidth",
          "Old personal journal, no longer updated",
          "https://zwol.dreamwidth.org/"),
+
+        ("Google+",
+         "Longer chitchat and Breakfast Combo",
+         "https://plus.google.com/108735008363901796353/about"),
 
         ("LinkedIn",
          "I AM NOT LOOKING FOR A JOB. DO NOT SEND ME JOB OFFERS.",
@@ -235,3 +239,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# Most extra-path objects are not useful when developing, but the favicon is,
+# if only to stop 404 log spam from SimpleHTTPServer.
+EXTRA_PATH_METADATA = {
+    '../meta/favicon.ico' : { 'path': 'favicon.ico' },
+}

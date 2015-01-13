@@ -9,19 +9,20 @@ I may also be found on various community-type websites, in decreasing
 order of frequency of use:
 
 * [Twitter](https://twitter.com/elwoz): elwoz
-* [Stack Overflow](http://stackoverflow.com/users/388520/zack) and
-  relatives: Zack
+* [Newsblur](https://zwol.newsblur.com/): zwol
+* [Stack Overflow](http://stackoverflow.com/users/388520) and relatives: zwol
 * [Github](https://github.com/zackw): zackw
 * [Flickr](http://www.flickr.com/photos/zackw/): zackw
 * [Keybase](https://keybase.io/zackw): zackw
-* [Dreamwidth](http://zwol.dreamwidth.org/)/[LiveJournal](http://zwol.livejournal.com): zwol
+* [Dreamwidth](http://zwol.dreamwidth.org/): zwol
 * [LinkedIn](https://www.linkedin.com/in/zackweinberg): Zack Weinberg
 * [Facebook](https://www.facebook.com/elwoz): Zack Weinberg
+* [Google+](https://plus.google.com/108735008363901796353/about): Zack Weinberg
 
-I probably have accounts on several more, what with the fad for these
-things a few years ago, but I never look at them nowadays.  I won't
-respond to invitations to new social networking websites; it's not
-you, it's the medium.
+Of the above, only Twitter, Newsblur, the Stack family, and Github are
+any real use if you want to _communicate_ with me; I rarely look at
+the others.  I won't respond to invitations to new social networking
+websites; it's not you, it's the medium.
 
 I am also "zwol" on IRC; I frequent
 [darkmyst.org](http://www.darkmyst.org/),
@@ -45,7 +46,7 @@ I used to use another key, but it is quite old and has now been revoked:
 
     1024D/797DC75F  A29C E8FD 999C 5BB4 C446  978F 51C6 3320 797D C75F
 
-<h3 id="afrq">Answers to Frequent Rhetorical Questions</h3>
+### Answers to Frequent Rhetorical Questions {#afrq}
 
 Every time I go through my spam queue I find questions or comments
 that *could be* real, if not for the fact that I've seen them dozens
