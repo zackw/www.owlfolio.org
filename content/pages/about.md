@@ -86,7 +86,9 @@ decorations were drawn by me.  The owl in the top left (if your screen
 is wide enough) is a modified tracing from a photograph of the
 decorative owls in the elevator lobby of the
 [Chicago Board of Trade Building](http://www.cbotbuilding.com/photo-gallery/landmark/).
-Backgrounds are currently solid colors.
+The chevron pattern in the background is based on the
+[black and gold pattern seen on this moribund website](https://web.archive.org/web/20141218065258/http://shipwreckradio.com/);
+if anyone knows where it came from, please tell me.
 
 The CMS is [Pelican](http://getpelican.com/), with a theme customized
 from the ground up for this site.  If it doesn’t look terrible in old

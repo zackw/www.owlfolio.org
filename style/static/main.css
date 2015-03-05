@@ -1,7 +1,21 @@
 /* Typography */
 
 body {
-  font-family: "Noto Serif", "Droid Serif", "Georgia", "Utopia", "Charter", serif;
+  font-family: "Noto Serif", "Droid Serif", "Georgia", "Utopia",
+               "Charter", serif;
+}
+
+a         { color: #1d0ac2; text-decoration: none }
+a:visited { color: #3a0f57 }
+a:hover   { color: #b82514 }
+
+.entry-content a         { border-bottom: 1px solid #b8b3e6 }
+.entry-content a:visited { border-bottom: 1px solid #d1b3e6 }
+.entry-content a:hover   { border-bottom: 1px solid #e6b8b3 }
+@supports (text-decoration: underline #b8b3e6) {
+  .entry-content a         { text-decoration: underline #b8b3e6; border-bottom: none }
+  .entry-content a:visited { text-decoration: underline #d1b3e6; border-bottom: none }
+  .entry-content a:hover   { text-decoration: underline #e6b8b3; border-bottom: none }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 q { quotes: "“" "”" "‘" "’"; }
 q:before { content: open-quote; }
 q:after { content: close-quote; }
+
+@supports (text-decoration: underline dotted) {
+  abbr[title] { text-decoration: underline dotted; border-bottom: none; }
+}
 
 /* Paragraph-level formatting */
 address { display: inline }
@@ -113,9 +131,6 @@ thead > tr:last-child > th, thead > tr:last-child > td {
   padding-bottom: 2px;
   border-bottom: 1px solid #333;
   margin: 0;
-}
-.page-header a, .post-header a {
-  text-decoration: none;
 }
 
 .entry-meta {
@@ -268,7 +283,7 @@ section.comment {
 
 /* Overall layout */
 body {
-  background-color: hsl(205,20%,90%);
+  background: url("chevrons.svg") #e0e6ea;
 }
 
 #main {
@@ -310,9 +325,6 @@ body {
   margin-bottom: 1.25em;
   font-size: 3em;
 }
-#brand > a, .topbar a {
-  text-decoration: none;
-}
 .topbar-left, .topbar-right {
   margin: 0;
   padding: 0;
@@ -349,11 +361,12 @@ body {
     body {
       display: flex;
       flex-wrap: wrap;
-      /* This is coded here because it appears under the left margin of the
-         banner, which you can't do with a background on the banner itself. */
-      background-image: url(cbot-owl.svg);
-      background-repeat: no-repeat;
-      background-position: 8px 6px;
+      /* The owl is coded here because it appears under the left margin of
+         the banner, which you can't do with a background on the
+         banner itself. */
+      background: url("cbot-owl.svg") 7px 6px no-repeat,
+                  url("art_deco_chevrons.svg"),
+                  #e0e6ea;
     }
     #banner, #content-info {
       flex: 1 100%;
@@ -389,5 +402,5 @@ body {
   .post-header h1::after {
     content: " | Owl’s Portfolio";
   }
-  a { color: black !important; text-decoration: none !important }
+  a { color: black !important; }
 }
