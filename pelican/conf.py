@@ -245,3 +245,7 @@ AUTHOR_FEED_RSS = None
 EXTRA_PATH_METADATA = {
     '../meta/favicon.ico' : { 'path': 'favicon.ico' },
 }
+
+# If assets is allowed to run in debug mode, it puts the CSS files in
+# the wrong place, breaking links to subresources.
+ASSET_DEBUG = False
