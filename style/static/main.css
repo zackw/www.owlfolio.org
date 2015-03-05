@@ -365,7 +365,7 @@ body {
          the banner, which you can't do with a background on the
          banner itself. */
       background: url("cbot-owl.svg") 7px 6px no-repeat,
-                  url("art_deco_chevrons.svg"),
+                  url("chevrons.svg"),
                   #e0e6ea;
     }
     #banner, #content-info {
