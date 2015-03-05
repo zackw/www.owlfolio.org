@@ -402,5 +402,9 @@ body {
   .post-header h1::after {
     content: " | Owl’s Portfolio";
   }
-  a { color: black !important; }
+  a {
+    color: black !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
 }
