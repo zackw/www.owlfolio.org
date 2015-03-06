@@ -10,10 +10,6 @@
               "f/MostraNuova-Regular.css", "normalize.css", "main.css" %}
     <link rel="stylesheet" href="/{{ ASSET_URL }}">
     {% endassets %}
-    {% assets filters="rjsmin", output="script.min.js",
-              "maybe-load-mathjax.js" %}
-    <script src="/{{ ASSET_URL }}" defer async></script>
-    {% endassets %}
     {% block head %}
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     {% if FEED_ALL_ATOM %}
@@ -79,5 +75,9 @@
          rel="license">Creative Commons Attribution-Noncommercial 4.0 license</a>.
       Comments © their authors.
     </footer>
+    {% assets filters="rjsmin", output="script.min.js",
+              "maybe-load-mathjax.js" %}
+    <script src="/{{ ASSET_URL }}"></script>
+    {% endassets %}
   </body>
 </html>
