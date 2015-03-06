@@ -79,6 +79,7 @@ publish:
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete \
 	    --cvs-exclude --exclude /comments/ --exclude /.htaccess.gz \
+            --exclude /s/.webassets-cache/ \
 	    $(OUTPUTDIR)/ $(SSH_DESTINATION)/
 
 .PHONY: html help clean regenerate serve devserver publish \
