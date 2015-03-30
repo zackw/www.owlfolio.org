@@ -53,7 +53,6 @@ PLUGINS             = ['assets',
                        'neighbors',
                        'sitemap',
                        'summary',
-                       'read_more_link',
                        'category_meta',
                        'pelican_comment_system',
                        'pandoc_reader']
@@ -61,13 +60,8 @@ PLUGINS             = ['assets',
 PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
 PANDOC_EXTENSIONS   = ['-citations']
 
-# Setting SUMMARY_MAX_LENGTH to None breaks read_more_link.
-# The <span> around the space and link is necessary because
-# read_more_link will only insert _one element_.
-SUMMARY_MAX_LENGTH    = 1e10
+SUMMARY_MAX_LENGTH    = None
 SUMMARY_END_MARKER    = '<!--more-->'
-READ_MORE_LINK        = '(Continued…)'
-READ_MORE_LINK_FORMAT = '<span> <a class="read-more" href="/{url}">{text}</a></span>'
 
 # This is the default, but it complains if you don't set it explicitly.
 SITEMAP             = { 'format': 'xml' }
