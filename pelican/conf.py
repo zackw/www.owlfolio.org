@@ -47,7 +47,7 @@ PAGINATION_PATTERNS = [
     (2, '{base_name}/{number}/', '{base_name}/{number}/index.html'),
 ]
 
-PLUGIN_PATHS        = ['plugins']
+PLUGIN_PATHS        = ['../../pelican-plugins']
 PLUGINS             = ['assets',
                        'neighbors',
                        'sitemap',
