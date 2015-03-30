@@ -18,6 +18,7 @@ RELATIVE_URLS       = True
 PATH                = 'content'
 PAGE_PATHS          = ['pages']
 STATIC_PATHS        = ['',]
+STATIC_EXCLUDES     = ['comments']
 IGNORE_FILES        = ['.#*', '*~', '#*#']
 ARTICLE_EXCLUDES    = ['comments',
     # this directory contains HTML mockups that should be processed
