@@ -1,0 +1,49 @@
+// Compass's font-face mixin (technically, the mysterious 'font-url'
+// function that it uses) cannot be persuaded to emit font URLs
+// referring to the correct location, mainly because of the Rube
+// Goldberg way it's getting invoked right now.  Also, it only
+// supports two of the modifier descriptors and it doesn't cure
+// enough repetitiveness.
+
+// Known font-family extensions with the corresponding format() annotations.
+// This also serves to define the preferred ordering of a src: descriptor.
+
+$_FF_EXTENSION_TO_FORMAT: (
+    eot:   embedded-opentype,
+    woff2: woff2,
+    woff:  woff,
+    otf:   opentype,
+    ttf:   truetype,
+    svg:   svg,
+);
+
+@function _FF_font_sources($base_path, $suffixes, $svg_fragment, $url_func)
+{
+  $font_files: ();
+  @each $suf in map-keys($_FF_EXTENSION_TO_FORMAT) {
+    @if index($suffixes, $suf) {
+      $format: map-get($_FF_EXTENSION_TO_FORMAT, $suf);
+      $fonturl: if($suf == eot, "#{$base_path}.#{$suf}?#iefix",
+                if($suf == svg, "#{$base_path}.#{$suf}##{$svg_fragment}",
+                                "#{$base_path}.#{$suf}"));
+      $font_files: append($font_files,
+          call($url_func, $fonturl) unquote("format('#{$format}')"),
+          comma)
+    }
+  }
+  @return $font_files;
+}
+
+@mixin font-face ($family, $base_path, $suffixes,
+                  $svg_fragment: font,
+                  $url_func:     font-url)
+{
+  @font-face {
+    font-family: quote($family);
+    @if index($suffixes, eot) {
+      src: url("#{$base_path}.eot");
+    }
+    src: _FF_font_sources($base_path, $suffixes, $svg_fragment, $url_func);
+    @content;
+  }
+}

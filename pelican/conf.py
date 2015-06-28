@@ -19,7 +19,7 @@ PATH                = 'content'
 PAGE_PATHS          = ['pages']
 STATIC_PATHS        = ['',]
 STATIC_EXCLUDES     = ['comments']
-IGNORE_FILES        = ['.#*', '*~', '#*#']
+IGNORE_FILES        = ['.#*', '*~', '#*#', '*.scss']
 ARTICLE_EXCLUDES    = ['comments',
     # this directory contains HTML mockups that should be processed
     # as static files, not articles
@@ -244,3 +244,9 @@ EXTRA_PATH_METADATA = {
 # If assets is allowed to run in debug mode, it puts the CSS files in
 # the wrong place, breaking links to subresources.
 ASSET_DEBUG = False
+
+# Compass fine-tuning
+ASSET_CONFIG = {
+    'COMPASS_CONFIG': {
+    }
+}
