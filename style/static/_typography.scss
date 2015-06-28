@@ -20,8 +20,13 @@ q:after { content: close-quote; }
 // won't be positioned optimally but the reduced visual clutter of the lightening is
 // more important.  For links in navigation, underlining is not necessary.
 
-a     { text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px }
-nav a { text-decoration: none; border-bottom-style: none; }
+a { text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px }
+nav a,
+#brand a,
+#content-info a,
+.entry-title a,
+.comment-author a
+  { text-decoration: none; border-bottom-style: none; }
 
 a         { color: $color_link;    border-bottom-color: $color_link_underline }
 a:visited { color: $color_visited; border-bottom-color: $color_visited_underline }

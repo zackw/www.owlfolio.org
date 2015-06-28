@@ -13,15 +13,14 @@
 // does things I consider questionable (and it's not like this site uses
 // forms much, anyway)  Some of this will be overridden below.
 
-@import "h5bp";
-@include h5bp-display;
-@include h5bp-base;
-@include h5bp-links;
-@include h5bp-typography;
-@include h5bp-lists;
-@include h5bp-embeds;
-@include h5bp-figures;
-@include h5bp-tables;
+@import "h5bp/normalize";
+@include normalize-base;
+@include normalize-display;
+@include normalize-links;
+@include normalize-semantics;
+@include normalize-embedded;
+@include normalize-grouping;
+@include normalize-tables;
 
 // The bulk of the style rules are in partials:
 
