@@ -23,8 +23,8 @@ nearly everything else on this list, but if you're in need of a
 there are those who would say that essential aspects of its design are
 dangerous to the general public.
 
-<figure><a href="https://commons.wikimedia.org/wiki/File:Warehouse1-full.jpg"><img alt="Warehouse aisle full of unidentifiable items" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Warehouse1-full.jpg/360px-Warehouse1-full.jpg" height="480" width="360"></a>
-<figcaption><a href="https://commons.wikimedia.org/wiki/File:Warehouse1-full.jpg">Warehouse aisle full of unidentifiable items</a></figcaption></figure>
+<figure><a href="https://commons.wikimedia.org/wiki/File:Resource_area_for_teaching_warehouse.jpg"><img alt="Warehouse aisle full of unidentifiable items" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Resource_area_for_teaching_warehouse.jpg/320px-Resource_area_for_teaching_warehouse.jpg" height="213" width="320"></a>
+<figcaption><a href="https://commons.wikimedia.org/wiki/File:Resource_area_for_teaching_warehouse.jpg">Warehouse aisle full of unidentifiable items</a></figcaption></figure>
 
 C++ is an auto parts warehouse.  Dig around in there long enough and
 you'll find everything you need to construct whatever sort of vehicle
