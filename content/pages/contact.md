@@ -2,6 +2,8 @@ Title: Contact Information
 Date: 2012-05-20 20:26
 Slug: contact
 
+I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER.
+
 I prefer, by orders of magnitude, email to any other communication
 medium.  My address is [zackw@panix.com](mailto:zackw@panix.com).
 
