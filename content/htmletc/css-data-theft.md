@@ -88,7 +88,7 @@ the contents of private messages from a bulletin board and two
 different webmail providers, with victims using unpatched versions of
 all the popular browsers.
 
-[cssxss02]: http://www.greymagic.com/security/advisories/gm004-ie/
+[cssxss02]: https://web.archive.org/web/20040411201211/http://www.greymagic.com/security/advisories/gm004-ie/
 [cssxss05]: http://www.hacker.co.il/security/ie/css_import.html
 [cssxss08]: http://d.hatena.ne.jp/ofk/20081111/1226407593
 [security researchers at CMU]: https://hacks.owlfolio.org/pubs/2010-protecting.pdf

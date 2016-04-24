@@ -27,9 +27,8 @@ the others.  I won't respond to invitations to new social networking
 websites; it's not you, it's the medium.
 
 I am also "zwol" on IRC; I frequent
-[darkmyst.org](http://www.darkmyst.org/),
-[oftc.net](http://www.oftc.net/), and
-[irc.mozilla.org](http://irc.mozilla.org/).
+[darkmyst.org](http://www.darkmyst.org/) and
+[oftc.net](http://www.oftc.net/).
 
 The handle "zwol" is my first initial plus "wol," as in the owl from
 the [Pooh stories](http://en.wikipedia.org/wiki/Winnie-the-Pooh).

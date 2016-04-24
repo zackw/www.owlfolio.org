@@ -95,7 +95,7 @@ OpenID authenticator; StackOverflow's network of spinoffs does
 this. But in other contexts, people are _adamant_ about preserving a
 firewall between the pseudonym they use on one site and those they use
 elsewhere; witness what happened when
-[Blizzard Entertainment tried to require real names on their forums](http://www.ripten.com/2010/07/09/blizzard-halts-real-name-forum-posting-requirement-after-comunity-backlash-getsome/).
+[Blizzard Entertainment tried to require real names on their forums](https://www.techdirt.com/articles/20100708/03054610123.shtml).
 The proposal tries to solve all these issues with a trusted
 intermediary that aggregates reputation information from many sites
 and produces a "credibility score" that you can take wherever you wish

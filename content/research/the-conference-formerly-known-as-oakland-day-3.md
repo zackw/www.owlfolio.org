@@ -237,7 +237,7 @@ enough to break two state-of-the-art exploit generators
 After the talk, I asked them if they'd considered modifying a compiler
 to avoid generating gadgets in the first place. They said several
 other people had already done that (e.g.
-"[G-Free: Defeating Return-Oriented Programming through Gadget-less Binaries](http://www.iseclab.org/papers/gfree.pdf)"),
+"[G-Free: Defeating Return-Oriented Programming through Gadget-less Binaries](http://www.onarlioglu.com/publications/acsac2010rop.pdf),"
 so they wanted to see if it was doable with no more information than
 you get from an executable.
 
@@ -294,7 +294,7 @@ We do have a genuine problem with translating what solid results we
 have into real-world security improvements. We have known how to
 design ciphers that resist all known attacks for some years now, and
 yet---as seen in the
-[case of the satellite phones](http://gmr.crypto.rub.de/paper/paper-1.pdf)
+[case of the satellite phones](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
 at this very conference---people in industry are still deploying
 ciphers that are trivially broken. This I believe should be blamed on
 the overlapping well-known dysfunctions of what my pinko commie

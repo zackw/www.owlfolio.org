@@ -96,7 +96,7 @@ would be awesome.
 [@TwitCleaner]: https://twitter.com/TwitCleaner
 [Twitter-verified users]: https://twitter.com/help/verified
 [Lurkers]: https://en.wikipedia.org/wiki/Lurker
-[fourth wall mail slot]: https://allthetropes.orain.org/wiki/Fourth_Wall_Mail_Slot
+[fourth wall mail slot]: http://tvtropes.org/pmwiki/pmwiki.php/Main/FourthWallMailSlot
 [@Othar]: https://twitter.com/Othar
 [Girl Genius]: http://www.girlgeniusonline.com/
 [entire cast]: https://twitter.com/jephjacques/lists/qccast/

@@ -7,7 +7,7 @@ My grandfather David and his brothers grew up in the small city of
 They emigrated to the USA in 1938, and as far as I know, none of the
 family have set foot in Poland since. Until now; this academic year,
 [my sister Dara](http://darastrata.com/) is living in Warsaw on a
-[Fulbright scholarship](http://fulbright.state.gov/) to study Polish
+[Fulbright scholarship](http://us.fulbrightonline.org/) to study Polish
 theater and its relationship to the
 [Greek chorus](http://darastrata.com/category/the-chorus/).
 [Pam](http://www.pamgriffith.net/) and I went to visit her over the
@@ -199,9 +199,7 @@ resistance, then burned the city to the ground by way of vengeance.
 *Then* they moved in and pushed the Germans out. And Stalin got his
 vassal state, just like the Poles had feared.
 
-[![Neon sign of someone throwing a ball off the side of a building; seen from the taxi leaving town.](http://farm8.staticflickr.com/7157/6696947329_3955c2b208_m.jpg)](http://www.flickr.com/photos/zackw/6696947329/
-"Neon sign of someone throwing a ball off the side of a building; seen
-from the taxi leaving town.")
+[![Neon sign of someone throwing a ball off the side of a building; seen from the taxi leaving town.](http://farm8.staticflickr.com/7157/6696947329_3955c2b208_m.jpg)](http://www.flickr.com/photos/zackw/6696947329/ "Neon sign of someone throwing a ball off the side of a building; seen from the taxi leaving town.")
 
 I'll close with this image, a neon sign in
 [Plac Konstytucji](http://en.wikipedia.org/wiki/Constitution_Square_%28Warsaw%29),

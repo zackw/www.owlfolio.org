@@ -54,7 +54,7 @@ crowds out other visions with its readiness to hand. Let’s invent some
 new icons for the future city. Let’s make the *next* demo flythrough
 be of something like
 [this](http://visions2200.com/Images/JeanPattou1984.jpg) or
-[this](http://thenewscifi.com/2012/04/22/sci-fi-image-of-the-day-futuristic-city/)
+[this](https://web.archive.org/save/_embed/http://thenewscifi.com/wp-content/uploads/2012/04/futuristic-city.jpg)
 or
 [this](http://www.milkytea.com/blog/wp-content/uploads/2009/03/future-city3.jpg).
 (But watch out for the just-as-discredited

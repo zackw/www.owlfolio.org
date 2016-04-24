@@ -74,7 +74,7 @@ MENUITEMS = [
     ('Publications', 'https://hacks.owlfolio.org/pubs/',     'left'),
     ('Hacks',        'https://hacks.owlfolio.org/',          'right'),
     ('Readings',     'https://readings.owlfolio.org/',       'right'),
-    ('Photography',  'https://www.flickr.com/zackw/photos/', 'right')
+    ('Photography',  'https://www.flickr.com/photos/zackw/', 'right')
 ]
 
 # Recent-posts widget

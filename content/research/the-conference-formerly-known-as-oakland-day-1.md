@@ -11,7 +11,7 @@ didn't ever get posted, but I paid a whole lot more attention to the
 talks than I do when I'm not taking notes. This time, I'm going to try
 to clean up the notes and post them the next morning at the latest.
 
-S&P was at the [Claremont Hotel](http://www.claremontresort.com/) in
+S&P was at the [Claremont Hotel](http://www.fairmont.com/claremont-berkeley/) in
 Oakland, California for thirty-odd years, and they didn't really want
 to leave, but there wasn't room for all the people who wanted to
 attend. Last year they turned nearly 200 people away. This year, it's
@@ -281,7 +281,8 @@ The good news here is, these protocols are not yet widely deployed
 base of vulnerable hardware that can't easily be fixed. Which brings
 us to the next talk:
 
-### [Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards](http://gmr.crypto.rub.de/paper/paper-1.pdf)
+### [Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
+
 
 There _is_ a huge installed base of satphones: 350 to 500,000 active
 users of the two most popular standards (GMR-1 and -2). The protocol
@@ -427,7 +428,9 @@ An audience member commented that cognitive load of security
 notifications is a neglected factor, and I would add that security
 notifications frequently interrupt task flow to present the user with
 a screenful of impenetrable jargon, and perhaps we should forgive them
-for smacking the ["whatever" button](http://blog.whateverbutton.com/).
+for smacking the
+["whatever" button](https://blog.mozilla.org/dolske/2007/10/21/whatever/).
+
 
 ### [User-Driven Access Control: Rethinking Permission Granting in Modern Operating Systems](http://research.microsoft.com/apps/pubs/?id=152495)
 

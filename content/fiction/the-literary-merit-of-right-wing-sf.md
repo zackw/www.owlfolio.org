@@ -71,7 +71,7 @@ This formulation, however, is my own.
 
 > 1. Above all, a story must not be boring. The reader should *care*,
 >    both about
->    "[what happens to these people](https://allthetropes.orain.org/wiki/Eight_Deadly_Words),"
+>    "[what happens to these people](http://tvtropes.org/pmwiki/pmwiki.php/Main/EightDeadlyWords),"
 >    and
 >    about the ultimate resolution to the plot.
 > 2. Stories should not confuse their readers, and should enable

@@ -20,7 +20,7 @@ certificate error screen pops up a separate dialog box if you say you
 want to add an exception) but we may be able to get around that in a
 real implementation.
 
-[John Barton][], in email, points out that SSL errors often come up in
+John Barton, in email, points out that SSL errors often come up in
 practice because of server-side configuration changes that ought to
 have been transparent to users, but a sysadmin goofed. I've been using
 the [Certificate Patrol][] extension, which brings up warnings when a
@@ -67,7 +67,6 @@ tractable.)
 
 [ideas for SSL errors]: /htmletc/ssl-errors/
 [David Bolton]: http://davidbolton.info/
-[John Barton]: http://www.johnjbarton.com/
 [Certificate Patrol]: https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/
 [Perspectives]: http://perspectives-project.org/
 [Herdict]: https://www.herdict.org/

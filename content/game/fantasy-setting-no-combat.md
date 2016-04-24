@@ -64,12 +64,12 @@ elements, that feel like they add up to a game:
 * Micromanagement is to be avoided with extreme prejudice.
 * No fighting.
 * No crafting of legendary weapons or armor, either.
-* "[Like reality unless noted](https://allthetropes.orain.org/wiki/Like_Reality_Unless_Noted)"
+* "[Like reality unless noted](http://tvtropes.org/pmwiki/pmwiki.php/Main/LikeRealityUnlessNoted)"
   applies to geology, biology, and technology.
 * Magic is not tame.
 * Magic is *not* only for *special* people.
 * It might be nice to try to subvert
-  "[Our Dwarves Are All The Same](https://allthetropes.orain.org/wiki/Our_Dwarves_Are_All_the_Same)"
+  "[Our Dwarves Are All The Same](http://tvtropes.org/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame)"
   but then again, there's a reason why that characterization works so well.
 
 The tricky part is finding a source of conflict, since we've taken out

@@ -9,9 +9,9 @@ This is two related proposals: one for a new DOM feature,
 that feature.  It is a response to Ian Hickson's
 [E4H Strawman](http://www.hixie.ch/specs/e4h/strawman), and is
 partially inspired by the
-[general quasi-literal proposal](http://wiki.ecmascript.org/doku.php?id=harmony:quasis)
+[general quasi-literal proposal](https://web.archive.org/web/20120712171534/http://wiki.ecmascript.org/doku.php?id=harmony:quasis)
 for
-[ES-Harmony](http://wiki.ecmascript.org/doku.php?id=harmony:harmony).
+[ES-Harmony](https://web.archive.org/web/20120508010303/http://wiki.ecmascript.org/doku.php?id=harmony:harmony).
 
 Compared to Hixie's proposal, this avoids embedding a subset of the
 HTML grammar in the JS grammar, while at the same time being more
@@ -199,7 +199,7 @@ nothing else will.
 
 This syntactic sugar is similar to, but not the same as, the sugar
 proposed for
-[general JavaScript quasi-literals](http://wiki.ecmascript.org/doku.php?id=harmony:quasis).
+[general JavaScript quasi-literals](https://web.archive.org/web/20120712171534/http://wiki.ecmascript.org/doku.php?id=harmony:quasis).
 The key differences are that our substitutions use `{...}` instead of
 `${...}`, and we simply match curly brackets rather than using
 `Expression` to determine the end of the substitution.  I believe both

@@ -176,7 +176,7 @@ Discuss.
 [mostly agreed]: http://arstechnica.com/tech-policy/2011/09/judge-worries-recording-police-will-lead-to-excessive-snooping-around/
 [protected by the First Amendment]: http://www.universalhub.com/2011/court-says-state-law-banning-recording-police-offi
 [try to stop people]: https://www.aclu.org/blog/free-speech/it-legal-photograph-or-videotape-police
-[DMCA takedown mechanism]: http://brainz.org/dmca-takedown-101/
+[DMCA takedown mechanism]: https://web.archive.org/web/20160407165527/http://brainz.org/dmca-takedown-101/
 [fair use]: http://fairuse.stanford.edu/overview/fair-use/
 [defamation]: http://www.medialaw.org/Content/NavigationMenu/Public_Resources/Libel_FAQs/Libel_FAQs.htm
 [SLAPP]: http://www.thefirstamendment.org/antislappresourcecenter.html

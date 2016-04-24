@@ -194,7 +194,7 @@ below No Award, so that I have a space to explain my reasons.
     three-dimensional people with plausible motivations and most of
     whom are entertaining to watch. Second, I don't have a lot of
     patience for whiny teenagers who spend much of the book
-    [refusing the call to adventure](https://allthetropes.orain.org/wiki/Refusal_of_the_Call),
+    [refusing the call to adventure](http://tvtropes.org/pmwiki/pmwiki.php/Main/RefusalOfTheCall),
     distrusting the adults who actually know what's going on, or both
     simultaneously. Yes, they've spent all their lives hearing stories
     starring the Aes Sedai as villains, but c'mon, Moiraine repeatedly
@@ -401,9 +401,9 @@ below No Award, so that I have a space to explain my reasons.
     and (in some versions of the text) an end. It's clichéd, sure, and
     and crammed full of basic grammar and vocabulary errors, and that's
     what makes it
-    [bad in a hilarious and memorable way](https://allthetropes.orain.org/wiki/So_Bad_It%27s_Good). _Opera
+    [bad in a hilarious and memorable way](http://tvtropes.org/pmwiki/pmwiki.php/Main/SoBadItsGood). _Opera
     Vita Aeterna_, by contrast, is
-    [bad in a _boring_ and _forgettable_ way](https://allthetropes.orain.org/wiki/Category:So_Bad_It%27s_Horrible),
+    [bad in a _boring_ and _forgettable_ way](http://tvtropes.org/pmwiki/pmwiki.php/DarthWiki/SoBadItsHorrible),
     which is _worse_.
 
     There is no doubt in my mind that this is only on the ballot

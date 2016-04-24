@@ -187,7 +187,7 @@ But they weren't, and we didn't, and oddly enough, it seems that we
 have spent
 [billions of dollars](http://www.sltrib.com/news/ci_12744661) on a
 system which
-[*doesn't* work against competent criminals](http://www.bloomberg.com/news/2013-06-23/u-s-surveillance-is-not-aimed-at-terrorists.html)
+[*doesn't* work against competent criminals](http://www.bloombergview.com/articles/2013-06-23/u-s-surveillance-is-not-aimed-at-terrorists)
 but which invites
 [unflattering comparisons with the Stasi](http://www.mcclatchydc.com/2013/06/26/195045/memories-of-stasi-color-germans.html).
 Worse yet, the NSA's surveillance programs look suspiciously like

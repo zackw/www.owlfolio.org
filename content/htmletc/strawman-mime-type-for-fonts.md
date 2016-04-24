@@ -120,7 +120,7 @@ until just last year.
 [TTC]: http://en.wikipedia.org/wiki/TrueType#TrueType_Collection
 [PostScript Type 1]: http://www.prepressure.com/fonts/basics/type1
 [MIME category]: http://www.iana.org/assignments/media-types/
-[egregious]: https://allthetropes.orain.org/wiki/Egregious
+[egregious]: http://tvtropes.org/pmwiki/pmwiki.php/JustForFun/Egregious
 [CSS data theft]: /htmletc/css-data-theft/
 [fontbugs]: https://bugzilla.mozilla.org/buglist.cgi?bug_id=595703,583715,594456,599061,598190,595026,594926,580730,580212,581359,597942,581029,594966,588233,594651,594627,595997,596112,599068,594618,574368,586847,594628,596227,596110,595689,582151,587742,594638,595960,586895
 [mimesniff]: http://tools.ietf.org/html/draft-ietf-websec-mime-sniff-00.html

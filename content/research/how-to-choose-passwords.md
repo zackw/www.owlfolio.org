@@ -131,8 +131,8 @@ billion years from now.
 
 You can't take just any phrase, though. The bad guys could easily try
 every phrase in the
-[Concise Oxford Dictionary of Quotations](http://ukcatalogue.oup.com/product/academic/reference/encyclopaedias/quotations/9780199567072.do),
-because there are only 9000 of them. I haven't worked out the math,
+[Oxford Dictionary of Quotations](https://global.oup.com/academic/product/oxford-dictionary-of-quotations-9780199668700),
+because there are only 20,000 of them. I haven't worked out the math,
 but I think guessing every sentence in the complete works of
 Shakespeare is doable. But nobody has a database of every sentence in
 every work of literature that was written with the Latin alphabet. A

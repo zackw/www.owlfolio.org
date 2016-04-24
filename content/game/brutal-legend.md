@@ -112,5 +112,5 @@ and John Lennon and Bob Marley?  Buddy Holly?  B.B. King? Heck, where
 was Leo Fender?  (Okay, Leo Fender was probably one of the Titans.
 BUT STILL.)
 
-[idiot ball]: https://allthetropes.orain.org/wiki/Idiot_Ball
+[idiot ball]: http://tvtropes.org/pmwiki/pmwiki.php/Main/IdiotBall
 [We Will Rock You]: https://en.wikipedia.org/wiki/We_Will_Rock_You_%28musical%29
