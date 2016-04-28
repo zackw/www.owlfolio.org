@@ -13,7 +13,9 @@ on the webserver.  This is relatively straightforward with the
 "classic" version 1, although there's an error message that's harmless
 but impossible to suppress, but version 2 made some architectural
 changes that make it harder, and does not document the necessary
-tricks.  Here's how you do it:
+tricks.  Below the fold, how you do it.
+
+<!--more-->
 
 First, create the signing key, and import and countersign the public
 key to which files will be encrypted.  I'm going to assume you already

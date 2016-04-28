@@ -50,16 +50,27 @@ address { display: inline }
 p {
   margin: 0 0 0.5em 0;
 }
-blockquote {
+blockquote, pre {
   font-size: 95%;
-  font-style: italic;
-  border-left: 1px solid $color_text;
-  padding-left: .5em;
+  background-color: $bgcolor_main_alt;
+  padding: .5em;
   margin: 1em 2em 1em 10px;
+  box-shadow: inset 1px 1px 2px -1px rgba(255,255,255,.4),
+                    1px 1px 2px -1px rgba(0,0,0,.4);
+}
+blockquote {
+  font-style: italic;
 }
 blockquote i, blockquote em, blockquote cite, blockquote var, blockquote dfn {
   font-style: normal;
 }
+pre {
+  min-width: calc(100% - (1em + 1em + 10px));
+  @include prefixed-values(intrinsic-width, $graceful-usage-threshold,
+    (width: min-content));
+}
+blockquote *:first-child { margin-top: 0 }
+blockquote *:last-child { margin-bottom: 0 }
 
 img {
   width: auto;

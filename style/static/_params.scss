@@ -9,6 +9,5 @@ $color_visited_underline: lighten($color_visited, 60);
 $color_hover_underline:   lighten($color_hover, 30);
 
 $color_text:       black;
-$bgcolor_main:     white;
-$bgcolor_main_alt: hsl(240, 25%, 95%);
-
+$bgcolor_main:     hsl(195, 15%, 95%);
+$bgcolor_main_alt: darken($bgcolor_main, 5);
