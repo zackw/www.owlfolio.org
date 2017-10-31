@@ -21,8 +21,8 @@ RedirectMatch permanent ^(.*)/feed/?$     $1/index.atom
 
 Redirect permanent /afrq/                                          /contact/#afrq
 Redirect permanent /glossary/                                      /about/#glossary
-Redirect permanent /scratchpad/                                    https://hacks.owlfolio.org/scratchpad/
-Redirect permanent /pubs/                                          https://hacks.owlfolio.org/pubs/
+Redirect permanent /scratchpad/                                    https://research.owlfolio.org/scratchpad/
+Redirect permanent /pubs/                                          https://research.owlfolio.org/pubs/
 
 Redirect permanent /contact/pgpkey.txt                             https://pgp.mit.edu/pks/lookup?op=vindex&search=0x91FCC32B6769AA64
 
@@ -30,11 +30,11 @@ Redirect permanent /DRAFT/border-radius/                           /htmletc/bord
 Redirect permanent /htmletc/url-canonicalizer/                     /possibly-useful/url-canonicalizer/
 Redirect permanent /personal/what-is-wrong-with-you-monkeys/       /uncat/what-is-wrong-with-you-monkeys/
 
-Redirect permanent /media/2010/05/csdl2006-cooperative-meaning.pdf https://hacks.owlfolio.org/pubs/2006-cooperative.pdf
-Redirect permanent /media/2010/05/maint-view-gcc.pdf               https://hacks.owlfolio.org/pubs/2003-maintenance.pdf
-Redirect permanent /media/2010/05/verbal-semantics.pdf             https://hacks.owlfolio.org/pubs/2004-verbal.pdf
-Redirect permanent /media/2010/05/stegotorus.pdf                   https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf
-Redirect permanent /media/2010/05/stegotorus-talk/                 https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/
+Redirect permanent /media/2010/05/csdl2006-cooperative-meaning.pdf https://research.owlfolio.org/pubs/2006-cooperative.pdf
+Redirect permanent /media/2010/05/maint-view-gcc.pdf               https://research.owlfolio.org/pubs/2003-maintenance.pdf
+Redirect permanent /media/2010/05/verbal-semantics.pdf             https://research.owlfolio.org/pubs/2004-verbal.pdf
+Redirect permanent /media/2010/05/stegotorus.pdf                   https://research.owlfolio.org/pubs/2012-stegotorus.pdf
+Redirect permanent /media/2010/05/stegotorus-talk/                 https://research.owlfolio.org/pubs/2012-stegotorus-talk/
 Redirect permanent /media/2014/07/z_rump.pdf                       /research/pets-rump-session-talk/slides.pdf
 
 # Security headers

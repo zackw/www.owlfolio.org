@@ -3,10 +3,10 @@ Date: 2012-10-16 19:12
 Slug: ccs12-stegotorus
 
 I just presented the major focus of my time and effort for the past
-year-and-a-bit, [StegoTorus](https://hacks.owlfolio.org/pubs/2012-stegotorus.pdf), at this
+year-and-a-bit, [StegoTorus](https://research.owlfolio.org/pubs/2012-stegotorus.pdf), at this
 year's ACM
 [Conference on Computer and Communications Security](http://www.sigsac.org/ccs/CCS2012/).
-You can see [my slides](https://hacks.owlfolio.org/pubs/2012-stegotorus-talk/) and
+You can see [my slides](https://research.owlfolio.org/pubs/2012-stegotorus-talk/) and
 [the code](https://gitweb.torproject.org/stegotorus.git)
 ([also at Github](https://github.com/TheTorProject/stegotorus)). I was
 going to explain in more detail but all of the brain went into

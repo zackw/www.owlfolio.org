@@ -91,7 +91,7 @@ all the popular browsers.
 [cssxss02]: https://web.archive.org/web/20040411201211/http://www.greymagic.com/security/advisories/gm004-ie/
 [cssxss05]: http://www.hacker.co.il/security/ie/css_import.html
 [cssxss08]: http://d.hatena.ne.jp/ofk/20081111/1226407593
-[security researchers at CMU]: https://hacks.owlfolio.org/pubs/2010-protecting.pdf
+[security researchers at CMU]: https://research.owlfolio.org/pubs/2010-protecting.pdf
 
 Since the attack relies on the CSS parser's error recovery behavior,
 sites may be immune because of accidental properties of their page
@@ -227,7 +227,7 @@ that go into more
 detail. [Collin Jackson](http://mayscript.com/blog/collinj/end-near-cross-origin-css-attacks)
 and his team at CMU have also been very helpful in understanding the
 full scope of the attack and ensuring all major browsers fixed it.
-[Their paper](https://hacks.owlfolio.org/pubs/2010-protecting.pdf) will appear at the
+[Their paper](https://research.owlfolio.org/pubs/2010-protecting.pdf) will appear at the
 [ACM Computer and Communications Security conference](http://www.sigsac.org/ccs/CCS2010/)
 in October.
 

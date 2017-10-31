@@ -10,7 +10,7 @@ Do you suffer from mysteriously hanging
 processes? Or perhaps other mysteriously hanging processes? If so, you
 may have a problem with your file locking, and the IJWAHOT Foundation
 recommends you compile and run
-[this program](https://hacks.owlfolio.org/scratchpad/test_locks.c) on the computer with the
+[this program](https://research.owlfolio.org/scratchpad/test_locks.c) on the computer with the
 problem, preferably under [strace](http://linux.die.net/man/1/strace)
 or equivalent. If it, too, hangs, then you do indeed have a problem
 with your file locking. The Foundation does not presently know the

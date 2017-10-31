@@ -73,7 +73,7 @@ result. In fact, I want the site generator to start with `index.md`
 and other designated root documents (such as `robots.txt`) and
 traverse the tree of *links*, generating only what is reachable. (With
 the option to generate a directory index for things like the existing
-[`/scratchpad`](https://hacks.owlfolio.org/scratchpad/).)
+[`/scratchpad`](https://research.owlfolio.org/scratchpad/).)
 I am not aware of *anything* that can do that.
 
 Second tier requirements are: I want something that's smart enough to

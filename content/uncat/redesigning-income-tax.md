@@ -207,4 +207,4 @@ to go along with the impossible wish.
 
 In case anyone wants to play with the numbers, the
 [R](http://www.r-project.org/) script that generated the graphs
-[is available here](https://hacks.owlfolio.org/scratchpad/redesigning-income-tax.R).
+[is available here](https://research.owlfolio.org/scratchpad/redesigning-income-tax.R).

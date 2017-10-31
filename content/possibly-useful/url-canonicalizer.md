@@ -21,5 +21,5 @@ Slug: url-canonicalizer
 | with a little help from [serge broslavsky][].
 
 [urllib]: https://docs.python.org/2/library/urllib2.html
-[this program]: https://hacks.owlfolio.org/scratchpad/canonurls
+[this program]: https://research.owlfolio.org/scratchpad/canonurls
 [serge broslavsky]: http://stackoverflow.com/users/129815/serge-broslavsky

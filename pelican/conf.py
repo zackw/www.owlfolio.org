@@ -71,8 +71,8 @@ PELICAN_COMMENT_SYSTEM_FEED = None
 
 # Outbound top-menu links.
 MENUITEMS = [
-    ('Publications', 'https://hacks.owlfolio.org/pubs/',     'left'),
-    ('Hacks',        'https://hacks.owlfolio.org/',          'right'),
+    ('Publications', 'https://research.owlfolio.org/pubs/',  'left'),
+    ('Research',     'https://research.owlfolio.org/',       'right'),
     ('Readings',     'https://readings.owlfolio.org/',       'right'),
     ('Photography',  'https://www.flickr.com/photos/zackw/', 'right')
 ]

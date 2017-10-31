@@ -112,7 +112,7 @@ possible in the future.
 [cache timing]: http://www.sciencedaily.com/releases/2000/12/001208074325.htm
 [aws-key]: https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html
 [CMU Silicon Valley]: https://www.cmu.edu/silicon-valley/
-[our paper]: https://hacks.owlfolio.org/pubs/2011-i-still-know.pdf
+[our paper]: https://research.owlfolio.org/pubs/2011-i-still-know.pdf
 [oakland11]: http://www.ieee-security.org/TC/SP2011/
 [annoying flashing box]: http://www.blog.theteamw.com/2010/01/23/100-things-you-should-know-about-people-22-peripheral-vison-keeping-you-alive-or-channel-surfing/
 [WebGL]: https://developer.mozilla.org/en-US/docs/Web/WebGL

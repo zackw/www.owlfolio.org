@@ -24,7 +24,7 @@
         };
         s = d.createElement("script");
         s.async = true;
-        s.src = "//hacks.owlfolio.org/s/MathJax.48b594af/MathJax.js";
+        s.src = "//research.owlfolio.org/s/MathJax.48b594af/MathJax.js";
         d.body.appendChild(s);
     }
 })(document, window);
