@@ -27,7 +27,7 @@
     <h3>Responses to “{{ article.title }}”</h3>
     <ol class="commentlist">
       {% for comment in article.comments recursive %}
-      <li class="comment{% if comment.author == 'Zack Weinberg' %} comment-author-zackw{% endif %}">
+      <li class="comment{% if comment.author~'' == 'Zack Weinberg' %} comment-author-zackw{% endif %}">
         <article id="comment-{{ comment.slug }}">
           <header class="comment-author vcard">
             <cite class="fn">
