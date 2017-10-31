@@ -22,9 +22,7 @@ you saw this:
 <div style="text-align:center; font-size:1.1em;margin-bottom:12px">
 Please click on all the chess pawns.
 </div>
-<img class="aligncenter" src="chessboard-example.png" alt=A six-by-six
-checkerboard grid with chess pawns in random locations.  One of the
-pawns is green and has a mouse-cursor arrow pointing to it.">
+<img class="aligncenter" src="chessboard-example.png" alt="A six-by-six checkerboard grid with chess pawns in random locations.  One of the pawns is green and has a mouse-cursor arrow pointing to it.">
 </div>
 
 As you click on the pawns, they turn green. Nifty, innit? Much easier
