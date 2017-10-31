@@ -71,6 +71,7 @@ body {
   border-width: 18px 0 0 18px;
   border-style: solid;
   border-color: transparent;
+  border-color: initial; /* work around Safari 10 bug */
   border-image-source: url(corner.svg);
   border-image-slice: 18 0 0 83;
   border-image-width: 18px 0 0 83px;
