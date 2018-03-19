@@ -82,9 +82,10 @@ figure {
   margin: 3em auto 1em auto;
   border: 1px solid $color_text;
   padding: 3px;
-  width: -moz-min-content;
-  width: -webkit-min-content;
-  width: min-content;
+  max-width: 80%;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
 }
 figcaption {
   font-size: smaller;

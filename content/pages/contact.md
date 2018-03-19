@@ -11,17 +11,17 @@ I may also be found on various community-type websites, in decreasing
 order of frequency of use:
 
 * [Twitter](https://twitter.com/elwoz): elwoz
+* [Mastodon](https://mastodon.social/@zwol): zwol
 * [Newsblur](https://zwol.newsblur.com/): zwol
-* [Stack Overflow](http://stackoverflow.com/users/388520) and relatives: zwol
 * [Github](https://github.com/zackw): zackw
-* [Flickr](http://www.flickr.com/photos/zackw/): zackw
+* [Stack Overflow](http://stackoverflow.com/users/388520) and relatives: zwol
 * [Keybase](https://keybase.io/zackw): zackw
 * [Dreamwidth](http://zwol.dreamwidth.org/): zwol
 * [LinkedIn](https://www.linkedin.com/in/zackweinberg): Zack Weinberg
 * [Facebook](https://www.facebook.com/elwoz): Zack Weinberg
 * [Google+](https://plus.google.com/108735008363901796353/about): Zack Weinberg
 
-Of the above, only Twitter, Newsblur, the Stack family, and Github are
+Of the above, only Twitter, Mastodon, Newsblur, and Github are
 any real use if you want to _communicate_ with me; I rarely look at
 the others.  I won't respond to invitations to new social networking
 websites; it's not you, it's the medium.

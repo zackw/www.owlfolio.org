@@ -74,7 +74,7 @@ MENUITEMS = [
     ('Publications', 'https://research.owlfolio.org/pubs/',  'left'),
     ('Research',     'https://research.owlfolio.org/',       'right'),
     ('Readings',     'https://readings.owlfolio.org/',       'right'),
-    ('Photography',  'https://www.flickr.com/photos/zackw/', 'right')
+#    ('Photography',  'https://www.flickr.com/photos/zackw/', 'right')
 ]
 
 # Recent-posts widget
@@ -194,6 +194,10 @@ BLOGROLL = [
          "Chitchat",
          "https://twitter.com/elwoz/"),
 
+        ("Mastodon",
+         "Nerdier chitchat",
+         "https://mastodon.social/@zwol"),
+
         ("Newsblur",
          "Link scrapbooking",
          "https://zwol.newsblur.com/"),
@@ -205,10 +209,6 @@ BLOGROLL = [
         ("Github",
          "Code",
          "https://github.com/zackw/"),
-
-        ("Flickr",
-         "Architecture, trees, and relatives",
-         "http://flickr.com/photos/zackw/"),
 
         ("Keybase",
          "The Web of Trust (this time for sure!)",
