@@ -4,8 +4,7 @@
 @import "font-face";
 @include font-face("Mostra Nuova", "f/MostraNuova-Regular",
   ("woff2", "woff", "ttf", "svg", "eot"),
-  $svg_fragment: mostra_nuova_regular,
-  $url_func: url
+  $svg_fragment: mostra_nuova_regular
 );
 
 // Normalization.
@@ -21,17 +20,6 @@
 @include normalize-embedded;
 @include normalize-grouping;
 @include normalize-tables;
-
-// Compass has a mixin for prefixing *properties* but not *values*.
-@import "compass/support";
-@mixin prefixed-values($capability, $threshold, $properties,
-                       $capability-options: $default-capability-options) {
-  @include with-each-prefix($capability, $threshold, $capability-options) {
-    @each $prop, $value in $properties {
-      #{$prop}: prefix-identifier($value, $current-prefix);
-    }
-  }
-}
 
 // The bulk of the style rules are in partials:
 

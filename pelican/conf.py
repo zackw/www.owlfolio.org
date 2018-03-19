@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 # Uncomment to disable caching temporarily (for heavy theme/plugin development)
 #CACHE_CONTENT = False
@@ -245,8 +246,13 @@ EXTRA_PATH_METADATA = {
 # the wrong place, breaking links to subresources.
 ASSET_DEBUG = False
 
-# Compass fine-tuning
-ASSET_CONFIG = {
-    'COMPASS_CONFIG': {
-    }
-}
+# Assets fine-tuning
+ASSET_CONFIG = [
+    ('SASS_LOAD_PATHS', [
+        # Due to a bug in webassets, this must be an absolute pathname.
+        os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                     '../style/static'))
+        # Temporary horrible kludge
+        , "/usr/share/compass/frameworks/h5bp/stylesheets/"
+    ]),
+]

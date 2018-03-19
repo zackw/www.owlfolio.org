@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--[if lt IE 9]><script src="/{{ THEME_STATIC_DIR }}/html5shiv.js"></script><![endif]-->
-    {% assets filters="compass", output="style.min.css", "main.scss" %}
+    {% assets filters="scss", output="style.min.css", "main.scss" %}
     <link rel="stylesheet" href="/{{ ASSET_URL }}">
     {% endassets %}
     {% block head %}

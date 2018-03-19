@@ -66,8 +66,9 @@ blockquote i, blockquote em, blockquote cite, blockquote var, blockquote dfn {
 }
 pre {
   min-width: calc(100% - (1em + 1em + 10px));
-  @include prefixed-values(intrinsic-width, $graceful-usage-threshold,
-    (width: min-content));
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: min-content;
 }
 blockquote *:first-child { margin-top: 0 }
 blockquote *:last-child { margin-bottom: 0 }
