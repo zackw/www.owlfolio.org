@@ -1,6 +1,8 @@
-Title: Notes on the Cross-Platform Availability of Header Files
-Date: 2013-03-14 19:24
-Slug: notes-on-the-cross-platform-availability-of-header-files
+---
+title: Notes on the Cross-Platform Availability of Header Files
+date: 2013-03-14 19:24
+slug: notes-on-the-cross-platform-availability-of-header-files
+...
 
 These header files are guaranteed to be available in a C89 hosted
 environment. All interesting portability targets nowadays are C89

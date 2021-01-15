@@ -1,4 +1,6 @@
-Title: Foliomatic
+---
+title: Foliomatic
+...
 
 Foliomatic is a hypothetical program for generating web sites like
 this one. I’m currently using [Pelican](http://blog.getpelican.com/),

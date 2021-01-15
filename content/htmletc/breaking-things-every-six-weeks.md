@@ -1,6 +1,8 @@
-Title: Breaking things every six weeks
-Date: 2011-09-19 13:54
-Slug: breaking-things-every-six-weeks
+---
+title: Breaking things every six weeks
+date: 2011-09-19 13:54
+slug: breaking-things-every-six-weeks
+...
 
 > Attention conservation notice: 900 words of inside baseball about
 > Mozilla. No security content whatsoever.

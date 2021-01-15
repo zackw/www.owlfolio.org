@@ -1,6 +1,8 @@
-Title: flex: input scanner rules are too complicated
-Date: 2013-10-22 20:29
-Slug: flex-input-scanner-rules-are-too-complicated
+---
+title: flex: input scanner rules are too complicated
+date: 2013-10-22 20:29
+slug: flex-input-scanner-rules-are-too-complicated
+...
 
 If you get this error message, the Internets may lead you to believe
 that you have no option but to change magic numbers in the source code

@@ -1,6 +1,8 @@
-Title: A Zany Scheme for Compact Secure Hashes
-Date: 2011-06-17 12:29
-Slug: zany-scheme-compact-hashes
+---
+title: A Zany Scheme for Compact Secure Hashes
+date: 2011-06-17 12:29
+slug: zany-scheme-compact-hashes
+...
 
 Lots of current and near-future tech relies heavily on
 [secure hashes](http://en.wikipedia.org/wiki/Cryptographic_hash_function)

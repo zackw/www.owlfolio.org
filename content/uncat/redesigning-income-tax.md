@@ -1,6 +1,8 @@
-Title: Redesigning Income Tax
-Date: 2014-04-30 17:46
-Slug: redesigning-income-tax
+---
+title: Redesigning Income Tax
+date: 2014-04-30 17:46
+slug: redesigning-income-tax
+...
 
 Here is an opinionated proposal, having *no chance whatsoever* of
 adoption, for how taxes *ought* to be levied on income. This post was

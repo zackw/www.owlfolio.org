@@ -1,6 +1,8 @@
-Title: Operating system selection for $PROJECT, mid-2015
-Date: 2015-07-07 18:08
-Slug: os-for-project-x-2015
+---
+title: Operating system selection for $PROJECT, mid-2015
+date: 2015-07-07 18:08
+slug: os-for-project-x-2015
+...
 
 Presented without context, for amusement purposes only, a page from my
 notes:

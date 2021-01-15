@@ -1,6 +1,8 @@
-Title: a small dispatch from the coalface
-Date: 2014-05-28 09:34
-Slug: a-small-dispatch-from-the-coalface
+---
+title: a small dispatch from the coalface
+date: 2014-05-28 09:34
+slug: a-small-dispatch-from-the-coalface
+...
 
 <style scoped>td:first-child { text-align: left }</style>
 

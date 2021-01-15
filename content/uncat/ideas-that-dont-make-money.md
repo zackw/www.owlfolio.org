@@ -1,6 +1,8 @@
-Title: Ideas that don't make money
-Date: 2012-11-17 15:27
-Slug: ideas-that-dont-make-money
+---
+title: Ideas that don't make money
+date: 2012-11-17 15:27
+slug: ideas-that-dont-make-money
+...
 
 The sad Internet news of this week is that the multiplayer online
 game/community [Glitch](http://www.glitchthegame.com/) will have to

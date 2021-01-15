@@ -1,6 +1,8 @@
-Title: A simple ritual for laying to rest domestic ghosts
-Date: 2017-10-31T13:36:37
-Slug: domestic-ghosts
+---
+title: A simple ritual for laying to rest domestic ghosts
+date: 2017-10-31T13:36:37
+slug: domestic-ghosts
+...
 
 > In honor of the feast of All Souls, I thought I might put on a
 > costume, as it were, and write a blog post as if I were an old

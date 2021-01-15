@@ -1,4 +1,6 @@
-Title: Possibly Useful
+---
+title: Possibly Useful
+...
 
 | an occasional series of items
 | too large to be throwaway

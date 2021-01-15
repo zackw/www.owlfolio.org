@@ -1,5 +1,7 @@
-Title: Bootstrapping trust in compilers
-Date: 2015-12-05T12:10:37.848935
+---
+title: Bootstrapping trust in compilers
+date: 2015-12-05T12:10:37.848935
+...
 
 The other week, an acquaintance of mine was kvetching on Twitter about
 how the [Rust][] compiler is written in Rust, and so to get started

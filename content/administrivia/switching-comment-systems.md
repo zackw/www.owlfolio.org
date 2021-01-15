@@ -1,6 +1,8 @@
-Title: Switching comment systems
-Date: 2010-04-23 10:53
-Slug: switching-comment-systems
+---
+title: Switching comment systems
+date: 2010-04-23 10:53
+slug: switching-comment-systems
+...
 
 I'm switching Owl's Portfolio over to a new comment system of my own
 invention, which will allow me to turn comments back on without (I

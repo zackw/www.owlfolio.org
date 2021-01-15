@@ -1,6 +1,8 @@
-Title: Using GPG2 with a read-only .gnupg directory
-Date: 2016-04-18 11:46:14
-Slug: readonly-gpg2
+---
+title: Using GPG2 with a read-only .gnupg directory
+date: 2016-04-18 11:46:14
+slug: readonly-gpg2
+...
 
 Another bulletin funded by the I Just Blew An Entire Morning On This
 Foundation:

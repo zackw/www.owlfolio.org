@@ -1,6 +1,8 @@
-Title: CCS'12: StegoTorus
-Date: 2012-10-16 19:12
-Slug: ccs12-stegotorus
+---
+title: CCS'12: StegoTorus
+date: 2012-10-16 19:12
+slug: ccs12-stegotorus
+...
 
 I just presented the major focus of my time and effort for the past
 year-and-a-bit, [StegoTorus](https://research.owlfolio.org/pubs/2012-stegotorus.pdf), at this

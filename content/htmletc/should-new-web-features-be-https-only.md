@@ -1,6 +1,8 @@
-Title: Should new web features be HTTPS only?
-Date: 2014-03-24 14:44
-Slug: should-new-web-features-be-https-only
+---
+title: Should new web features be HTTPS only?
+date: 2014-03-24 14:44
+slug: should-new-web-features-be-https-only
+...
 
 I doubt anyone who reads this will disagree with the proposition that
 the Web needs to move toward all traffic being encrypted always. Yet

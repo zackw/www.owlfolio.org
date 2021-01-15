@@ -1,6 +1,8 @@
-Title: "Four Ideas for a Better Internet" 2011
-Date: 2011-01-20 21:34
-Slug: four-ideas-2011
+---
+title: "Four Ideas for a Better Internet" 2011
+date: 2011-01-20 21:34
+slug: four-ideas-2011
+...
 
 On Tuesday night I attended a talk at Stanford entitled
 "[Four Ideas for a Better Internet](http://cyber.law.harvard.edu/events/2011/01/fourideas)."

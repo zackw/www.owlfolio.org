@@ -1,5 +1,7 @@
-Title: Open beta for ICLab TagTeam
-Date: 2018-03-19 11:39
+---
+title: Open beta for ICLab TagTeam
+date: 2018-03-19 11:39
+...
 
 I'm pleased to announce the open beta test of [ICLab][iclab]'s clearinghouse
 for data about censored websites,

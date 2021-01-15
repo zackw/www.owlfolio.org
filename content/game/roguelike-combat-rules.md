@@ -1,6 +1,8 @@
-Title: Roguelike combat rules
-Date: 2007-11-28 22:36
-Slug: roguelike-combat-rules
+---
+title: Roguelike combat rules
+date: 2007-11-28 22:36
+slug: roguelike-combat-rules
+...
 
 Leonard linked to [You Only Live
 Once](http://www.zincland.com/7drl/liveonce/). I have not tried it,

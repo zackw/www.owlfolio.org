@@ -1,6 +1,8 @@
-Title: Another site redesign
-Date: 2010-05-24 16:46
-Slug: another-site-redesign
+---
+title: Another site redesign
+date: 2010-05-24 16:46
+slug: another-site-redesign
+...
 
 This site is now running on [Wordpress](https://wordpress.org/) rather
 than the creaky combination of [Ikiwiki](https://ikiwiki.info) and

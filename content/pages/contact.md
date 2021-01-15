@@ -1,6 +1,8 @@
-Title: Contact Information
-Date: 2012-05-20 20:26
-Slug: contact
+---
+title: Contact Information
+date: 2012-05-20 20:26
+slug: contact
+...
 
 I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER.
 

@@ -1,6 +1,8 @@
-Title: How To Choose Passwords
-Date: 2011-05-25 15:03
-Slug: how-to-choose-passwords
+---
+title: How To Choose Passwords
+date: 2011-05-25 15:03
+slug: how-to-choose-passwords
+...
 
 When I talk to people who aren't security researchers about
 [history sniffing](/research/interactive-sniffing/), they want to know

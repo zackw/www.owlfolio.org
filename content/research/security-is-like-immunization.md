@@ -1,6 +1,8 @@
-Title: Secure channels are like immunization
-Date: 2014-03-28 17:44
-Slug: security-is-like-immunization
+---
+title: Secure channels are like immunization
+date: 2014-03-28 17:44
+slug: security-is-like-immunization
+...
 
 For a while now, when people ask me how they can improve their
 websites' security, I tell them: Start by

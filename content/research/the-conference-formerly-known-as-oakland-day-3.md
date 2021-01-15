@@ -1,6 +1,8 @@
-Title: The Conference Formerly Known as Oakland, day 3
-Date: 2012-05-25 16:07
-Slug: the-conference-formerly-known-as-oakland-day-3
+---
+title: The Conference Formerly Known as Oakland, day 3
+date: 2012-05-25 16:07
+slug: the-conference-formerly-known-as-oakland-day-3
+...
 
 This day had a lot of interesting papers, but some of the
 presentations were disappointing: they spent their time on

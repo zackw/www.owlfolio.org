@@ -1,6 +1,8 @@
-Title: URL Canonicalizer
-Date: 2010-09-14 16:51
-Slug: url-canonicalizer
+---
+title: URL Canonicalizer
+date: 2010-09-14 16:51
+slug: url-canonicalizer
+...
 
 | supposing
 | for the sake of argument

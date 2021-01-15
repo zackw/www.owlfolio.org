@@ -1,6 +1,8 @@
-Title: 2016 Hugo Award nominations
-Date: 2016-04-02 16:36:29
-Slug: 2016-hugo-noms
+---
+title: 2016 Hugo Award nominations
+date: 2016-04-02 16:36:29
+slug: 2016-hugo-noms
+...
 
 Let's talk about something more fun, shall we?  These were my
 nominations for the [2016 Hugo Awards](http://www.thehugoawards.org/).

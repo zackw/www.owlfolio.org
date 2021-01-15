@@ -1,6 +1,8 @@
-Title: On the unfriendliness of bug reporting
-Date: 2008-08-29 13:05
-Slug: unfriendliness-of-bug-reporting
+---
+title: On the unfriendliness of bug reporting
+date: 2008-08-29 13:05
+slug: unfriendliness-of-bug-reporting
+...
 
 There's been a long discussion on one of the Mozilla mailing lists
 about how we can do a better job categorizing and triaging incoming

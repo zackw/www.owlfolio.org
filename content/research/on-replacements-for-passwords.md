@@ -1,6 +1,8 @@
-Title: On Replacements for Passwords
-Date: 2013-03-04 15:54
-Slug: on-replacements-for-passwords
+---
+title: On Replacements for Passwords
+date: 2013-03-04 15:54
+slug: on-replacements-for-passwords
+...
 
 Your post advocates a
 

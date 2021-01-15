@@ -1,6 +1,8 @@
-Title: Review of Brütal Legend
-Date: 2010-05-01 00:00
-Slug: brutal-legend
+---
+title: Review of Brütal Legend
+date: 2010-05-01 00:00
+slug: brutal-legend
+...
 
 Here we go with another entry in the occasional series of reviews of
 games that everyone has already played (because I refuse to pay more

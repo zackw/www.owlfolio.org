@@ -1,6 +1,8 @@
-Title: Mozilla Co. conference rooms
-Date: 2010-04-29 00:00
-Slug: moco-conf-rooms
+---
+title: Mozilla Co. conference rooms
+date: 2010-04-29 00:00
+slug: moco-conf-rooms
+...
 
 The
 [Mozilla Corporation](https://www.mozilla.org/en-US/foundation/moco/)'s

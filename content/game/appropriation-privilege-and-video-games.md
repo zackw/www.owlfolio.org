@@ -1,6 +1,8 @@
-Title: Cultural appropriation, privileged narratives, and hypothetical video games
-Date: 2009-01-29 12:31
-Slug: appropriation-privilege-and-video-games
+---
+title: Cultural appropriation, privileged narratives, and hypothetical video games
+date: 2009-01-29 12:31
+slug: appropriation-privilege-and-video-games
+...
 
 Over the past few weeks there has been what I can only describe as an
 epic flame war on LJ and elsewhere. I am not going to link to any of

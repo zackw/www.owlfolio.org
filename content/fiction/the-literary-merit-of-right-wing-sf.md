@@ -1,6 +1,8 @@
-Title: The literary merit of right-wing SF
-Date: 2014-08-24 23:44
-Slug: the-literary-merit-of-right-wing-sf
+---
+title: The literary merit of right-wing SF
+date: 2014-08-24 23:44
+slug: the-literary-merit-of-right-wing-sf
+...
 
 The results are in for the
 [2014 Hugo Awards](http://www.thehugoawards.org/2014/08/2014-hugo-award-winners/).

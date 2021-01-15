@@ -1,6 +1,8 @@
-Title: Plot and setting for a hypothetical roguelike
-Date: 2008-02-19 18:33
-Slug: roguelike-setting
+---
+title: Plot and setting for a hypothetical roguelike
+date: 2008-02-19 18:33
+slug: roguelike-setting
+...
 
 As mentioned in
 [the first of these posts](http://zwol.livejournal.com/41755.html),

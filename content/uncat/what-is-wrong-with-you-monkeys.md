@@ -1,6 +1,8 @@
-Title: What Is Wrong With You Monkeys?!
-Date: 2013-03-21 15:14
-Slug: what-is-wrong-with-you-monkeys
+---
+title: What Is Wrong With You Monkeys?!
+date: 2013-03-21 15:14
+slug: what-is-wrong-with-you-monkeys
+...
 
 > Attention conservation notice: Angry rant about sexism and
 > sexism-motivated abuse in the computer industry.

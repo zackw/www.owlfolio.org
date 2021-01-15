@@ -1,6 +1,8 @@
-Title: Postcard from L.A.
-Date: 2013-08-10 17:03
-Slug: postcard-from-l-a
+---
+title: Postcard from L.A.
+date: 2013-08-10 17:03
+slug: postcard-from-l-a
+...
 
 I've never liked Los Angeles. It's too hot, to begin with, and it's
 the Platonic ideal of everything that's been wrong with American urban

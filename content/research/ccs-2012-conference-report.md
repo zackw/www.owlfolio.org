@@ -1,6 +1,8 @@
-Title: CCS 2012 Conference Report
-Date: 2012-10-29 20:33
-Slug: ccs-2012-conference-report
+---
+title: CCS 2012 Conference Report
+date: 2012-10-29 20:33
+slug: ccs-2012-conference-report
+...
 
 The [ACM](https://www.acm.org/) held its annual
 [Conference on Computer and Communications Security](http://www.sigsac.org/ccs/CCS2012/)

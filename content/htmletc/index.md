@@ -1,3 +1,5 @@
-Title: HTML &c
+---
+title: HTML &c
+...
 
 Long, chewy articles about things related to the World Wide Web.

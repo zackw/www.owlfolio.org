@@ -1,6 +1,8 @@
-Title: Institutional secrecy culture is antidemocratic
-Date: 2013-06-30 22:27
-Slug: institutional-secrecy-culture-is-antidemocratic
+---
+title: Institutional secrecy culture is antidemocratic
+date: 2013-06-30 22:27
+slug: institutional-secrecy-culture-is-antidemocratic
+...
 
 For the past several weeks a chunk of the news has been all about how
 the [NSA](http://en.wikipedia.org/wiki/National_Security_Agency) in

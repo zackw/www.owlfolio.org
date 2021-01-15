@@ -1,6 +1,8 @@
-Title: PETS rump session talk
-Date: 2014-07-17 10:55
-Slug: pets-rump-session-talk
+---
+title: PETS rump session talk
+date: 2014-07-17 10:55
+slug: pets-rump-session-talk
+...
 
 I spoke briefly at [PETS
 2014](https://www.petsymposium.org/2014/index.php) about [which websites

@@ -1,6 +1,8 @@
-Title: Crashing should be fixed now
-Date: 2013-10-24 20:09
-Slug: crashing-should-be-fixed-now
+---
+title: Crashing should be fixed now
+date: 2013-10-24 20:09
+slug: crashing-should-be-fixed-now
+...
 
 This site should no longer be causing certain versions of Firefox
 (particularly on Mac) to crash. If it still crashes for you, please
