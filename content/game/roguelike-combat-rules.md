@@ -15,4 +15,3 @@ attention to one element of the blurb.
 
 I can't decide whether this is a terrible idea or complete freaking
 genius. (I assume it applies to the monsters as well.)
-

@@ -42,4 +42,3 @@ point.) I am not sure how I have managed never to notice this before.
 Tonight, there will be more theater. Tomorrow, there will be the
 [Huntington Library](http://www.huntington.org/). Monday, back on an
 airplane.
-

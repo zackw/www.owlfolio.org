@@ -82,4 +82,3 @@ Outright flaws:
     life there, but given its size, a bug-fix release is years overdue.
 
 ¹ Which I have never played.
-

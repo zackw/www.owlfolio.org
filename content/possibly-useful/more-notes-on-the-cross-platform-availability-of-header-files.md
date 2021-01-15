@@ -39,4 +39,3 @@ improvements to the giant generated HTML table. Y'all on Planet Mozilla
 can probably tell I'm not a Web designer. If you are an old beard, there
 are also places where I'm not entirely sure of my methodology -- see the
 README in the source repo.
-

@@ -54,4 +54,3 @@ don't have the exact same computer as you.</small>
 <small>The management cannot guarantee this service will cause bugs to
 actually get *fixed* in any kind of timely fashion, or, in fact,
 ever.</small>
-

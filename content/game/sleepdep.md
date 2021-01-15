@@ -1,5 +1,5 @@
 ---
-title: Effects of Sleep Deprivation: a generic RPG supplement
+title: 'Effects of Sleep Deprivation: a generic RPG supplement'
 date: 2009-08-21 15:49
 slug: sleepdep
 ...
@@ -411,4 +411,3 @@ references.
 
 [original version]: http://www.panix.com/~zackw/shadowrun/sleepdep.html
 [zanshin]: http://www.fightingarts.com/content01/zanshin.shtml
-

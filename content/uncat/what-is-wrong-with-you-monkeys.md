@@ -102,4 +102,3 @@ I can hope.
 Thanks for listening. Have a flower.
 
 [![Crocuses in a vacant lot](https://farm9.staticflickr.com/8105/8530943959_2f768fa4e9_m.jpg)](http://www.flickr.com/photos/zackw/8530943959/)
-

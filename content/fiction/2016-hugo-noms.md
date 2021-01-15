@@ -128,4 +128,3 @@ possible, otherwise to Goodreads pages.
   Relatively straightforward space opera, but lots of fun detail and
   manages to remain tongue-in-cheek while also running a deadly
   serious plot.
-

@@ -39,4 +39,3 @@ idea how to integrate that into this theory.]
 gotten sick of it, informs me that she knows how to do the minigame now,
 but that you have to do it *just exactly right* or you fail. We do not
 approve.]
-

@@ -119,4 +119,3 @@ somewhere, and the *site operators* can flip that switch off if they
 want. Or if they have been, shall we say, leaned on. It's a lot easier
 for the site operators to stand up to being leaned on if they can say
 "that's not a thing our code can do."
-

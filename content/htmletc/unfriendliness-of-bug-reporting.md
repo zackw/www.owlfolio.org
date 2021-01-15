@@ -97,4 +97,3 @@ I think there *ought* to be a way for a bug to host a deeply technical
 conversation about how to fix it and a long train of me-toos at the
 same time, but I don't have any great ideas, probably because I read
 too fast for it to be a serious problem for me.
-

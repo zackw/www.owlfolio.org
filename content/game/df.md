@@ -99,4 +99,3 @@ y'know, *cities*. (I'm looking at you, *Pool of Radiance*.) Of course,
 this is because a well-designed city is not a well-designed dungeon
 crawl, and vice versa; but it might be interesting to try to find a
 balance. I suspect it would work best with relatively short inner games.
-

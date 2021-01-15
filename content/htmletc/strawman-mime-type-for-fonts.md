@@ -1,5 +1,5 @@
 ---
-title: Strawman: MIME type for fonts
+title: 'Strawman: MIME type for fonts'
 date: 2011-01-05 16:05
 slug: strawman-mime-type-for-fonts
 ...

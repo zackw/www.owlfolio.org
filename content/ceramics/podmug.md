@@ -41,4 +41,3 @@ batch kilns.
 [Zazzle]: http://www.zazzle.com/
 [sfs]: http://www.stanfordfilmsociety.com/
 [raku]: http://en.wikipedia.org/wiki/Raku_ware
-

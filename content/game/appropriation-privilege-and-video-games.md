@@ -114,4 +114,3 @@ is attractive just because it hasn't been done much.
 If you're still reading: Is this still potentially a fun game? What do
 you think of the revised setting? What overused and/or privileged
 tropes am I still not avoiding/subverting?
-

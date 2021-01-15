@@ -1,5 +1,5 @@
 ---
-title: Call for Volunteers: Active Geolocation
+title: 'Call for Volunteers: Active Geolocation'
 date: 2016-07-08 08:24:26
 slug: ageo-call-for-volunteers
 ...

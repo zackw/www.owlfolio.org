@@ -1,5 +1,5 @@
 ---
-title: What goes on Planet Mozilla: a survey
+title: 'What goes on Planet Mozilla: a survey'
 date: 2012-03-07 17:00
 slug: what-goes-on-planet-mozilla-a-survey
 ...
@@ -29,4 +29,3 @@ topics appearing on Planet?
 This is a sincere question, which I am asking in order to decide
 whether I, personally, should start filtering what gets syndicated to
 Planet from here.
-

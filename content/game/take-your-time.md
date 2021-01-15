@@ -91,4 +91,3 @@ gates with the godslayer weapon when they get there) one should make
 those adjustments.
 
 ¹ Yes, that Mickey Mouse. The same one who's in *Steamboat Willie.*
-

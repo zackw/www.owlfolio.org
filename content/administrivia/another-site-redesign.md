@@ -12,4 +12,3 @@ opinion, and should also be more reliable.
 I apologize in advance if this causes the RSS feed to spew old posts all
 over [Planet Mozilla](http://planet.mozilla.org) or your feed reader. I
 hope it won't, but you never know with RSS.
-

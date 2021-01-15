@@ -1,5 +1,5 @@
 ---
-title: PSA: “like” buttons
+title: 'PSA: “like” buttons'
 date: 2011-05-08 12:43
 slug: psa-like-buttons
 ...
@@ -12,4 +12,3 @@ want to promote it, please consider mentioning it somewhere you can put
 in a few words to explain why people should click through (twitter,
 Facebook wall, sort of thing). Or write a full-sized response article
 and link back.
-

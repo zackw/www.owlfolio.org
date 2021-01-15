@@ -30,4 +30,3 @@ Fun stuff:
 -   ...gets more Euclidean as the plot advances?
 -   Jelaza Kazone-type sapient trees
 -   At least one type of magic done with bells.
-
