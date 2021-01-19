@@ -2,6 +2,7 @@
 title: Research
 ...
 
-These long chewy posts are more about Internet security (which is
-my field of research) than they are about HTML, but often they are
-about both.
+Notes and essays about the topics I am currently doing academic research on.
+For the past decade this has been computer and network security, often
+having something to do with the (ab)use of the Internet for censorship
+and surveillance.
