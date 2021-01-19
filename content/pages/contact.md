@@ -12,35 +12,25 @@ medium.  My address is [zackw@panix.com](mailto:zackw@panix.com).
 I may also be found on various community-type websites, in decreasing
 order of frequency of use:
 
-* [Twitter](https://twitter.com/elwoz): elwoz
 * [Mastodon](https://mastodon.social/@zwol): zwol
 * [Newsblur](https://zwol.newsblur.com/): zwol
-* [Github](https://github.com/zackw): zackw
-* [Stack Overflow](http://stackoverflow.com/users/388520) and relatives: zwol
-* [Keybase](https://keybase.io/zackw): zackw
-* [Dreamwidth](http://zwol.dreamwidth.org/): zwol
-* [LinkedIn](https://www.linkedin.com/in/zackweinberg): Zack Weinberg
-* [Facebook](https://www.facebook.com/elwoz): Zack Weinberg
-* [Google+](https://plus.google.com/108735008363901796353/about): Zack Weinberg
+* [Sourcehut](https://sr.ht/~zackw): zackw
+* [Stack Overflow](https://stackoverflow.com/users/388520) and relatives: zwol
+* [Dreamwidth](https://zwol.dreamwidth.org/): zwol (no longer updated)
+* [Twitter](https://twitter.com/elwoz): elwoz (no longer updated)
 
-Of the above, only Twitter, Mastodon, Newsblur, and Github are
-any real use if you want to _communicate_ with me; I rarely look at
-the others.  I won't respond to invitations to new social networking
-websites; it's not you, it's the medium.
-
-I am also "zwol" on IRC; I frequent
-[darkmyst.org](http://www.darkmyst.org/) and
-[oftc.net](http://www.oftc.net/).
+I won't respond to invitations to new social networking websites;
+it's not you, it's the medium.
 
 The handle "zwol" is my first initial plus "wol," as in the owl from
-the [Pooh stories](http://en.wikipedia.org/wiki/Winnie-the-Pooh).
+the [Pooh stories](https://en.wikipedia.org/wiki/Winnie-the-Pooh).
 It has nothing to do with the moribund webcomic at
-[zwol.org](http://www.zwol.org/), although I did read that when it was
+[zwol.org](https://www.zwol.org/), although I did read that when it was
 still updating.  Someone else is "zwol" on Twitter so I have to settle
 for a mangled version.
 
 I have a
-[PGP key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x91FCC32B6769AA64)
+[PGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/82F854F3CE73174B8B63174091FCC32B6769AA64)
 should you wish to send me something s3kr1t.  The fingerprint is
 
     4096R/6769AA64  82F8 54F3 CE73 174B 8B63  1740 91FC C32B 6769 AA64
@@ -48,6 +38,7 @@ should you wish to send me something s3kr1t.  The fingerprint is
 I used to use another key, but it is quite old and has now been revoked:
 
     1024D/797DC75F  A29C E8FD 999C 5BB4 C446  978F 51C6 3320 797D C75F
+
 
 ### Answers to Frequent Rhetorical Questions {#afrq}
 
@@ -62,12 +53,10 @@ mine, in no particular order.
 * I am not interested in carrying advertising on this site.
 * If you want to know how this site is constructed, please see the
   [colophon](/about/#colophon).
-* Why yes, I *do* get a lot of spam.  [Akismet](http://akismet.com/)
-  helps, but is less effective than I'd like.  Suggestions welcome.
 * I don't worry about people "ripping off" my "content;" I
-  [encourage the reproduction and dissemination](http://www.popmartian.com/mcelwaine/)
+  [encourage the reproduction and dissemination](https://www.popmartian.com/mcelwaine/)
   of my writing.  That's why it's
-  [CC licensed](http://creativecommons.org/licenses/by-sa/3.0/).  If
+  [CC licensed](https://creativecommons.org/licenses/by-nc/4.0/).  If
   you do something interesting with my writing, like the old post on
   [boxes with rounded corners](/htmletc/border-radius/) that someone
   translated into Russian (or a close relative), and you tell me about

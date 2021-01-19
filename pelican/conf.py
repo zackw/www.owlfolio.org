@@ -86,7 +86,7 @@ PELICAN_COMMENT_SYSTEM_FEED = None
 
 # Outbound top-menu links.
 MENUITEMS = [
-    ('Publications', 'https://research.owlfolio.org/pubs/',  'left'),
+    ('Publications', 'https://research.owlfolio.org/pubs/',  'right'),
     ('Research',     'https://research.owlfolio.org/',       'right'),
     ('Readings',     'https://readings.owlfolio.org/',       'right'),
 #    ('Photography',  'https://www.flickr.com/photos/zackw/', 'right')
@@ -100,15 +100,19 @@ BLOGROLL = [
     ("Tribe", '', [
         ("Pam",
          "Pamela Griffith ♥",
-         "http://www.pamgriffith.net/"),
+         "https://pamgriffith.net/"),
 
         ("Dara",
          "Dara Weinberg",
-         "http://darastrata.com/"),
+         "https://darastrata.com/"),
 
-        ("Adam",
-         "Adam Burr",
-         "https://twitter.com/madmanatw"),
+        ("Abbas",
+         "Abbas Razaghpanah",
+         "http://abbas.rpanah.ir/"),
+
+        ("Arian",
+         "Arian Akhavan Niaki",
+         "https://people.cs.umass.edu/~arian/"),
 
         ("Brendan",
          "Brendan Adkins",
@@ -116,35 +120,27 @@ BLOGROLL = [
 
         ("Caroline",
          "Caroline Ratajski",
-         "http://www.geardrops.net/"),
+         "https://www.geardrops.net/"),
 
         ("Janna",
          None,
-         "http://readingwatchinglookingandstuff.blogspot.com/"),
-
-        ("Jo",
-         "Jo Walton",
-         "http://papersky.livejournal.com/"),
-
-        ("Jon",
-         "Jon Evans",
-         "http://www.rezendi.com/"),
-
-        ("Kashy",
-         "Kashmiri Stec",
-         "http://lutin.livejournal.com/profile"),
+         "https://readingwatchinglookingandstuff.blogspot.com/"),
 
         ("Leonard",
          "Leonard Richardson",
-         "http://www.crummy.com/"),
+         "https://www.crummy.com/"),
 
         ("Mris",
          "Marissa Lingen",
-         "http://marissalingen.com/"),
+         "https://marissalingen.com/"),
 
-        ("Rysmiel",
-         None,
-         "http://rysmiel.livejournal.com/profile"),
+        ("Phong",
+         "Hoàng Nguyên Phong",
+         "https://homepage.np-tokumei.net/"),
+
+        ("Shinyoung",
+         "Shinyoung Cho",
+         "https://www3.cs.stonybrook.edu/~shicho/"),
 
         ("Shweta",
          "Shweta Narayan",
@@ -153,22 +149,26 @@ BLOGROLL = [
         ("Sumana",
          "Sumana Harihareswara",
          "http://www.harihareswara.net/"),
-
-        ("Turadg",
-         "Turadg Aleahmad",
-         "http://turadg.aleahmad.net/"),
     ]),
     ("Affiliated", '', [
+        ("ICLab",
+         "Information Controls Lab at UMass Amherst, 2016–",
+         "https://iclab.org/"),
+
         ("Tor",
          "Tor Project (anonymity online), 2012–",
          "https://www.torproject.org"),
 
+        ("CyLab",
+         "Institute for security and privacy research at CMU, 2010–",
+         "https://cylab.cmu.edu/"),
+
         ("CMU/ECE",
-         "Computer security PhD program at CMU, 2010–",
+         "Computer security PhD program at CMU, 2010–2018",
          "https://www.ece.cmu.edu/"),
 
         ("Mozilla",
-         "Mozilla Project, 2008–",
+         "Mozilla Project, 2008–2014",
          "https://www.mozilla.org/"),
 
         ("monotone",
@@ -185,23 +185,24 @@ BLOGROLL = [
 
         ("NTL",
          "Neural Theory of Language group at UC Berkeley, 2001–2006",
-         "https://ntl.icsi.berkeley.edu/ntl/"),
+         "https://www.icsi.berkeley.edu/icsi/projects/ai/ntl"),
 
         ("CodeSourcery",
          "Bespoke GCC development and support, 2001–2006",
          "http://www.codesourcery.com/"),
 
         ("Rabi",
-         "I.I. Rabi Science Scholars Program at Columbia, 1995–1999",
-         "https://www.college.columbia.edu/academics/rabi"),
+         "I.I. Rabi Science Scholars Program at Columbia College, 1995–1999",
+         "https://urf.columbia.edu/urf/research/rabi"),
 
-        ("CUMB",
-         "The Cleverest Band in the World, 1995–1999",
-         "http://cuband.org/"),
+# https://www.columbiaspectator.com/sports/2020/09/15/columbia-university-marching-band-votes-to-disband-after-116-years/
+#        ("CUMB",
+#         "The Cleverest Band in the World, 1995–1999",
+#         "http://cuband.org/"),
 
         ("SSP",
-         "Summer Science Program (1994)",
-         "http://www.summerscience.org/"),
+         "Summer Science Program, 1994",
+         "https://summerscience.org/"),
     ]),
 
     ("Also Me", 'rel="me"', [

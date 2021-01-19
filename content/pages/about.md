@@ -7,15 +7,16 @@ slug: about
 Hello, my name is Zachary Weinberg.  I go by “Zack,” except on
 paper. Pleased to meet you.
 
-I’m about thirty-five years old, and I grew up in the suburbs of Los
+I’m about forty years old, and I grew up in the suburbs of Los
 Angeles, California.  I’m presently doing Internet security research
-in the
-[ECE department of Carnegie Mellon University](http://www.ece.cmu.edu/).
+as a postdoc with [ICLab](https://iclab.org).
+From 2010 to 2018 I was a doctoral student in the
+[ECE department of Carnegie Mellon University](https://www.ece.cmu.edu/).
 Before that I worked for the
 [Mozilla Corporation](https://www.mozilla.org/en-US/foundation/moco/);
 before *that*, I studied how people understand language at
-[UC San Diego](http://www.cogsci.ucsd.edu/); and back when dinosaurs
-roamed the Earth, I was a core [GCC](http://gcc.gnu.org/) developer.
+[UC San Diego](https://cogsci.ucsd.edu/); and back when dinosaurs
+roamed the Earth, I was a core [GCC](https://gcc.gnu.org/) developer.
 
 My interests range all over the sciences and a little way into
 philosophy, plus some of the arts (notably, candle-making, pottery,
@@ -63,7 +64,7 @@ The thing my aunt gave me that I don’t know what it is
     “which” followed by a complete sentence) all the time, contra
     typical English usage.  I think I got it from the object with a
     very similar name in the
-    [*Hitchhiker’s Guide to the Galaxy* text adventure](http://www.bbc.co.uk/h2g2game).
+    [*Hitchhiker’s Guide to the Galaxy* text adventure](https://www.bbc.co.uk/h2g2game).
 
 Who shuffled this mess?
 
@@ -78,32 +79,23 @@ Who shuffled this mess?
 ### Colophon {#colophon}
 
 Site design was done by me, with a great deal of help from
-[Pam Griffith](http://www.pamgriffith.net/), whose design-fu is far
+[Pam Griffith](https://pamgriffith.net/), whose design-fu is far
 superior.
 
 Headings are set in
-[Mostra Nuova](http://www.marksimonson.com/fonts/view/mostra-nuova).
+[Mostra Nuova](https://www.marksimonson.com/fonts/view/mostra-nuova).
 Body fonts depend on your operating system and browser.  All graphic
 decorations were drawn by me.  The owl in the top left (if your screen
 is wide enough) is a modified tracing from a photograph of the
 decorative owls in the elevator lobby of the
-[Chicago Board of Trade Building](http://www.cbotbuilding.com/photo-gallery/landmark/).
+[Chicago Board of Trade Building](https://www.architecture.org/learn/resources/buildings-of-chicago/building/chicago-board-of-trade-building/).
 The chevron pattern in the background is based on the
 [black and gold pattern seen on this moribund website](https://web.archive.org/web/20141218065258/http://shipwreckradio.com/);
 if anyone knows where it came from, please tell me.
 
-The CMS is [Pelican](http://getpelican.com/), with a theme customized
-from the ground up for this site.  If it doesn’t look terrible in old
-versions of Internet Explorer, that is thanks to
-[the HTML5 Shiv](https://github.com/aFarkas/html5shiv).
-
-Hosting is at
-[NearlyFreeSpeech.NET](https://www.nearlyfreespeech.net/), which I do
-recommend, but if this site appears to load faster than others, it’s
-probably more because of
-[Steve Souders’ advice](http://www.stevesouders.com/hpws/).
-
+The CMS is [Pelican](https://blog.getpelican.com/), with a theme customized
+from the ground up for this site.
 I write all my posts in
-[Pandoc-flavor Markdown](http://johnmacfarlane.net/pandoc/README.html),
-because HTML is far too verbose to put up with while composing, but
-WYSIWYG ceased to be my friend in the days of Microsoft Word 4.0.
+[Pandoc-flavor Markdown](https://pandoc.org/).
+Hosting is at
+[NearlyFreeSpeech.NET](https://www.nearlyfreespeech.net/).
