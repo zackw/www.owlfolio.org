@@ -70,10 +70,10 @@ start_http()
 
 stop()
 {
-    if [ -z "$2" ] || [ "$2" = http ]; then
+    if [ -z "$1" ] || [ "$1" = http ]; then
         stop_1 "$SRV_PIDFILE" "HTTP server"
     fi
-    if [ -z "$2" ] || [ "$2" = pelican ]; then
+    if [ -z "$1" ] || [ "$1" = pelican ]; then
         stop_1 "$PELICAN_PIDFILE" "Pelican"
     fi
 }
@@ -85,10 +85,10 @@ start()
         exit 1
     }
     cd - > /dev/null
-    if [ -z "$2" ] || [ "$2" = pelican ]; then
+    if [ -z "$1" ] || [ "$1" = pelican ]; then
         start_pelican
     fi
-    if [ -z "$2" ] || [ "$2" = http ]; then
+    if [ -z "$1" ] || [ "$1" = http ]; then
         start_http
     fi
 }
@@ -112,11 +112,11 @@ if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
 fi
 
 case "$1" in
-    (stop)    stop;;
-    (start)   start;;
+    (stop)    stop "$2";;
+    (start)   start "$2";;
 
-    (restart) stop
-              start;;
+    (restart) stop "$2"
+              start "$2";;
 
     (*)       usage;;
 esac
