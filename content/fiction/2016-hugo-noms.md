@@ -16,18 +16,20 @@ Something to work harder on next year, I suppose.  (It didn't help
 that I spent most of January and February in paper crunch mode.)  I
 don't even try to nominate outside the fiction categories.
 
+<!--more-->
+
 Links go to the full text of the work and to authors' websites when
 possible, otherwise to Goodreads pages.
 
 ## Novel
 
-* [Zen Cho](http://zencho.org/),
+* [Zen Cho](https://zencho.org/),
   _[Sorcerer to the Crown](https://www.goodreads.com/book/show/23943137-sorcerer-to-the-crown)_.
   If you, like me, have been wishing for a sequel to _Jonathan Strange
   & Mr Norrell_ since the day you finished reading it, you will like
   this book.
 
-* [Naomi Novik](http://www.naominovik.com/),
+* [Naomi Novik](https://www.naominovik.com/),
   _[Uprooted](https://www.goodreads.com/book/show/22544764-uprooted)_.
   Polish folktale crossed with supernatural horror.  Online reviews
   tend to be all about the characters (whom they either love or hate)
@@ -52,8 +54,8 @@ possible, otherwise to Goodreads pages.
 
 ## Novella
 
-* [Usman Malik](http://www.usmanmalik.org/),
-  _[The Pauper Prince and the Eucalyptus Jinn](http://www.tor.com/2015/04/22/the-pauper-prince-and-the-eucalyptus-jinn-usman-malik/)_.
+* [Usman Malik](https://www.usmanmalik.org/),
+  _[The Pauper Prince and the Eucalyptus Jinn](https://www.tor.com/2015/04/22/the-pauper-prince-and-the-eucalyptus-jinn-usman-malik/)_.
   Mughal folktale transposed to the modern world: another "why
   haven't people done more of that?"
 
@@ -62,7 +64,7 @@ possible, otherwise to Goodreads pages.
   And a third "there should be more of this" category: steampunk
   detective noir.
 
-* [Nnedi Okorafor](http://nnedi.com/),
+* [Nnedi Okorafor](https://nnedi.com/),
   _[Binti](https://www.goodreads.com/book/show/25667918-binti)_.
   Another unusual space operatic setting.  Might not be to everyone's
   taste, particularly if you dislike fish-out-of-water POV protagonist.
@@ -76,22 +78,22 @@ possible, otherwise to Goodreads pages.
 
 ## Short Story
 
-* [Zen Cho](http://zencho.org/),
+* [Zen Cho](https://zencho.org/),
   "[Monkey King, Faerie Queen](http://www.kaleidotrope.net/archives/spring-2015/monkey-king-faerie-queen-by-zen-cho/)."
   Sun Wukong visits the court of the Queen of Air and Darkness, and it
   goes just about as you would expect.
 
-* [Daniel José Older](http://ghoststar.net/),
-  "[Kia and Gio](http://www.tor.com/2015/01/06/kia-and-gio-daniel-jose-older/)."
+* [Daniel José Older](http://danieljoseolder.net/),
+  "[Kia and Gio](https://www.tor.com/2015/01/06/kia-and-gio-daniel-jose-older/)."
   Magical realism set in New York City.
 
-* [Marissa Lingen](http://www.marissalingen.com/),
-  "[The Many Media Hypothesis](http://www.nature.com/nature/journal/v526/n7572/full/526286a.html)."
+* [Marissa Lingen](https://www.marissalingen.com/),
+  "[The Many Media Hypothesis](https://www.nature.com/articles/526286a)."
   What if you were Facebook "friends" with all the alternate possible
   versions of yourself?
 
 * [Laura Pearlman](https://unlikelyexplanations.com/),
-  "[I am Graalnak of the Vroon Empire, Destroyer of Galaxies, Supreme Overlord of the Planet Earth. Ask Me Anything.](http://flashfictiononline.com/main/article/i-am-graalnak-of-the-vroon-empire-destroyer-of-galaxies-supreme-overlord-of-the-planet-earth-ask-me-anything/)"
+  "[I am Graalnak of the Vroon Empire, Destroyer of Galaxies, Supreme Overlord of the Planet Earth. Ask Me Anything.](https://flashfictiononline.com/main/article/i-am-graalnak-of-the-vroon-empire-destroyer-of-galaxies-supreme-overlord-of-the-planet-earth-ask-me-anything/)"
   Alien invasion as Internet-based farce.  It made me laugh.
 
 ## Graphic Story
@@ -105,21 +107,21 @@ possible, otherwise to Goodreads pages.
   and references and everything: that deserves recognition.
 
 * "Abbadon,"
-  _[Kill Six Billion Demons](http://killsixbilliondemons.com/)_.
+  _[Kill Six Billion Demons](https://killsixbilliondemons.com/)_.
   This is worth reading just for the art.  And the incredibly vast
   world that has been built.  The plot is _set up_ like your standard
   "everygirl rescues love interest in distress, taking several levels
   in badass along the way" but I doubt that's where it's going.
 
-* Ru Xu, _[Saint for Rent](http://www.saintforrent.com/)_.
+* Ru Xu, _[Saint for Rent](https://www.saintforrent.com/)_.
   So often you see time travel stories where the time travel is just a
   way to put people _into_ the interesting historical or futuristic
   situations, and not actually used to its full power.  This is not
   like that.
 
-* Pascale Lepas, _[Wilde Life](http://www.wildelifecomic.com/)_.
+* Pascale Lepas, _[Wilde Life](https://www.wildelifecomic.com/)_.
   "Oscar rented an old house off craigslist, then things got weird..."
-  Creepy rural [Vermont](http://the-toast.net/series/chris-kimball/)
+  Creepy rural [Vermont](https://the-toast.net/series/chris-kimball/)
   and creepy rural [Arizona](http://www.welcometonightvale.com/) are
   both well-traveled paths, but how often do you see
   cheerful-yet-creepy rural _Oklahoma?_

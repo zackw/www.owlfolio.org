@@ -39,5 +39,5 @@ Mistake number three, finally, is something they got half-right. This is not a c
 [Chromium]: https://www.chromium.org/
 [n1]: https://news.ycombinator.com/item?id=9724409
 [n2]: https://www.privateinternetaccess.com/blog/2015/06/google-chrome-listening-in-to-your-room-shows-the-importance-of-privacy-defense-in-depth/
-[n3]: http://www.theguardian.com/technology/2015/jun/23/google-eavesdropping-tool-installed-computers-without-permission
+[n3]: https://www.theguardian.com/technology/2015/jun/23/google-eavesdropping-tool-installed-computers-without-permission
 [r1]: http://drum.lib.umd.edu/bitstream/1903/1204/1/CS-TR-4371.pdf

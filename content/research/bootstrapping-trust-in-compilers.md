@@ -87,7 +87,7 @@ sort of batch [job control language][].
 [GNAT]: https://www.gnu.org/software/gnat/
 [diverse recompilation]: https://www.schneier.com/blog/archives/2006/01/countering_trus.html
 [FORTH]: https://en.wikipedia.org/wiki/Forth_%28programming_language%29
-[arrow languages]: https://en.wikipedia.org/wiki/ISWIM#Implementations_and_derivatives
+[arrow languages]: https://en.wikipedia.org/wiki/ISWIM
 [Lisp]: https://en.wikipedia.org/wiki/Lisp_%28programming_language%29
 [call/cc]: https://en.wikipedia.org/wiki/Call-with-current-continuation
 [embarrassingly parallel]: https://en.wikipedia.org/wiki/Embarrassingly_parallel

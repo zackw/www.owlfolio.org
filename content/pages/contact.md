@@ -4,10 +4,13 @@ date: 2012-05-20 20:26
 slug: contact
 ...
 
-I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER.
+DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER,
+unless you are responding to an application that I filed
+with your organization.  In that case, please do contact me.
 
 I prefer, by orders of magnitude, email to any other communication
-medium.  My address is [zackw@panix.com](mailto:zackw@panix.com).
+medium.  My permanent email address is
+[zackw@panix.com](mailto:zackw@panix.com).
 
 I may also be found on various community-type websites, in decreasing
 order of frequency of use:

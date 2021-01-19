@@ -5,18 +5,18 @@ slug: northwest-talent
 ...
 
 A depressing number of computer industry recruiters cannot be bothered
-to read the very first paragraph of my LinkedIn profile (which is now
-also the first paragraph of the "[contact information](/contact/)"
-page of this very website---probably should have done that years ago),
-or else they think they are ~special snowflakes~ and it does not apply
-to them.  For reference, this paragraph reads
+to read the very first paragraph of the "[contact information](/contact/)"
+page of this very website, or else they think they are ~special snowflakes~
+and it does not apply to them.  For reference, this paragraph reads
 
 > I AM NOT LOOKING FOR A JOB. DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER.
 
 I get unwanted solicitations about once a month, and I reply with a
 polite but acerbic note about how they should've noticed the paragraph
 in ALL CAPS that says don't contact me, and _usually_ that's the end
-of it.
+of it.  Not this time.
+
+<!--more-->
 
 Last week I got one from an outfit calling itself "Northwest Talent
 Search, Inc."  (They don't have a website.)  It does just about

@@ -3,13 +3,19 @@ title: Open beta for ICLab TagTeam
 date: 2018-03-19 11:39
 ...
 
-I'm pleased to announce the open beta test of [ICLab][iclab]'s clearinghouse
-for data about censored websites,
-<https://iclab-tagteam.cs.umass.edu/> (temporary hostname, will be
-moved under [iclab.org][iclab] Real Soon Now).  This site
-will aggregate manual and automated test reports, facilitate more
-efficient use of automated test resources, and help policy analysts
-draw conclusions about _what_ gets censored in particular countries.
+I'm pleased to announce the open beta test of [ICLab][iclab]'s
+clearinghouse for data about censored websites.  This site will
+aggregate manual and automated test reports, facilitate more efficient
+use of automated test resources, and help policy analysts draw
+conclusions about _what_ gets censored in particular countries.
+
+<b>[EDIT 19 Jan 2021:</b>
+_The clearinghouse had to be taken down almost
+immediately because no one had time to maintain it.
+Someday the project it is part of may be continued.
+Read on for details on what we had and what we aspired to._<b>]</b>
+
+<!--more-->
 
 ... Well, that's the aspiration, anyway.  Right now what we have is a
 slightly reskinned instance of the [Berkman Center][]'s [TagTeam][]
