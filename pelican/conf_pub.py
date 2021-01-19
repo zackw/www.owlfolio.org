@@ -1,10 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
 
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
-
-from __future__ import unicode_literals
 
 # This is icky but it's not as icky as sticking the
 # pelican directory on sys.path permanently.
@@ -27,7 +25,6 @@ ARTICLE_EXCLUDES.append('../meta')
 
 EXTRA_PATH_METADATA.update({
     '../meta/robots.txt'  : { 'path': 'robots.txt' },
-    '../meta/keybase.txt' : { 'path': '.well-known/keybase.txt' },
     '../meta/htaccess'    : { 'path': '.htaccess' },
     '../meta/googleaf54bcfc4c61887c.html'
                           : { 'path' : 'googleaf54bcfc4c61887c.html' },

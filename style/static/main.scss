@@ -7,22 +7,8 @@
   $svg_fragment: mostra_nuova_regular
 );
 
-// Normalization.
-// This is all of the h5bp-normalize components _except_ -forms, which
-// does things I consider questionable (and it's not like this site uses
-// forms much, anyway)  Some of this will be overridden below.
-
-@import "h5bp/normalize";
-@include normalize-base;
-@include normalize-display;
-@include normalize-links;
-@include normalize-semantics;
-@include normalize-embedded;
-@include normalize-grouping;
-@include normalize-tables;
-
 // The bulk of the style rules are in partials:
-
+@import "normalize";
 @import "params";
 @import "layout";
 @import "comments";

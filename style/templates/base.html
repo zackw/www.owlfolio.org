@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {#
     <!--[if lt IE 9]><script src="/{{ THEME_STATIC_DIR }}/html5shiv.js"></script><![endif]-->
+    #}
     {% assets filters="scss", output="style.min.css", "main.scss" %}
     <link rel="stylesheet" href="/{{ ASSET_URL }}">
     {% endassets %}
@@ -74,9 +76,11 @@
          rel="license">Creative Commons Attribution-Noncommercial 4.0 license</a>.
       Comments © their authors.
     </footer>
+    {#
     {% assets filters="rjsmin", output="script.min.js",
               "maybe-load-mathjax.js" %}
     <script src="/{{ ASSET_URL }}"></script>
     {% endassets %}
+    #}
   </body>
 </html>

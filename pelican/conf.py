@@ -1,18 +1,31 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+
 import os
+import sys
+
+# The 'webassets' plugin isn't in a namespace yet, but it's importable
+# normally.
+import pelican_webassets
+
+# This is icky but it's not as icky as sticking the
+# pelican directory on sys.path permanently.
+import os.path
+from pelican.settings import load_source
+summary = load_source("summary",
+                      os.path.join(os.path.dirname(__file__),
+                                   "local-plugins/summary.py"))
 
 # Uncomment to disable caching temporarily (for heavy theme/plugin development)
 #CACHE_CONTENT = False
 
-AUTHOR              = u'Zack Weinberg'
-SITENAME            = u'Owl\u2019s Portfolio'
+AUTHOR              = 'Zack Weinberg'
+SITENAME            = 'Owl\u2019s Portfolio'
 SITEURL             = ''
 TIMEZONE            = 'America/New_York'
 DEFAULT_DATE        = 'fs'
 DEFAULT_DATE_FORMAT = '%-d %B %Y'
-DEFAULT_LANG        = u'en'
+DEFAULT_LANG        = 'en'
 DEFAULT_PAGINATION  = 10
 RELATIVE_URLS       = True
 
@@ -49,17 +62,18 @@ PAGINATION_PATTERNS = [
     (2, '{base_name}/{number}/', '{base_name}/{number}/index.html'),
 ]
 
-PLUGIN_PATHS        = ['../../pelican-plugins']
-PLUGINS             = ['assets',
-                       'neighbors',
-                       'sitemap',
-                       'summary',
-                       'category_meta',
-                       'pelican_comment_system',
-                       'pandoc_reader']
+PLUGINS             = [
+    pelican_webassets,
+    summary,
+    'category_metadata',
+    'neighbors',
+    'pandoc_reader',
+    #'pelican_comment_system',
+    'sitemap',
+]
 
-PANDOC_ARGS         = ['--smart', '--normalize', '--html-q-tags', '--mathml']
-PANDOC_EXTENSIONS   = ['-citations']
+PANDOC_ARGS         = ['--html-q-tags', '--mathml']
+PANDOC_EXTENSIONS   = ['+smart', '-citations']
 
 SUMMARY_MAX_LENGTH    = None
 SUMMARY_END_MARKER    = '<!--more-->'
@@ -191,12 +205,8 @@ BLOGROLL = [
     ]),
 
     ("Also Me", 'rel="me"', [
-        ("Twitter",
-         "Chitchat",
-         "https://twitter.com/elwoz/"),
-
         ("Mastodon",
-         "Nerdier chitchat",
+         "Chitchat",
          "https://mastodon.social/@zwol"),
 
         ("Newsblur",
@@ -207,25 +217,17 @@ BLOGROLL = [
          "The dusty corners of C",
          "https://stackoverflow.com/users/388520"),
 
-        ("Github",
+        ("Sourcehut",
          "Code",
-         "https://github.com/zackw/"),
-
-        ("Keybase",
-         "The Web of Trust (this time for sure!)",
-         "https://keybase.io/zackw"),
+         "https://sr.ht/~zackw/"),
 
         ("Dreamwidth",
          "Old personal journal, no longer updated",
          "https://zwol.dreamwidth.org/"),
 
-        ("Google+",
-         "Longer chitchat and Breakfast Combo",
-         "https://plus.google.com/108735008363901796353/about"),
-
-        ("LinkedIn",
-         "I AM NOT LOOKING FOR A JOB. DO NOT SEND ME JOB OFFERS.",
-         "https://www.linkedin.com/in/zackweinberg"),
+        ("Twitter",
+         "Old chitchat, no longer updated",
+         "https://twitter.com/elwoz/"),
     ])
 ]
 
@@ -241,18 +243,3 @@ AUTHOR_FEED_RSS = None
 EXTRA_PATH_METADATA = {
     '../meta/favicon.ico' : { 'path': 'favicon.ico' },
 }
-
-# If assets is allowed to run in debug mode, it puts the CSS files in
-# the wrong place, breaking links to subresources.
-ASSET_DEBUG = False
-
-# Assets fine-tuning
-ASSET_CONFIG = [
-    ('SASS_LOAD_PATHS', [
-        # Due to a bug in webassets, this must be an absolute pathname.
-        os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                     '../style/static'))
-        # Temporary horrible kludge
-        , "/usr/share/compass/frameworks/h5bp/stylesheets/"
-    ]),
-]
