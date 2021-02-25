@@ -1,6 +1,6 @@
 ---
 title: Strengths, weaknesses, opportunities, and threats facing the GNU Autotools
-date: 2021-01-29 16:05
+date: 2021-01-19 16:05
 slug: autoconf-swot
 ...
 
