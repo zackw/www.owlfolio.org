@@ -2,7 +2,7 @@
 title: some trivia about the Alexa 1M
 date: 2013-09-30 13:15
 slug: some-trivia-about-the-alexa-1m
-...
+---
 
 [Alexa](http://www.alexa.com/) publishes a list of "the top 1,000,000
 sites on the web." Here is some trivia about this list (as it was on

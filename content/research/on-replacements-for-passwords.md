@@ -2,7 +2,7 @@
 title: On Replacements for Passwords
 date: 2013-03-04 15:54
 slug: on-replacements-for-passwords
-...
+---
 
 Your post advocates a
 

@@ -2,7 +2,7 @@
 title: HTML Fragment Parser with Substitution and Syntactic Sugar
 date: 2012-06-22 19:05
 slug: html-fragment-parser-with-substitution-and-syntactic-sugar
-...
+---
 
 This is a little off my usual beaten path, but what the heck.
 

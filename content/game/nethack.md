@@ -2,7 +2,7 @@
 title: Things I Like and Don't Like about Nethack
 date: 2007-08-14 17:34
 slug: nethack
-...
+---
 
 The voices in my head have decided that I am going to write a roguelike
 game. They are unlikely to get their way because (a) I don't have time,

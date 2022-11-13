@@ -2,7 +2,7 @@
 title: Review of Dwarf Fortress
 date: 2007-10-18 16:42
 slug: df
-...
+---
 
 First I'd like to thank [Leonard](http://crummy.com/) for taking the
 time to write [two](http://www.crummy.com/2007/10/15/3)

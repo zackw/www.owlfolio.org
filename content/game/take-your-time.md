@@ -2,7 +2,7 @@
 title: Save the world? Sure, but let’s collect every bit of treasure first.
 date: 2008-05-17 23:53
 slug: take-your-time
-...
+---
 
 [queenpam](http://queenpam.livejournal.com/) and I have been playing
 some old (or not-so-old) PS2 games: we're totally done with *Kingdom

@@ -2,7 +2,7 @@
 title: Google Voice Search and the Appearance of Trustworthiness
 date: 2015-06-27 11:50
 slug: google-voice-search-appearance-trustworthiness
-...
+---
 
 Last week there were several bug reports [[1]][b1] [[2]][b2] [[3]][b3] about how Chrome (the web browser), even in its fully-open-source "[Chromium][]" incarnation, downloads a closed-source, binary extension from Google's servers and installs it, without telling you it has done this, and moreover this extension appears to listen to your computer's microphone *all the time,* again without telling you about it. This got picked up by the trade press [[4]][n1] [[5]][n2] [[6]][n3] and we rapidly had a full-on Internet panic going.
 

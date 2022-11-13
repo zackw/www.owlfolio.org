@@ -2,7 +2,7 @@
 title: unearthed arcana (music division)
 date: 2011-11-16 21:20
 slug: unearthed-arcana-music-division
-...
+---
 
 Some time ago---I don't remember how long precisely---I started
 working on a mixtape. I got as far as writing down a bunch of songs in

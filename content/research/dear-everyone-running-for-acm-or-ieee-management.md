@@ -2,7 +2,7 @@
 title: Dear Everyone Running for ACM or IEEE Management
 date: 2013-02-18 15:01
 slug: dear-everyone-running-for-acm-or-ieee-management
-...
+---
 
 It's professional-organization management election time again. This is
 my response to everyone who's about to send me an invitation to vote

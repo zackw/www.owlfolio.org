@@ -2,7 +2,7 @@
 title: git backend, hg cli
 date: 2012-09-21 12:19
 slug: git-backend-hg-cli
-...
+---
 
 LWN has an article with a nice chunky comment thread talking about
 [the history of DVCSes and how git has basically taken over the category](http://lwn.net/Articles/515652/).

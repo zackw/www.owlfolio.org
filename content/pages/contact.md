@@ -2,7 +2,7 @@
 title: Contact Information
 date: 2012-05-20 20:26
 slug: contact
-...
+---
 
 DO NOT CONTACT ME WITH ANY SORT OF JOB OFFER,
 unless you are responding to an application

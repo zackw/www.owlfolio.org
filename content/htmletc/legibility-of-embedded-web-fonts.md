@@ -2,7 +2,7 @@
 title: Legibility of embedded Web fonts
 date: 2011-04-05 16:20
 slug: legibility-of-embedded-web-fonts
-...
+---
 
 It's recently become possible to [embed fonts][ef] in your website, so
 that you aren't limited to using the same old fonts that everyone

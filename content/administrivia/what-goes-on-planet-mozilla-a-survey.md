@@ -2,7 +2,7 @@
 title: 'What goes on Planet Mozilla: a survey'
 date: 2012-03-07 17:00
 slug: what-goes-on-planet-mozilla-a-survey
-...
+---
 
 > Attention conservation notice: probably not of interest to anyone who
 > doesn't read this blog via Planet Mozilla.

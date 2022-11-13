@@ -2,7 +2,7 @@
 title: Miscellaneous roguelike ideas
 date: 2008-02-19 23:30
 slug: grab-bag
-...
+---
 
 Basic flavor elements:
 

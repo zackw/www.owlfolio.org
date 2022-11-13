@@ -2,7 +2,7 @@
 title: Interactive history sniffing and its relatives
 date: 2011-05-02 16:00
 slug: interactive-sniffing
-...
+---
 
 Readers of this blog will probably already know that, up till the
 middle of last year, it was possible to

@@ -2,7 +2,7 @@
 title: A Contest
 date: 2013-04-01 09:18
 slug: a-contest
-...
+---
 
 In honor of the Feast of All Fools, and because if anyone has noticed
 it, they haven't told me, I hereby announce that there is a joke in

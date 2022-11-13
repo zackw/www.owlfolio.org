@@ -2,7 +2,7 @@
 title: 'Effects of Sleep Deprivation: a generic RPG supplement'
 date: 2009-08-21 15:49
 slug: sleepdep
-...
+---
 
 Many RPGs have some basic notion of fatigue penalties, but they lack
 color. On the more cyberpunk end of the spectrum, you got to figure

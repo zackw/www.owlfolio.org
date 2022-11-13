@@ -2,7 +2,7 @@
 title: 2014 Hugo Awards ballot
 date: 2014-07-29 21:51
 slug: 2014-hugo-awards-ballot
-...
+---
 
 I'm not attending [the Worldcon](http://www.loncon3.org/), but I most
 certainly am voting the [Hugos](http://www.thehugoawards.org/) this

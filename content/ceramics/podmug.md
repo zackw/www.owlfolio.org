@@ -2,7 +2,7 @@
 title: Print-on-demand mugs are not dishwasher safe
 date: 2010-01-11 10:54
 slug: podmug
-...
+---
 
 [<img src="http://farm5.static.flickr.com/4070/4264349109_5cece54246_m.jpg"
       width="240" height="234" alt="Photo of faded print-on-demand

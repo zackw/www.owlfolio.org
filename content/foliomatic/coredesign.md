@@ -2,7 +2,7 @@
 title: Core design principles
 date: 2009-08-19 12:50
 slug: coredesign
-...
+---
 
 I intend Foliomatic primarily for personal web sites such as this one.
 It should also be useful for projects and organizations whose Web

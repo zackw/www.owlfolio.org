@@ -1,6 +1,6 @@
 ---
 title: Game design
-...
+---
 
 I play lots of games. Board games, video games, “tabletop” roleplaying
 games. I occasionally have ideas for designing my own games. It’s

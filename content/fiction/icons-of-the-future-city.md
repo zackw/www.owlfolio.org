@@ -2,7 +2,7 @@
 title: Icons of the Future City
 date: 2011-07-10 18:07
 slug: icons-of-the-future-city
-...
+---
 
 Way back at the
 [2010 Mozilla Summit](https://wiki.mozilla.org/Summit2010), one of the

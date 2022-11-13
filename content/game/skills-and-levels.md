@@ -2,7 +2,7 @@
 title: Vague musings on skills and levels
 date: 2008-02-23 15:29
 slug: skills-and-levels
-...
+---
 
 I really like
 [Leonard's suggestion](http://www.crummy.com/2007/10/15/3) of

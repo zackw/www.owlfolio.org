@@ -2,7 +2,7 @@
 title: More on SSL errors
 date: 2010-05-25 16:11
 slug: more-ssl-errors
-...
+---
 
 I got some great responses to my [ideas for SSL errors][] and I
 thought I'd make a new post to talk about them, since that post is old

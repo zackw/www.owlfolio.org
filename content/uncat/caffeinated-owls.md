@@ -2,7 +2,7 @@
 title: Caffeinated owls
 date: 2013-04-23 13:10
 slug: caffeinated-owls
-...
+---
 
 <img class="aligncenter" src="/uncat/caffeinated-owls/owly-morning.jpg"
    alt="Semi-anthropomorphic sketches of six owls, each with a different

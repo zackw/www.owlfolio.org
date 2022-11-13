@@ -2,7 +2,7 @@
 title: Announcing readings.owlfolio.org
 date: 2015-03-30 12:32
 slug: announcing-readings
-...
+---
 
 I'd like to announce my new project,
 [`readings.owlfolio.org`](https://readings.owlfolio.org), where I will

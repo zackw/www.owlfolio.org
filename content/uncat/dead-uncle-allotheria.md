@@ -2,7 +2,7 @@
 title: Dead uncle Allotheria
 date: 2010-12-13 11:00
 slug: dead-uncle-allotheria
-...
+---
 
 Summaries of the rest of [CCS'10](http://www.sigsac.org/ccs/CCS2010/)
 are still coming eventually, but what I want to talk about today is

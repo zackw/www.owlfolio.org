@@ -2,7 +2,7 @@
 title: Character death and save points
 date: 2008-06-02 20:49
 slug: character-death
-...
+---
 
 We're playing *God of War* again and have gotten Kratos killed, oh, at
 least fifty times now, by falling off the rafters that you have to

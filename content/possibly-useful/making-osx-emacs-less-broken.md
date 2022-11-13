@@ -2,7 +2,7 @@
 title: Making OSX Emacs less broken
 date: 2012-07-14 08:50
 slug: making-osx-emacs-less-broken
-...
+---
 
 If you find that Emacs on OSX fails to pick up the same `$PATH`
 setting that you get in command line shells, instead defaulting to an

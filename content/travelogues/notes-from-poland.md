@@ -2,7 +2,7 @@
 title: Notes from Poland
 date: 2012-02-25 12:25
 slug: notes-from-poland
-...
+---
 
 My grandfather David and his brothers grew up in the small city of
 [Ostrowiec](http://en.wikipedia.org/wiki/Ostrowiec_%C5%9Awi%C4%99tokrzyski).

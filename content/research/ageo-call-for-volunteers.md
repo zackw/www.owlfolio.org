@@ -2,7 +2,7 @@
 title: 'Call for Volunteers: Active Geolocation'
 date: 2016-07-08 08:24:26
 slug: ageo-call-for-volunteers
-...
+---
 
 For the past few months I've been working on a research study of "active
 geolocation" algorithms.  These attempt to determine where in the world
