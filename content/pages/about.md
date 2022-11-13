@@ -7,11 +7,16 @@ slug: about
 Hello, my name is Zachary Weinberg.  I go by “Zack,” except on
 paper. Pleased to meet you.
 
-I’m about forty years old, and I grew up in the suburbs of Los
-Angeles, California.  I’m presently doing Internet security research
-as a postdoc with [ICLab](https://iclab.org).
-From 2010 to 2018 I was a doctoral student in the
-[ECE department of Carnegie Mellon University](https://www.ece.cmu.edu/).
+I’m about forty-five years old, and I grew up in the suburbs of Los
+Angeles, California.
+Presently, I teach the “[Introduction to
+Computer Systems](https://www.cs.cmu.edu/~213/)” course at
+[Carnegie Mellon University](https://www.cmu.edu),
+while continuing to do Internet security research
+with my collaborators at [ICLab](https://iclab.org/).
+From 2010 to 2018 I was a doctoral student in
+[Nicolas Christin’s group](https://www.andrew.cmu.edu/user/nicolasc/),
+also at CMU.
 Before that I worked for the
 [Mozilla Corporation](https://www.mozilla.org/en-US/foundation/moco/);
 before *that*, I studied how people understand language at
