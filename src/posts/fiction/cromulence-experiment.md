@@ -110,13 +110,16 @@ Wulfenbach Press.
 
 ## Raw Data
 
-<p style="text-align: center">
+<figure>
+<figcaption>
 <b>Cromulence, % — group averages</b><br>
 L–left-ended R–right-ended I–isoclonic A–asynclonic F–frammistat V–veeblefetzer
-</p>
-
+</figcaption>
 <table>
 <thead><tr><th></th><th>LIF</th><th>RIF</th><th>LAF</th><th>RAF</th><th>LIV</th><th>RIV</th><th>LAV</th><th>RAV</th></tr></thead>
-<tbody><tr><th>3 min</th><td>16.2</td><td>23.3</td><td>14.2</td><td>22.9</td><td>45.1</td><td>57.3</td><td>43.4</td><td>59.5</td></tr>
+<tbody>
+<tr><th>3 min</th><td>16.2</td><td>23.3</td><td>14.2</td><td>22.9</td><td>45.1</td><td>57.3</td><td>43.4</td><td>59.5</td></tr>
 <tr><th>Unlim</th><td>13.3</td><td>10.7</td><td>11.9</td><td>12.8</td><td>73.3</td><td>68.1</td><td>78.1</td><td>68.3</td></tr>
-</tbody></table>
+</tbody>
+</table>
+</figure>

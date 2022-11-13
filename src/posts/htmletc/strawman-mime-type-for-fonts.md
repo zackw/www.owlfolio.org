@@ -9,7 +9,7 @@ For a little while now, it's been possible for websites to
 that all major browsers will pick up on. This of course implies fonts
 being served as HTTP resources. But it turns out that nobody has
 bothered to assign any of the common font formats a MIME
-type.^[1](#foot1)^ Fonts being embedded on the web nowadays come in
+type.[^1] Fonts being embedded on the web nowadays come in
 two flavors and three kinds of container: you either have [TrueType][]
 or [PostScript CFF][]-style outline glyphs, and they are in a bare
 "OpenType" (really [sfnt][]) container, or else compressed with either
@@ -101,16 +101,14 @@ place, but as long as all the *other* font formats that we care about
 put their magic number at the beginning of the file where it belongs,
 that's not a problem.
 
-* * * * *
-
-^<a name="foot1">1</a>^ To be precise, there is *a* standard MIME type
-for *a* font format: [RFC 3073][] defines `application/font-tdpfr` for
-the [Bitstream PFR][] font format, which nobody uses anymore, except
-possibly some proprietary television-related products. Bitstream
-appear to have been trying to get it used for web fonts back in the
-days of Netscape 4, and then to have given up on it, probably because
-the font foundries' attitude was NO YOU CAN'T HAS LICENSE FOR WEBS
-until just last year.
+[^1]: To be precise, there is *a* standard MIME type
+  for *a* font format: [RFC 3073][] defines `application/font-tdpfr` for
+  the [Bitstream PFR][] font format, which nobody uses anymore, except
+  possibly some proprietary television-related products. Bitstream
+  appear to have been trying to get it used for web fonts back in the
+  days of Netscape 4, and then to have given up on it, probably because
+  the font foundries' attitude was NO YOU CAN'T HAS LICENSE FOR WEBS
+  until just last year.
 
 [RFC 3073]: http://www.rfc-editor.org/rfc/rfc3073.txt
 [Bitstream PFR]: http://web.archive.org/web/20080225160925/http://www.bitstream.com/font_rendering/products/truedoc/pfrspec.html

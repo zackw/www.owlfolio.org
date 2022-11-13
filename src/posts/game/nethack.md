@@ -52,7 +52,7 @@ Not so much virtues:
     minima.
 -   Artifacts are neither as diverse nor as interesting as they ought to
     be. Here I have a specific idea: I'd like to borrow the way magic
-    weapons work in [*Earthdawn*](http://www.earthdawn.com/).¹ You find
+    weapons work in [*Earthdawn*](http://www.earthdawn.com/).[^1] You find
     a magic item, it does something not terribly exciting, but you can
     discover and complete side quests that unlock more and more of its
     powers. Naturally, the side quests get harder as the rewards get
@@ -81,4 +81,4 @@ Outright flaws:
     [nethack.org](http://nethack.org) keeps growing that there is some
     life there, but given its size, a bug-fix release is years overdue.
 
-¹ Which I have never played.
+[^1]: Which I have never played.

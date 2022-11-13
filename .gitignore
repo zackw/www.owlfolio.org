@@ -1,8 +1,12 @@
-/output/
-/pelican/cache/
-/pelican.pid
-/srv.pid
-*.pyc
+# Editor detritus
 *~
 .#*
 \#*#
+.*.sw[a-p]
+
+# node.js detritus
+/node_modules/
+package-lock.json
+
+# Rendered HTML
+/build/

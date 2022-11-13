@@ -23,14 +23,16 @@ expressivity and power.
 
 ## Motivating Example
 
-    function addUserBox(userlist, username, icon, attrs) {
-      var section = h`<section class="user" {attrs}>
-                        <h1>{username}</h1>
-                      </section>`;
-      if (icon)
-        section.append(h`<img src="{icon}" alt="">`);
-      userlist.append(section);
-    }
+```js
+function addUserBox(userlist, username, icon, attrs) {
+  var section = h`<section class="user" {attrs}>
+                    <h1>{username}</h1>
+                  </section>`;
+  if (icon)
+    section.append(h`<img src="{icon}" alt="">`);
+  userlist.append(section);
+}
+```
 
 <!--more-->
 
@@ -40,9 +42,11 @@ This is a new method on the DOM
 [Document](http://www.w3.org/TR/DOM-Level-2-Core/core.html#i-Document)
 interface:
 
-    DocumentFragment parseDocumentFragment(in DOMString htmlText,
-                                           optional object substitutions)
-                         throws DOMException;
+```webidl
+DocumentFragment parseDocumentFragment(in DOMString htmlText,
+                                       optional object substitutions)
+                     throws DOMException;
+```
 
 The `htmlText` is parsed as-if by the
 [HTML fragment parsing algorithm](https://html.spec.whatwg.org/multipage/syntax.html#parsing-html-fragments),
@@ -180,17 +184,19 @@ other type alone.
 
 Thus, the "motivating example" above might get rewritten as
 
-    function addUserBox(userlist, username, icon, attrs) {
-      var section = document.parseDocumentFragment(
-          '<section class="user" {A}>
-             <h1>{B}</h1>
-           </section>', { "A": [[primToString]](username),
-                          "B": [[primToString]](attrs) });
-      if (icon)
-        section.append(document.parseDocumentFragment(
-            '<img src="{A}" alt="">', { "A": [[primToString]](icon) });
-      userlist.append(section);
-    }
+```js
+function addUserBox(userlist, username, icon, attrs) {
+  var section = document.parseDocumentFragment(
+      '<section class="user" {A}>
+         <h1>{B}</h1>
+       </section>', { "A": [[primToString]](username),
+                      "B": [[primToString]](attrs) });
+  if (icon)
+    section.append(document.parseDocumentFragment(
+        '<img src="{A}" alt="">', { "A": [[primToString]](icon) });
+  userlist.append(section);
+}
+```
 
 Note that there is no need to protect the gensyms against collisions
 with other identifiers in the program, since they will only be used
@@ -211,11 +217,15 @@ and Python.
 The `[[primToString]]` conversion improves the readability of simple
 cases, e.g. one may write
 
-    h`Two and two are {2+2}`
+```js
+h`Two and two are {2+2}`
+```
 
 instead of
 
-    h`Two and two are {(2+2).toString()}`
+```js
+h`Two and two are {(2+2).toString()}`
+```
 
 while staying out of the way of authors who need to substitute
 attribute dictionaries or Nodes.

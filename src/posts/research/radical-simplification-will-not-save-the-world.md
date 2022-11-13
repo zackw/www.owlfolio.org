@@ -28,7 +28,7 @@ usage, this word is a sloppy synonym for robotics and robotic
 enhancements to biological life (cyborgs), but as a scientific
 discipline it is the study of *dynamic control systems* that interact
 with their environment, ranging in scale from a simple closed-loop
-feedback controller to entire societies.^[1](#fn1)^ The Wikipedia
+feedback controller to entire societies.[^1] The Wikipedia
 article is decent, and if you want more detail, the essay
 "[Cybernetics of Society](http://www.jurlandia.org/cybsoc.htm)" is a
 good starting point. Much of the literature on cybernetics talks about
@@ -83,7 +83,7 @@ of it, it would not be *impossible*. Furthermore, a design and
 development process that does not understand and accept this will
 *not* produce an improvement over the status quo.
 
-<span id="fn1">^1^</span> The casual-use meaning of "cybernetics" comes
-from the observation (by early AI researchers) that robots and robotic
-prostheses were necessarily cybernetic systems, i.e. dynamic control
-systems that interacted with their environment.
+[^1]: The casual-use meaning of "cybernetics" comes from the
+  observation (by early AI researchers) that robots and robotic
+  prostheses were necessarily cybernetic systems, i.e. dynamic control
+  systems that interacted with their environment.

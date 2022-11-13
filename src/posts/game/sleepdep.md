@@ -210,26 +210,19 @@ Roll 1d4 and add one-third of your effective sleep debt, rounded
 down. For each effect listed, go to the appropriate table below and
 follow the instructions.
 
-1.
-:   None
-2.
-:   None
-3.
-:   One minor effect
-4.
-:   One minor effect
-5.
-:   Two minor effects
-6.
-:   One moderate effect
-7.
-:   One minor and one moderate effect
-8.
-:   One major effect
-9.
-:   One moderate and one major effect
-10+.
-:   Two major effects
+|         |      |
+|  :---:  | :--- |
+|  **1**  | None |
+|  **2**  | None |
+|  **3**  | One minor effect |
+|  **4**  | One minor effect |
+|  **5**  | Two minor effects |
+|  **6**  | One moderate effect |
+|  **7**  | One minor and one moderate effect |
+|  **8**  | One major effect |
+|  **9**  | One moderate and one major effect |
+| **10+** | Two major effects |
+
 
 #### Stimulant Effects
 
@@ -237,17 +230,14 @@ Divide the total strength of all stimulants you are on by three, and
 roll that many d10s. You suffer *all* of the effects rolled, for a
 full hour.
 
-1–4.
-:   No effect.
-5–6.
-:   Shaky hands. −1 to all fine motor actions.
-7–8.
-:   Attention deficit. −1 to all mental actions.
-9.
-:   Hyperfocus. +1 to actions requiring concentration,
-    −1 to notice anything going on around you.
-0.
-:   One moderate sleep effect.
+|         |      |
+| :---    | :--- |
+| **1–4** | No effect. |
+| **5–6** | Shaky hands. −1 to all fine motor actions. |
+| **7–8** | Attention deficit. −1 to all mental actions. |
+| **9**   | Hyperfocus. +1 to actions requiring concentration, |
+|         | −1 to notice anything going on around you. |
+| **0**   | One moderate sleep effect. |
 
 #### Minor Effects
 
