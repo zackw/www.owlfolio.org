@@ -1,7 +1,6 @@
 ---
 title: CCS 2010, day 1
 date: 2010-10-06 09:38
-slug: ccs-2010-day-1
 ---
 
 I'm attending the

@@ -1,7 +1,6 @@
 ---
 title: Cromulence Experiment
 date: 2007-04-23 09:27
-slug: cromulence-experiment
 ---
 
 ## Author's Note (August, 2009)

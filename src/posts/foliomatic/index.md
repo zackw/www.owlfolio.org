@@ -1,5 +1,6 @@
 ---
 title: Foliomatic
+permalink: false
 ---
 
 Foliomatic is a hypothetical program for generating web sites like

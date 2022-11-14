@@ -1,7 +1,6 @@
 ---
 title: Vague musings on skills and levels
 date: 2008-02-23 15:29
-slug: skills-and-levels
 ---
 
 I really like

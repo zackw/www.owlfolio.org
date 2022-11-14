@@ -1,7 +1,6 @@
 ---
 title: 'CCS’12: StegoTorus'
 date: 2012-10-16 19:12
-slug: ccs12-stegotorus
 ---
 
 I just presented the major focus of my time and effort for the past

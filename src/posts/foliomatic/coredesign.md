@@ -1,7 +1,6 @@
 ---
 title: Core design principles
 date: 2009-08-19 12:50
-slug: coredesign
 ---
 
 I intend Foliomatic primarily for personal web sites such as this one.

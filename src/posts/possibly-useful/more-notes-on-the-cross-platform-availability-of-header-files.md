@@ -1,7 +1,6 @@
 ---
 title: More Notes on the Cross-Platform Availability of Header Files
 date: 2013-05-01 23:25
-slug: more-notes-on-the-cross-platform-availability-of-header-files
 ---
 
 You may recall a month and a half ago I posted [Notes on the

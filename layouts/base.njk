@@ -1,0 +1,79 @@
+{% from "macros.njk" import category_list, recent_posts, outbound_links, topbar %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/base16/solarized-light.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.6.0/dist/katex.min.css" crossorigin="anonymous">
+
+        {% block head %}
+            <title>{% block title %}{{ metadata.SITENAME }}{% endblock title %}</title>
+            {% if FEED_ALL_ATOM %}
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Full Atom Feed">
+            {% endif %}
+            {% if FEED_ALL_RSS %}
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Full RSS Feed">
+            {% endif %}
+            {% if FEED_ATOM %}
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Atom Feed">
+            {% endif %}
+            {% if FEED_RSS %}
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} RSS Feed">
+            {% endif %}
+            {#
+                {% if CATEGORY_FEED_ATOM and category %}
+                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Categories Atom Feed">
+                {% endif %}
+                {% if CATEGORY_FEED_RSS and category %}
+                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(slug=category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Categories RSS Feed">
+                {% endif %}
+                {% if TAG_FEED_ATOM and tag %}
+                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Tags Atom Feed">
+                {% endif %}
+                {% if TAG_FEED_RSS and tag %}
+                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Tags RSS Feed">
+                {% endif %}
+                #}
+        {% endblock head %}
+    </head>
+    <body>
+        <header id="banner" role="banner">
+            <h1 id="brand"><a href="/">{{ metadata.SITENAME }}</a></h1>
+            {{ topbar(pages, MENUITEMS) }}
+        </header>
+
+        <div id="main" role="main">
+            {% block content %}
+            {% endblock %}
+        </div><!-- #main -->
+
+        <div id="sidebars">
+            {% block siteindex %}
+                {% if all_articles %}
+                    {{ recent_posts(all_articles, RECENT_POSTS_LENGTH) }}
+                {% else %}
+                    {{ recent_posts(articles, RECENT_POSTS_LENGTH) }}
+                {% endif %}
+                {{ category_list(categories) }}
+            {% endblock %}
+            {% block blogroll %}
+                {% for section_title, attrs, links in BLOGROLL %}
+                    {{ outbound_links(section_title, links, attrs) }}
+                {% endfor %}
+            {% endblock %}
+        </div><!-- #sidebars -->
+
+        <footer id="content-info" class="copy" role="contentinfo">
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/"
+            ><img width="80" height="15" src="/s/cc-by-nc-4-80x15.png"
+                 alt="[(cc) BY-NC]"></a>
+            Posts © <address class="vcard"><a href="/about/" class="url fn">Zack Weinberg</a></address>,
+            reusable according to the terms of the
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/"
+                rel="license">Creative Commons Attribution-Noncommercial 4.0 license</a>.
+            {# Comments © their authors. #}
+        </footer>
+    </body>
+</html>

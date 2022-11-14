@@ -1,7 +1,6 @@
 ---
 title: About Me
 date: 2012-05-20 20:26
-slug: about
 ---
 
 Hello, my name is Zachary Weinberg.  I go by “Zack,” except on

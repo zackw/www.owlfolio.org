@@ -1,7 +1,6 @@
 ---
 title: The Conference Formerly Known as Oakland, day 1
 date: 2012-05-22 07:57
-slug: the-conference-formerly-known-as-oakland-day-1
 ---
 
 I'm attending the

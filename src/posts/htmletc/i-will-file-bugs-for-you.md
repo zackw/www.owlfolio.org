@@ -1,7 +1,6 @@
 ---
 title: I Will File Bugs For You
 date: 2014-08-14 17:05
-slug: i-will-file-bugs-for-you
 ---
 
 > This post prompted by Aaron Klotz's

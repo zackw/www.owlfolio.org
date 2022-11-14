@@ -1,7 +1,6 @@
 ---
 title: Do not do business with Northwest Talent Search
 date: 2016-04-02 12:02:44
-slug: northwest-talent
 ---
 
 A depressing number of computer industry recruiters cannot be bothered

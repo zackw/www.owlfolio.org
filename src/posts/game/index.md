@@ -1,5 +1,6 @@
 ---
 title: Game design
+permalink: false
 ---
 
 I play lots of games. Board games, video games, “tabletop” roleplaying

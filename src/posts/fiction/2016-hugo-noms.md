@@ -1,7 +1,6 @@
 ---
 title: 2016 Hugo Award nominations
 date: 2016-04-02 16:36:29
-slug: 2016-hugo-noms
 ---
 
 Let's talk about something more fun, shall we?  These were my

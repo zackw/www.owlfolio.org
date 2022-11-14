@@ -1,7 +1,6 @@
 ---
 title: Should new web features be HTTPS only?
 date: 2014-03-24 14:44
-slug: should-new-web-features-be-https-only
 ---
 
 I doubt anyone who reads this will disagree with the proposition that

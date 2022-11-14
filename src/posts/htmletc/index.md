@@ -1,5 +1,6 @@
 ---
 title: HTML &c
+permalink: false
 ---
 
 Long, chewy articles about things related to the World Wide Web,

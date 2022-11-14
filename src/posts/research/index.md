@@ -1,5 +1,6 @@
 ---
 title: Research
+permalink: false
 ---
 
 Notes and essays about the topics I am currently doing academic research on.

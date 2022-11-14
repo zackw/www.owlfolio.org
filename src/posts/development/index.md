@@ -1,5 +1,6 @@
 ---
 title: Development
+permalink: false
 ---
 
 I don’t do it as much as I used to, but I still do a lot of programming

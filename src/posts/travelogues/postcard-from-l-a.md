@@ -1,7 +1,6 @@
 ---
 title: Postcard from L.A.
 date: 2013-08-10 17:03
-slug: postcard-from-l-a
 ---
 
 I've never liked Los Angeles. It's too hot, to begin with, and it's

@@ -1,7 +1,6 @@
 ---
 title: Data theft with CSS
 date: 2010-08-04 16:54
-slug: css-data-theft
 ---
 
 Mozilla has released security updates to Firefox 3.5 and 3.6 that

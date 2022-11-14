@@ -1,7 +1,6 @@
 ---
 title: Adria Richards Did Nothing Wrong
 date: 2013-03-21 15:14
-slug: what-is-wrong-with-you-monkeys
 ---
 
 > Editor’s note, 2022 November: There used to be an angry rant here.

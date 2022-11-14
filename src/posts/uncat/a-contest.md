@@ -1,7 +1,6 @@
 ---
 title: A Contest
 date: 2013-04-01 09:18
-slug: a-contest
 ---
 
 In honor of the Feast of All Fools, and because if anyone has noticed

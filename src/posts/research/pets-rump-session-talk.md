@@ -1,7 +1,6 @@
 ---
 title: PETS rump session talk
 date: 2014-07-17 10:55
-slug: pets-rump-session-talk
 ---
 
 I spoke briefly at [PETS

@@ -1,7 +1,6 @@
 ---
 title: The literary merit of right-wing SF
 date: 2014-08-24 23:44
-slug: the-literary-merit-of-right-wing-sf
 ---
 
 The results are in for the

@@ -1,5 +1,6 @@
 ---
 title: Possibly Useful
+permalink: false
 ---
 
 an occasional series of items  

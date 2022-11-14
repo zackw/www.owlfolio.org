@@ -1,7 +1,6 @@
 ---
 title: 'flex: input scanner rules are too complicated'
 date: 2013-10-22 20:29
-slug: flex-input-scanner-rules-are-too-complicated
 ---
 
 If you get this error message, the Internets may lead you to believe

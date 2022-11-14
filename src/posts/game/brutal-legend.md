@@ -1,7 +1,6 @@
 ---
 title: Review of Brütal Legend
 date: 2010-05-01 00:00
-slug: brutal-legend
 ---
 
 Here we go with another entry in the occasional series of reviews of

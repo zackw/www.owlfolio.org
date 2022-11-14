@@ -1,7 +1,6 @@
 ---
 title: the great 2010 ceramic objects giveaway
 date: 2010-06-01 22:37
-slug: the-great-2010-ceramic-objects-giveaway
 ---
 
 ![a bunch of pottery](one.jpg)

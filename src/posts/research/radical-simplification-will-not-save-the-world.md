@@ -1,7 +1,6 @@
 ---
 title: Radical simplification will not save the world
 date: 2013-05-22 19:02
-slug: radical-simplification-will-not-save-the-world
 ---
 
 Seems like every time I go to a security conference these days there's

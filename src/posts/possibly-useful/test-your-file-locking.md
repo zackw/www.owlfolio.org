@@ -1,7 +1,6 @@
 ---
 title: test your file locking
 date: 2011-10-14 12:23
-slug: test-your-file-locking
 ---
 
 This PUBLIC SERVICE ANNOUNCEMENT is brought to you by the I JUST

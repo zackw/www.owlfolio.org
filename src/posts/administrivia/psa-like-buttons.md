@@ -1,7 +1,6 @@
 ---
 title: 'PSA: “like” buttons'
 date: 2011-05-08 12:43
-slug: psa-like-buttons
 ---
 
 Because I hit "empty spam" just a little too fast, erasing the question

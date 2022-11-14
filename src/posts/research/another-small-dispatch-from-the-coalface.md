@@ -1,7 +1,6 @@
 ---
 title: another small dispatch from the coalface
 date: 2014-06-03 14:40
-slug: another-small-dispatch-from-the-coalface
 ---
 
 For all countries for which [Herdict](https://www.herdict.org/)

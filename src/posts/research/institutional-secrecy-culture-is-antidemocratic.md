@@ -1,7 +1,6 @@
 ---
 title: Institutional secrecy culture is antidemocratic
 date: 2013-06-30 22:27
-slug: institutional-secrecy-culture-is-antidemocratic
 ---
 
 For the past several weeks a chunk of the news has been all about how

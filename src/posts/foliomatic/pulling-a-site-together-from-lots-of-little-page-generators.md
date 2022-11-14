@@ -1,7 +1,6 @@
 ---
 title: Pulling a site together from lots of little page generators
 date: 2013-05-30 23:54
-slug: pulling-a-site-together-from-lots-of-little-page-generators
 ---
 
 Since the last time I was seriously considering writing my own static

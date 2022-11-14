@@ -1,7 +1,6 @@
 ---
 title: Strengths, weaknesses, opportunities, and threats facing the GNU Autotools
 date: 2021-01-19 16:05
-slug: autoconf-swot
 ---
 
 I've been a contributor to GNU projects for many years, notably both

@@ -1,7 +1,6 @@
 ---
 title: Cultural appropriation, privileged narratives, and hypothetical video games
 date: 2009-01-29 12:31
-slug: appropriation-privilege-and-video-games
 ---
 
 Over the past few weeks there has been what I can only describe as an

@@ -1,7 +1,6 @@
 ---
 title: Better SSL error screens
 date: 2010-02-16 13:11
-slug: ssl-errors
 ---
 
 Right now, when you visit a website that uses encryption in Firefox

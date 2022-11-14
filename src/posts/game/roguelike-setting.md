@@ -1,7 +1,6 @@
 ---
 title: Plot and setting for a hypothetical roguelike
 date: 2008-02-19 18:33
-slug: roguelike-setting
 ---
 
 As mentioned in

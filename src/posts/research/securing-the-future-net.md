@@ -1,7 +1,6 @@
 ---
 title: Securing the future net
 date: 2011-04-06 17:26
-slug: securing-the-future-net
 ---
 
 Today I had the fortune to attend a group discussion ambitiously

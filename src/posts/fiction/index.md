@@ -1,5 +1,6 @@
 ---
 title: Fiction
+permalink: false
 ---
 
 A lot of my friends are fiction writers. On rare occasions I have been
