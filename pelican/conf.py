@@ -4,10 +4,6 @@
 import os
 import sys
 
-# The 'webassets' plugin isn't in a namespace yet, but it's importable
-# normally.
-import pelican_webassets
-
 # This is icky but it's not as icky as sticking the
 # pelican directory on sys.path permanently.
 import os.path
@@ -63,7 +59,7 @@ PAGINATION_PATTERNS = [
 ]
 
 PLUGINS             = [
-    pelican_webassets,
+    'webassets',
     summary,
     'category_metadata',
     'neighbors',

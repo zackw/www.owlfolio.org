@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 """
 SimpleHTTPServer augmented with ability to send redirections.
 Vaguely based on Pelican's server module.
