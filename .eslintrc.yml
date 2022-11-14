@@ -1,0 +1,16 @@
+extends:
+  - airbnb-base
+  - prettier
+plugins:
+  - prettier
+rules:
+  prettier/prettier: [error]
+  camelcase: off
+  no-console: off
+  no-empty:
+    - error
+    - allowEmptyCatch: true
+  no-restricted-syntax: off
+  no-unused-vars:
+    - error
+    - argsIgnorePattern: "^_(ignored|unused)"

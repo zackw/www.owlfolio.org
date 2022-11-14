@@ -10,7 +10,32 @@
   "author": "Zack Weinberg",
   "license": "CC-BY-NC-4.0",
   "homepage": "https://www.owlfolio.org/",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development NODE_PATH=./node_modules npm run watch & npm run serve",
+    "build": "cross-env NODE_ENV=production node index",
+    "watch": "nodemon",
+    "serve": "browser-sync start --server 'build' --files 'build/**' --directory",
+    "lint": "eslint --fix ."
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src",
+      "layouts"
+    ],
+    "ext": "js css scss njk json html md"
+  },
   "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
     "@metalsmith/layouts": "^2.6.0",
     "@metalsmith/permalinks": "^2.4.1",
     "highlight.js": "^11.6.0",
