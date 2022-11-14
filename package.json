@@ -1,6 +1,7 @@
 {
   "name": "www.owlfolio.org",
   "version": "3.0.0",
+  "type": "module",
   "description": "Website www.owlfolio.org",
   "main": "index.js",
   "repository": {

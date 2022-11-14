@@ -3,6 +3,11 @@ extends:
   - prettier
 plugins:
   - prettier
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+env:
+  es6: true
 rules:
   prettier/prettier: [error]
   camelcase: off

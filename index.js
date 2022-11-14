@@ -1,88 +1,100 @@
-const Metalsmith = require("metalsmith");
-const layouts = require("@metalsmith/layouts");
-const permalinks = require("@metalsmith/permalinks");
-const MarkdownIt = require("metalsmith-markdownit");
+import Metalsmith from "metalsmith";
+import layouts from "@metalsmith/layouts";
+import permalinks from "@metalsmith/permalinks";
+import MarkdownIt from "metalsmith-markdownit";
 
-const md_deflist = require("markdown-it-deflist");
-const md_attrs = require("markdown-it-attrs");
-const md_anchor = require("markdown-it-anchor");
-const md_footnote = require("markdown-it-footnote");
-const md_sub = require("markdown-it-sub");
-const md_sup = require("markdown-it-sup");
-const md_math = require("markdown-it-katex");
+import hljs from "highlight.js";
 
-const hljs = require("highlight.js");
+import * as url from "url";
 
-const markdown = MarkdownIt({
-  typographer: true,
-  html: true,
-  highlight: (str, lang) => {
-    if (lang) {
-      const hlang = hljs.getLanguage(lang);
-      if (hlang) {
-        const canon_lang = hlang.name.toLowerCase();
-        try {
-          const highlighted = hljs.highlight(str, {
-            language: lang,
-          }).value;
-          return `<pre class="hljs language-${canon_lang}"><code>${highlighted}</code></pre>`;
-        } catch (_unused) {}
+const source_root = url.fileURLToPath(new URL(".", import.meta.url));
+
+// function debug_tree(tag) {
+//  return (ms) => {
+//    for (const k of Object.keys(ms).sort()) {
+//      console.log(tag, k);
+//    }
+//  };
+// }
+
+async function custom_markdown() {
+  const markdown = MarkdownIt({
+    typographer: true,
+    html: true,
+    highlight: (str, lang) => {
+      if (lang) {
+        const hlang = hljs.getLanguage(lang);
+        if (hlang) {
+          const canon_lang = hlang.name.toLowerCase();
+          try {
+            const highlighted = hljs.highlight(str, {
+              language: lang,
+            }).value;
+            return `<pre class="hljs language-${canon_lang}"><code>${highlighted}</code></pre>`;
+          } catch (_unused) {}
+        }
       }
-    }
-    // if we get here, either we don't have a language tag or it wasn't
-    // recognized
-    const highlighted = markdown.parser.utils.escapeHtml(str);
-    return `<pre class="hljs language-none"><code>${highlighted}</code></pre>`;
-  },
-});
-markdown.parser.use(md_deflist);
-markdown.parser.use(md_attrs);
-markdown.parser.use(md_anchor);
-markdown.parser.use(md_footnote);
-markdown.parser.use(md_sup);
-markdown.parser.use(md_sub);
-markdown.parser.use(md_math);
+      // if we get here, either we don't have a language tag or it wasn't
+      // recognized
+      const highlighted = markdown.parser.utils.escapeHtml(str);
+      return `<pre class="hljs language-none"><code>${highlighted}</code></pre>`;
+    },
+  });
 
-function debug_tree(tag) {
-  return (ms) => {
-    for (const k of Object.keys(ms).sort()) {
-      console.log(tag, k);
-    }
-  };
+  const parser_extensions = [
+    "anchor",
+    "attrs",
+    "deflist",
+    "footnote",
+    "katex",
+    "sub",
+    "sup",
+  ];
+  const parser_mods = await Promise.all(
+    parser_extensions.map((mdx) => import(`markdown-it-${mdx}`))
+  );
+  parser_mods.map((mod) => markdown.parser.use(mod.default));
+
+  return markdown;
 }
 
-Metalsmith(__dirname)
-  .metadata({
-    SITENAME: "Owl’s Portfolio",
-    AUTHOR: "Zack Weinberg",
-    TIMEZONE: "America/New_York",
-    DEFAULT_LANG: "en",
-    DEFAULT_PAGINATION: 10,
-  })
-  .source("src")
-  .destination("build")
-  .ignore("comments") // for now
-  .ignore("meta") // for now
-  .use(markdown)
-  .use(
-    permalinks({
-      duplicatesFail: true,
-      // unique: true,
-      relative: false,
+async function main() {
+  await Metalsmith(source_root)
+    .metadata({
+      SITENAME: "Owl’s Portfolio",
+      AUTHOR: "Zack Weinberg",
+      TIMEZONE: "America/New_York",
+      DEFAULT_LANG: "en",
+      DEFAULT_PAGINATION: 10,
     })
-  )
-  .use(
-    layouts({
-      pattern: "pages/**/index.html",
-      default: "page.njk",
-    })
-  )
-  .use(
-    layouts({
-      pattern: "posts/**/index.html",
-      default: "post.njk",
-    })
-  )
-  .build((err, _unused) => {
-    if (err) throw err;
-  });
+    .source("src")
+    .destination("build")
+    .ignore("comments") // for now
+    .ignore("meta") // for now
+    .use(await custom_markdown())
+    .use(
+      permalinks({
+        duplicatesFail: true,
+        // unique: true,
+        relative: false,
+      })
+    )
+    .use(
+      layouts({
+        pattern: "pages/**/index.html",
+        default: "page.njk",
+      })
+    )
+    .use(
+      layouts({
+        pattern: "posts/**/index.html",
+        default: "post.njk",
+      })
+    )
+    .build();
+}
+main().then(() => {});
+
+// Local Variables:
+// js2-additional-externs: ("URL")
+// End:
