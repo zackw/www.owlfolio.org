@@ -124,27 +124,27 @@ blog_roll:
     rel: me
     links:
       - n: "hackers.town"
-        h: "Conversation"
+        h: "Conversations"
         u: "https://hackers.town/@zwol"
 
       - n: "Newsblur"
         h: "Link scrapbooking"
         u: "https://zwol.newsblur.com/"
 
-      - n: "Stack Overflow"
-        h: "The dusty corners of C"
-        u: "https://stackoverflow.com/users/388520"
-
       - n: "Sourcehut"
         h: "Code"
         u: "https://sr.ht/~zackw/"
 
+      - n: "Stack Overflow"
+        h: "The dusty corners of C"
+        u: "https://stackoverflow.com/users/388520"
+
       - n: "mastodon.social"
-        h: "Old conversation, no longer updated"
+        h: "Old conversations, no longer updated"
         u: "https://mastodon.social/@zwol"
 
       - n: "Twitter"
-        h: "Older conversation, no longer updated"
+        h: "Older conversations, no longer updated"
         u: "https://twitter.com/elwoz/"
 
       - n: "Dreamwidth"
