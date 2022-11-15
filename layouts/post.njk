@@ -1,6 +1,6 @@
 {% extends "base.njk" %}
 {# {% from "macros.njk" import pager, article_header %} #}
-{% block title %}{{ title }} | {{ SITENAME }}{% endblock %}
+{% block title %}{{ title }} | {{ sitename }}{% endblock %}
 {% block head %}
   {{ super() }}
   {% for keyword in keywords %}

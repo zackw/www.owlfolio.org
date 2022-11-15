@@ -1,20 +1,28 @@
-{% macro topbar(pages, menuitems) %}
+{% macro topbar(pages, menuitems) -%}
 <nav class="topbar">
-{# Currently pages can only go on the left. #}
-  <ul class="topbar-left">{%
-  for p in pages if not p.no_menu
-  %}<li class="menu{% if p == page %} active{% endif %}"><a href="/{{ p.url }}">{{
-        p.title.split()[0] }}</a></li>{%
-  endfor %}{%
-  for title, link, position in menuitems if position == 'left'
-  %}<li class="menu"><a href="{{ link }}">{{ title }}</a></li>{% endfor
-  %}</ul>
-  <ul class="topbar-right">{%
-  for title, link, position in menuitems if position == 'right'
-  %}<li class="menu"><a href="{{ link }}">{{ title }}</a></li>{% endfor
-  %}</ul>
+{# Currently pages can only go on the left. -#}
+  <ul class="topbar-left">
+  {%- for p in pages %}
+    {%- if not p.no_menu %}
+      <li class="menu{% if p == page %} active{% endif %}"
+      ><a href="/{{ p.url }}">{{ p.title.split()[0] }}</a></li>
+    {%- endif %}
+  {%- endfor %}
+  {%- for title, link, position in menuitems %}
+    {%- if position == 'left' %}
+      <li class="menu"><a href="{{ link }}">{{ title }}</a></li>
+    {%- endif %}
+  {%- endfor %}
+  </ul>
+  <ul class="topbar-right">
+    {%- for title, link, position in menuitems %}
+      {%- if position == 'right' %}
+        <li class="menu"><a href="{{ link }}">{{ title }}</a></li>
+      {%- endif %}
+    {%- endfor %}
+  </ul>
 </nav><!-- #topbar -->
-{% endmacro %}
+{%- endmacro %}
 
 {% macro pager(older_page, older_label, newer_page, newer_label) %}
 <nav id="post-nav" class="pager">
@@ -52,7 +60,7 @@
 </header>
 {% endmacro %}
 
-{% macro category_list(categories) %}
+{% macro category_list(categories) -%}
 <nav class="index widget">
   <h3>Topics</h3>
   <ul>
@@ -61,9 +69,9 @@
     {% endfor %}
   </ul>
 </nav>
-{% endmacro %}
+{%- endmacro %}
 
-{% macro recent_posts(articles, n) %}
+{% macro recent_posts(articles, n) -%}
 <nav class="index widget">
   <h3>Recent Posts</h3>
   <ul>
@@ -72,30 +80,26 @@
     {% endfor %}
   </ul>
 </nav>
-{% endmacro %}
+{%- endmacro %}
 
-{% macro outbound_links(section_title, links, attrs='') %}
+{% macro outbound_links(group) -%}
 <nav class="blogroll widget">
-  <h3>{{ section_title }}</h3>
+  <h3>{{ group.group }}</h3>
   <ul>
-    {% for link, title, url in links %}
-    {% if url %}
-    <li><a href="{{ url|e }}" {{ attrs }}
-           {% if title -%}
-           title="{{ title|e }}"
-           {%- endif -%}
-           >{{ link }}</a></li>
-    {% else %}
+    {%- for link in group.links %}
+    {% if link.u -%}
+    <li><a href="{{ link.u }}"
+          {%- if group.rel %} rel="{{ group.rel }}"{% endif -%}
+          {%- if link.h %} title="{{ link.h }}"{% endif -%}
+        >{{ link.n }}</a></li>
+    {%- else -%}
     <li><abbr
-           {% if title -%}
-           title="{{ title|e }} (no website)"
-           {%- else -%}
-           title="(no website)"
-           {%- endif -%}
-           >{{ link
-        }}</abbr></li>
-    {% endif %}
+           {%- if link.h %} title="{{ link.h }} (no website)"
+           {%-      else %} title="(no website)"{% endif -%}
+           >{{ link.n -}}
+    </abbr></li>
+    {%- endif -%}
     {% endfor %}
   </ul>
 </nav>
-{% endmacro %}
+{%- endmacro %}

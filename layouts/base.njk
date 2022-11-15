@@ -9,39 +9,39 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.6.0/dist/katex.min.css" crossorigin="anonymous">
 
         {% block head %}
-            <title>{% block title %}{{ metadata.SITENAME }}{% endblock title %}</title>
+            <title>{% block title %}{{ sitename }}{% endblock title %}</title>
             {% if FEED_ALL_ATOM %}
-                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Full Atom Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ sitename }} Full Atom Feed">
             {% endif %}
             {% if FEED_ALL_RSS %}
-                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Full RSS Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ sitename }} Full RSS Feed">
             {% endif %}
             {% if FEED_ATOM %}
-                <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Atom Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ sitename }} Atom Feed">
             {% endif %}
             {% if FEED_RSS %}
-                <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} RSS Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ sitename }} RSS Feed">
             {% endif %}
             {#
                 {% if CATEGORY_FEED_ATOM and category %}
-                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Categories Atom Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ sitename }} Categories Atom Feed">
                 {% endif %}
                 {% if CATEGORY_FEED_RSS and category %}
-                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(slug=category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Categories RSS Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(slug=category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ sitename }} Categories RSS Feed">
                 {% endif %}
                 {% if TAG_FEED_ATOM and tag %}
-                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ metadata.SITENAME }} Tags Atom Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ sitename }} Tags Atom Feed">
                 {% endif %}
                 {% if TAG_FEED_RSS and tag %}
-                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ metadata.SITENAME }} Tags RSS Feed">
+                <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ sitename }} Tags RSS Feed">
                 {% endif %}
                 #}
         {% endblock head %}
     </head>
     <body>
         <header id="banner" role="banner">
-            <h1 id="brand"><a href="/">{{ metadata.SITENAME }}</a></h1>
-            {{ topbar(pages, MENUITEMS) }}
+            <h1 id="brand"><a href="/">{{ sitename }}</a></h1>
+            {{ topbar(pages, out_links.top_menu) }}
         </header>
 
         <div id="main" role="main">
@@ -58,9 +58,9 @@
                 {% endif %}
                 {{ category_list(categories) }}
             {% endblock %}
-            {% block blogroll %}
-                {% for section_title, attrs, links in BLOGROLL %}
-                    {{ outbound_links(section_title, links, attrs) }}
+            {% block blog_roll %}
+                {% for group in out_links.blog_roll %}
+                    {{ outbound_links(group) }}
                 {% endfor %}
             {% endblock %}
         </div><!-- #sidebars -->

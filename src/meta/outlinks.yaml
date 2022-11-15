@@ -1,0 +1,152 @@
+# Outbound link configuration.
+
+top_menu:
+# - ['link text',    'link target',                          'left/right side']
+  - ['Publications', 'https://research.owlfolio.org/pubs/',  'right']
+  - ['Research',     'https://research.owlfolio.org/',       'right']
+  - ['Readings',     'https://readings.owlfolio.org/',       'right']
+# - ['Photography',  'https://www.flickr.com/photos/zackw/', 'right']
+
+blog_roll:
+  - group: "Tribe"
+    links:
+#     - n: "personal name (link text)"
+#       h: "full name (hover text)" -- optional
+#       u: "link target"
+#
+      - n: "Pam"
+        h: "Pamela Griffith ♥"
+        u: "https://pamgriffith.net/"
+
+      - n: "Dara"
+        h: "Dara Weinberg"
+        u: "https://darastrata.com/"
+
+      - n: "Abbas"
+        h: "Abbas Razaghpanah"
+        u: "http://abbas.rpanah.ir/"
+
+      - n: "Arian"
+        h: "Arian Akhavan Niaki"
+        u: "https://people.cs.umass.edu/~arian/"
+
+      - n: "Brendan"
+        h: "Brendan Adkins"
+        u: "http://www.xorph.com/nfd/"
+
+      - n: "Caroline"
+        h: "Caroline Ratajski"
+        u: "https://www.geardrops.net/"
+
+      - n: "Janna"
+        u: "https://readingwatchinglookingandstuff.blogspot.com/"
+
+      - n: "Leonard"
+        h: "Leonard Richardson"
+        u: "https://www.crummy.com/"
+
+      - n: "Mris"
+        h: "Marissa Lingen"
+        u: "https://marissalingen.com/"
+
+      - n: "Phong"
+        h: "Hoàng Nguyên Phong"
+        u: "https://homepage.np-tokumei.net/"
+
+      - n: "Shinyoung"
+        h: "Shinyoung Cho"
+        u: "https://www.smith.edu/academics/faculty/shinyoung-cho"
+
+      - n: "Shweta"
+        h: "Shweta Narayan"
+        u: "http://shwetanarayan.org/"
+
+      - n: "Sumana"
+        h: "Sumana Harihareswara"
+        u: "http://www.harihareswara.net/"
+
+  - group: "Affiliated"
+    links:
+      - n: "ICLab"
+        h: "Information Controls Lab at UMass Amherst, 2016–"
+        u: "https://iclab.org/"
+
+      - n: "Tor"
+        h: "Tor Project (anonymity online), 2012–"
+        u: "https://www.torproject.org"
+
+      - n: "CyLab"
+        h: "Institute for security and privacy research at CMU, 2010–"
+        u: "https://cylab.cmu.edu/"
+
+      - n: "CMU/ECE"
+        h: "Computer security PhD program at CMU, 2010–2018"
+        u: "https://www.ece.cmu.edu/"
+
+      - n: "Mozilla"
+        h: "Mozilla Project, 2008–2014"
+        u: "https://www.mozilla.org/"
+
+      - n: "monotone"
+        h: "Monotone version control system, 2007–2009"
+        u: "http://www.monotone.ca/"
+
+      - n: "GCC"
+        h: "GNU Compiler Collection, 1998–2006 (plus a couple of relapses)"
+        u: "https://gcc.gnu.org/"
+
+      - n: "UCSD"
+        h: "Cognitive Science department at UC San Diego, 2006–2008"
+        u: "http://www.cogsci.ucsd.edu/"
+
+      - n: "NTL"
+        h: "Neural Theory of Language group at UC Berkeley, 2001–2006"
+        u: "https://www.icsi.berkeley.edu/icsi/projects/ai/ntl"
+
+      - n: "CodeSourcery"
+        h: "Bespoke GCC development and support, 2001–2006"
+        u: "http://www.codesourcery.com/"
+
+      - n: "Rabi"
+        h: "I.I. Rabi Science Scholars Program at Columbia College, 1995–1999"
+        u: "https://urf.columbia.edu/urf/research/rabi"
+
+# https://www.columbiaspectator.com/sports/2020/09/15/columbia-university-marching-band-votes-to-disband-after-116-years/
+#     - n: "CUMB"
+#       h: "The Cleverest Band in the World, 1995–1999"
+#       u: "http://cuband.org/"
+
+      - n: "SSP"
+        h: "Summer Science Program, 1994"
+        u: "https://summerscience.org/"
+
+  - group: "Also Me"
+    rel: me
+    links:
+      - n: "hackers.town"
+        h: "Conversation"
+        u: "https://hackers.town/@zwol"
+
+      - n: "Newsblur"
+        h: "Link scrapbooking"
+        u: "https://zwol.newsblur.com/"
+
+      - n: "Stack Overflow"
+        h: "The dusty corners of C"
+        u: "https://stackoverflow.com/users/388520"
+
+      - n: "Sourcehut"
+        h: "Code"
+        u: "https://sr.ht/~zackw/"
+
+      - n: "mastodon.social"
+        h: "Old conversation, no longer updated"
+        u: "https://mastodon.social/@zwol"
+
+      - n: "Twitter"
+        h: "Older conversation, no longer updated"
+        u: "https://twitter.com/elwoz/"
+
+      - n: "Dreamwidth"
+        h: "Old personal journal, no longer updated"
+        u: "https://zwol.dreamwidth.org/"
