@@ -1,24 +1,25 @@
 import Metalsmith from "metalsmith";
+import default_values from "@metalsmith/default-values";
 import layouts from "@metalsmith/layouts";
 import permalinks from "@metalsmith/permalinks";
-import MarkdownIt from "metalsmith-markdownit";
+import markdown_it from "metalsmith-markdownit";
+import metafiles from "metalsmith-metafiles";
+import move_up from "metalsmith-move-up";
 
 import hljs from "highlight.js";
 
 import * as url from "url";
 
-const source_root = url.fileURLToPath(new URL(".", import.meta.url));
-
 // function debug_tree(tag) {
-//  return (ms) => {
-//    for (const k of Object.keys(ms).sort()) {
-//      console.log(tag, k);
-//    }
-//  };
+//   return (ms) => {
+//     for (const k of Object.keys(ms).sort()) {
+//       console.log(tag, k);
+//     }
+//   };
 // }
 
 async function custom_markdown() {
-  const markdown = MarkdownIt({
+  const markdown = markdown_it({
     typographer: true,
     html: true,
     highlight: (str, lang) => {
@@ -58,7 +59,27 @@ async function custom_markdown() {
   return markdown;
 }
 
+/// Mini-plugin that looks for a file property PROP, and if it's found,
+/// changes the name of that file to the value of the property
+function rename_to_prop(prop) {
+  return (files, _unused, done) => {
+    Object.keys(files).forEach((file) => {
+      const blob = files[file];
+      if (Object.hasOwn(blob, prop)) {
+        const renamed = blob[prop];
+        if (Object.hasOwn(files, renamed)) {
+          throw new Error(`collision: ${file} -> ${renamed} already present`);
+        }
+        files[renamed] = blob;
+        delete files[file];
+      }
+    });
+    done();
+  };
+}
+
 async function main() {
+  const source_root = url.fileURLToPath(new URL(".", import.meta.url));
   await Metalsmith(source_root)
     .metadata({
       SITENAME: "Owl’s Portfolio",
@@ -69,8 +90,12 @@ async function main() {
     })
     .source("src")
     .destination("build")
-    .ignore("comments") // for now
-    .ignore("meta") // for now
+    .ignore("comments") // until we have something better to do with them
+    .use(
+      metafiles({
+        postfix: ".m",
+      })
+    )
     .use(await custom_markdown())
     .use(
       permalinks({
@@ -80,17 +105,20 @@ async function main() {
       })
     )
     .use(
-      layouts({
-        pattern: "pages/**/index.html",
-        default: "page.njk",
-      })
+      default_values([
+        {
+          pattern: "pages/**/index.html",
+          defaults: { layout: "page.njk" },
+        },
+        {
+          pattern: "posts/**/index.html",
+          defaults: { layout: "post.njk" },
+        },
+      ])
     )
-    .use(
-      layouts({
-        pattern: "posts/**/index.html",
-        default: "post.njk",
-      })
-    )
+    .use(layouts())
+    .use(move_up(["pages/**", "posts/**"]))
+    .use(rename_to_prop("save_as"))
     .build();
 }
 main().then(() => {});

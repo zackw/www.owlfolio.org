@@ -15,6 +15,9 @@ rules:
   no-empty:
     - error
     - allowEmptyCatch: true
+  no-param-reassign:
+    - error
+    - props: false
   no-restricted-syntax: off
   no-unused-vars:
     - error

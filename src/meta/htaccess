@@ -1,4 +1,7 @@
-ErrorDocument 403 /s/403.html
+---
+save_as: .htaccess
+---
+ErrorDocument 403 /s/404.html
 ErrorDocument 404 /s/404.html
 ErrorDocument 301 " "
 ErrorDocument 302 " "
