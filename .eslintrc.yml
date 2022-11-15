@@ -9,7 +9,11 @@ parserOptions:
 env:
   es6: true
 rules:
-  prettier/prettier: [error]
+  prettier/prettier: error
+# conflicts with Node's relative import algorithm in ESM mode, see
+# https://github.com/nodejs/node/issues/38484 and
+# https://github.com/import-js/eslint-plugin-import/issues/2104
+  import/extensions: off
   camelcase: off
   no-console: off
   no-empty:
