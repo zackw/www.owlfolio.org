@@ -136,7 +136,7 @@ BLOGROLL = [
 
         ("Shinyoung",
          "Shinyoung Cho",
-         "https://www3.cs.stonybrook.edu/~shicho/"),
+         "https://www.smith.edu/academics/faculty/shinyoung-cho"),
 
         ("Shweta",
          "Shweta Narayan",
@@ -202,29 +202,33 @@ BLOGROLL = [
     ]),
 
     ("Also Me", 'rel="me"', [
-        ("Mastodon",
-         "Chitchat",
-         "https://mastodon.social/@zwol"),
+        ("hackers.town",
+         "Conversations",
+         "https://hackers.town/@zwol"),
 
         ("Newsblur",
          "Link scrapbooking",
          "https://zwol.newsblur.com/"),
 
-        ("Stack Overflow",
-         "The dusty corners of C",
-         "https://stackoverflow.com/users/388520"),
-
         ("Sourcehut",
          "Code",
          "https://sr.ht/~zackw/"),
 
+        ("Stack Overflow",
+         "The dusty corners of C",
+         "https://stackoverflow.com/users/388520"),
+
+        ("Mastodon",
+         "Old conversations, no longer updated",
+         "https://mastodon.social/@zwol"),
+
+        ("Twitter",
+         "Older conversations, no longer updated",
+         "https://twitter.com/elwoz/"),
+
         ("Dreamwidth",
          "Old personal journal, no longer updated",
          "https://zwol.dreamwidth.org/"),
-
-        ("Twitter",
-         "Old chitchat, no longer updated",
-         "https://twitter.com/elwoz/"),
     ])
 ]
 
