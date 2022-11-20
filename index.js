@@ -21,10 +21,20 @@ import { custom_markdown, rename_patterns } from "./lib/local-plugins.js";
 async function main() {
   const source_root = url.fileURLToPath(new URL(".", import.meta.url));
   const mode = process.env.NODE_ENV || "development";
-  await Metalsmith(source_root)
-    .metadata({
-      sitename: "Owl’s Portfolio",
-    })
+  const ms = Metalsmith(source_root);
+
+  if (mode === "development") {
+    // This dependency is correctly listed in dev-dependencies rather
+    // than primary dependencies.  We don't want it installed in the
+    // render-on-push environment.
+    // eslint-disable-next-line import/no-extraneous-dependencies
+    const debug_ui = await import("metalsmith-debug-ui");
+    debug_ui.patch(ms);
+  }
+
+  ms.metadata({
+    sitename: "Owl’s Portfolio",
+  })
     .source("src")
     .destination("build")
     .ignore([
@@ -77,11 +87,12 @@ async function main() {
           to: "",
         },
       ])
-    )
-    .build();
+    );
+
+  await ms.build();
 }
 main().then(() => {});
 
 // Local Variables:
-// js2-additional-externs: ("URL", "process")
+// js2-additional-externs: ("URL" "process")
 // End:
