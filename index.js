@@ -5,32 +5,31 @@ import metadata from "@metalsmith/metadata";
 import permalinks from "@metalsmith/permalinks";
 
 import collections from "metalsmith-auto-collections";
-import beautify from "metalsmith-beautify";
-import cond from "metalsmith-if";
 
 import * as url from "url";
 import { custom_markdown, rename_patterns } from "./lib/local-plugins.js";
-
-// function debug_tree(tag) {
-//   return (ms) => {
-//     for (const k of Object.keys(ms).sort()) {
-//       console.log(tag, k);
-//     }
-//   };
-// }
 
 async function main() {
   const source_root = url.fileURLToPath(new URL(".", import.meta.url));
   const mode = process.env.NODE_ENV || "development";
   const ms = Metalsmith(source_root);
 
-  if (mode === "development") {
-    // This dependency is correctly listed in dev-dependencies rather
-    // than primary dependencies.  We don't want it installed in the
-    // render-on-push environment.
-    // eslint-disable-next-line import/no-extraneous-dependencies
-    const debug_ui = await import("metalsmith-debug-ui");
-    debug_ui.patch(ms);
+  let postprocess;
+  switch (mode) {
+    case "development":
+      postprocess = (await import("metalsmith-beautify")).default;
+      (await import("metalsmith-debug-ui")).patch(ms);
+      break;
+
+    case "production":
+      postprocess = (..._ignored) =>
+        function postprocess_noop(_unused1, _unused2, done) {
+          done();
+        };
+      break;
+
+    default:
+      throw new Error(`invalid setting for NODE_ENV: ${mode}`);
   }
 
   ms.metadata({
@@ -92,12 +91,7 @@ async function main() {
       ])
     )
     .use(layouts())
-    .use(
-      cond(
-        mode === "development",
-        beautify({ indent_size: 2, indent_char: " " })
-      )
-    );
+    .use(postprocess({ indent_size: 2, indent_char: " " }));
 
   await ms.build();
 }

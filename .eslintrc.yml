@@ -10,12 +10,14 @@ env:
   es6: true
 rules:
   prettier/prettier: error
-# conflicts with Node's relative import algorithm in ESM mode, see
-# https://github.com/nodejs/node/issues/38484 and
-# https://github.com/import-js/eslint-plugin-import/issues/2104
+  # conflicts with Node's relative import algorithm in ESM mode, see
+  # https://github.com/nodejs/node/issues/38484 and
+  # https://github.com/import-js/eslint-plugin-import/issues/2104
   import/extensions: off
+  # gets too many false positives _and_ false negatives to bother with
+  import/no-extraneous-dependencies: off
+  # this is a snake_case project thank you very much
   camelcase: off
-  no-console: off
   no-empty:
     - error
     - allowEmptyCatch: true
@@ -25,4 +27,4 @@ rules:
   no-restricted-syntax: off
   no-unused-vars:
     - error
-    - argsIgnorePattern: "^_(ignored|unused)"
+    - argsIgnorePattern: "^_(ignored|unused)[0-9]*$"
