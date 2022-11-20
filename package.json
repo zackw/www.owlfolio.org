@@ -16,7 +16,7 @@
     "build": "cross-env NODE_ENV=production node index",
     "watch": "nodemon",
     "serve": "browser-sync start --server 'build' --files 'build/**' --index index.html",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix index.js lib"
   },
   "nodemonConfig": {
     "watch": [
