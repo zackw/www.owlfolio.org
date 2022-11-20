@@ -15,7 +15,7 @@
     "start": "cross-env NODE_ENV=development NODE_PATH=./node_modules npm run watch & npm run serve",
     "build": "cross-env NODE_ENV=production node index",
     "watch": "nodemon",
-    "serve": "browser-sync start --server 'build' --files 'build/**' --directory",
+    "serve": "browser-sync start --server 'build' --files 'build/**' --index index.html",
     "lint": "eslint --fix ."
   },
   "nodemonConfig": {
@@ -54,6 +54,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "metalsmith": "^2.5.1",
+    "metalsmith-auto-collections": "^0.2.0",
     "metalsmith-beautify": "^0.2.0",
     "metalsmith-if": "^0.1.1",
     "metalsmith-markdownit": "^0.5.0",

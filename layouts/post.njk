@@ -1,5 +1,5 @@
 {% extends "base.njk" %}
-{# {% from "macros.njk" import pager, article_header %} #}
+{% from "macros.njk" import pager %}
 {% block title %}{{ title }} | {{ sitename }}{% endblock %}
 {% block head %}
   {{ super() }}
@@ -20,6 +20,6 @@
   <div class="entry-content">
     {{ contents | safe }}
   </div>
-  {# {{ pager(next_article, prev_article) }} #}
+  {{ pager(next, previous) }}
 </article>
 {% endblock %}

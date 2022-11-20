@@ -4,6 +4,7 @@ import layouts from "@metalsmith/layouts";
 import metadata from "@metalsmith/metadata";
 import permalinks from "@metalsmith/permalinks";
 
+import collections from "metalsmith-auto-collections";
 import beautify from "metalsmith-beautify";
 import cond from "metalsmith-if";
 
@@ -49,6 +50,15 @@ async function main() {
         out_links: "src/meta/outlinks.yaml",
       })
     )
+    .use(
+      collections({
+        pattern: ["posts/*/*.md", "posts/*/*.html"],
+        settings: {
+          sortBy: "date",
+          reverse: true,
+        },
+      })
+    )
     .use(await custom_markdown())
     .use(
       permalinks({
@@ -69,13 +79,6 @@ async function main() {
         },
       ])
     )
-    .use(layouts())
-    .use(
-      cond(
-        mode === "development",
-        beautify({ indent_size: 2, indent_char: " " })
-      )
-    )
     .use(
       rename_patterns([
         { file: "meta/htaccess", to: ".htaccess" },
@@ -87,6 +90,13 @@ async function main() {
           to: "",
         },
       ])
+    )
+    .use(layouts())
+    .use(
+      cond(
+        mode === "development",
+        beautify({ indent_size: 2, indent_char: " " })
+      )
     );
 
   await ms.build();
