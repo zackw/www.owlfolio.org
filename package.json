@@ -16,7 +16,10 @@
     "build": "cross-env NODE_ENV=production node index",
     "watch": "nodemon",
     "serve": "browser-sync start --server 'build' --files 'build/**' --index index.html",
-    "lint": "eslint --fix index.js lib"
+    "lint": "eslint --cache --fix index.js lib",
+    "prepare": "husky install",
+    "format": "prettier --loglevel warn --write \"**/*.{js,json,yml,yaml}\"",
+    "posttest": "npm run format"
   },
   "nodemonConfig": {
     "watch": [
@@ -35,6 +38,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
     "metalsmith-debug-ui": "^0.3.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"

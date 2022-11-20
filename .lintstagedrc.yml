@@ -1,0 +1,7 @@
+# notes:
+# - for JS files, eslint runs prettier
+# - I don't like what prettier does to my Markdown, so we won't be
+#   using it for that
+# - I anticipate not liking what prettier does to CSS either
+"*.js": "eslint --cache --fix"
+"*.{json,yml,yaml}": "prettier --loglevel warn --write"
