@@ -62,7 +62,6 @@ async function main() {
     .use(
       permalinks({
         duplicatesFail: true,
-        // unique: true,
         relative: false,
       })
     )
@@ -85,7 +84,7 @@ async function main() {
         { file: "pages/404/index.html", to: "s/404.html" },
         {
           file: ["meta/**", "pages/**", "posts/**"],
-          from: /^[^/]+\//,
+          from: /^[^/]+\//u,
           to: "",
         },
       ])
@@ -95,7 +94,7 @@ async function main() {
 
   await ms.build();
 }
-main().then(() => {});
+await main();
 
 // Local Variables:
 // js2-additional-externs: ("URL" "process")

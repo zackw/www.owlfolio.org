@@ -1,30 +1,119 @@
 extends:
-  - airbnb-base
-  - prettier
-plugins:
-  - prettier
+  - eslint:recommended
+  - plugin:import/recommended
+  - plugin:prettier/recommended
+
 parserOptions:
-  ecmaVersion: 2020
+  # need runtime import and top-level await
+  # contra the docs, es2022:true in 'env' does NOT enable ecmaVersion:2022
+  ecmaVersion: 2022
+  # annoying that it doesn't pick this up from package.json
   sourceType: module
 env:
-  es6: true
+  es2022: true
+  node: true
+
 rules:
-  prettier/prettier: error
+  ## Rules that need configuration beyond merely on/off:
+
+  # Extra strict
+  array-callback-return:
+    - error
+    - checkForEach: true
+  one-var:
+    - error
+    - never
+
+  # Desirable, but need to configure the escape hatch:
+  no-unused-vars:
+    - error
+    - argsIgnorePattern: "^_(ignored|unused)[0-9]*$"
+
+  # 'const' can only be applied to none or all of the values of a destructure;
+  # sometimes we need to modify only some of them
+  prefer-const:
+    - error
+    - destructuring: all
+
+  # allow "yoda" conditions in range comparisons
+  # (12 <= x && x < 23)
+  yoda:
+    - error
+    - never
+    - exceptRange: true
+
+  ## Rules enabled by any of the 'recommended' sets that we don't want.
+
+  # this is a snake_case project thank you very much
+  camelcase: off
+
   # conflicts with Node's relative import algorithm in ESM mode, see
   # https://github.com/nodejs/node/issues/38484 and
   # https://github.com/import-js/eslint-plugin-import/issues/2104
   import/extensions: off
+
   # gets too many false positives _and_ false negatives to bother with
   import/no-extraneous-dependencies: off
-  # this is a snake_case project thank you very much
-  camelcase: off
-  no-empty:
-    - error
-    - allowEmptyCatch: true
-  no-param-reassign:
-    - error
-    - props: false
-  no-restricted-syntax: off
-  no-unused-vars:
-    - error
-    - argsIgnorePattern: "^_(ignored|unused)[0-9]*$"
+
+  ## Rules beyond the 'recommended' sets that we are turning on
+  ## unconditionally.  Keep this list in alphabetical order:
+  consistent-return: error
+  eqeqeq: error
+  no-await-in-loop: error
+  no-caller: error
+  no-console: error
+  no-constant-binary-expression: error
+  no-constructor-return: error
+  no-div-regex: error
+  no-duplicate-imports: error
+  no-eval: error
+  no-extra-bind: error
+  no-implied-eval: error
+  no-iterator: error
+  no-new-func: error
+  no-new-native-nonconstructor: error
+  no-new-object: error
+  no-new-wrappers: error
+  no-new: error
+  no-param-reassign: error
+  no-promise-executor-return: error
+  no-proto: error
+  no-return-assign: error
+  no-return-await: error
+  no-script-url: error
+  no-self-compare: error
+  no-sequences: error
+  no-template-curly-in-string: error
+  no-throw-literal: error
+  no-undef-init: error
+  no-unmodified-loop-condition: error
+  no-unreachable-loop: error
+  no-unused-expressions: error
+  no-use-before-define: error
+  no-useless-call: error
+  no-useless-computed-key: error
+  no-useless-concat: error
+  no-useless-constructor: error
+  no-useless-rename: error
+  no-useless-return: error
+  no-var: error
+  no-void: error
+  prefer-numeric-literals: error
+  prefer-object-has-own: error
+  prefer-object-spread: error
+  prefer-promise-reject-errors: error
+  prefer-rest-params: error
+  prefer-spread: error
+  prefer-template: error
+  require-atomic-updates: error
+  strict: error
+  symbol-description: error
+
+  # This one needs a little documentation for Python-heads like
+  # myself.  /u mode's primary effect is to make the regex process
+  # *astral characters* correctly (i.e. not as surrogate pairs),
+  # and its secondary effect is to make the regex parser stricter
+  # (by disabling ECMAScript Annex B.1.4 error recovery behavior).
+  # The secondary effect is desirable whether or not the regex is
+  # expected to ever need to match anything beyond ASCII.
+  require-unicode-regexp: error
