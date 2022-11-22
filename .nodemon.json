@@ -1,0 +1,4 @@
+{
+  "ext": "css js json html njk md scss yaml",
+  "watch": ["index.js", "layouts", "lib", "src"]
+}
