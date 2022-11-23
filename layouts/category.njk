@@ -1,12 +1,22 @@
-{% extends "index.html" %}
-{% block title %}
-{{ category.name -}}
-{% if articles_page and articles_page.has_previous() -%}
-, page {{ articles_page.number }}{% endif %} | {{ sitename -}}
-{% endblock %}
-{% block content_title %}
-<header class="post-header">
-  <h1>{{ category }}</h1>
-</header>
-{{ category.description }}
+{% extends "base.njk" %}
+{% from "macros.njk" import article_header %}
+{% block title %}{{ title }} | {{ sitename }}{% endblock %}
+{% block content %}
+  <header class="post-header">
+    <h1 class="entry-title">{{ title | safe }}</h1>
+  </header>
+  {{ contents | safe }}
+  {% for article in collections[collection[0]] %}
+    <article class="hentry">
+      {{ article_header(2, article.path, article.title) }}
+      {#-
+      <div class="entry-content">
+        {{ article.summary }}
+        {% if article.has_summary %}
+          <p><a href="/{{ article.path }}">Continued…</a></p>
+        {% endif %}
+      </div>
+      -#}
+    </article>
+  {% endfor %}
 {% endblock %}

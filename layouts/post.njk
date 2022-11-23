@@ -1,22 +1,9 @@
 {% extends "base.njk" %}
-{% from "macros.njk" import pager %}
+{% from "macros.njk" import article_header, pager %}
 {% block title %}{{ title }} | {{ sitename }}{% endblock %}
-{% block head %}
-  {{ super() }}
-  {% for keyword in keywords %}
-    <meta name="keywords" contents="{{keyword}}">
-  {% endfor %}
-  {% for description in description %}
-    <meta name="description" contents="{{description}}">
-  {% endfor %}
-  {% for tag in tags %}
-    <meta name="tags" contents="{{tag}}">
-  {% endfor %}
-{% endblock %}
-
 {% block content %}
 <article id="content" class="body">
-  {# {{ article_header(article, 1) }} #}
+  {{ article_header(1, path, title) }}
   <div class="entry-content">
     {{ contents | safe }}
   </div>

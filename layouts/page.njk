@@ -1,9 +1,9 @@
 {% extends "base.njk" %}
-{% block title %}{{ title }} | {{ sitename }}{% endblock %}
+{% block title %}{{ title | striptags }} | {{ sitename }}{% endblock %}
 {% block content %}
 <article id="content" class="body">
   <header class="page-header">
-    <h1 class="entry-title">{{ title }}</h1>
+    <h1 class="entry-title">{{ title | safe }}</h1>
   </header>
   <div class="entry-content">
     {{ contents | safe }}
