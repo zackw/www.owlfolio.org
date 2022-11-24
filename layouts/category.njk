@@ -3,14 +3,14 @@
 {% block title %}{{ title }} | {{ sitename }}{% endblock %}
 {% block content %}
   <header class="post-header">
-    <h1 class="entry-title">{{ title | safe }}</h1>
+    <h1 class="entry-title">{{ title }}</h1>
   </header>
   {{ contents | safe }}
   {% for article in collections[collection[0]] %}
     <article class="hentry">
-      {{ article_header(2, article.path, article.title,
-                        article.creation_date,
-                        article.last_modification_date) }}
+      {{- article_header(2, article.path, article.title,
+                         article.creation_date,
+                         article.last_modification_date) }}
       {#-
       <div class="entry-content">
         {{ article.summary }}

@@ -52,7 +52,7 @@
     <div id="sidebars">
       {% block siteindex %}
         {{ recent_posts(posts) }}
-        {{ category_list(categories) }}
+        {{ category_list(collections) }}
       {% endblock %}
       {% block blog_roll %}
         {% for group in out_links.blog_roll %}

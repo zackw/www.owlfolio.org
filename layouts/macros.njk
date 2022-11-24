@@ -10,14 +10,14 @@
   {%- endfor %}
   {%- for title, link, position in menuitems %}
     {%- if position == 'left' %}
-      <li class="menu"><a href="{{ link }}">{{ title | safe }}</a></li>
+      <li class="menu"><a href="{{ link }}">{{ title }}</a></li>
     {%- endif %}
   {%- endfor %}
   </ul>
   <ul class="topbar-right">
     {%- for title, link, position in menuitems %}
       {%- if position == 'right' %}
-        <li class="menu"><a href="{{ link }}">{{ title | safe }}</a></li>
+        <li class="menu"><a href="{{ link }}">{{ title }}</a></li>
       {%- endif %}
     {%- endfor %}
   </ul>
@@ -27,10 +27,10 @@
 {% macro pager(older, newer) -%}
 <nav id="post-nav" class="pager">
 {%- if older %}
-  <a rel="prev" href="/{{ older.path }}/">← {{ older.title | safe }}</a>
+  <a rel="prev" href="/{{ older.path }}/">← {{ older.title }}</a>
 {%- endif %}
 {%- if newer %}
-  <a rel="next" href="/{{ newer.path }}/">{{ newer.title | safe }} →</a>
+  <a rel="next" href="/{{ newer.path }}/">{{ newer.title }} →</a>
 {%- endif %}
 </nav>
 {%- endmacro %}
@@ -40,7 +40,7 @@
   <h{{ _level }} class="entry-title"><a
        href="/{{ _path }}" rel="bookmark"
        title="Permalink to {{ _title | striptags }}"
-  >{{ _title | safe }}</a></h{{ _level }}>
+  >{{ _title }}</a></h{{ _level }}>
   <div class="entry-meta">
   {#-
     {%- if article.comments_count == 1 %}1 comment&#8193;
@@ -64,9 +64,9 @@
 <nav class="index widget">
   <h3>Topics</h3>
   <ul>
-    {% for category, articles in categories|sort %}
-    <li><a href="/{{ category.path }}">{{ category }}</a></li>
-    {% endfor %}
+    {%- for slug, title in categories | describe_collections %}
+      <li><a href="/{{ slug }}">{{ title }}</a></li>
+    {%- endfor %}
   </ul>
 </nav>
 {%- endmacro %}
@@ -75,9 +75,9 @@
 <nav class="index widget">
   <h3>Recent Posts</h3>
   <ul>
-    {% for i in range(10) %}
+    {%- for i in range(10) %}
     <li><a href="/{{ articles[i].path }}">{{ articles[i].title }}</a></li>
-    {% endfor %}
+    {%- endfor %}
   </ul>
 </nav>
 {%- endmacro %}

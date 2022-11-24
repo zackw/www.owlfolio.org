@@ -1,6 +1,5 @@
 import Metalsmith from "metalsmith";
 import collections from "@metalsmith/collections";
-import layouts from "@metalsmith/layouts";
 import metadata from "@metalsmith/metadata";
 import permalinks from "@metalsmith/permalinks";
 
@@ -8,6 +7,7 @@ import * as url from "url";
 
 import {
   custom_markdown,
+  custom_nunjucks,
   dates_from_git_history,
   default_values_from_path,
   rename_patterns,
@@ -164,11 +164,7 @@ async function main() {
         },
       ])
     )
-    .use(
-      layouts({
-        engineOptions: {},
-      })
-    )
+    .use(custom_nunjucks())
     .use(postprocess({ indent_size: 2, indent_char: " " }));
 
   await ms.build();
