@@ -8,6 +8,7 @@ import * as url from "url";
 
 import {
   custom_markdown,
+  dates_from_git_history,
   default_values_from_path,
   rename_patterns,
 } from "./lib/local-plugins.js";
@@ -45,8 +46,8 @@ async function main() {
   collections.defaults.refer = false;
   collections.defaults.filterBy = (file) => file.layout === "post.njk";
   collections.defaults.sortBy = (a, b) => {
-    const d = a["date"];
-    const e = b["date"];
+    const d = a["creation_date"];
+    const e = b["creation_date"];
     if (!d && !e) return 0;
     if (!d) return -1;
     if (!e) return 1;
@@ -70,6 +71,38 @@ async function main() {
     .use(
       metadata({
         out_links: "src/meta/outlinks.yaml",
+      })
+    )
+    .use(
+      dates_from_git_history({
+        patterns: ["posts/*/*.{html,md}", "!posts/*/index.{html,md}"],
+        exclude: [
+          // These are all the commits that touched files in posts/ to
+          // make changes that don't, or only trivially, affect content.
+          "066205e57f4b9abbcc447a35268a32d4a2027c3f",
+          "116522beda01270146e68822dc17388c14a35498",
+          "93d8a565a459d55549048f7a0d1b3d328a774069",
+          "d492493a2937d434332c61410650064ebdb7fb99",
+          "bbd8a0a65c674015006f86e995a82a3eb24335b6",
+          "811a6f0e9109d359fb5ca524cfce0269366ae187",
+          "cf74c9a57bec2cb69dc8b5fdaa72a263bcb13e61",
+          "ea3fd9fabb19afece0b04b2772fba0a20cbb2cf8",
+          "f355fbb6d5e8490f470b61163590ec964297d142",
+          "690d3f1f15ef50c5bf3bc1e8a4bf7239f8d259db",
+          "d915b45880fe6c3199114b0ce1a8335773cb630f",
+          "6e8860a469ac1f0abc69da46ca19182f3ed3700a",
+          "1495b48d3d152a4081385a6c5bef475d5a451dd1",
+          "f26985732d4b7af44dccdfd167bce030d4c779fd",
+          "ec5628aa86b17de5ec1d0d53e5d5b7f8e58bf0b2",
+          "f8e48eadeae1de531a8b30e2ab62048a35fc10ea",
+          "ff8cb06f05683a2a07e654ccb30fb0ebd7f76e3f",
+          "19547448b1fae06e1a43b2660a4fb6b5fb22acfe",
+          "3cad6bb3b378f1a122632bb2cfa39cb96cdacaec",
+          "b0d27ac3b8553a6f7d92367a53c5deadd24d7cc2",
+          "6aed9536008603405f57b4d979002ea0a1742751",
+          "bc97ff6de477d2f19f30e183004057cdbadf592b",
+        ],
+        date_opts: { zone: "America/New_York" },
       })
     )
     .use(

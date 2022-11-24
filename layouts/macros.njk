@@ -35,26 +35,28 @@
 </nav>
 {%- endmacro %}
 
-{% macro article_header(_level, _path, _title) %}
+{% macro article_header(_level, _path, _title, _c_date, _m_date) %}
 <header class="post-header">
   <h{{ _level }} class="entry-title"><a
        href="/{{ _path }}" rel="bookmark"
        title="Permalink to {{ _title | striptags }}"
   >{{ _title | safe }}</a></h{{ _level }}>
-  {#-
   <div class="entry-meta">
+  {#-
     {%- if article.comments_count == 1 %}1 comment&#8193;
     {%- elif article.comments_count > 1 %}{{ article.comments_count }} comments&#8193;
     {%- endif -%}
-    <time class="published" datetime="{{ article.date.isoformat() }}"
-          >{{ article.locale_date }}</time>
-    {%- if article.modified -%}
-    &#8193;Edited
-    <time class="modified" datetime="{{ article.modified.isoformat() }}"
-          >{{ article.locale_modified }}</time>
+  -#}
+    {%- if _c_date %}
+      <time class="published" datetime="{{ _c_date.toISO() }}"
+      >{{ _c_date.toFormat('d LLLL yyyy') }}</time>
+      {%- if _m_date -%}
+        &#8193;Last updated
+        <time class="modified" datetime="{{ _m_date.toISO() }}"
+        >{{ _m_date.toFormat('d LLLL yyyy') }}</time>
+      {%- endif -%}
     {%- endif -%}
   </div>
-  -#}
 </header>
 {% endmacro %}
 

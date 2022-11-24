@@ -3,7 +3,7 @@
 {% block title %}{{ title }} | {{ sitename }}{% endblock %}
 {% block content %}
 <article id="content" class="body">
-  {{ article_header(1, path, title) }}
+  {{ article_header(1, path, title, creation_date, last_modification_date) }}
   <div class="entry-content">
     {{ contents | safe }}
   </div>

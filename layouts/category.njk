@@ -8,7 +8,9 @@
   {{ contents | safe }}
   {% for article in collections[collection[0]] %}
     <article class="hentry">
-      {{ article_header(2, article.path, article.title) }}
+      {{ article_header(2, article.path, article.title,
+                        article.creation_date,
+                        article.last_modification_date) }}
       {#-
       <div class="entry-content">
         {{ article.summary }}
