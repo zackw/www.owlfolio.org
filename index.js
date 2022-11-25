@@ -13,6 +13,8 @@ import {
   rename_patterns,
 } from "./lib/local-plugins.js";
 
+import teasers from "./lib/teaser.js";
+
 async function main() {
   const source_root = url.fileURLToPath(new URL(".", import.meta.url));
   const mode = process.env.NODE_ENV || "development";
@@ -146,6 +148,12 @@ async function main() {
       })
     )
     .use(await custom_markdown())
+    .use(
+      teasers({
+        pattern: ["posts/*/*.html", "!posts/*/index.html"],
+        teaser_key: "excerpt",
+      })
+    )
     .use(
       permalinks({
         duplicatesFail: true,

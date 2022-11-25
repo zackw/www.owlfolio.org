@@ -11,14 +11,12 @@
       {{- article_header(2, article.path, article.title,
                          article.creation_date,
                          article.last_modification_date) }}
-      {#-
       <div class="entry-content">
-        {{ article.summary }}
-        {% if article.has_summary %}
+        {{ article.excerpt | safe }}
+        {%- if article.continued %}
           <p><a href="/{{ article.path }}">Continued…</a></p>
-        {% endif %}
+        {%- endif %}
       </div>
-      -#}
     </article>
   {% endfor %}
 {% endblock %}
