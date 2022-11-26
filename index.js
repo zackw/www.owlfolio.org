@@ -1,3 +1,15 @@
+/** Metalsmith build driver.
+ *
+ * Copyright (c) 2022 Zack Weinberg
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.  See the file GPL-3 at the top
+ * level of the source distribution for further details, or refer to
+ * <http://www.gnu.org/licenses/#GPL>.
+ */
+
 import Metalsmith from "metalsmith";
 import collections from "@metalsmith/collections";
 import metadata from "@metalsmith/metadata";
@@ -5,14 +17,10 @@ import permalinks from "@metalsmith/permalinks";
 
 import * as url from "url";
 
-import {
-  custom_markdown,
-  custom_nunjucks,
-  dates_from_git_history,
-  default_values_from_path,
-  rename_patterns,
-} from "./lib/local-plugins.js";
-
+import { custom_markdown, custom_nunjucks } from "./lib/rendering.js";
+import defaults_from_path from "./lib/defaults-from-path.js";
+import edit_history from "./lib/edit-history.js";
+import rename_patterns from "./lib/rename-patterns.js";
 import teasers from "./lib/teaser.js";
 
 async function main() {
@@ -76,7 +84,7 @@ async function main() {
       })
     )
     .use(
-      dates_from_git_history({
+      edit_history({
         patterns: ["posts/*/*.{html,md}", "!posts/*/index.{html,md}"],
         exclude: [
           // These are all the commits that touched files in posts/ to
@@ -108,7 +116,7 @@ async function main() {
       })
     )
     .use(
-      default_values_from_path([
+      defaults_from_path([
         {
           pattern: "posts/*/*.{html,md}",
           defaults: (_unused1, path, _unused2) => {

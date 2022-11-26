@@ -1,3 +1,7 @@
+This license applies to all files in src/ unless an individual
+file indicates otherwise.
+
+---
 # Creative Commons Attribution-NonCommercial 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree
