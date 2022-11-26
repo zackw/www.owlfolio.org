@@ -12,6 +12,7 @@ already-visited URLs in purple instead of blue.  Last year, though,
 [defense against history sniffing][dbaron-defense] which has now been
 adopted by every major browser except Opera. One fewer thing to worry
 about when visiting the internets, hooray? Not so fast.
+<!--more-->
 
 Imagine for a moment that the next time you visited an unfamiliar
 website and you wanted to leave a comment without creating an account,

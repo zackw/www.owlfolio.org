@@ -15,6 +15,9 @@ strawman `h:` URN scheme that looks like this:
 
 Now the problem with this is, these hexadecimal strings are
 inconveniently long and are only going to get longer.
+
+<!--more-->
+
 [SHA-1](http://en.wikipedia.org/wiki/SHA-1) (as shown above) produces
 160-bit hashes, which take 40 characters to represent in hex. That
 algorithm is looking kinda creaky these days; the most convenient

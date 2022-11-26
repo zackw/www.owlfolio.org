@@ -11,9 +11,11 @@ Over on twitter, @MegaManSE asked
 
 I didn't, at the time, know ... but I do know how to work it out from
 first principles, and it makes a decent little classical mechanics
-exercise, and also an excuse to figure out how to get [MathJax][mjx]
+exercise, and also an excuse to figure out how to get math rendering
 hooked up on this blog, which might be useful in the future. So here's
 how it's done.
+
+<!--more-->
 
 The first step in solving one of these problems is to rewrite the
 question as formally as possible:
@@ -75,7 +77,6 @@ it would mean the object was moving backward. This is, in fact, the
 difference between velocity and speed: speed is the *magnitude* of
 velocity, without the direction, so it can never be negative.)
 
-[mjx]: http://www.mathjax.org/
 [Velocity]: http://en.wikipedia.org/wiki/Velocity
 [acceleration]: http://en.wikipedia.org/wiki/Acceleration
 [The calculus]: http://en.wikipedia.org/wiki/Calculus

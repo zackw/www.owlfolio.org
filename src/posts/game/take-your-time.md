@@ -13,6 +13,8 @@ stay-ahead-of-the-thing-that-smashes-you-into-the-wall task, after being
 smashed into the wall ... I'm going to say at least two dozen times. So
 I am in a mood to blather about game design.
 
+<!--more-->
+
 These games all *feel* very different, but fundamentally they're the
 same kind of game: single PC (possibly with one or two helpers) goes
 through 3D world in over-the-shoulder-vision, fights monsters using a

@@ -11,12 +11,13 @@ mechanism that everyone currently uses to decide that a secure website
 is who it says it is, what can we do about it? I'm not going to
 attempt to summarize; instead I'm going to point at the ~~Etherpad
 log and~~
-*\[2016: the Etherpad log is no longer available either from Mozilla or
+*[2016: the Etherpad log is no longer available either from Mozilla or
 the Internet Archive]*
 [video record of the discussion][], then plow boldly forward with my
 own (incontrovertibly correct, of course) opinion on the way forward,
 on the assumption that everyone who reads this will already be
 familiar enough with the context to know what I'm talking about.
+<!--more-->
 
 I will quote in full the "principles" with which the discussion was
 kicked off, though (really they're more like constraints on solutions

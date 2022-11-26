@@ -3,8 +3,7 @@ title: Cromulence Experiment
 date: 2007-04-23 09:27
 ---
 
-## Author's Note (August, 2009)
-
+> **Author's Note (August, 2009):**
 > This is a short story in the form of a lab report for a course I
 > TAed at UCSD. It was originally a handout for the students,
 > demonstrating how to write a lab report that satisfied all of the
@@ -21,6 +20,8 @@ date: 2007-04-23 09:27
 > cited.
 >
 > I do not now, nor will I ever, [endorse the breaded clams](http://www.crummy.com/self/leonardonics.html#Then%20you%20endorse%20the%20breaded%20clams).
+
+<!--more-->
 
 ## Introduction
 

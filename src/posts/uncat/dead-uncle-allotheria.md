@@ -11,6 +11,8 @@ meeting at the [Computer History Museum](http://www.computerhistory.org/)
 a couple years back, and on Saturday last I was there again for
 [SRI](http://www.sri.com/)'s holiday dinner.
 
+<!--more-->
+
 As you know, (Bob,) the Difference Engine was originally designed in
 the 1820s by
 [Charles Babbage](http://www.computerhistory.org/babbage/charlesbabbage/);

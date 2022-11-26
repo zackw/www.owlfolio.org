@@ -9,6 +9,7 @@ Your post advocates a
 
 universal replacement for passwords. Your idea will not work. Here is
 why it won't work:
+<!--more-->
 
 □ It's too easy to trick users into revealing their credentials  
 □ It's too hard to change a credential if it's stolen  

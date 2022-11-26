@@ -30,6 +30,8 @@ of Twitter means that it misidentifies a few types of legitimate
 account as unsavory. I think a few special case categories would go a
 long way to making the service's advice more useful.
 
+<!--more-->
+
 ### Announcement channels
 
 These are the Twitter equivalent of a news ticker---they broadcast

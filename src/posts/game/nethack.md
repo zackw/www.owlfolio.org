@@ -12,9 +12,12 @@ put off by the non-persistent dungeons and gave up on it. I've never
 even looked at ADOM, and I'm sure there are others.
 
 However, I'm going to scribble down the ideas banging around in my head
-anyway. Maybe something will come of it. In this post I'm going to
-concentrate on the virtues and flaws of Nethack, which I know very well.
-Virtues:
+anyway. Maybe something will come of it.
+
+<!--more-->
+
+In this post I'm going to concentrate on the virtues and flaws of
+Nethack, which I know very well.  Virtues:
 
 -   The game starts off a challenge and remains that way as far as I
     have ever gotten (killed by a cockatrice after finding the vibrating

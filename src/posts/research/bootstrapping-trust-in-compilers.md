@@ -11,6 +11,8 @@ source to recreate the binary, but [that doesn't prove anything][],
 and also if the compiler were *really* out to get you, you would be
 screwed the moment you ran the binary.
 
+<!--more-->
+
 This is not a new problem, nor is it a Rust-specific problem.  I
 recall having essentially the same issue back in 2000, give or take,
 with [GNAT][], the Ada front-end for GCC. It is written in Ada, and

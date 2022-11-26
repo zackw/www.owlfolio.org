@@ -10,6 +10,8 @@ emphasize up front that I'm not on Firefox's UX team, I don't know if
 they're listening to my suggestions, and anyway they were meant as a
 starting point rather than completely finished designs.
 
+<!--more-->
+
 [David Bolton][] wanted to know why some of the error screens asked
 the user to visit other sites manually, rather than doing checks
 behind the scenes. The main reason, honestly, is that that made a good

@@ -10,6 +10,7 @@ rebuild the computer universe from scratch and make it *simple* and
 Readers, it's not going to work. And it's not just a case of nobody's
 going to put in enough time and effort to make it work. The idea is
 doomed from eight o'clock, Day One.
+<!--more-->
 
 We all know from practical experience that a software module that's
 too complicated is likely to harbor internal bugs and is also likely

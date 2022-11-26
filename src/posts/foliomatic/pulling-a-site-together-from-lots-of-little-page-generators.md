@@ -10,6 +10,8 @@ save myself some effort. Trouble is, none of the generators I've seen
 solve my particular, somewhat unusual use case, or if they do, I can't
 tell that they do.
 
+<!--more-->
+
 I have a bunch of different projects, each of which lives in its own
 little VCS repository, and you can think of each as being a black box
 which, when you push the button on the side, spits out one or more

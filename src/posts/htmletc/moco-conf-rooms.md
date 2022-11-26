@@ -11,6 +11,8 @@ named after rooms aboard the
 [starship Enterprise](http://www.startrek.com/database_article/enterprise).
 I'd like to share them with you now.
 
+<!--more-->
+
 ## Small conference rooms (memes)
 
 * [All your base](https://www.youtube.com/watch?v=qItugh-fFgg)

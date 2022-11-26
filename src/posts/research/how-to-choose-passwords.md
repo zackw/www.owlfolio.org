@@ -15,6 +15,7 @@ things they can't control. So *this* post is about something you
 *should* worry about, because it's under your direct control; lots of
 people do it poorly and that does make them less safe online; and it's
 easy to do well. That thing is choosing passwords.
+<!--more-->
 
 You have probably heard that you shouldn't reuse the same password on
 many different websites, and that your passwords should be long,

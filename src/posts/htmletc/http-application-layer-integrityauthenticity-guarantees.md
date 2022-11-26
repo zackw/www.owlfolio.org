@@ -28,6 +28,7 @@ cookie and secondary cookie is still a bearer token (possibly you also
 have to masquerade the client's IP address).
 
 Here are some design requirements for a better scheme:
+<!--more-->
 
 * Identify clients to servers using something that is not a bearer
   token: that is, even if client and server are communicating on an

@@ -25,7 +25,11 @@ goes something like this:
 > the site annoyingly slow for no benefit.
 
 This objection ignores the "public health" benefits of secure
-channels.  I'd like to make an analogy to immunization, here. If you
+channels.
+
+<!--more-->
+
+I'd like to make an analogy to immunization, here. If you
 get vaccinated against the measles (for instance), that's good for you
 because you are much less likely to get the disease yourself. But it
 is *also* good for everyone who lives near you, because now you can't

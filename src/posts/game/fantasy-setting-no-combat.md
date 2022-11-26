@@ -20,15 +20,18 @@ In passing, she mentioned that
 
 Whereupon it occurred to me that this is one of the big reasons I
 don't play [Dwarf Fortress](http://www.bay12games.com/dwarves/)
-anymore. The parts of DF that I enjoy are city-building, prospecting
-for minerals to make stuff out of, and trade. Manufacturing is too
-much of a micromanagey pain in the ass, and everything to do with
-building up an army bores me to tears (it doesn't help that that is
-*also* far too micromanagey for my taste, and depends on
-manufacturing). Further, all the development since the first 3D
-version has been focused on precisely the parts I don't like. But it's
-a damn shame, because I *really* enjoy the city-building and the
-mining.
+anymore.
+
+<!--more-->
+
+The parts of DF that I enjoy are city-building, prospecting for
+minerals to make stuff out of, and trade. Manufacturing is too much of
+a micromanagey pain in the ass, and everything to do with building up
+an army bores me to tears (it doesn't help that that is *also* far too
+micromanagey for my taste, and depends on manufacturing). Further, all
+the development since the first 3D version has been focused on
+precisely the parts I don't like. But it's a damn shame, because I
+*really* enjoy the city-building and the mining.
 
 At about the same time, [Minecraft](https://minecraft.net/) had just
 started making the big news. I tried to get it to run, discovered that

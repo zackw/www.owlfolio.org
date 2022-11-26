@@ -16,6 +16,7 @@ interesting, but none of them was ready to be implemented; they
 probably weren't *intended* to be, of course, but I---and the
 panelists---could poke pretty serious holes in them without trying
 very hard.
+<!--more-->
 
 The first proposal was to improve social network security by allowing
 you to specify a group of extra-trusted "friends" who could intervene

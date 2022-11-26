@@ -6,7 +6,11 @@ date: 2011-01-05 16:05
 For a little while now, it's been possible for websites to
 [embed fonts](http://hacks.mozilla.org/2009/06/beautiful-fonts-with-font-face/)
 that all major browsers will pick up on. This of course implies fonts
-being served as HTTP resources. But it turns out that nobody has
+being served as HTTP resources. But…
+
+<!--more-->
+
+…it turns out that nobody has
 bothered to assign any of the common font formats a MIME
 type.[^1] Fonts being embedded on the web nowadays come in
 two flavors and three kinds of container: you either have [TrueType][]
