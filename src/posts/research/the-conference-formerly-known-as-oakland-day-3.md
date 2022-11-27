@@ -15,7 +15,7 @@ read to the end there's a cranky rant about the panel discussion.
 
 ## Privacy and Anonymity
 
-### [Detecting Hoaxes, Frauds, and Deception in Writing Style Online](https://www.cs.drexel.edu/~sa499/papers/oakland-deception.pdf)
+### [Detecting Hoaxes, Frauds, and Deception in Writing Style Online](https://www.ieee-security.org/TC/SP2012/papers/4681a461.pdf)
 
 I missed the train that would have gotten me to SF in time for this
 talk by one lousy minute.

@@ -159,7 +159,7 @@ now requires the strict rule (see
 maintained versions of Internet Explorer (6, 7, 8, and 9) now
 [implement the strict rule][ie-mime-post].
 
-[ie-oct-2010]: http://www.microsoft.com/technet/security/bulletin/ms10-071.mspx
+[ie-oct-2010]: https://web.archive.org/web/20110814063050/http://www.microsoft.com:80/technet/security/bulletin/ms10-071.mspx
 [ie-mime-post]: http://blogs.msdn.com/b/ie/archive/2010/10/26/mime-handling-changes-in-internet-explorer.aspx
 
 ## Fixing your website
@@ -174,7 +174,7 @@ of our translation process, part of this warning will always be in
 English.)
 
 [Firefox 4 beta]: https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/4.0b2/
-[error console]: https://developer.mozilla.org/en-US/docs/Error_Console
+[error console]: https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html
 
 If your site breaks, all you have to do to fix it is make sure that
 your style sheets are being served with `Content-Type: text/css` in
@@ -207,8 +207,7 @@ Declaring the charset in a `meta` tag or `<?xml... ?>` instruction is
 **not enough** to defend against a CSS data theft attack encoded in
 UTF-7; the CSS parser doesn't pay any attention to them.
 
-[bypass your XSS filters]:
-http://openmya.hacker.jp/hasegawa/security/utf7cs.html
+[bypass your XSS filters]: https://en.wikipedia.org/wiki/UTF-7#Security
 
 To protect users that are still using browsers that have no defense
 against CSS data theft, you should block this attack in your filters
@@ -225,7 +224,7 @@ and has been instrumental in getting it fixed. He has
 [two other](http://scarybeastsecurity.blogspot.com/2010/07/firefox-fixes-css-based-cross-origin.html)
 [blog posts](http://scarybeastsecurity.blogspot.com/2010/08/internet-explorer-considered-harmful.html)
 that go into more
-detail. [Collin Jackson](http://mayscript.com/blog/collinj/end-near-cross-origin-css-attacks)
+detail. [Collin Jackson](https://web.archive.org/web/20100902055900/http://mayscript.com/blog/collinj/end-near-cross-origin-css-attacks)
 and his team at CMU have also been very helpful in understanding the
 full scope of the attack and ensuring all major browsers fixed it.
 [Their paper](https://research.owlfolio.org/pubs/2010-protecting.pdf) will appear at the

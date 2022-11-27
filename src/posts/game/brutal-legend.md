@@ -11,7 +11,7 @@ and the power of rock and roll, set in the land of all album covers,
 starring Jack Black and a whole bunch of heavy metal musicians as
 themselves.
 
-[Brütal Legend]: http://kotaku.com/5380416/brutal-legend-review-testing-its-metal
+[Brütal Legend]: https://kotaku.com/brutal-legend-review-testing-its-metal-452582775
 
 This game is worth playing just for the chance to drive the
 protagonist's hot rod around and see all the epic scenery.  The art

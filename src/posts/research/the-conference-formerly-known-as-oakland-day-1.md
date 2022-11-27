@@ -64,7 +64,7 @@ outside the sandbox---and part of it seems to be in aid of Java-style
 code verification which I had been under the impression was _instead
 of_ sandboxing.
 
-### [Flash Memory for Ubiquitous Hardware Security Functions](http://tsg.ece.cornell.edu/lib/exe/fetch.php?media=pubs:flash-ieeesp2012.pdf)
+### [Flash Memory for Ubiquitous Hardware Security Functions](https://www.ieee-security.org/TC/SP2012/papers/4681a033.pdf)
 
 Now we're getting more interesting. These folks have figured out how
 to extract information about the physical properties of individual
@@ -152,7 +152,7 @@ their scanner and fixes are disseminated, but I can't find it.)
 
 ## Session 2: Malware
 
-### [Prudent Practices for Designing Malware Experiments](http://malware-experiments.few.vu.nl/)
+### [Prudent Practices for Designing Malware Experiments](https://www.syssec-project.eu/m/page-media/3/rossow-sp12.pdf)
 
 More a starting point for discussion than a presentation of _results_,
 the authors propose 19 guidelines for better research on malware "in
@@ -430,7 +430,7 @@ notifications is a neglected factor, and I would add that security
 notifications frequently interrupt task flow to present the user with
 a screenful of impenetrable jargon, and perhaps we should forgive them
 for smacking the
-["whatever" button](https://blog.mozilla.org/dolske/2007/10/21/whatever/).
+["whatever" button](https://web.archive.org/web/20080918205445/http://www.justlol.net/whateverbutton/).
 
 
 ### [User-Driven Access Control: Rethinking Permission Granting in Modern Operating Systems](http://research.microsoft.com/apps/pubs/?id=152495)

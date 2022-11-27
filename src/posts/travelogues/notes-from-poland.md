@@ -175,7 +175,7 @@ Warsaw has several interesting historical museums. We visited the
 [biographical museum](http://chopin.museum/en) of
 [Fryderyk Chopin](http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin)
 and the
-[Museum of the Warsaw Uprising](http://www.1944.pl/en/). Chopin spent
+[Museum of the Warsaw Uprising](https://www.1944.pl/en/). Chopin spent
 most of his adult life in France, but he grew up in Warsaw, and is
 still very fondly remembered here; they named the airport after him,
 even.  Unfortunately, it's not nearly as much a museum of his _music_

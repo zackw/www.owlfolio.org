@@ -11,7 +11,7 @@ I prefer, by orders of magnitude, email to any other communication medium.
 My permanent email address is
 [zack@owlfolio.org](mailto:zack@owlfolio.org).
 The older address at
-[zackw@panix.com](zackw@panix.com)
+[zackw@panix.com](mailto:zackw@panix.com)
 still works.
 
 I may also be found on various community-type websites,

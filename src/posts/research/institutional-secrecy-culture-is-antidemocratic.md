@@ -181,8 +181,8 @@ also including things like "Does this actually *work* against
 criminals who know their
 [tradecraft](https://en.wikipedia.org/wiki/Tradecraft)?" and "You want
 *how much* money?" and of course "That wouldn't happen to be your
-father's brother's nephew's cousin's former roommate's defense
-contracting firm you're proposing to hire, would it now?"
+[father's brother's nephew's cousin's former roommate’s](https://www.imdb.com/title/tt0094012/quotes/qt04669739)
+defense contracting firm you're proposing to hire, would it now?"
 
 But they weren't, and we didn't, and oddly enough, it seems that we
 have spent
@@ -190,7 +190,7 @@ have spent
 system which
 [*doesn't* work against competent criminals](http://www.bloombergview.com/articles/2013-06-23/u-s-surveillance-is-not-aimed-at-terrorists)
 but which invites
-[unflattering comparisons with the Stasi](http://www.mcclatchydc.com/2013/06/26/195045/memories-of-stasi-color-germans.html).
+[unflattering comparisons with the Stasi](https://web.archive.org/web/20130627013448/http://www.mcclatchydc.com/2013/06/26/195045/memories-of-stasi-color-germans.html).
 Worse yet, the NSA's surveillance programs look suspiciously like
 [a continuation of the "Total Information Awareness" program that Congress axed in 2003](http://blogs.scientificamerican.com/cross-check/2013/06/07/u-s-never-really-ended-creepy-total-information-awareness-program/),
 which means the secrecy culture is prepared to *ignore* decisions by

@@ -119,7 +119,7 @@ below No Award, so that I have a space to explain my reasons.
     *Ancillary Justice*, but it falls short on writing technique. There
     was a great deal of infodumpage, paired with excessive showing of
     work---at one point the first-person narrator actually says "I am
-    now going to bore you to death with $TOPIC." I *like* geeking out
+    now going to bore you to death with \$TOPIC." I *like* geeking out
     about political economy, but not at the expense of the
     narrative. (Continuing with the comparison to *The Witches of
     Karres*, Schmitz was much better at giving the reader just barely

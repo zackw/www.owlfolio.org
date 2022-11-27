@@ -99,7 +99,7 @@ of interest" that the attacker cares about visits to, but a couple
 orders of magnitude more _uninteresting_ sites that might also be
 visited.
 
-### [Off-Path TCP Sequence Number Inference Attack---How Firewall Middleboxes Reduce Security](http://web.eecs.umich.edu/~zhiyunq/pub/oakland12_TCP_sequence_number_inference.pdf)
+### [Off-Path TCP Sequence Number Inference Attack---How Firewall Middleboxes Reduce Security](https://www.ieee-security.org/TC/SP2012/papers/4681a347.pdf)
 
 An off-path TCP sequence number attack is when you try to inject
 packets into an existing TCP connection by guessing the sequence
@@ -248,7 +248,7 @@ blocklist, and it's not fair to expect them to do this in an informed
 manner. Some commercially-sponsored lists are not only ineffective but
 negate the effects of other lists!
 
-### [EvilSeed: A Guided Approach to Finding Malicious Web Pages](https://seclab.cs.ucsb.edu/media/uploads/papers/evilseed.pdf)
+### [EvilSeed: A Guided Approach to Finding Malicious Web Pages](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6234428)
 
 The authors wanted to develop a more efficient way to identify
 malicious URLs than blind crawling. Their idea was to derive new

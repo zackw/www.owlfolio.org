@@ -36,7 +36,7 @@ a shot.
 *only* via email; my address is on the [Contact page](/contact/).
 Please allow up to one week for an initial response, as this service
 is provided in my
-[copious free time](https://en.wiktionary.org/wiki/copious_free_time).</small>
+[copious free time](https://foldoc.org/copious+free+time).</small>
 
 <small>Offer valid only for free software (also known as "open
 source") (as opposed to software that you are not allowed to modify or

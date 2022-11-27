@@ -119,7 +119,7 @@ ikiwiki; it would also mean people were editing via clunky text input
 forms.
 
 [Markdown]: http://daringfireball.net/projects/markdown/
-[Textile]: http://txstyle.org/
+[Textile]: https://web.archive.org/web/20211101050424/http://www.txstyle.org/
 [reST]: http://docutils.sourceforge.net/rst.html
 [LaTeX]: http://www.latex-project.org/
 [Texinfo]: http://www.gnu.org/software/texinfo/
@@ -129,7 +129,7 @@ forms.
 [EXIF]: http://en.wikipedia.org/wiki/Exchangeable_image_file_format
 [Genshi]: http://genshi.edgewall.org/
 [SmartyPants]: http://daringfireball.net/projects/smartypants/
-[sparklines]: http://sparkline.org/
+[sparklines]: https://web.archive.org/web/20080929045619/http://sparkline.org/
 [full-size graphs]: http://matplotlib.org/
 [equations]: http://www1.chapman.edu/~jipsen/mathml/asciimath.html
 [Ruby's Postulate]: http://intertwingly.net/blog/2004/09/23/Copy-and-Paste

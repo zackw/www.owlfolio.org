@@ -24,9 +24,9 @@ values every day:
 
 [Alice]: http://downlode.org/Etext/alicebob.html
 [carthage]: http://www.livius.org/place/carthage/
-[celder]: http://www.roman-empire.net/republic/cato-e.html
+[celder]: https://roman-empire.net/people/cato-the-elder/
 [brutus]: http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Brutus*.html
-[cypherpunk premises]: http://www.cypherpunks.to/faq/cyphernomicron/chapter4.html#7
+[cypherpunk premises]: https://web.archive.org/web/20020726130418/http://www.cypherpunks.to/faq/cyphernomicron/chapter4.html#7
 
 <!--more-->
 
