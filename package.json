@@ -51,6 +51,7 @@
     "markdown-it-sup": "^1.0.0",
     "metalsmith": "^2.5.1",
     "metalsmith-markdownit": "^0.5.0",
+    "metalsmith-pagination": "^1.5.0",
     "multimatch": "^6.0.0",
     "simple-git": "^3.15.0"
   }

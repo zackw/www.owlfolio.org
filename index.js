@@ -13,6 +13,7 @@
 import Metalsmith from "metalsmith";
 import collections from "@metalsmith/collections";
 import metadata from "@metalsmith/metadata";
+import pagination from "metalsmith-pagination";
 import permalinks from "@metalsmith/permalinks";
 
 import * as url from "url";
@@ -193,6 +194,17 @@ async function main() {
           to: "",
         },
       ])
+    )
+    .use(
+      pagination({
+        "collections.posts": {
+          perPage: 10,
+          layout: "archive.njk",
+          first: "index.html",
+          noPageOne: true,
+          path: ":num/index.html",
+        },
+      })
     )
     .use(custom_nunjucks());
 

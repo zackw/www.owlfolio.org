@@ -16,7 +16,7 @@
   {%- for p in pages %}
     {%- if not p.no_menu %}
       <li class="menu{% if p == page %} active{% endif %}"
-      ><a href="/{{ p.path }}">{{ p.title.split()[0] }}</a></li>
+      ><a href="{{ p.path | canon_path }}">{{ p.title.split()[0] }}</a></li>
     {%- endif %}
   {%- endfor %}
   {%- for title, link, position in menuitems %}
@@ -35,13 +35,19 @@
 </nav><!-- #topbar -->
 {%- endmacro %}
 
-{% macro pager(older, newer) -%}
+{% macro pager(prev, next, prev_title, next_title) -%}
 <nav id="post-nav" class="pager">
-{%- if older %}
-  <a rel="prev" href="/{{ older.path }}/">← {{ older.title }}</a>
+{%- if prev %}
+  <a rel="prev" href="{{ prev.path | canon_path }}"
+   >← {% if prev.title %}{{ prev.title -}}
+       {% elif prev_title %}{{ prev_title -}}
+       {% else %}???{% endif %}</a>
 {%- endif %}
-{%- if newer %}
-  <a rel="next" href="/{{ newer.path }}/">{{ newer.title }} →</a>
+{%- if next %}
+  <a rel="next" href="{{ next.path | canon_path }}"
+  >{% if next.title %}{{ next.title -}}
+   {% elif next_title %}{{ next_title -}}
+   {%else %}???{% endif %} →</a>
 {%- endif %}
 </nav>
 {%- endmacro %}
@@ -49,7 +55,7 @@
 {% macro article_header(_level, _path, _title, _c_date, _m_date) %}
 <header class="post-header">
   <h{{ _level }} class="entry-title"><a
-       href="/{{ _path }}" rel="bookmark"
+       href="{{ _path | canon_path }}" rel="bookmark"
        title="Permalink to {{ _title | striptags }}"
   >{{ _title }}</a></h{{ _level }}>
   <div class="entry-meta">
@@ -76,7 +82,7 @@
   <h3>Topics</h3>
   <ul>
     {%- for slug, title in categories | describe_collections %}
-      <li><a href="/{{ slug }}">{{ title }}</a></li>
+      <li><a href="{{ slug | canon_path }}">{{ title }}</a></li>
     {%- endfor %}
   </ul>
 </nav>
@@ -87,7 +93,7 @@
   <h3>Recent Posts</h3>
   <ul>
     {%- for i in range(10) %}
-    <li><a href="/{{ articles[i].path }}">{{ articles[i].title }}</a></li>
+    <li><a href="{{ articles[i].path | canon_path }}">{{ articles[i].title }}</a></li>
     {%- endfor %}
   </ul>
 </nav>
