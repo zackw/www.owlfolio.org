@@ -28,12 +28,22 @@ import teasers from "./lib/teaser.js";
 // development mode or production mode, not both.
 async function use_postprocess_plugins(ms, development) {
   if (development) {
-    ms.use(
-      (await import("metalsmith-beautify")).default({
-        indent_size: 2,
-        indent_char: " ",
-      })
-    );
+    const beautify = (await import("metalsmith-beautify")).default({
+      indent_size: 2,
+      indent_char: " ",
+    });
+
+    // This checks only _internal_ links, so it's efficient enough to
+    // run all the time.
+    const check_internal_links = (
+      await import("metalsmith-broken-link-checker")
+    ).default({});
+    // This factory returns an anonymous function.
+    Object.defineProperty(check_internal_links, "name", {
+      value: "check_internal_links",
+    });
+
+    ms.use(beautify).use(check_internal_links);
   } else {
     // TODO sitemap, RSS, minification
   }

@@ -39,7 +39,7 @@ the last three have equal significance.  Leave a little extra space on
 either side of the middle symbol.  Erase any pencil marks after you're
 done.
 
-<figure><img src="/possibly-useful/ghosts/runes.png" alt="ᚦᛟᛁᛃᛖᛞᚹ"></figure>
+<figure><img src="/possibly-useful/domestic-ghosts/runes.png" alt="ᚦᛟᛁᛃᛖᛞᚹ"></figure>
 
 These are Old Norse runes.  They don't add up to a word in Icelandic
 or anything like that; we are using them for the meanings of the

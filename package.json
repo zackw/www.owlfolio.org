@@ -30,6 +30,7 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
     "metalsmith-beautify": "^0.2.0",
+    "metalsmith-broken-link-checker": "^1.0.2",
     "metalsmith-debug-ui": "^0.3.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"

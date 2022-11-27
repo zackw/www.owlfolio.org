@@ -3,8 +3,8 @@ title: the great 2010 ceramic objects giveaway
 date: 2010-06-01 22:37
 ---
 
-![a bunch of pottery](one.jpg)
-![more pottery](two.jpg)
+![a bunch of pottery](/ceramics/the-great-2010-ceramic-objects-giveaway/one.jpg)
+![more pottery](/ceramics/the-great-2010-ceramic-objects-giveaway/two.jpg)
 
 My SO and I are moving. We have a whole lot of ceramic objects that we
 made. We would like to send them to people rather than find a new home
