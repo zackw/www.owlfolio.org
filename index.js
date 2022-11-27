@@ -73,10 +73,10 @@ async function main() {
     .source("src")
     .destination("build")
     .ignore([
-      ".#*", // emacs detritus
-      "#*#",
-      "*~",
-      ".*.sw[a-p]", // vim detritus
+      "**/.#*", // emacs detritus
+      "**/#*#",
+      "**/*~",
+      "**/.*.sw[a-p]", // vim detritus
       "comments", // until we have something better to do with them
     ])
     .use(
