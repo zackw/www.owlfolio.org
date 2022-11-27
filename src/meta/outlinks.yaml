@@ -1,19 +1,22 @@
 # Outbound link configuration.
-
+# prettier should leave this entire file alone, certain things are
+# different on purpose from how it wants them
+# prettier-ignore
 top_menu:
 # - ['link text',    'link target',                          'left/right side']
   - ['Publications', 'https://research.owlfolio.org/pubs/',  'right']
   - ['Research',     'https://research.owlfolio.org/',       'right']
   - ['Readings',     'https://readings.owlfolio.org/',       'right']
-# - ['Photography',  'https://www.flickr.com/photos/zackw/', 'right']
+# - ['Photography',  'https://gallery.owlfolio.org',         'right']
 
+# prettier-ignore
 blog_roll:
   - group: "Tribe"
     links:
 #     - n: "personal name (link text)"
 #       h: "full name (hover text)" -- optional
 #       u: "link target"
-#
+
       - n: "Pam"
         h: "Pamela Griffith ♥"
         u: "https://pamgriffith.net/"
