@@ -23,24 +23,35 @@ import edit_history from "./lib/edit-history.js";
 import rename_patterns from "./lib/rename-patterns.js";
 import teasers from "./lib/teaser.js";
 
+// Several plugins, late in the pipeline, are only wanted in either
+// development mode or production mode, not both.
+async function use_postprocess_plugins(ms, development) {
+  if (development) {
+    ms.use(
+      (await import("metalsmith-beautify")).default({
+        indent_size: 2,
+        indent_char: " ",
+      })
+    );
+  } else {
+    // TODO sitemap, RSS, minification
+  }
+}
+
 async function main() {
   const source_root = url.fileURLToPath(new URL(".", import.meta.url));
   const mode = process.env.NODE_ENV || "development";
   const ms = Metalsmith(source_root);
 
-  let postprocess;
+  let is_development;
   switch (mode) {
     case "development":
-      postprocess = (await import("metalsmith-beautify")).default;
+      is_development = true;
       (await import("metalsmith-debug-ui")).patch(ms);
       break;
 
     case "production":
-      // TODO sitemap, RSS, minification
-      postprocess = (..._ignored) =>
-        function postprocess_noop(_unused1, _unused2, done) {
-          done();
-        };
+      is_development = false;
       break;
 
     default:
@@ -107,6 +118,7 @@ async function main() {
           "cf74c9a57bec2cb69dc8b5fdaa72a263bcb13e61",
           "d492493a2937d434332c61410650064ebdb7fb99",
           "d915b45880fe6c3199114b0ce1a8335773cb630f",
+          "dba4f7e3abfb3373c3b06730965ec1128109923f",
           "ea3fd9fabb19afece0b04b2772fba0a20cbb2cf8",
           "ec5628aa86b17de5ec1d0d53e5d5b7f8e58bf0b2",
           "f26985732d4b7af44dccdfd167bce030d4c779fd",
@@ -182,9 +194,9 @@ async function main() {
         },
       ])
     )
-    .use(custom_nunjucks())
-    .use(postprocess({ indent_size: 2, indent_char: " " }));
+    .use(custom_nunjucks());
 
+  await use_postprocess_plugins(ms, is_development);
   await ms.build();
 }
 await main();

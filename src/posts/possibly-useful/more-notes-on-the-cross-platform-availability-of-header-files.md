@@ -29,12 +29,12 @@ First, the high-level conclusions:
 * There is a large set of obsolete headers that are still widespread
   but should not be used in new code. This is underdocumented.
 
-The full results may be seen here: [https://research.owlfolio.org/header-survey/](https://research.owlfolio.org/header-survey/)  
 The raw data is here: [https://github.com/zackw/header-survey/](https://github.com/zackw/header-survey/)
 
 If you want to help, we need more inventories (especially for OSes
-further from the beaten path), and I'm also *very* interested in
-improvements to the giant generated HTML table. Y'all on Planet Mozilla
-can probably tell I'm not a Web designer. If you are an old beard, there
-are also places where I'm not entirely sure of my methodology -- see the
-README in the source repo.
+further from the beaten path), and I'm also interested in finding a
+good way to crunch the raw data into something presentable.  (I used
+to have a giant generated HTML table but I gave up on that, it was too
+big to be readable.)  If you are an old beard, there are also places
+where I'm not entirely sure of my methodology -- see the README in the
+source repo.
