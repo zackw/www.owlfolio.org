@@ -26,7 +26,7 @@ td { text-align: left; padding-left: 15px; }
 <td>No</td>
 <td>Not really</td></tr>
 <tr><th><a href="http://xenproject.org/">Xen</a> paravirtual
-guest</th><td><a href="https://wiki.freebsd.org/FreeBSD/Xen">Incomplete</a></td>
+guest</th><td><a href="https://wiki.freebsd.org/Xen">Incomplete</a></td>
 <td>Yes</td>
 <td>Yes</td></tr>
 <tr><th>System call tracing</th>

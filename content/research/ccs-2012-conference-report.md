@@ -147,7 +147,7 @@ uses. Many of those options are intended only for debugging, but the
 author of the Amazon code zealously set them all, and set one of them
 to a value that defeats security, without realizing it.
 
-### [Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security](http://www2.dcsec.uni-hannover.de/files/android/p50-fahl.pdf)
+### [Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security](https://www.researchgate.net/profile/Marian-Harbach/publication/233754060_Why_Eve_and_Mallory_love_Android_An_analysis_of_Android_SSL_insecurity/links/0912f50b33eb99e2af000000/Why-Eve-and-Mallory-love-Android-An-analysis-of-Android-SSL-insecurity.pdf)
 
 On the same theme as the previous talk: Android's stock runtime
 libraries implement certificate validation correctly. What could

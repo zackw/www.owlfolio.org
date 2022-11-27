@@ -21,7 +21,7 @@ around a compelling idea fall apart because the money wasn't there.
 Something very similar happened to
 [Metaplace](http://www.raphkoster.com/2009/12/21/metaplace-com-closing/)
 and
-[Faunasphere](http://massively.joystiq.com/2011/02/20/faunasphere-shutting-down-on-march-15th/).
+[Faunasphere](https://web.archive.org/web/20110223115622/http://massively.joystiq.com/2011/02/20/faunasphere-shutting-down-on-march-15th).
 It's not just games; [the WELL](http://www.well.com/), paragon of
 elder days, had to be bought out by its users, and this was only
 possible *because* it goes back to elder days and has users who are
@@ -51,7 +51,7 @@ time I want; even after the original hardware stops working
 altogether, there will be emulators. But I can't go back to
 [Star Wars Galaxies](https://en.wikipedia.org/wiki/Star_Wars_Galaxies),
 and I'm not sure if I should believe
-[the website that's telling me I *can* still play Uru Live](http://mystonline.com/en/play/).
+[the website that's telling me I *can* still play Uru Live](https://mystonline.com/en/play/).
 Again this isn't just about games; we all remember what happened to
 [Geocities](http://archive.org/web/geocities.php).
 

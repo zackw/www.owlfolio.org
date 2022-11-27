@@ -93,6 +93,6 @@ looks [much better on Windows and Linux](https://ebensorkin.wordpress.com/2013/0
 [chiaro]: http://chizine.com/volume_47.htm
 [atwood]: http://blog.codinghorror.com/font-rendering-respecting-the-pixel-grid/
 [damieng]: http://damieng.com/blog/2007/06/13/font-rendering-philosophies-of-windows-and-mac-os-x
-[maxim]: http://antigrain.com/research/font_rasterization/
+[maxim]: https://web.archive.org/web/20171224221933/http://www.antigrain.com/research/font_rasterization/
 [fsqrl]: http://www.fontsquirrel.com/
 [gfonts]: https://www.google.com/webfonts

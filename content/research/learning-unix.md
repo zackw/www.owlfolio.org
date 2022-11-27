@@ -102,17 +102,17 @@ devoting all of your free time to learning computers as _necessary_:
 > (as opposed to merely competent) programmers
 
 This may have _seemed_ to be true when it was written (although I
-believe I smell the [hazing effect][] at work) but it doesn’t leave
-any room for people who don’t learn things by monomaniacally
-concentrating on them.  (This is not the only place where the Jargon
-File’s authors failed to imagine how people whose brains worked
-differently than theirs could be any good at computers.)  I’m pretty
-confident that someone who practices programming strictly as a hobby,
-less than ten hours a week, will eventually get just as good at it as
-one of these “fledgling hackers” who doesn’t do anything else with
-their spare time.  And, if we _tell_ people that, they won’t get put
-off the subject by the unappetizing prospect of not getting to hang
-out with friends on the weekends.
+believe I smell a variation of the [sunk cost fallacy][] at work)
+but it doesn’t leave any room for people who don’t learn things by
+monomaniacally concentrating on them.  (This is not the only place
+where the Jargon File’s authors failed to imagine how people whose
+brains worked differently than theirs could be any good at computers.)
+I’m pretty confident that someone who practices programming strictly
+as a hobby, less than ten hours a week, will eventually get just as
+good at it as one of these “fledgling hackers” who doesn’t do anything
+else with their spare time.  And, if we _tell_ people that, they won’t
+get put off the subject by the unappetizing prospect of not getting to
+hang out with friends on the weekends.
 
 [orig-thread]: https://hackers.town/@zwol/108936234680866181
 [earlier-thread]: https://hackers.town/@zwol/108861581410003388
@@ -124,4 +124,4 @@ out with friends on the weekends.
 [Lisp 1.5 Primer]: https://www.softwarepreservation.org/projects/LISP/book/Weismann_LISP1.5_Primer_1967.pdf
 [Jargon File]: http://www.catb.org/jargon/html
 [larval stage]: http://www.catb.org/jargon/html/L/larval-stage.html
-[hazing effect]: https://www.academia.edu/download/35068087/A_Aronson.pdf
+[hazing effect]: https://en.wikipedia.org/wiki/Escalation_of_commitment

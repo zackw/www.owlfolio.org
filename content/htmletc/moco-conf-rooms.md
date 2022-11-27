@@ -16,7 +16,7 @@ I'd like to share them with you now.
 
 * [All your base](https://www.youtube.com/watch?v=qItugh-fFgg)
 * [Bike](http://bikeshed.com/)[shed](https://en.wikipedia.org/wiki/Parkinson%27s_Law_of_Triviality) (used as a storage area for a while)
-* [Chuck Norris](http://www.chucknorrisfacts.com/)
+* [Chuck Norris](https://web.archive.org/web/20161125105323/http://www.chucknorrisfacts.com/)
 * [Dancing Baby](http://knowyourmeme.com/memes/dancing-baby)
 * [End of the World](http://www.albinoblacksheep.com/flash/end)
 * [Fail](http://failblog.cheezburger.com/)
