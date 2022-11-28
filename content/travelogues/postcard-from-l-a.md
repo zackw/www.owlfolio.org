@@ -14,7 +14,7 @@ come back out of family obligation (my parents still live here), which
 doesn't help.
 
 This time, though, I find that I am enjoying myself regardless. I'm
-here with [my sister](http://darastrata.com/), who *does* like it
+here with [my sister](https://darastrata.com/), who *does* like it
 here, knows fun things to do and people to hang out with. We're *not*
 clear out at the west end of the San Fernando Valley near our parents'
 house; we're in North Hollywood, a surprisingly short subway ride from
@@ -23,7 +23,7 @@ subway. I can hardly believe it.) People even seem to be building
 somewhat denser. I was able to *walk* to the nearest dry cleaners',
 which is also hardly believable.
 
-We went to a show at [Theatre of NOTE](http://www.theatreofnote.com/)
+We went to a show at [Theatre of NOTE](https://www.theatreofnote.com/)
 last night, called "Eat the Runt:" billed as black comedy, but really
 more of a farce, packed full of in-jokes about museums, grantwriting,
 and the entertainment biz, and with the cast randomly assigned to
@@ -31,14 +31,14 @@ roles by pulling names out of a hat before each show. It was
 hilarious, although I wonder how much it depends on those in-jokes.
 
 At the corner of Hollywood and Vine, the
-[Walk of Fame](http://en.wikipedia.org/wiki/Hollywood_Walk_of_Fame)
+[Walk of Fame](https://en.wikipedia.org/wiki/Hollywood_Walk_of_Fame)
 has a special plaque for the
-[Apollo 11](http://en.wikipedia.org/wiki/Apollo_11) astronauts, shaped
+[Apollo 11](https://en.wikipedia.org/wiki/Apollo_11) astronauts, shaped
 like the moon instead of a star, but still with the little brass
 old-timey TV. (I suppose it *was* a television broadcast of great
 significance, although memorializing it as such seems to miss the
 point.) I am not sure how I have managed never to notice this before.
 
 Tonight, there will be more theater. Tomorrow, there will be the
-[Huntington Library](http://www.huntington.org/). Monday, back on an
+[Huntington Library](https://huntington.org/). Monday, back on an
 airplane.

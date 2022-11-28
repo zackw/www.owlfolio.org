@@ -34,10 +34,10 @@ It would also be okay to have a duplicate checkbox right there on this screen, a
 Mistake number three, finally, is something they got half-right. This is not a core browser feature. Indeed, it's hard for me to imagine any situation where I would want this feature on a desktop computer. Hands-free operation of a mobile device, sure, but if my hands are already on a keyboard, that's faster and less bothersome for other people in the room. So, Google implemented this frill as a browser extension---but then they didn't expose that in the user interface. It *should* be an extension, and it should be visible as such. Then it needn't take up space in the core preferences screen, even. If people want it they can get it from the Chrome extension repository like any other extension. And that would give Google valuable data on how many people actually use this feature and whether it's worth continuing to develop.
 
 [b1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=786909
-[b2]: https://code.google.com/p/chromium/issues/detail?id=491435
-[b3]: https://code.google.com/p/chromium/issues/detail?id=500922
+[b2]: https://bugs.chromium.org/p/chromium/issues/detail?id=491435
+[b3]: https://bugs.chromium.org/p/chromium/issues/detail?id=500922
 [Chromium]: https://www.chromium.org/
 [n1]: https://news.ycombinator.com/item?id=9724409
-[n2]: https://www.privateinternetaccess.com/blog/2015/06/google-chrome-listening-in-to-your-room-shows-the-importance-of-privacy-defense-in-depth/
+[n2]: https://www.privateinternetaccess.com/blog/google-chrome-listening-in-to-your-room-shows-the-importance-of-privacy-defense-in-depth/
 [n3]: https://www.theguardian.com/technology/2015/jun/23/google-eavesdropping-tool-installed-computers-without-permission
-[r1]: http://drum.lib.umd.edu/bitstream/1903/1204/1/CS-TR-4371.pdf
+[r1]: https://drum.lib.umd.edu/bitstream/handle/1903/1204/CS-TR-4371.pdf

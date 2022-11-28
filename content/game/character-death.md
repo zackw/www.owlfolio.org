@@ -20,7 +20,7 @@ recent save point or checkpoint. (I guess they aren't allowed to put him
 ahead of the trap that keeps killing him, for the same reason they can't
 just teleport him to the room with the godslayer weapon...) There's
 nothing overt in the game to indicate this, unlike some (e.g. Ultima, as
-[madmanatw](http://madmanatw.livejournal.com/) pointed out last time)
+[madmanatw](https://madmanatw.livejournal.com/) pointed out last time)
 but the save points do say "Zeus offers you the opportunity to save your
 progress".If so, Athena's strategy is less horrible than it seemed -
 Kratos will eventually, if only by sheer luck, get through the temple.

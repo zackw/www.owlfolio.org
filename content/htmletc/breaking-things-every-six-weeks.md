@@ -13,7 +13,7 @@ whole lot of flak recently over its new
 in which there is a new *major* version of Firefox (and Thunderbird)
 every six weeks, and it potentially breaks all your extensions.
 Especially the big complicated extensions like
-[Firebug](http://getfirebug.com/) that people *cannot live without*.
+[Firebug](https://getfirebug.com/) that people *cannot live without*.
 One might reasonably ask, what the hell? Why would any software
 development team in their right mind---especially a team developing a
 critical piece of system infrastructure, which is what Web browsers
@@ -27,10 +27,10 @@ focused on making the Web better. If we weren't, we would be hacking
 on something other than a Web browser. The old release cycle was way
 too slow for us to do that effectively; as Jono Xia describes in his
 blog post
-"[It's Not About the Version Numbers](http://jonoscript.wordpress.com/2011/07/18/its-not-about-the-version-numbers-its-about-extension-compatibility-and-long-term-support/),"
+"[It's Not About the Version Numbers](https://jonoscript.wordpress.com/2011/07/18/its-not-about-the-version-numbers-its-about-extension-compatibility-and-long-term-support/),"
 anything we did might not get out to end users for *over a year*. When
 David Baron fixed
-[visited-link history sniffing](http://dbaron.org/mozilla/visited-privacy),
+[visited-link history sniffing](https://dbaron.org/mozilla/visited-privacy),
 he patched Firefox first---but Chrome and Safari shipped the change
 before we did.
 
@@ -54,7 +54,7 @@ proven to be a hindrance (XUL, XBL, XPConnect, etc). We have other
 major components that should have been recognized as bad ideas at the
 time, but weren't (XPCOM, NSPR, etc). And we have code for which there
 is no excuse at all (Firefox still had code using the infamous
-["Mork" file format](http://www.jwz.org/blog/2011/07/mork-keeps-on-giving-when-the-database-worms-eat-into-your-murder-trial/)
+["Mork" file format](https://www.jwz.org/blog/2011/07/mork-keeps-on-giving-when-the-database-worms-eat-into-your-murder-trial/)
 until just this summer, and I understand it's still live in
 Thunderbird).
 

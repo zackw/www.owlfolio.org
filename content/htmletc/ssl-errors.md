@@ -109,7 +109,7 @@ user not to visit *this* website, and again, suggest trying another
 secure site. (We need to take care to distinguish this case from an
 expired or legitimately changed cert.)
 
-[Herdict]: http://www.herdict.org/web/
+[Herdict]: https://cyber.harvard.edu/research/herdict
 [net-error]: http://www.donotlick.com/2010/01/04/herdict-and-its-tasty-anonymized-aggregated-data/
 [site-not-found]: http://www.toolness.com/wp/2010/02/herdict-firefox-integration-and-better-html-presentations/
 [bug 251407]: https://bugzilla.mozilla.org/show_bug.cgi?id=251407

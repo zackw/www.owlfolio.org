@@ -12,7 +12,7 @@ the talks, and my brain was still completely full afterward. Instead
 of doing one exhaustive post per day like I did with Oakland, I'm just
 going to highlight a handful of interesting papers over the course of
 the entire conference, plus the pre-conference
-[Workshop on Privacy in the Electronic Society](http://dblp.uni-trier.de/db/conf/wpes/wpes2012.html).
+[Workshop on Privacy in the Electronic Society](https://dblp.uni-trier.de/db/conf/wpes/wpes2012.html).
 
 <!--more-->
 
@@ -24,7 +24,7 @@ find an unencumbered paper to link to---cavete auctores!
 
 ## Monday (WPES)
 
-### [An Approach for Identifying JavaScript-loaded Advertisements through Static Analysis](https://www.cs.indiana.edu/~minaxi/pubs/wpes12.pdf)
+### [An Approach for Identifying JavaScript-loaded Advertisements through Static Analysis](https://dl.acm.org/doi/abs/10.1145/2381966.2381968)
 
 Right now the state of the art for blocking out ads on the Web is with
 gigantic URL-based blacklists---the popular "EasyList" for AdBlock
@@ -50,7 +50,7 @@ thought was telling---there is, after all, substantial overlap. They
 also said that they thought the same general approach would work for
 tracking protection but it would require its own classifier.
 
-### [What Do Online Behavioral Advertising Privacy Disclosures Communicate to Users?](https://www.cylab.cmu.edu/files/pdfs/tech_reports/CMUCyLab12008.pdf)
+### [What Do Online Behavioral Advertising Privacy Disclosures Communicate to Users?](https://www.cylab.cmu.edu/_files/pdfs/tech_reports/CMUCyLab12008.pdf)
 
 Online behaviorally-targeted advertising is often tagged with a little
 icon and/or short phrase which are hyperlinks to "landing pages" that
@@ -81,7 +81,7 @@ i.e. that advertisers are motivated to make their disclosure tags and
 landing pages as nonobvious and unfriendly as possible, because they
 don't *want* people to disable behavioral ad targeting.
 
-### [Changing of the Guards: A Framework for Understanding and Improving Entry Guard Selection in Tor](http://cacr.uwaterloo.ca/techreports/2012/cacr2012-11.pdf)
+### [Changing of the Guards: A Framework for Understanding and Improving Entry Guard Selection in Tor](https://cacr.uwaterloo.ca/techreports/2012/cacr2012-11.pdf)
 
 "Entry guards" are a designated subset of Tor relays that are
 considered reliable and probably-nonmalicious enough to use as entry
@@ -108,7 +108,7 @@ experiments.
 
 ## Tuesday
 
-### [The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software](http://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf)
+### [The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software](https://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf)
 
 SSL (also known as TLS) is the most widely deployed implementation of
 the cryptosystem primitive known as a
@@ -147,7 +147,7 @@ uses. Many of those options are intended only for debugging, but the
 author of the Amazon code zealously set them all, and set one of them
 to a value that defeats security, without realizing it.
 
-### [Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security](https://www.researchgate.net/profile/Marian-Harbach/publication/233754060_Why_Eve_and_Mallory_love_Android_An_analysis_of_Android_SSL_insecurity/links/0912f50b33eb99e2af000000/Why-Eve-and-Mallory-love-Android-An-analysis-of-Android-SSL-insecurity.pdf)
+### [Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security](https://www.researchgate.net/publication/233754060_Why_Eve_and_Mallory_love_Android_An_analysis_of_Android_SSL_insecurity)
 
 On the same theme as the previous talk: Android's stock runtime
 libraries implement certificate validation correctly. What could
@@ -169,7 +169,7 @@ app developer and you're under time pressure and your company's
 sysadmins are taking forever to get around to setting up the server
 correctly… disabling verification may be the path of least resistance.
 
-### [Routing Around Decoys](http://www-users.cs.umn.edu/~hopper/decoy-ccs12.pdf)
+### [Routing Around Decoys](https://www-users.cse.umn.edu/~hoppernj/decoy-ccs12.pdf)
 
 Decoy routing is a scheme for censorship evasion, in which the
 end-user's machine sends out traffic overtly intended for an innocuous
@@ -192,7 +192,7 @@ number of backbone providers to deploy decoy routers.
 
 ## Wednesday
 
-### [Operating System Framed in Case of Mistaken Identity](http://lorrie.cranor.org/pubs/osframed.pdf)
+### [Operating System Framed in Case of Mistaken Identity](https://lorrie.cranor.org/pubs/osframed.pdf)
 
 This is a modern user study on one of the oldest problems in the
 computer security book: If you are prompted to type your password, how
@@ -224,7 +224,7 @@ problem is, we can't really complain.
 OAuth is a widely adopted federated authentication scheme. It's quite
 complicated, and the 2.0 revision is even more complicated, to the
 point where its spec editors are
-[quitting in disgust](http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/).
+[quitting in disgust](http://web.archive.org/web/20140625161040/http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/).
 Its security depends, of course, on implementation correctness.
 
 This study did a deep dive on a hand-picked set of very popular
@@ -305,7 +305,7 @@ thresholds.
 
 ## Thursday
 
-### [You Are What You Include: Large-scale Evaluation of Remote JavaScript Inclusions](http://www.securitee.org/files/jsinclusions_ccs2012.pdf)
+### [You Are What You Include: Large-scale Evaluation of Remote JavaScript Inclusions](https://www.securitee.org/files/jsinclusions_ccs2012.pdf)
 
 Problem statement: We know cross-site inclusion of JS is ubiquitous;
 who is trusted to provide JS libraries? How hard would it be to attack
@@ -342,11 +342,11 @@ unusual for the scripts to change more often than once a week, so
 maintaining local copies *might* be feasible, given sufficient
 operational will and manpower.
 
-### [Scriptless Attacks---Stealing the Pie Without Touching the Sill](https://www.hgi.rub.de/media/emma/veroeffentlichungen/2012/08/16/scriptlessAttacks-ccs2012.pdf)
+### [Scriptless Attacks---Stealing the Pie Without Touching the Sill](https://www.nds.rub.de/media/emma/veroeffentlichungen/2012/08/16/scriptlessAttacks-ccs2012.pdf)
 
 This paper demonstrates a variety of XSS-style attacks that
 don't require any scripting at all, bypassing existing XSS filters,
-[CSP](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html),
+[CSP](https://w3c.github.io/webappsec/specs/content-security-policy/),
 NoScript---some even work in HTML-enabled mail readers. (This is your
 periodic reminder that nobody should ever send or accept HTML in email.)
 
@@ -356,7 +356,7 @@ malicious server: even when scripting is unavailable, it may be
 possible to inject these features. HTML form validation can be applied
 to hidden form fields and can trigger URL loads if regular expressions
 match. Invisible SVG files can use
-[`<set>`](http://www.w3.org/TR/SVG/animate.html#SetElement) elements
+[`<set>`](https://svgwg.org/specs/animations/#SetElement) elements
 to capture keystrokes (this is the one that works in Thunderbird).
 Custom fonts (using SVG, or OpenType's discretionary ligatures) can
 control the size of the viewport, which together with media queries,

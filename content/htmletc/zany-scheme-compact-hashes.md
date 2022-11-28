@@ -5,7 +5,7 @@ slug: zany-scheme-compact-hashes
 ...
 
 Lots of current and near-future tech relies heavily on
-[secure hashes](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
+[secure hashes](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
 as identifiers; these are usually represented as hexadecimal
 strings. For instance, in a
 [previous post](/research/securing-the-future-net/) I threw out the
@@ -16,14 +16,14 @@ strawman `h:` URN scheme that looks like this:
 
 Now the problem with this is, these hexadecimal strings are
 inconveniently long and are only going to get longer.
-[SHA-1](http://en.wikipedia.org/wiki/SHA-1) (as shown above) produces
+[SHA-1](https://en.wikipedia.org/wiki/SHA-1) (as shown above) produces
 160-bit hashes, which take 40 characters to represent in hex. That
 algorithm is looking kinda creaky these days; the most convenient
-replacement is [SHA-256](http://en.wikipedia.org/wiki/SHA-2). As the
+replacement is [SHA-256](https://en.wikipedia.org/wiki/SHA-2). As the
 name implies, it produces 256-bit hashes, which take 64 characters to
 write out in hex. The next generation of secure hash algorithms,
 currently
-[under development at NIST](http://en.wikipedia.org/wiki/NIST_hash_function_competition),
+[under development at NIST](https://en.wikipedia.org/wiki/NIST_hash_function_competition),
 are also going to produce 256-bit (and up) hashes. The inconvenience
 of these lengthy hashes becomes even worse if we want to use them as
 *components* of a URI with structure to it (as opposed to being the

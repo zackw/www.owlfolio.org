@@ -5,7 +5,7 @@ slug: strawman-mime-type-for-fonts
 ...
 
 For a little while now, it's been possible for websites to
-[embed fonts](http://hacks.mozilla.org/2009/06/beautiful-fonts-with-font-face/)
+[embed fonts](https://hacks.mozilla.org/2009/06/beautiful-fonts-with-font-face/)
 that all major browsers will pick up on. This of course implies fonts
 being served as HTTP resources. But it turns out that nobody has
 bothered to assign any of the common font formats a MIME
@@ -112,19 +112,19 @@ days of Netscape 4, and then to have given up on it, probably because
 the font foundries' attitude was NO YOU CAN'T HAS LICENSE FOR WEBS
 until just last year.
 
-[RFC 3073]: http://www.rfc-editor.org/rfc/rfc3073.txt
+[RFC 3073]: https://www.rfc-editor.org/rfc/rfc3073.txt
 [Bitstream PFR]: http://web.archive.org/web/20080225160925/http://www.bitstream.com/font_rendering/products/truedoc/pfrspec.html
-[TrueType]: http://www.truetype-typography.com/
-[PostScript CFF]: http://en.wikipedia.org/wiki/PostScript_fonts#Compact_Font_Format
-[sfnt]: http://developer.apple.com/fonts/tools/tooldir/TrueEdit/Documentation/TE/TE1sfnt.html
-[WOFF]: http://en.wikipedia.org/wiki/Web_Open_Font_Format
-[EOT]: http://en.wikipedia.org/wiki/Embedded_OpenType
-[TTC]: http://en.wikipedia.org/wiki/TrueType#TrueType_Collection
-[PostScript Type 1]: http://www.prepressure.com/fonts/basics/type1
+[TrueType]: https://www.truetype-typography.com/
+[PostScript CFF]: https://en.wikipedia.org/wiki/PostScript_fonts#Compact_Font_Format
+[sfnt]: https://web.archive.org/web/20131023054643/https://developer.apple.com/fonts/tools/tooldir/TrueEdit/Documentation/TE/TE1sfnt.html
+[WOFF]: https://en.wikipedia.org/wiki/Web_Open_Font_Format
+[EOT]: https://en.wikipedia.org/wiki/Embedded_OpenType
+[TTC]: https://en.wikipedia.org/wiki/TrueType#TrueType_Collection
+[PostScript Type 1]: https://www.prepressure.com/fonts/basics/type1
 [MIME category]: http://www.iana.org/assignments/media-types/
-[egregious]: http://tvtropes.org/pmwiki/pmwiki.php/JustForFun/Egregious
+[egregious]: https://tvtropes.org/pmwiki/pmwiki.php/JustForFun/Egregious
 [CSS data theft]: /htmletc/css-data-theft/
 [fontbugs]: https://bugzilla.mozilla.org/buglist.cgi?bug_id=595703,583715,594456,599061,598190,595026,594926,580730,580212,581359,597942,581029,594966,588233,594651,594627,595997,596112,599068,594618,574368,586847,594628,596227,596110,595689,582151,587742,594638,595960,586895
-[mimesniff]: http://tools.ietf.org/html/draft-ietf-websec-mime-sniff-00.html
+[mimesniff]: https://datatracker.ietf.org/doc/html/draft-ietf-websec-mime-sniff-00.html
 [accept parameters]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
-[magic number]: http://en.wikipedia.org/wiki/File_format#Magic_number
+[magic number]: https://en.wikipedia.org/wiki/File_format#Magic_number

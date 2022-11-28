@@ -5,8 +5,8 @@ slug: fantasy-setting-no-combat
 ...
 
 Several months ago, LJ user
-[fadethecat](http://fadethecat.livejournal.com/) posted a
-[request for help identifying a dimly-remembered video game](http://fadethecat.livejournal.com/1574588.html).
+[fadethecat](https://fadethecat.livejournal.com/) posted a
+[request for help identifying a dimly-remembered video game](https://fadethecat.livejournal.com/1574588.html).
 In passing, she mentioned that
 
 > Unfortunately, all the games I've found with that scale of "now
@@ -20,7 +20,7 @@ In passing, she mentioned that
 > castle, I need to deal with frickin' knights and invaders...
 
 Whereupon it occurred to me that this is one of the big reasons I
-don't play [Dwarf Fortress](http://www.bay12games.com/dwarves/)
+don't play [Dwarf Fortress](https://www.bay12games.com/dwarves/)
 anymore. The parts of DF that I enjoy are city-building, prospecting
 for minerals to make stuff out of, and trade. Manufacturing is too
 much of a micromanagey pain in the ass, and everything to do with
@@ -66,12 +66,12 @@ elements, that feel like they add up to a game:
 * Micromanagement is to be avoided with extreme prejudice.
 * No fighting.
 * No crafting of legendary weapons or armor, either.
-* "[Like reality unless noted](http://tvtropes.org/pmwiki/pmwiki.php/Main/LikeRealityUnlessNoted)"
+* "[Like reality unless noted](https://tvtropes.org/pmwiki/pmwiki.php/Main/LikeRealityUnlessNoted)"
   applies to geology, biology, and technology.
 * Magic is not tame.
 * Magic is *not* only for *special* people.
 * It might be nice to try to subvert
-  "[Our Dwarves Are All The Same](http://tvtropes.org/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame)"
+  "[Our Dwarves Are All The Same](https://tvtropes.org/pmwiki/pmwiki.php/Main/OurDwarvesAreAllTheSame)"
   but then again, there's a reason why that characterization works so well.
 
 The tricky part is finding a source of conflict, since we've taken out

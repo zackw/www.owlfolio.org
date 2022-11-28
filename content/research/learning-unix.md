@@ -120,8 +120,8 @@ hang out with friends on the weekends.
 [K&R]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [15213]: https://www.cs.cmu.edu/~213/
 [Starting FORTH]: https://www.forth.com/starting-forth/
-[TCP/IP Network Administration]: https://www.amazon.com/TCP-Network-Administration-OReilly-Networking/dp/0596002971
+[TCP/IP Network Administration]: https://www.powells.com/book/tcpip-network-administration-9780596002978
 [Lisp 1.5 Primer]: https://www.softwarepreservation.org/projects/LISP/book/Weismann_LISP1.5_Primer_1967.pdf
-[Jargon File]: http://www.catb.org/jargon/html
-[larval stage]: http://www.catb.org/jargon/html/L/larval-stage.html
+[Jargon File]: http://www.catb.org/jargon/html/
+[larval stage]: http://www.catb.org/jargon/html//L/larval-stage.html
 [hazing effect]: https://en.wikipedia.org/wiki/Escalation_of_commitment

@@ -5,9 +5,9 @@ slug: i-will-file-bugs-for-you
 ...
 
 > This post prompted by Aaron Klotz's
-> "[Diffusion of Responsibility](http://dblohm7.ca/blog/2014/08/14/diffusion-of-responsibility/)"
+> "[Diffusion of Responsibility](https://dblohm7.ca/blog/2014/08/14/diffusion-of-responsibility/)"
 > and Sumana Harihareswara's
-> "[Inessential Weirdnesses in Open Source](http://www.harihareswara.net/sumana/2014/08/10/1)."
+> "[Inessential Weirdnesses in Open Source](https://www.harihareswara.net/posts/2014/inessential-weirdnesses-in-open-source/)."
 
 One of the most common ways to start interacting with a free software
 *project*, as opposed to just using the *software* produced by that

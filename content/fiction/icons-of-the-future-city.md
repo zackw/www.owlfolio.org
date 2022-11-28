@@ -59,6 +59,6 @@ be of something like
 or
 [this](https://web.archive.org/web/20170430014442/http://thenewscifi.com/wp-content/uploads/2012/04/futuristic-city.jpg)
 or
-[this](http://www.milkytea.com/blog/wp-content/uploads/2009/03/future-city3.jpg).
+[this](https://web.archive.org/web/20120119104048/https://www.milkytea.com/blog/wp-content/uploads/2009/03/future-city3.jpg).
 (But watch out for the just-as-discredited
 “[Radiant City](https://en.wikipedia.org/wiki/Ville_Radieuse)” vision, please.)

@@ -5,7 +5,7 @@ slug: git-backend-hg-cli
 ...
 
 LWN has an article with a nice chunky comment thread talking about
-[the history of DVCSes and how git has basically taken over the category](http://lwn.net/Articles/515652/).
+[the history of DVCSes and how git has basically taken over the category](https://lwn.net/Articles/515652/).
 Mozilla, of course, still mostly uses Mercurial, but there's a lot of
 people who prefer git now, and there are bridges and stuff.
 

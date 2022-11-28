@@ -90,7 +90,7 @@ people behind the curtain mark accounts as fictional characters, that
 would be awesome.
 
 [Twitter account]: https://twitter.com/elwoz
-[The Twit Cleaner]: http://thetwitcleaner.com/blog/
+[The Twit Cleaner]: https://thetwitcleaner.com/blog/
 [@NBCOlympics]: https://twitter.com/NBCOlympics
 [@CDCemergency]: https://twitter.com/CDCemergency
 [@asym]: https://twitter.com/asym
@@ -98,9 +98,9 @@ would be awesome.
 [@TwitCleaner]: https://twitter.com/TwitCleaner
 [Twitter-verified users]: https://twitter.com/help/verified
 [Lurkers]: https://en.wikipedia.org/wiki/Lurker
-[fourth wall mail slot]: http://tvtropes.org/pmwiki/pmwiki.php/Main/FourthWallMailSlot
+[fourth wall mail slot]: https://tvtropes.org/pmwiki/pmwiki.php/Main/FourthWallMailSlot
 [@Othar]: https://twitter.com/Othar
-[Girl Genius]: http://www.girlgeniusonline.com/
+[Girl Genius]: https://www.girlgeniusonline.com/
 [entire cast]: https://twitter.com/jephjacques/lists/qccast/
-[Questionable Content]: http://www.questionablecontent.net/
+[Questionable Content]: https://www.questionablecontent.net/
 [cliques]: https://en.wikipedia.org/wiki/Clique_%28graph_theory%29

@@ -5,7 +5,7 @@ slug: 2016-hugo-noms
 ...
 
 Let's talk about something more fun, shall we?  These were my
-nominations for the [2016 Hugo Awards](http://www.thehugoawards.org/).
+nominations for the [2016 Hugo Awards](https://www.thehugoawards.org/).
 The final ballot will be announced on April 26.  Hugo nominations,
 unlike final ballots, are not ranked.  I'd be happy to see any of
 these things win their categories.

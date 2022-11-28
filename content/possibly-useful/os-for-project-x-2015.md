@@ -20,12 +20,12 @@ td { text-align: left; padding-left: 15px; }
 <td>Poorly documented,<br>possibly incomplete</td>
 <td>Probably not</td>
 <td>Poorly documented,<br><a href="https://bugzilla.kernel.org/show_bug.cgi?id=97811">buggy</a></td>
-<tr><th>Can compile <a href="http://phantomjs.org/">PhantomJS</a></th>
+<tr><th>Can compile <a href="https://phantomjs.org/">PhantomJS</a></th>
 <td>Probably</td><td>Probably</td><td>Yes</td></tr>
 <tr><th>Jails</th><td>Yes</td>
 <td>No</td>
 <td>Not really</td></tr>
-<tr><th><a href="http://xenproject.org/">Xen</a> paravirtual
+<tr><th><a href="https://xenproject.org/">Xen</a> paravirtual
 guest</th><td><a href="https://wiki.freebsd.org/Xen">Incomplete</a></td>
 <td>Yes</td>
 <td>Yes</td></tr>

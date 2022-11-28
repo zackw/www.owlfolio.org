@@ -25,7 +25,7 @@ Foliomatic is thus similar to existing systems such as [Ikiwiki][],
 ways, and more restricted in others.
 
 [Ikiwiki]: http://ikiwiki.info/
-[Chronicle]: http://www.steve.org.uk/Software/chronicle/
+[Chronicle]: https://steve.fi/software/chronicle/
 [Jekyll]: http://jekyllrb.com/
 
 <!--more-->

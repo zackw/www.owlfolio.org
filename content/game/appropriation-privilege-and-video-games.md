@@ -13,10 +13,10 @@ some really good points made on those topics.
 
 > Editor’s note, August 2009: I am talking about “RaceFail 2009.” If
 > you are unfamiliar with this, I recommend reading
-> [Mary Anne Mohanraj](http://www.mamohanraj.com/)’s two
-> [guest](http://whatever.scalzi.com/2009/03/12/mary-ann-mohanraj-gets-you-up-to-speed-part-i/)
-> [posts](http://whatever.scalzi.com/2009/03/13/mary-anne-mohanraj-gets-you-up-to-speed-part-ii/)
-> on [John Scalzi’s blog](http://whatever.scalzi.com/); these were
+> [Mary Anne Mohanraj](https://maryannemohanraj.com/)’s two
+> [guest](https://whatever.scalzi.com/2009/03/12/mary-ann-mohanraj-gets-you-up-to-speed-part-i/)
+> [posts](https://whatever.scalzi.com/2009/03/13/mary-anne-mohanraj-gets-you-up-to-speed-part-ii/)
+> on [John Scalzi’s blog](https://whatever.scalzi.com/); these were
 > written after it was mostly over, and are serious, constructive
 > discussion of implicit privilege (including but not limited to
 > racism) in fiction in general. If you want to know about the

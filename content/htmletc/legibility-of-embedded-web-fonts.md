@@ -63,7 +63,7 @@ wants visitors to think their website is **ugly**); it can mean that
 **people can't read your text**. I myself find Chiaroscuro unpleasant
 to read on Windows or Linux, but my acquaintance Rose Lemberg, who has
 weaker eyesight, says
-[the site is illegible](http://rose-lemberg.livejournal.com/153454.html). I
+[the site is illegible](https://rose-lemberg.livejournal.com/153454.html). I
 don't think Chiaroscuro set out to be illegible, but I'll bet cookies
 to donuts Chiaroscuro's designer didn't bother testing their new font
 on anything but a Mac.
@@ -87,12 +87,12 @@ public catalogs of fonts "designed for the web" was premature.)~~
 **EDIT 25 November 2014:** As of the 26-Dec-2013 release, Merriweather
 looks [much better on Windows and Linux](https://ebensorkin.wordpress.com/2013/06/24/old-vs-new-merriweather-on-windows/).
 
-[ef]: http://sixrevisions.com/css/font-face-guide/
-[tech]: http://www.fontsquirrel.com/blog/2010/11/troubleshooting-font-face-problems
+[ef]: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+[tech]: https://www.fontsquirrel.com/blog/2010/11/troubleshooting-font-face-problems
 [mw]: https://ebensorkin.wordpress.com/
-[chiaro]: http://chizine.com/volume_47.htm
-[atwood]: http://blog.codinghorror.com/font-rendering-respecting-the-pixel-grid/
-[damieng]: http://damieng.com/blog/2007/06/13/font-rendering-philosophies-of-windows-and-mac-os-x
+[chiaro]: https://web.archive.org/web/20110405141650/http://chizine.com/volume_47.htm
+[atwood]: https://blog.codinghorror.com/font-rendering-respecting-the-pixel-grid/
+[damieng]: https://damieng.com/blog/2007/06/13/font-rendering-philosophies-of-windows-and-mac-os-x/
 [maxim]: https://web.archive.org/web/20171224221933/http://www.antigrain.com/research/font_rasterization/
-[fsqrl]: http://www.fontsquirrel.com/
-[gfonts]: https://www.google.com/webfonts
+[fsqrl]: https://www.fontsquirrel.com/
+[gfonts]: https://fonts.google.com/

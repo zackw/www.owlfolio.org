@@ -6,15 +6,15 @@ slug: dead-uncle-allotheria
 
 Summaries of the rest of [CCS'10](http://www.sigsac.org/ccs/CCS2010/)
 are still coming eventually, but what I want to talk about today is
-the [Difference Engine No. 2](http://www.computerhistory.org/babbage/)
+the [Difference Engine No. 2](https://computerhistory.org/babbage/)
 which I have now seen demonstrated twice: Mozilla had its annual
-meeting at the [Computer History Museum](http://www.computerhistory.org/)
+meeting at the [Computer History Museum](https://computerhistory.org/)
 a couple years back, and on Saturday last I was there again for
-[SRI](http://www.sri.com/)'s holiday dinner.
+[SRI](https://www.sri.com/)'s holiday dinner.
 
 As you know, (Bob,) the Difference Engine was originally designed in
 the 1820s by
-[Charles Babbage](http://www.computerhistory.org/babbage/charlesbabbage/);
+[Charles Babbage](https://computerhistory.org/babbage/charlesbabbage/);
 a tabletop-sized demonstration version was built, but the full-size
 version was abandoned in 1833 after Babbage fell out with the
 mechanist he had hired. Babbage went on to design the Analytical
@@ -24,7 +24,7 @@ with only eight thousand (instead of 25,000) parts. Having blown
 £17,500 of Parliament's money (more than a million pounds at current
 rates) on the first failed project, he was not able to secure funding
 for either of these, and they remained drawings only. The
-[London Science Museum](http://www.sciencemuseum.org.uk/) built two
+[London Science Museum](https://www.sciencemuseum.org.uk/) built two
 copies of Difference Engine No. 2---that's the 8000-part version---in
 the 1990s, with period-appropriate materials and manufacturing
 tolerances, to prove that it could have been done; one of these is on
@@ -37,17 +37,17 @@ approximate the function you want as a polynomial of up to 7^th^
 degree (you probably need several polynomials, for different ranges of
 the argument) and you can then have the Engine calculate the value of
 the polynomial for many different inputs, using
-[finite differences](http://mathworld.wolfram.com/FiniteDifference.html). It
+[finite differences](https://mathworld.wolfram.com/FiniteDifference.html). It
 stamps the numbers into a bed of
-[plaster of Paris](http://en.wikipedia.org/wiki/Plaster), which can
+[plaster of Paris](https://en.wikipedia.org/wiki/Plaster), which can
 then be used to cast a letterpress plate and run off many copies of a
 book. There were already such books, but they were computed by hand,
 and notorious for their errors. The Difference Engine's failure meant
 that they kept on being computed by hand; however,
-[Georg and Edvard Scheutz](http://www.computerhistory.org/babbage/georgedvardscheutz/)
+[Georg and Edvard Scheutz](https://computerhistory.org/babbage/georgedvardscheutz/)
 managed to build a miniature version of the Engine in 1857 and use it
 to print a table of logarithms; also, the
-[first practical mechanical desk calculator](http://en.wikipedia.org/wiki/Arithmometer)
+[first practical mechanical desk calculator](https://en.wikipedia.org/wiki/Arithmometer)
 went into production in 1851, and was no doubt employed in making
 tables more accurate.
 
@@ -84,7 +84,7 @@ produce an incorrect sum. (I don't know how the operator would recover
 from such a jam, however.) And no matter how you set it up, it will
 compute *some* polynomial; but that might not be the polynomial you
 wanted. Babbage himself
-[was asked this question, in a less-coherent form](http://en.wikiquote.org/wiki/Charles_Babbage)
+[was asked this question, in a less-coherent form](https://en.wikiquote.org/wiki/Charles_Babbage)
 (look for "On two occasions").
 
 I'll leave you all with

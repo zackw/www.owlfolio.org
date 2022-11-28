@@ -3,7 +3,7 @@ title: Foliomatic
 ...
 
 Foliomatic is a hypothetical program for generating web sites like
-this one. I’m currently using [Pelican](http://blog.getpelican.com/),
+this one. I’m currently using [Pelican](https://getpelican.com/),
 which is a vast improvement over [WordPress](https://wordpress.org/),
 which was in turn a vast improvement over [Ikiwiki](https://ikiwiki.info/),
 but it still gets in my way enough to irritate me.
