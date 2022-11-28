@@ -13,4 +13,4 @@ what you want and we'll send it to you!
 
 **EDIT 23 Jun 2010: This offer is no longer open. We have donated
 what hadn't already been claimed to the San Jose chapter of [Empty
-Bowls](http://www.emptybowls.net/).**
+Bowls](https://emptybowls.com/).**

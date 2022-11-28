@@ -72,5 +72,5 @@ tractable.)
 [David Bolton]: http://davidbolton.info/
 [Certificate Patrol]: https://web.archive.org/web/20220526203653/http://patrol.psyced.org/
 [Perspectives]: https://perspectives-project.org/
-[Herdict]: https://www.herdict.org/
+[Herdict]: https://cyber.harvard.edu/research/herdict
 [boriss-404]: http://www.donotlick.com/2010/01/04/herdict-and-its-tasty-anonymized-aggregated-data/

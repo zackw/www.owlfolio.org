@@ -14,8 +14,8 @@ In this article I'll describe the attack, what we're doing about it,
 how you can ensure that your site will continue to work, and how you
 can protect your users who have not upgraded their browsers yet.
 
-[quirks mode]: http://www.quirksmode.org/css/quirksmode.html
-[CDN]: http://en.wikipedia.org/wiki/Content_delivery_network
+[quirks mode]: https://www.quirksmode.org/css/quirksmode.html
+[CDN]: https://en.wikipedia.org/wiki/Content_delivery_network
 
 <!--more-->
 

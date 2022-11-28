@@ -68,7 +68,7 @@ The thing my aunt gave me that I don’t know what it is
     “which” followed by a complete sentence) all the time, contra
     typical English usage.  I think I got it from the object with a
     very similar name in the
-    [*Hitchhiker’s Guide to the Galaxy* text adventure](https://www.bbc.co.uk/h2g2game).
+    [*Hitchhiker’s Guide to the Galaxy* text adventure](https://www.bbc.co.uk/programmes/articles/1g84m0sXpnNCv84GpN2PLZG/the-game-30th-anniversary-edition).
 
 Who shuffled this mess?
 
@@ -97,7 +97,7 @@ The chevron pattern in the background is based on the
 [black and gold pattern seen on this moribund website](https://web.archive.org/web/20141218065258/http://shipwreckradio.com/);
 if anyone knows where it came from, please tell me.
 
-The CMS is [Pelican](https://blog.getpelican.com/), with a theme customized
+The CMS is [Pelican](https://getpelican.com/), with a theme customized
 from the ground up for this site.
 I write all my posts in
 [Pandoc-flavor Markdown](https://pandoc.org/).

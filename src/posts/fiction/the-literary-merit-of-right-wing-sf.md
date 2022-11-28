@@ -4,7 +4,7 @@ date: 2014-08-24 23:44
 ---
 
 The results are in for the
-[2014 Hugo Awards](http://www.thehugoawards.org/2014/08/2014-hugo-award-winners/).
+[2014 Hugo Awards](https://www.thehugoawards.org/2014/08/2014-hugo-award-winners/).
 I'm pleased with the results in the fiction categories---a little sad
 that
 "[The Waiting Stars](http://aliettedebodard.com/short-stories/the-waiting-stars/)"
@@ -12,7 +12,7 @@ didn't win its category, but it *is* the sort of thing that would not
 be to everyone's taste.
 
 Now that it's all over, people are
-[chewing over the politics of this year's shortlist, particularly the infamous "sad puppy" slate](http://whatever.scalzi.com/2014/08/17/thoughts-on-the-hugo-awards-2014/),
+[chewing over the politics of this year's shortlist, particularly the infamous "sad puppy" slate](https://whatever.scalzi.com/2014/08/17/thoughts-on-the-hugo-awards-2014/),
 over on John Scalzi's blog, and this was going to be a comment there,
 but I don't seem to be able to post comments there, so y'all get the
 expanded version here instead. I'm responding particularly to this
@@ -29,7 +29,7 @@ and the motivations of those who might have voted for it:
 > regularly, and with such predictability that it is obviously not
 > just quality being rewarded.
 >
-> ― "[BrowncoatJeff](http://whatever.scalzi.com/2014/08/17/thoughts-on-the-hugo-awards-2014/#comment-752764)"
+> ― "[BrowncoatJeff](https://whatever.scalzi.com/2014/08/17/thoughts-on-the-hugo-awards-2014/#comment-752764)"
 
 I cannot speak to the track record, not having followed genre awards
 closely in the past. But as to this year's Hugo shortlist, it is my
@@ -72,7 +72,7 @@ This formulation, however, is my own.
 
 > 1. Above all, a story must not be boring. The reader should *care*,
 >    both about
->    "[what happens to these people](http://tvtropes.org/pmwiki/pmwiki.php/Main/EightDeadlyWords),"
+>    "[what happens to these people](https://tvtropes.org/pmwiki/pmwiki.php/Main/EightDeadlyWords),"
 >    and
 >    about the ultimate resolution to the plot.
 > 2. Stories should not confuse their readers, and should enable

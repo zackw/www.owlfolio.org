@@ -4,7 +4,7 @@ date: 2014-10-02 11:27
 ---
 
 Last week there was a gag listicle making the rounds entitled
-"[If programming languages were vehicles](http://crashworks.org/if_programming_languages_were_vehicles/)"
+"[If programming languages were vehicles](http://web.archive.org/web/20141121144947/http://crashworks.org/if_programming_languages_were_vehicles/)"
 and I lol'd along with the rest of them, but then I kept thinking
 about it and a bunch of the entries just seemed to miss the mark. And
 I'm in a silly sort of mood, so here is MY version: slightly different
@@ -33,7 +33,7 @@ you want, especially if you don't mind a side trip to the even bigger
 "Boost" warehouse next door.  You'll still have to put it all
 together, though, and be careful which boxes you open: rumor has it
 this warehouse was once used to store ... <a
-href="http://www.scp-wiki.net/"><i>other</i> things</a>.
+href="https://scp-wiki.wikidot.com/"><i>other</i> things</a>.
 
 <figure><a href="https://commons.wikimedia.org/wiki/File:1971_Ranchero_Squire.jpg"><img alt="1971 Ford Ranchero Squire from front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/1971_Ranchero_Squire.jpg/320px-1971_Ranchero_Squire.jpg"></a>
 <figcaption><a href="https://commons.wikimedia.org/wiki/File:1971_Ranchero_Squire.jpg">1971 Ranchero Squire</a></figcaption></figure>

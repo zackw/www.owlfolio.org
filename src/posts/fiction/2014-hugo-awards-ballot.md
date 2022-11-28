@@ -3,8 +3,8 @@ title: 2014 Hugo Awards ballot
 date: 2014-07-29 21:51
 ---
 
-I'm not attending [the Worldcon](http://www.loncon3.org/), but I most
-certainly am voting the [Hugos](http://www.thehugoawards.org/) this
+I'm not attending [the Worldcon](https://en.wikipedia.org/wiki/72nd_World_Science_Fiction_Convention), but I most
+certainly am voting the [Hugos](https://www.thehugoawards.org/) this
 year, and moreover I am publishing my ballot with one-paragraph
 reviews of everything I voted on. If you care about this sort of thing
 you probably already know why. If you don't, the short version is:
@@ -22,10 +22,10 @@ bloviation attached, and one of the recommended works was written by
 who is such a horrible person that even your common or garden variety
 Internet asshole backs slowly away from him, but nonetheless he has a
 posse of devoted fanboys and sock puppets. A
-[frank exchange of views](http://www.salon.com/2004/06/25/frank_exchange/)
+[frank exchange of views](https://www.salon.com/2004/06/25/frank_exchange/)
 ensued; be glad you missed it, and I hope the reviews are useful to
 you anyway. If you want more detail,
-[Far Beyond Reality has a link roundup](http://farbeyondreality.com/2014/04/19/2014-hugo-nominations-the-reactions/).
+[Far Beyond Reality has a link roundup](https://farbeyondreality.com/2014/04/19/2014-hugo-nominations-the-reactions/).
 
 I value characterization, sociological plausibility, and big ideas, in
 that order. I often appreciate ambitious and/or experimental stylistic
@@ -195,7 +195,7 @@ below No Award, so that I have a space to explain my reasons.
     three-dimensional people with plausible motivations and most of
     whom are entertaining to watch. Second, I don't have a lot of
     patience for whiny teenagers who spend much of the book
-    [refusing the call to adventure](http://tvtropes.org/pmwiki/pmwiki.php/Main/RefusalOfTheCall),
+    [refusing the call to adventure](https://tvtropes.org/pmwiki/pmwiki.php/Main/RefusalOfTheCall),
     distrusting the adults who actually know what's going on, or both
     simultaneously. Yes, they've spent all their lives hearing stories
     starring the Aes Sedai as villains, but c'mon, Moiraine repeatedly
@@ -402,9 +402,9 @@ below No Award, so that I have a space to explain my reasons.
     and (in some versions of the text) an end. It's clichéd, sure, and
     and crammed full of basic grammar and vocabulary errors, and that's
     what makes it
-    [bad in a hilarious and memorable way](http://tvtropes.org/pmwiki/pmwiki.php/Main/SoBadItsGood). _Opera
+    [bad in a hilarious and memorable way](https://tvtropes.org/pmwiki/pmwiki.php/Main/SoBadItsGood). _Opera
     Vita Aeterna_, by contrast, is
-    [bad in a _boring_ and _forgettable_ way](http://tvtropes.org/pmwiki/pmwiki.php/DarthWiki/SoBadItsHorrible),
+    [bad in a _boring_ and _forgettable_ way](https://tvtropes.org/pmwiki/pmwiki.php/DarthWiki/SoBadItsHorrible),
     which is _worse_.
 
     There is no doubt in my mind that this is only on the ballot
@@ -519,15 +519,15 @@ attractor, which is not what I would have expected.
     placed this in the #1 slot. "Time" gets the nod because _Saga_ is
     not quite as novel, because the subplot with The Will and The Stalk
     seemed icky and gratuitous, and because volume 1
-    [won this category last year](http://www.thehugoawards.org/hugo-history/2013-hugo-awards/).
+    [won this category last year](https://www.thehugoawards.org/hugo-history/2013-hugo-awards/).
 
-3. **[Girl Genius, Volume 13: Agatha Heterodyne & The Sleeping City](http://www.girlgeniusonline.com/comic.php?date=20121221)**,
+3. **[Girl Genius, Volume 13: Agatha Heterodyne & The Sleeping City](https://www.girlgeniusonline.com/comic.php?date=20121221)**,
     written by Phil and Kaja Foglio; art by Phil Foglio; colors by
     Cheyenne Wright
 
-    I love *[Girl Genius](http://www.girlgeniusonline.com/)*, but it's
+    I love *[Girl Genius](https://www.girlgeniusonline.com/)*, but it's
     won this category three times already
-    [(in a row, yet!)](http://www.girlgeniusonline.com/comic.php?date=20110831)
+    [(in a row, yet!)](https://www.girlgeniusonline.com/comic.php?date=20110831)
     and this volume, while continuing to be quality material, is
     nonetheless more of the same.
 

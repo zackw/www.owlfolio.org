@@ -4,11 +4,11 @@ date: 2008-02-19 18:33
 ---
 
 As mentioned in
-[the first of these posts](http://zwol.livejournal.com/41755.html),
+[the first of these posts](https://zwol.dreamwidth.org/41263.html),
 one of the biggest things I'd like to experiment with in a new
 roguelike is the setting and plot. In particular I don't want the plot
 to be a big MacGuffin hunt.
-[Responding to that](http://www.crummy.com/2007/10/15/3), Leonard
+[Responding to that](https://www.crummy.com/2007/10/15/3), Leonard
 correctly pointed out that Nethack is a MacGuffin hunt because it has
 no plot, and outlined some possibilities for doing something about
 that. In this post I'm going to outline the sort of plot I have in

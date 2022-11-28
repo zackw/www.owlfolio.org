@@ -4,11 +4,11 @@ date: 2013-06-30 22:27
 ---
 
 For the past several weeks a chunk of the news has been all about how
-the [NSA](http://en.wikipedia.org/wiki/National_Security_Agency) in
+the [NSA](https://en.wikipedia.org/wiki/National_Security_Agency) in
 conjunction with various other US government agencies, defense
 contractors, telcos, etc. has, for at least seven years and probably
 longer, been
-[collecting mass quantities of data about the activities of private citizens, both of the USA and of other nations](http://www.theguardian.com/us-news/the-nsa-files). The
+[collecting mass quantities of data about the activities of private citizens, both of the USA and of other nations](https://www.theguardian.com/us-news/the-nsa-files). The
 data collected was largely what we call
 *[traffic analysis](https://en.wikipedia.org/wiki/Traffic_analysis)*
 data: who talked to whom, where, when, using what mechanism. It was
@@ -16,7 +16,7 @@ mostly *not* the actual contents of the conversations, but so much can
 be deduced from "who talked to whom, when" that this should not
 reassure you in the slightest. If you haven't seen the demonstration
 that
-[just by compiling and correlating membership lists, the British government could have known that Paul Revere would've been a good person to ask pointed questions about revolutionary plots in the colonies in 1772](http://www.slate.com/articles/health_and_science/science/2013/06/prism_metadata_analysis_paul_revere_identified_by_his_connections_to_other.single.html),
+[just by compiling and correlating membership lists, the British government could have known that Paul Revere would've been a good person to ask pointed questions about revolutionary plots in the colonies in 1772](https://slate.com/technology/2013/06/prism-metadata-analysis-paul-revere-identified-by-his-connections-to-other-colonial-terrorists.html),
 go read that now.
 
 I don't think it's safe to assume we know *anything* about the
@@ -36,22 +36,22 @@ data collected.)
 
 Lots of other people have been writing about why this program is a Bad
 Thing: Most critically, large traffic-analytic databases are
-[easy to abuse for politically-motivated witch hunts](http://www.thenation.com/article/174851/strange-case-barrett-brown#ixzz2X1oYM1xV),
+[easy to abuse for politically-motivated witch hunts](https://www.thenation.com/article/archive/strange-case-barrett-brown/#ixzz2X1oYM1xV),
 which
 [can and have occurred in the US in the past](https://en.wikipedia.org/wiki/J._Edgar_Hoover#Investigation_of_subversion_and_radicals),
 and arguably
-[are now occurring as a reaction to the leaks](http://www.theguardian.com/commentisfree/2013/jun/26/nsa-revelations-response-to-smears).
+[are now occurring as a reaction to the leaks](https://www.theguardian.com/commentisfree/2013/jun/26/nsa-revelations-response-to-smears).
 One might also be concerned that this
 [makes it harder to pursue other security goals](https://www.schneier.com/blog/archives/2013/06/preventing_cell.html);
 that it gives other countries an incentive to partition the Internet
 along national boundaries,
-[harming its resilience](http://www.internetsociety.org/blog/2013/06/provoking-national-boundaries-internet-chilling-thought);
+[harming its resilience](https://www.internetsociety.org/blog/2013/06/provoking-national-boundaries-on-the-internet-a-chilling-thought/);
 or that it
-[further harms the US's image abroad](https://medium.com/surveillance-state/f77088fd4c28),
+[further harms the US's image abroad](https://scribe.rip/@haroonmeer/why-discussions-on-cyber-snooping-have-been-so-painful-for-us-f77088fd4c28),
 which was already not doing that well; or that
-[the *next* surveillance program will be even worse if this one isn't stopped](http://techcrunch.com/2013/06/29/tomorrows-surveillance/).
+[the *next* surveillance program will be even worse if this one isn't stopped](https://techcrunch.com/2013/06/29/tomorrows-surveillance/).
 (Nothing new under the sun: Samuel Warren and Louis Brandeis' argument in
-"[The Right to Privacy](http://faculty.uml.edu/sgallagher/Brandeisprivacy.htm)"
+"[The Right to Privacy](https://faculty.uml.edu/sgallagher/Brandeisprivacy.htm)"
 in 1890 is still as good an explanation as any you'll find of why the
 government should not spy on the general public.)
 

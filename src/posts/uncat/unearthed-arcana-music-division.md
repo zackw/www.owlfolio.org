@@ -49,7 +49,7 @@ Song links go to Youtube.
 * _Mistakes Were Made_ ([Stefan "Twoflower" Gagne](http://stefangagne.com/))
 * _Wear My Face_ (Cats Laughing)
 * _[Policy of Truth](https://www.youtube.com/watch?v=M2VBmHOYpV8&ob=av2e)_ (Depeche Mode)
-* _Chains_ ([Brother](http://www.brothermusic.com/))
+* _Chains_ ([Brother](https://www.brothermusic.com/))
 * _[Welcome to the Machine](https://www.youtube.com/watch?v=ZB_2oIKUVks)_ (Pink Floyd)
 * _Black Knight's Work_ (Cats Laughing)
 * _[Knight Moves](https://www.youtube.com/watch?v=zqIclJjrCgU)_ (Suzanne Vega)

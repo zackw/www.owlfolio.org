@@ -18,16 +18,16 @@ This is a personal disappointment for me, since I liked the game, but
 it's also not the first time I've seen an Internet community built
 around a compelling idea fall apart because the money wasn't there.
 Something very similar happened to
-[Metaplace](http://www.raphkoster.com/2009/12/21/metaplace-com-closing/)
+[Metaplace](https://www.raphkoster.com/2009/12/21/metaplace-com-closing/)
 and
 [Faunasphere](https://web.archive.org/web/20110223115622/http://massively.joystiq.com/2011/02/20/faunasphere-shutting-down-on-march-15th).
-It's not just games; [the WELL](http://www.well.com/), paragon of
+It's not just games; [the WELL](https://www.well.com/), paragon of
 elder days, had to be bought out by its users, and this was only
 possible *because* it goes back to elder days and has users who are
-very, very rich. [TV Tropes](http://tvtropes.org/), timesink par
+very, very rich. [TV Tropes](https://tvtropes.org/), timesink par
 extraordinare and valuable resource for high school English students,
 is ad-supported so it keeps getting
-[jerked around by Google](http://tvtropes.org/pmwiki/posts.php?discussion=13344112380A34560100&page=1).
+[jerked around by Google](https://tvtropes.org/pmwiki/posts.php?discussion=13344112380A34560100&page=1).
 
 You get the idea: the ecology around the Web is only capable of
 supporting ideas that bring in the money. It doesn't really matter how
@@ -45,7 +45,7 @@ dollars is
 The requirement for a continuous stream of money to keep the servers
 running also hurts things on the Net that *were* successful but are
 now declining. I can still play
-[Super Mario World](http://www.mariowiki.com/Super_Mario_World) any
+[Super Mario World](https://www.mariowiki.com/Super_Mario_World) any
 time I want; even after the original hardware stops working
 altogether, there will be emulators. But I can't go back to
 [Star Wars Galaxies](https://en.wikipedia.org/wiki/Star_Wars_Galaxies),

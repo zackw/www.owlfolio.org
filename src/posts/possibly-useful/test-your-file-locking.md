@@ -12,7 +12,7 @@ processes? Or perhaps other mysteriously hanging processes? If so, you
 may have a problem with your file locking, and the IJWAHOT Foundation
 recommends you compile and run
 [this program](https://research.owlfolio.org/scratchpad/test_locks.c) on the computer with the
-problem, preferably under [strace](http://linux.die.net/man/1/strace)
+problem, preferably under [strace](https://man7.org/linux/man-pages/man1/strace.1.html)
 or equivalent. If it, too, hangs, then you do indeed have a problem
 with your file locking. The Foundation does not presently know the
 *cause* of this problem, but we suspect that it is

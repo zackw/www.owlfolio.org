@@ -3,7 +3,7 @@ title: Save the world? Sure, but let’s collect every bit of treasure first.
 date: 2008-05-17 23:53
 ---
 
-[queenpam](http://queenpam.livejournal.com/) and I have been playing
+[queenpam](https://queenpam.livejournal.com/) and I have been playing
 some old (or not-so-old) PS2 games: we're totally done with *Kingdom
 Hearts 2*, are going back through *Ratchet and Clank* to pick up all the
 “skill points” (optional mini-challenges), we're about half done with

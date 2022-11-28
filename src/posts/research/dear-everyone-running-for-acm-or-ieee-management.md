@@ -9,7 +9,7 @@ for them:
 
 When it comes to ACM and IEEE elections, I am a single-issue voter,
 and the issue is
-[open access to research](http://www.righttoresearch.org/learn/whyOA/index.shtml).
+[open access to research](https://sparcopen.org/open-access/).
 I will vote for you if and only if you make a public statement
 committing to aggressive pursuit of the following goals within your
 organization, in decreasing order of priority:
@@ -25,7 +25,7 @@ organization, in decreasing order of priority:
 
 3. Abandon the practice of requiring authors to assign copyright to your
    organization; instead, require only a license substantively similar to
-   [that requested by USENIX](https://www.usenix.org/node/73711) (exclusive
+   [that requested by USENIX](https://www.usenix.org/conferences/author-resources/sample-usenix-consent-form-refereed-papers) (exclusive
    publication rights for no longer than 12 months with exception for
    posting an electronic copy on your own website, nonexclusive right to
    continue disseminating afterward).

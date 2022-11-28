@@ -66,4 +66,4 @@ To sum up,
 □ This is a terrible idea and you should feel terrible.  
 □ You are the Russian Mafia and I claim my five pounds.
 
-> hat tip to [the original](http://craphound.com/spamsolutions.txt)
+> hat tip to [the original](https://craphound.com/spamsolutions.txt)

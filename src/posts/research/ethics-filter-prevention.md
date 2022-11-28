@@ -22,8 +22,8 @@ explore circumstances where we might choose to support Cato. In the
 offline world, we trade off "free speech" against all sorts of other
 values every day:
 
-[Alice]: http://downlode.org/Etext/alicebob.html
-[carthage]: http://www.livius.org/place/carthage/
+[Alice]: https://urbigenous.net/library/alicebob.html
+[carthage]: https://www.livius.org/articles/place/carthage/
 [celder]: https://roman-empire.net/people/cato-the-elder/
 [brutus]: http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Brutus*.html
 [cypherpunk premises]: https://web.archive.org/web/20020726130418/http://www.cypherpunks.to/faq/cyphernomicron/chapter4.html#7
@@ -172,25 +172,25 @@ legitimate interests:
 
 Discuss.
 
-[flag desecration]: http://en.wikipedia.org/wiki/Flag_Desecration_Amendment
-[neofascist marches]: http://skokielibrary.info/s_info/in_biography/attempted_march/index.asp
-[mostly agreed]: http://arstechnica.com/tech-policy/2011/09/judge-worries-recording-police-will-lead-to-excessive-snooping-around/
-[protected by the First Amendment]: http://www.universalhub.com/2011/court-says-state-law-banning-recording-police-offi
-[try to stop people]: https://www.aclu.org/blog/free-speech/it-legal-photograph-or-videotape-police
+[flag desecration]: https://en.wikipedia.org/wiki/Flag_Desecration_Amendment
+[neofascist marches]: https://skokiehistory.omeka.net/exhibits/show/attempted-nazi-march/timeline
+[mostly agreed]: https://arstechnica.com/tech-policy/2011/09/judge-worries-recording-police-will-lead-to-excessive-snooping-around/
+[protected by the First Amendment]: https://www.universalhub.com/2011/court-says-state-law-banning-recording-police-offi
+[try to stop people]: https://www.aclu.org/news/civil-liberties/it-legal-photograph-or-videotape-police
 [DMCA takedown mechanism]: https://web.archive.org/web/20160407165527/http://brainz.org/dmca-takedown-101/
-[fair use]: http://fairuse.stanford.edu/overview/fair-use/
-[defamation]: http://www.medialaw.org/Content/NavigationMenu/Public_Resources/Libel_FAQs/Libel_FAQs.htm
+[fair use]: https://fairuse.stanford.edu/overview/fair-use/
+[defamation]: https://en.wikipedia.org/wiki/Defamation
 [SLAPP]: http://www.thefirstamendment.org/antislappresourcecenter.html
 [forum immunity]: https://www.eff.org/issues/bloggers/legal/liability/230
-[endless, vicious criticism]: http://www.reddit.com/r/SubredditDrama/comments/ms40t/apparently_moderators_enforcing_the_tos_in_a/
-[his ability to keep the trolls out may be limited]: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1765346
-[shopping mall owners ...]: http://en.wikipedia.org/wiki/Pruneyard_Shopping_Center_v._Robins
-[porn-vs-rape]: http://mises.org/daily/3080
-[crimes against humanity]: http://en.wikipedia.org/wiki/Crime_against_humanity
-[damnatio]: http://en.wikipedia.org/wiki/Damnatio_memoriae
-[licra-yahoo]: http://en.wikipedia.org/wiki/LICRA_vs._Yahoo
-[AI-complete]: http://en.wikipedia.org/wiki/AI-complete
-[bitcolour]: http://ansuz.sooke.bc.ca/entry/23
-[streisand-effect]: http://knowyourmeme.com/memes/streisand-effect
+[endless, vicious criticism]: https://www.reddit.com/r/SubredditDrama/comments/ms40t/apparently_moderators_enforcing_the_tos_in_a/
+[his ability to keep the trolls out may be limited]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1765346
+[shopping mall owners ...]: https://en.wikipedia.org/wiki/Pruneyard_Shopping_Center_v._Robins
+[porn-vs-rape]: https://mises.org/library/sex-violence-and-culture-war
+[crimes against humanity]: https://en.wikipedia.org/wiki/Crime_against_humanity
+[damnatio]: https://en.wikipedia.org/wiki/Damnatio_memoriae
+[licra-yahoo]: https://en.wikipedia.org/wiki/LICRA_vs._Yahoo
+[AI-complete]: https://en.wikipedia.org/wiki/AI-complete
+[bitcolour]: https://ansuz.sooke.bc.ca/entry/23
+[streisand-effect]: https://knowyourmeme.com/memes/streisand-effect
 [regret-ex]: http://twitpic.com/5dabf7
-[prior restraint]: https://www.rcfp.org/first-amendment-handbook/introduction-fair-trials-national-security-law-enforcement-investigations
+[prior restraint]: https://www.rcfp.org/resources/first-amendment-handbook/#prior-restraints

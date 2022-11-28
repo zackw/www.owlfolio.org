@@ -77,7 +77,7 @@ it would mean the object was moving backward. This is, in fact, the
 difference between velocity and speed: speed is the *magnitude* of
 velocity, without the direction, so it can never be negative.)
 
-[Velocity]: http://en.wikipedia.org/wiki/Velocity
-[acceleration]: http://en.wikipedia.org/wiki/Acceleration
-[The calculus]: http://en.wikipedia.org/wiki/Calculus
-[vectors]: http://en.wikipedia.org/wiki/Euclidean_vector
+[Velocity]: https://en.wikipedia.org/wiki/Velocity
+[acceleration]: https://en.wikipedia.org/wiki/Acceleration
+[The calculus]: https://en.wikipedia.org/wiki/Calculus
+[vectors]: https://en.wikipedia.org/wiki/Euclidean_vector

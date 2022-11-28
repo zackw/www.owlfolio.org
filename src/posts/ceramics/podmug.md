@@ -36,7 +36,7 @@ why [raku][]-glaze pieces are often fragile) but there would be no
 need for several days' worth of cooling time as is typical for large
 batch kilns.
 
-[Steven Frank]: http://www.zazzle.com/stevenfrank
+[Steven Frank]: http://www.zazzle.com/store/stevenfrank
 [Zazzle]: http://www.zazzle.com/
 [sfs]: http://www.stanfordfilmsociety.com/
-[raku]: http://en.wikipedia.org/wiki/Raku_ware
+[raku]: https://en.wikipedia.org/wiki/Raku_ware

@@ -4,7 +4,7 @@ date: 2012-05-22 07:57
 ---
 
 I'm attending the
-[IEEE Symposium on Security and Privacy, 2012](http://www.ieee-security.org/TC/SP2012/program.html)
+[IEEE Symposium on Security and Privacy, 2012](https://www.ieee-security.org/TC/SP2012/program.html)
 and I'm going to try taking notes and posting them here, again. The
 last time I tried this (at
 [CCS 2010](http://www.sigsac.org/ccs/CCS2010/)), most of the notes
@@ -12,7 +12,7 @@ didn't ever get posted, but I paid a whole lot more attention to the
 talks than I do when I'm not taking notes. This time, I'm going to try
 to clean up the notes and post them the next morning at the latest.
 
-S&P was at the [Claremont Hotel](http://www.fairmont.com/claremont-berkeley/) in
+S&P was at the [Claremont Hotel](https://www.fairmont.com/claremont-berkeley/) in
 Oakland, California for thirty-odd years, and they didn't really want
 to leave, but there wasn't room for all the people who wanted to
 attend. Last year they turned nearly 200 people away. This year, it's
@@ -132,7 +132,7 @@ to be checked by hand, anything one can do to reduce human effort is
 vital at this scale. To compensate for the increased potential for
 false *negatives*, they do syntactic normalization on both the code
 and the bugfixes before matching. Using a
-[Bloom filter](http://billmill.org/bloomfilter-tutorial/)
+[Bloom filter](https://llimllib.github.io/bloomfilter-tutorial/)
 backed up by more precise checks, they are able to scan all of
 SourceForge in three hours or so, and in near-constant time in the
 number of fixes to check for.
@@ -160,7 +160,7 @@ the wild," in 4 categories: safety, transparency (reproducibility),
 realism, and correct datasets. Most of it seemed obvious to me, but
 then, I've done social science research, where we worry about external
 validity _all the time_ (and even then
-[perhaps not enough](http://neuroanthropology.net/2010/07/10/we-agree-its-weird-but-is-it-weird-enough/)).
+[perhaps not enough](https://neuroanthropology.net/2010/07/10/we-agree-its-weird-but-is-it-weird-enough/)).
 Working on computers it's easier to set up perfectly controlled lab
 experiments of questionable relevance to real life. They did go
 through a bunch of published papers and state that all of them could
@@ -177,7 +177,7 @@ other (safety vs realism, for instance); their reply was "it's not a
 checklist of things you must do, it's a checklist of things you should
 have considered in your design." Which is fair.
 
-### [Abusing File Processing in Malware Detectors for Fun and Profit](http://www.cs.utexas.edu/~shmat/shmat_oak12av.pdf)
+### [Abusing File Processing in Malware Detectors for Fun and Profit](https://www.cs.utexas.edu/~shmat/shmat_oak12av.pdf)
 
 "We're going to take the the world's best malware detector and put it
 up against the world's simplest virus, and the virus will be
@@ -195,7 +195,7 @@ but still get executed.
 
 They gave several examples: the simplest is that some archive formats
 begin with the name of the first file in the archive, rather than with
-a [magic number](http://en.wikipedia.org/wiki/Magic_number_(programming)#Format_indicator)
+a [magic number](https://en.wikipedia.org/wiki/Magic_number_(programming)#Format_indicator)
 as they ought to. Therefore, the file name can be chosen to mimic the
 magic number of some other file type, and this can fool the scanner
 into thinking that the archive is actually something innocuous, while
@@ -221,7 +221,7 @@ same preprocessing. Could we teach applications to tell the malware
 detector what they think they are processing? Perhaps, and this may be
 the best available option, but it requires buy-in from everyone
 everywhere, which is
-[difficult at best](http://craphound.com/spamsolutions.txt).
+[difficult at best](https://craphound.com/spamsolutions.txt).
 
 ### [Dissecting Android Malware: Characterization and Evolution](http://www.malgenomeproject.org/)
 
@@ -255,12 +255,12 @@ nowhere near your car (and thus, steal your car). You don't want your
 office building's wireless network to be accessible to people in the
 parking lot with high-power antennas, even if they have legitimate
 (perhaps stolen) access credentials.
-[Brands and Chaum](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.6437)
+[Brands and Chaum](https://link.springer.com/content/pdf/10.1007/3-540-48285-7_30.pdf)
 figured out one way to do this back in 1993, using signal propagation
 time as a proxy for distance; it's hard to tamper with the speed of
 light. Unfortunately, the query and response whose delay are measured
 can't go over a cryptographic
-[secure channel](http://en.wikipedia.org/wiki/Secure_channel), because
+[secure channel](https://en.wikipedia.org/wiki/Secure_channel), because
 that would slow things down enough to swamp the measurement. Instead,
 the protocol has all its cryptographic goo in messages before and
 after the critical "fast response." While it is good enough to defend
@@ -282,7 +282,7 @@ The good news here is, these protocols are not yet widely deployed
 base of vulnerable hardware that can't easily be fixed. Which brings
 us to the next talk:
 
-### [Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
+### [Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
 
 
 There _is_ a huge installed base of satphones: 350 to 500,000 active
@@ -317,7 +317,7 @@ fix, because of the huge installed base of handsets---not to mention
 the _satellites_ in _orbit_; nobody in attendance knew how tweakable
 _that_ firmware is, but it probably isn't very.
 
-### [Memento: Learning Secrets from Process Footprints](http://www.cs.utexas.edu/~shmat/shmat_oak12memento.pdf)
+### [Memento: Learning Secrets from Process Footprints](https://www.cs.utexas.edu/~shmat/shmat_oak12memento.pdf)
 
 Modern software design often breaks a single "application" into many
 OS-level processes to gain better fault and security isolation. If one

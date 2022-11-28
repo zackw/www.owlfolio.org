@@ -11,9 +11,9 @@ redirects to the `https://` version of the same URL. There's lots more
 you can do, but that's the easy first step. There are a number of
 common objections to this plan; today I want to talk about the "it
 should be the user's choice" objection, expressed for instance in
-"[Google to Gmail customers: You WILL use HTTPS](http://www.computerworld.com/article/2476016/data-privacy-google-to-gmail-customers-you-will-use-https.html)"
+"[Google to Gmail customers: You WILL use HTTPS](https://www.computerworld.com/article/2476016/data-privacy-google-to-gmail-customers-you-will-use-https.html)"
 by
-[Robert L. Mitchell](http://www.computerworld.com/author/Robert-L.-Mitchell/). It
+[Robert L. Mitchell](https://www.computerworld.com/author/Robert-L.-Mitchell/). It
 goes something like this:
 
 > Why should I (the operator of the website) assume I know better than
@@ -55,8 +55,8 @@ into PCs so they can run
 [botnets](http://archive.wired.com/wired/archive/14.11/botnet.html);
 they don't care about data stored on the computer, they want the CPU
 and the network connection. For more on this point, see the paper
-"[Folk Models of Home Computer Security](http://www.rickwash.org/papers/rwash-homesec-soups10-final.pdf)"
-by [Rick Wash](http://www.rickwash.org/). This is the most important
+"[Folk Models of Home Computer Security](https://www.rickwash.org/papers/rwash-homesec-soups10-final.pdf)"
+by [Rick Wash](https://www.rickwash.org/). This is the most important
 reason why security needs to be unconditional. Accounts may be
 "throwaway" *to their users*, but they are all the same to the
 attackers.
@@ -64,7 +64,7 @@ attackers.
 Often, criminals who "crack" websites don't care which *websites* they
 gain access to, either. The logic is similar: the legitimate contents
 of the website are irrelevant. All the attacker wants is to
-[reuse a legitimate site as part of a spamming scheme](http://static.usenix.org/event/sec11/tech/full_papers/Leontiadis.pdf)
+[reuse a legitimate site as part of a spamming scheme](https://static.usenix.org/event/sec11/tech/full_papers/Leontiadis.pdf)
 or to copy the user list,
 [guess the weaker passwords](http://cups.cs.cmu.edu/rshay/pubs/guessagain2012.pdf),
 and try those username+password combinations on "more important"
@@ -75,7 +75,7 @@ for *everyone*, even if they never intentionally visit that website.
 
 Now, how does HTTPS help with all this? The easiest several ways to
 break into websites involve
-[snooping on unsecured network traffic to steal user credentials](http://codebutler.com/firesheep-a-day-later/).
+[snooping on unsecured network traffic to steal user credentials](https://web.archive.org/web/20101031081853/http://codebutler.com/firesheep-a-day-later).
 This is possible even with the common-but-insufficient tactic of
 sending only the *login form* over HTTPS, because every insecure HTTP
 request after login includes a piece of data called a "session cookie"

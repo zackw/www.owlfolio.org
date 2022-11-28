@@ -20,7 +20,7 @@ read to the end there's a cranky rant about the panel discussion.
 I missed the train that would have gotten me to SF in time for this
 talk by one lousy minute.
 
-### [LASTor: A Low-Latency AS-Aware Tor Client](http://www.ieee-security.org/TC/SP2012/papers/4681a476.pdf)
+### [LASTor: A Low-Latency AS-Aware Tor Client](https://www.ieee-security.org/TC/SP2012/papers/4681a476.pdf)
 
 These folks had a set of client-only modifications to
 [Tor](https://www.torproject.org/) that, they claim, both improve
@@ -57,7 +57,7 @@ An audience member asked: if _all_ clients switch to WSP, won't that
 overload the relays on the shortest paths? The speaker did not appear
 to understand the question.
 
-### [OB-PWS: Obfuscation-Based Private Web Search](http://www.cosic.esat.kuleuven.be/publications/article-2083.pdf)
+### [OB-PWS: Obfuscation-Based Private Web Search](https://www.esat.kuleuven.be/cosic/publications/article-2083.pdf)
 
 Database searches reveal sensitive information. This paper surveys one
 class of techniques to prevent this, which is based on generating
@@ -113,7 +113,7 @@ can hurt security in other ways.
 They use "guess number" (the number of attempts required to guess a
 password, assuming a fixed list of guesses tried in sequence) as their
 metric, and allow their model attacker to make up to 50 *trillion*
-([short scale](http://en.wikipedia.org/wiki/Long_and_short_scales);
+([short scale](https://en.wikipedia.org/wiki/Long_and_short_scales);
 5&nbsp;×&nbsp;10^13^) guesses, using precomputed guess-number indexes
 for three different attack strategies, of which
 [Weir's probabilistic context-free grammar](http://sites.google.com/site/reusablesec/Home/password-cracking-tools/probablistic_cracker)
@@ -138,7 +138,7 @@ and
 * Requiring _longer_ passwords, but not being picky about what's in
   them, produces both better usability and better security.
 
-### [The science of guessing: analyzing an anonymized corpus of 70 million passwords](http://www.jbonneau.com/doc/B12-IEEESP-analyzing_70M_anonymized_passwords.pdf)
+### [The science of guessing: analyzing an anonymized corpus of 70 million passwords](https://jbonneau.com/doc/B12-IEEESP-analyzing_70M_anonymized_passwords.pdf)
 
 This is another analysis of password guessing difficulty, but focuses
 on user demographics rather than password policy. They collected keyed
@@ -167,7 +167,7 @@ over and over again (despite its obvious relevance).
 
 ## System Security
 
-### [ILR: Where'd My Gadgets Go?](http://www.ieee-security.org/TC/SP2012/papers/4681a571.pdf)
+### [ILR: Where'd My Gadgets Go?](https://www.ieee-security.org/TC/SP2012/papers/4681a571.pdf)
 
 This is an attempt to thwart
 "[return-oriented programming](http://cseweb.ucsd.edu/~hovav/talks/blackhat08.html)"
@@ -197,7 +197,7 @@ the VM runtime or the dynamically re-translated code that's actually
 getting executed, and they demonstrated the defeat of a real-world ROP
 attack on Adobe Acrobat.
 
-### [Space Traveling across VM: Automatically Bridging the Semantic Gap in Virtual Machine Introspection via Online Kernel Data Redirection](http://www.utdallas.edu/~zhiqiang.lin/s3.html)
+### [Space Traveling across VM: Automatically Bridging the Semantic Gap in Virtual Machine Introspection via Online Kernel Data Redirection](https://www.ieee-security.org/TC/SP2012/papers/4681a586.pdf)
 
 If you have a whole bunch of virtual machines running on shared
 hardware, you might want to set up a special supervisory VM that can
@@ -233,12 +233,12 @@ prove that the entire contents of the compiled-code segment of the
 binary image are in fact code, rather than data. But this is good
 enough to break two state-of-the-art exploit generators
 ([Mona](https://github.com/corelan/mona) and
-[Q](http://users.ece.cmu.edu/~ejschwar/bib/schwartz_2011_rop-abstract.html))
+[Q](https://edmcman.github.io/papers/usenix11.pdf))
 
 After the talk, I asked them if they'd considered modifying a compiler
 to avoid generating gadgets in the first place. They said several
 other people had already done that (e.g.
-"[G-Free: Defeating Return-Oriented Programming through Gadget-less Binaries](http://www.onarlioglu.com/publications/acsac2010rop.pdf),"
+"[G-Free: Defeating Return-Oriented Programming through Gadget-less Binaries](https://www.onarlioglu.com/publications/acsac2010rop.pdf),"
 so they wanted to see if it was doable with no more information than
 you get from an executable.
 
@@ -295,7 +295,7 @@ We do have a genuine problem with translating what solid results we
 have into real-world security improvements. We have known how to
 design ciphers that resist all known attacks for some years now, and
 yet---as seen in the
-[case of the satellite phones](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
+[case of the satellite phones](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6234409)
 at this very conference---people in industry are still deploying
 ciphers that are trivially broken. This I believe should be blamed on
 the overlapping well-known dysfunctions of what my pinko commie

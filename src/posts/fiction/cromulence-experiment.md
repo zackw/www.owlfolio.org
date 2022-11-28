@@ -9,17 +9,17 @@ date: 2007-04-23 09:27
 > demonstrating how to write a lab report that satisfied all of the
 > professor's requirements, while not being cribbable for any of the
 > actual labs they had to do. I then published it online for
-> [International Pixel-Stained Technopeasant Wretch Day 2007](http://papersky.livejournal.com/320114.html),
+> [International Pixel-Stained Technopeasant Wretch Day 2007](https://web.archive.org/web/20070425121709/http://papersky.livejournal.com/320114.html),
 > a holiday which I wholeheartedly approve of, and which
-> [deserves a bit of explanation](http://papersky.livejournal.com/318273.html).
+> [deserves a bit of explanation](https://web.archive.org/web/20070424090300/http://papersky.livejournal.com/318273.html).
 >
 > Credit for inspiration and style goes to
-> [Girl Genius](http://www.girlgeniusonline.com/). A
-> [fabulous no-prize](http://en.wikipedia.org/wiki/No-Prize) is
+> [Girl Genius](https://www.girlgeniusonline.com/). A
+> [fabulous no-prize](https://en.wikipedia.org/wiki/No-Prize) is
 > available to anyone who identifies all of the authors of works
 > cited.
 >
-> I do not now, nor will I ever, [endorse the breaded clams](http://www.crummy.com/self/leonardonics.html#Then%20you%20endorse%20the%20breaded%20clams).
+> I do not now, nor will I ever, [endorse the breaded clams](https://www.crummy.com/self/leonardonics.html#Then%20you%20endorse%20the%20breaded%20clams).
 
 <!--more-->
 

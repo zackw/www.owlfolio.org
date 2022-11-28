@@ -6,7 +6,7 @@ date: 2013-10-22 20:29
 If you get this error message, the Internets may lead you to believe
 that you have no option but to change magic numbers in the source code
 and recompile `flex`. Reader, it is not so. Try the
-[`-Ca`](http://flex.sourceforge.net/manual/Options-for-Scanner-Speed-and-Size.html)
+[`-Ca`](https://web.archive.org/web/20120419015900/http://flex.sourceforge.net/manual/Options-for-Scanner-Speed-and-Size.html)
 option, before doing anything else.
 
 No, I don't know why an option that's documented to be all about

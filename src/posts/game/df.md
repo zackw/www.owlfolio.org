@@ -4,11 +4,11 @@ date: 2007-10-18 16:42
 ---
 
 First I'd like to thank [Leonard](http://crummy.com/) for taking the
-time to write [two](http://www.crummy.com/2007/10/15/3)
+time to write [two](https://www.crummy.com/2007/10/15/3)
 [responses](http://www.crummy.com/2007/10/16/0) to my [earlier post
 about Nethack](/game/nethack/). I mean to write a response to those
 responses, but right now I haven't the brain, so instead I am going to
-talk about [Dwarf Fortress](http://www.bay12games.com/dwarves/), which
+talk about [Dwarf Fortress](https://www.bay12games.com/dwarves/), which
 an anonymous commenter on the previous post recommended.
 
 <!--more-->

@@ -98,4 +98,4 @@ Reproduction and dissemination of this announcement is encouraged.
 [Berkman Center]: https://cyber.harvard.edu/
 [TagTeam]: https://github.com/berkmancenter/tagteam/
 [toc]: https://research.owlfolio.org/pubs/2017-topics-controversy.pdf
-[Herdict]: https://www.herdict.org/
+[Herdict]: https://cyber.harvard.edu/research/herdict

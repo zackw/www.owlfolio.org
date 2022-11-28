@@ -4,14 +4,14 @@ date: 2012-02-25 12:25
 ---
 
 My grandfather David and his brothers grew up in the small city of
-[Ostrowiec](http://en.wikipedia.org/wiki/Ostrowiec_%C5%9Awi%C4%99tokrzyski).
+[Ostrowiec](https://en.wikipedia.org/wiki/Ostrowiec_%C5%9Awi%C4%99tokrzyski).
 They emigrated to the USA in 1938, and as far as I know, none of the
 family have set foot in Poland since. Until now; this academic year,
-[my sister Dara](http://darastrata.com/) is living in Warsaw on a
-[Fulbright scholarship](http://us.fulbrightonline.org/) to study Polish
+[my sister Dara](https://darastrata.com/) is living in Warsaw on a
+[Fulbright scholarship](https://us.fulbrightonline.org/) to study Polish
 theater and its relationship to the
-[Greek chorus](http://darastrata.com/category/the-chorus/).
-[Pam](http://www.pamgriffith.net/) and I went to visit her over the
+[Greek chorus](https://darastrata.com/category/the-chorus/).
+[Pam](https://pamgriffith.net/) and I went to visit her over the
 winter holidays, continuing a
 [family tradition of her studying abroad and me visiting](http://www.panix.com/~zackw/exbib/2003/November/).
 Here are highlights and selected
@@ -28,14 +28,14 @@ phenomenon not entirely unlike
 [Con Crud](http://www.contrapositivediary.com/?p=2125)); I'm glad I
 didn't have to negotiate room service in Polish with my brain
 operating at less than 50%. We did manage to get out to the
-[Palace of Culture and Science](http://en.wikipedia.org/wiki/Palace_of_Culture_and_Science,_Warsaw)
+[Palace of Culture and Science](https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science,_Warsaw)
 which was only a few blocks away, and to a luncheon party with some of
 Dara's friends from the Fulbright program. When we were feeling a
 little better, we walked through the reconstructed Old Town (Warsaw
 was quite literally razed to the ground by the Germans during WWII,
 but the Poles rebuilt as much as they could manage after the war,
 working from photo and art references) and visited the castle of
-[Stanisław II August Poniatowski](http://en.wikipedia.org/wiki/Stanis%C5%82aw_August_Poniatowski),
+[Stanisław II August Poniatowski](https://en.wikipedia.org/wiki/Stanis%C5%82aw_August_Poniatowski),
 the last king of Poland (1764--1795), which is right in the middle of
 the old town. It currently houses two of the three Rembrandt paintings
 in Poland, and an exhibition on Stanisław August's life.
@@ -56,7 +56,7 @@ of Dara's---specifically, the Szumski family, the principals of
 [Teatr Cinema](http://www.teatrcinema.pl/englishcinema.html)---invited
 us to their house party for New Year's Eve. This was quite a journey
 from Warsaw, beginning with five hours on the train to
-[Wrocław](http://en.wikipedia.org/wiki/Wroc%C5%82aw). Wrocław survived
+[Wrocław](https://en.wikipedia.org/wiki/Wroc%C5%82aw). Wrocław survived
 the Nazis' hatred of all things Polish almost unscathed, because it
 was part of Germany during the war (they called it Breslau). It has
 sprawled a bit since then, and I saw some of the Soviet-era slab
@@ -72,7 +72,7 @@ square](http://farm8.staticflickr.com/7167/6696403099_1fed5632c2_m.jpg)](http://
 why.](http://farm8.staticflickr.com/7148/6696432281_c2e319a908_m.jpg)](http://www.flickr.com/photos/zackw/6696432281/ "Ever wonder why gingerbread houses look like that? This is why.")
 
 The next hop on the journey was a two-hour bus ride to
-[Jelenia Góra](http://en.wikipedia.org/wiki/Jelenia_G%C3%B3ra), which
+[Jelenia Góra](https://en.wikipedia.org/wiki/Jelenia_G%C3%B3ra), which
 is in the mountains west of Wrocław, almost to the border with the
 Czech Republic.  The son of our host, and five of his buddies, picked
 us up from the bus stop in their van, and drove us even farther into
@@ -105,7 +105,7 @@ Cinema.](http://farm8.staticflickr.com/7144/6696534987_eda6ce76be_m.jpg)](http:/
 snow.](http://farm8.staticflickr.com/7008/6696542383_2fed00fd67_m.jpg)](http://www.flickr.com/photos/zackw/6696542383/ "View downhill from Teatr Cinema with log pile, mountains, and snow.")
 
 In Wrocław the following day, we did more walking, out to
-"[Cathedral Island](http://en.wikipedia.org/wiki/Ostr%C3%B3w_Tumski,_Wroc%C5%82aw)."
+"[Cathedral Island](https://en.wikipedia.org/wiki/Ostr%C3%B3w_Tumski,_Wroc%C5%82aw)."
 This was once in fact an island but has since been thoroughly merged
 with the north bank of the Oder. It used to be under the Catholic
 Church's exclusive jurisdiction, and still houses the official Wrocław
@@ -154,9 +154,9 @@ Cerberus.](http://farm8.staticflickr.com/7027/6696905319_ba438f2721_m.jpg)](http
 Palace.](http://farm8.staticflickr.com/7167/6696917835_1efdbc88a2_m.jpg)](http://www.flickr.com/photos/zackw/6696917835/ "Me and Pam in Łazienki Palace.")
 
 We also got to see the new staging of the great Polish national opera,
-[_Halka_](http://en.wikipedia.org/wiki/Halka), written in 1848 by
+[_Halka_](https://en.wikipedia.org/wiki/Halka), written in 1848 by
 librettist Wlodzimierz Wolski and composer
-[Stanisław Moniuszko](http://en.wikipedia.org/wiki/Stanis%C5%82aw_Moniuszko),
+[Stanisław Moniuszko](https://en.wikipedia.org/wiki/Stanis%C5%82aw_Moniuszko),
 using traditional Polish musical styles (mazurkas, for instance). The
 music is inspired; the plot, unfortunately, was pretty threadbare in
 1848 and is downright embarrassing today. It's not good when you spend
@@ -172,8 +172,8 @@ sung by another. I'm not much of an opera buff, so I don't know if
 this is common.
 
 Warsaw has several interesting historical museums. We visited the
-[biographical museum](http://chopin.museum/en) of
-[Fryderyk Chopin](http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin)
+[biographical museum](https://muzeum.nifc.pl/en) of
+[Fryderyk Chopin](https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin)
 and the
 [Museum of the Warsaw Uprising](https://www.1944.pl/en/). Chopin spent
 most of his adult life in France, but he grew up in Warsaw, and is

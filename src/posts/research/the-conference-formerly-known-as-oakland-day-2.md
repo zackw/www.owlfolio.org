@@ -224,7 +224,7 @@ right. I want more technical detail, but it seems like a nifty idea.
 
 ## Web Security
 
-### [Third-Party Web Tracking Policy and Technology](http://cyberlaw.stanford.edu/publications/third-party-web-tracking-policy-and-technology)
+### [Third-Party Web Tracking Policy and Technology](https://cyberlaw.stanford.edu/publications/third-party-web-tracking-policy-and-technology)
 
 This is a report by the [donottrack.us](http://donottrack.us/) group
 on the state of existing third-party tracking schemes, using the
@@ -236,7 +236,7 @@ opting you out of _tracking_, just of _behavioral advertising_, which
 
 Tracking systems really do use all those dirty tricks you've heard
 about for not letting you erase their tracking info
-("[supercookies](http://cyberlaw.stanford.edu/node/6715)" and the
+("[supercookies](https://cyberlaw.stanford.edu/blog/2011/08/tracking-trackers-microsoft-advertising)" and the
 like).
 
 Anti-tracking technology tends to prevent the browser from talking to
@@ -315,7 +315,7 @@ implementations.
 - **Differential Privacy by Typing for Security Protocols**
 
 Theory people like
-[differential privacy](http://en.wikipedia.org/wiki/Differential_privacy)
+[differential privacy](https://en.wikipedia.org/wiki/Differential_privacy)
 because it's a provable property, but the proofs are
 machine-generated, lengthy and difficult to comprehend. It gets worse
 in a distributed environment. Speaker claims to have a scheme that
@@ -345,7 +345,7 @@ tend to get hit with this stuff.
 
 - **Learning from Our Mistakes: Us LUSSRs Are In Such a MESS**
 
-Announcement of the [LASER workshop](http://www.laser-workshop.org/),
+Announcement of the [LASER workshop](https://laser-workshop.org/index.html),
 encouraging people to share both successes and failures for
 methodological dissection. Unfortunately by invitation only and
 limited to 50 attendees.

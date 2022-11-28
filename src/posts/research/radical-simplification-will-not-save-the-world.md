@@ -23,20 +23,20 @@ accident of our human fallibility? No, it is an inevitable consequence
 of oversimplification.
 
 To explain why this is so, I need to talk a little about
-[cybernetics](http://en.wikipedia.org/wiki/Cybernetics). In casual
+[cybernetics](https://en.wikipedia.org/wiki/Cybernetics). In casual
 usage, this word is a sloppy synonym for robotics and robotic
 enhancements to biological life (cyborgs), but as a scientific
 discipline it is the study of *dynamic control systems* that interact
 with their environment, ranging in scale from a simple closed-loop
 feedback controller to entire societies.[^1] The Wikipedia
 article is decent, and if you want more detail, the essay
-"[Cybernetics of Society](http://www.jurlandia.org/cybsoc.htm)" is a
+"[Cybernetics of Society](https://jurlandia.org/cybsoc/)" is a
 good starting point. Much of the literature on cybernetics talks about
 interacting systems of *people*---firms, governments, social clubs,
 families, etc---but is equally applicable to systems of, around, or
 within computers.  One of the fundamental conclusions of cybernetics,
 evident for instance in Stafford Beer's
-[viable system model](http://en.wikipedia.org/wiki/Viable_system_model),
+[viable system model](https://en.wikipedia.org/wiki/Viable_system_model),
 is that *a working system must be as least as complex as the systems
 it interacts with*. If it isn't, it will be unable to cope with all
 possible inputs.  This is a theoretical explanation for the practical
@@ -48,7 +48,7 @@ to handle: time. Time seems like it ought to be an easy problem.
 Everyone on Earth could, in principle, agree on what time it is right
 now. Making a good clock requires precision engineering, but the
 hardware people have that covered; a modern $5 wristwatch could have
-[earned you twenty thousand pounds in 1714](http://en.wikipedia.org/wiki/Board_of_Longitude). And
+[earned you twenty thousand pounds in 1714](https://en.wikipedia.org/wiki/Board_of_Longitude). And
 yet the task of converting a count of seconds to a human-readable date
 and vice versa is so hairy that
 [people write 500-page books about that alone](http://www.powells.com/biblio/61-9780521702386-1),
@@ -57,7 +57,7 @@ and the IANA has to maintain a
 at least nine updates a year every year since 2006. And that's just
 one of the things computers have to do with time. And handling time
 correctly can, in fact, be
-[security-critical](http://en.wikipedia.org/wiki/Replay_attack).
+[security-critical](https://en.wikipedia.org/wiki/Replay_attack).
 
 I could assemble a demonstration like this for many other phenomena
 whose characteristics are set by the non-computerized world: space,

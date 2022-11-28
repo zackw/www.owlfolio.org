@@ -20,7 +20,7 @@ in decreasing order of frequency of use:
 * Fediverse: [@zwol@hackers.town](https://hackers.town/@zwol)
   (formerly [@zwol@mastodon.social](https://mastodon.social/@zwol))
 * [Newsblur](https://zwol.newsblur.com/): zwol
-* [Sourcehut](https://sr.ht/~zackw): zackw
+* [Sourcehut](https://sr.ht/~zackw/): zackw
 * [Stack Overflow](https://stackoverflow.com/users/388520) and relatives: zwol
 * [Dreamwidth](https://zwol.dreamwidth.org/): zwol (no longer updated)
 * [Twitter](https://twitter.com/elwoz): elwoz (no longer updated)

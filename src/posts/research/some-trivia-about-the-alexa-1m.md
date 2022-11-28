@@ -3,7 +3,7 @@ title: some trivia about the Alexa 1M
 date: 2013-09-30 13:15
 ---
 
-[Alexa](http://www.alexa.com/) publishes a list of "the top 1,000,000
+[Alexa](https://www.alexa.com/) publishes a list of "the top 1,000,000
 sites on the web." Here is some trivia about this list (as it was on
 September 27, 2013):
 
