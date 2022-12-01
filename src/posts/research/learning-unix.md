@@ -123,5 +123,5 @@ hang out with friends on the weekends.
 [TCP/IP Network Administration]: https://www.powells.com/book/tcpip-network-administration-9780596002978
 [Lisp 1.5 Primer]: https://www.softwarepreservation.org/projects/LISP/book/Weismann_LISP1.5_Primer_1967.pdf
 [Jargon File]: http://www.catb.org/jargon/html/
-[larval stage]: http://www.catb.org/jargon/html//L/larval-stage.html
-[hazing effect]: https://en.wikipedia.org/wiki/Escalation_of_commitment
+[larval stage]: http://www.catb.org/jargon/html/L/larval-stage.html
+[sunk cost fallacy]: https://en.wikipedia.org/wiki/Escalation_of_commitment

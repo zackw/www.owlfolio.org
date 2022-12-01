@@ -39,7 +39,7 @@ blog_roll:
 
       - n: "Caroline"
         h: "Caroline Ratajski"
-        u: "https://www.geardrops.net/"
+        u: "https://www.carriefinch.com/"
 
       - n: "Janna"
         u: "https://readingwatchinglookingandstuff.blogspot.com/"
@@ -62,11 +62,11 @@ blog_roll:
 
       - n: "Shweta"
         h: "Shweta Narayan"
-        u: "http://shwetanarayan.org/"
+        u: "https://shwetanarayan.org/"
 
       - n: "Sumana"
         h: "Sumana Harihareswara"
-        u: "http://www.harihareswara.net/"
+        u: "https://www.harihareswara.net/"
 
   - group: "Affiliated"
     links:
@@ -92,7 +92,7 @@ blog_roll:
 
       - n: "monotone"
         h: "Monotone version control system, 2007–2009"
-        u: "http://www.monotone.ca/"
+        u: "https://www.monotone.ca/"
 
       - n: "GCC"
         h: "GNU Compiler Collection, 1998–2006 (plus a couple of relapses)"
@@ -100,7 +100,7 @@ blog_roll:
 
       - n: "UCSD"
         h: "Cognitive Science department at UC San Diego, 2006–2008"
-        u: "http://www.cogsci.ucsd.edu/"
+        u: "https://cogsci.ucsd.edu/"
 
       - n: "NTL"
         h: "Neural Theory of Language group at UC Berkeley, 2001–2006"
@@ -108,7 +108,7 @@ blog_roll:
 
       - n: "CodeSourcery"
         h: "Bespoke GCC development and support, 2001–2006"
-        u: "http://www.codesourcery.com/"
+        u: "https://web.archive.org/web/20110310132006/http://www.codesourcery.com/company"
 
       - n: "Rabi"
         h: "I.I. Rabi Science Scholars Program at Columbia College, 1995–1999"
