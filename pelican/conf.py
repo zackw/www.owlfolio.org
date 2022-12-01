@@ -116,7 +116,7 @@ BLOGROLL = [
 
         ("Caroline",
          "Caroline Ratajski",
-         "https://www.geardrops.net/"),
+         "https://www.carriefinch.com/"),
 
         ("Janna",
          None,
@@ -140,11 +140,11 @@ BLOGROLL = [
 
         ("Shweta",
          "Shweta Narayan",
-         "http://shwetanarayan.org/"),
+         "https://shwetanarayan.org/"),
 
         ("Sumana",
          "Sumana Harihareswara",
-         "http://www.harihareswara.net/"),
+         "https://www.harihareswara.net/"),
     ]),
     ("Affiliated", '', [
         ("ICLab",
@@ -169,7 +169,7 @@ BLOGROLL = [
 
         ("monotone",
          "Monotone version control system, 2007–2009",
-         "http://www.monotone.ca/"),
+         "https://www.monotone.ca/"),
 
         ("GCC",
          "GNU Compiler Collection, 1998–2006 (plus a couple of relapses)",
@@ -177,7 +177,7 @@ BLOGROLL = [
 
         ("UCSD",
          "Cognitive Science department at UC San Diego, 2006–2008",
-         "http://www.cogsci.ucsd.edu/"),
+         "https://cogsci.ucsd.edu/"),
 
         ("NTL",
          "Neural Theory of Language group at UC Berkeley, 2001–2006",
@@ -185,7 +185,7 @@ BLOGROLL = [
 
         ("CodeSourcery",
          "Bespoke GCC development and support, 2001–2006",
-         "http://www.codesourcery.com/"),
+         "https://web.archive.org/web/20110310132006/http://www.codesourcery.com/company"),
 
         ("Rabi",
          "I.I. Rabi Science Scholars Program at Columbia College, 1995–1999",
