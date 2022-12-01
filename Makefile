@@ -22,10 +22,11 @@ SSH_USER       =
 SSH_TARGET_DIR = .
 
 ifeq ($(SSH_USER),)
-SSH_DESTINATION :=             $(SSH_HOST):$(SSH_TARGET_DIR)
+SSH_USERHOST    :=             $(SSH_HOST)
 else
-SSH_DESTINATION := $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+SSH_USERHOST    := $(SSH_USER)@$(SSH_HOST)
 endif
+SSH_DESTINATION := $(SSH_USERHOST):$(SSH_TARGET_DIR)
 
 DEBUG ?= 0
 ifeq ($(DEBUG),1)
@@ -43,8 +44,7 @@ Usage:
    make serve [PORT=8000]           serve site at http://localhost:8000
    make devserver [PORT=8000]       serve site and regenerate files
    make stopserver                  stop local servers
-   make ssh_upload                  upload the web site via SSH
-   make rsync_upload                upload the web site via rsync+ssh
+   make upload                      upload the web site via rsync+ssh
 
 Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html
 endef
@@ -76,11 +76,13 @@ stopserver:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-rsync_upload: publish
+upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete \
 	    --cvs-exclude --exclude /comments/ --exclude /.htaccess.gz \
-            --exclude /s/.webassets-cache/ \
+	    --exclude /s/.webassets-cache/ \
 	    $(OUTPUTDIR)/ $(SSH_DESTINATION)/
+	ssh -p $(SSH_PORT) $(SSH_USERHOST) \
+	    mkdir -p $(SSH_TARGET_DIR)/.well-known/acme-challenge/
 
 .PHONY: html help clean regenerate serve devserver publish \
-        ssh_upload rsync_upload
+        upload
