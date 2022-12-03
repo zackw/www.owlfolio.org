@@ -19,6 +19,7 @@ import permalinks from "@metalsmith/permalinks";
 import * as url from "url";
 
 import { custom_markdown, custom_nunjucks } from "./lib/rendering.js";
+import custom_sitemap from "./lib/sitemap.js";
 import defaults_from_path from "./lib/defaults-from-path.js";
 import edit_history from "./lib/edit-history.js";
 import rename_patterns from "./lib/rename-patterns.js";
@@ -45,7 +46,7 @@ async function use_postprocess_plugins(ms, development) {
 
     ms.use(beautify).use(check_internal_links);
   } else {
-    // TODO sitemap, RSS, minification
+    // TODO minification
   }
 }
 
@@ -91,6 +92,9 @@ async function main() {
 
   ms.metadata({
     sitename: "Owl’s Portfolio",
+    origin: is_development
+      ? "http://localhost:3000"
+      : "https://www.owlfolio.org",
   })
     .source("src")
     .destination("build")
@@ -108,7 +112,11 @@ async function main() {
     );
   ms.use(
     edit_history({
-      patterns: ["posts/*/*.{html,md}", "!posts/*/index.{html,md}"],
+      patterns: [
+        "posts/*/*.{html,md}",
+        "!posts/*/index.{html,md}",
+        "pages/*.{html,md}",
+      ],
       exclude: [
         // These are all the commits that touched files in posts/ to
         // make changes that don't, or only trivially, affect content.
@@ -181,6 +189,12 @@ async function main() {
     })
   );
   ms.use(await custom_markdown());
+  ms.use(function fix_paths_1(files, _unused, done) {
+    for (const [fname, data] of Object.entries(files)) {
+      data.path = fname;
+    }
+    done();
+  });
   ms.use(
     teasers({
       pattern: ["posts/*/*.html", "!posts/*/index.html"],
@@ -216,7 +230,21 @@ async function main() {
       },
     })
   );
+  ms.use(function fix_paths_2(files, _unused, done) {
+    for (const [fname, data] of Object.entries(files)) {
+      data.path = (data.path ?? fname).replace(/index\.html$/u, "");
+    }
+    done();
+  });
   ms.use(custom_nunjucks());
+  ms.use(
+    custom_sitemap({
+      include: ["**/index.html"],
+      lastmod: ["last_modification_date", "creation_date"],
+      is_index: (_unused, data) =>
+        data.layout === "archive.njk" || data.layout === "category.njk",
+    })
+  );
 
   await use_postprocess_plugins(ms, is_development);
   await ms.build();
