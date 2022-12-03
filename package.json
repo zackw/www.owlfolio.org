@@ -17,7 +17,7 @@
     "watch": "nodemon --config .nodemon.json",
     "serve": "browser-sync start --server 'build' --files 'build/**' --index index.html",
     "lint": "eslint --cache --fix index.js lib",
-    "prepare": "husky install",
+    "prepare": "[ \"$NODE_ENV\" = production ] || husky install",
     "format": "prettier --loglevel warn --write '**/*.{js,json,yml,yaml}'",
     "posttest": "npm run format"
   },
