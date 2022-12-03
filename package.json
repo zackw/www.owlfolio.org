@@ -47,7 +47,7 @@
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
-    "markdown-it-katex": "^2.0.3",
+    "markdown-it-katex": "github:zackw/markdown-it-katex#semver:2.1.0",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "metalsmith": "^2.5.1",
